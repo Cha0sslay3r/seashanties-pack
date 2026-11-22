@@ -5,7 +5,7 @@ It **updates itself every time you press Play** in Prism Launcher.
 
 ## Easiest: one-step installer
 
-**https://cha0sslay3r.github.io/seashanties-pack/** picks Mac or Windows for you, installs Prism Launcher and adds the pack. Then sign in and press Launch.
+**https://cha0sslay3r.github.io/seashanties-pack/** walks you through it in four clicks (no typing): download Prism, sign in, paste the pack link, press Launch.
 
 ## Install by hand (once, about 5 minutes)
 

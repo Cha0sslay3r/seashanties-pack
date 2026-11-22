@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Join Sea Shanties</title>
-<meta name="description" content="Install Prism Launcher and the Freedom V4: Sea Shanties modpack in one step.">
+<meta name="description" content="Install Prism Launcher and the Freedom V4: Sea Shanties modpack in four clicks.">
 <style>
   :root { --bg:#0d1b26; --card:#132838; --ink:#eaf2f6; --mute:#9db3c2; --gold:#e8b44c; --sea:#3fa7c9; --ok:#58c48a; --code:#0a1520; }
   * { box-sizing:border-box; }
@@ -13,83 +13,108 @@
   main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
   h1 { font-size:clamp(28px,6vw,44px); margin:0 0 6px; letter-spacing:-.5px; }
   h1 span { color:var(--gold); }
-  .tag { color:var(--mute); margin:0 0 28px; }
-  .tabs { display:flex; gap:8px; margin-bottom:12px; }
-  .tabs button { flex:1; padding:10px; border-radius:10px; border:1px solid #27465c; background:transparent; color:var(--mute); font:inherit; cursor:pointer; }
-  .tabs button.on { background:var(--card); color:var(--ink); border-color:var(--sea); }
-  .card { background:var(--card); border:1px solid #23445a; border-radius:16px; padding:22px; }
-  .step { display:flex; gap:14px; margin:0 0 18px; }
-  .n { flex:none; width:28px; height:28px; border-radius:50%; background:var(--sea); color:#06202d; font-weight:700; display:grid; place-items:center; }
-  .step p { margin:2px 0 0; }
-  kbd { background:#0b1824; border:1px solid #2d4d63; border-bottom-width:2px; border-radius:6px; padding:1px 6px; font:13px ui-monospace, Menlo, Consolas, monospace; }
-  .cmd { position:relative; margin:10px 0 0; background:var(--code); border:1px solid #2a4a60; border-radius:10px; padding:14px 96px 14px 14px;
-         font:13px/1.5 ui-monospace, Menlo, Consolas, monospace; word-break:break-all; color:#cfe6f2; }
-  .cmd button { position:absolute; top:8px; right:8px; padding:8px 14px; border:0; border-radius:8px; background:var(--gold); color:#2a1c00; font-weight:700; cursor:pointer; }
-  .cmd button.done { background:var(--ok); color:#062314; }
-  .alt { margin-top:10px; font-size:14px; color:var(--mute); }
+  .tag { color:var(--mute); margin:0 0 24px; }
+  .os { font-size:14px; color:var(--mute); margin:0 0 12px; }
+  .os a { cursor:pointer; }
+  .card { background:var(--card); border:1px solid #23445a; border-radius:16px; padding:22px; margin-bottom:14px; }
+  .step { display:flex; gap:14px; }
+  .n { flex:none; width:32px; height:32px; border-radius:50%; background:var(--sea); color:#06202d; font-weight:800; display:grid; place-items:center; }
+  h2 { font-size:19px; margin:3px 0 6px; }
+  p { margin:0 0 8px; }
+  .sub { color:var(--mute); font-size:15px; }
+  .btn { display:inline-block; margin:6px 0 4px; padding:13px 20px; border-radius:12px; border:0; background:var(--gold); color:#2a1c00; font:700 16px/1 inherit;
+         font-family:inherit; text-decoration:none; cursor:pointer; }
+  .btn.done { background:var(--ok); color:#062314; }
+  .link { margin:8px 0; background:var(--code); border:1px solid #2a4a60; border-radius:10px; padding:10px 12px; font:12px/1.5 ui-monospace, Menlo, Consolas, monospace;
+          color:#9fc3d6; word-break:break-all; }
+  ol { margin:6px 0 0; padding-left:20px; color:var(--mute); }
+  li { margin:3px 0; }
+  b { color:var(--ink); }
   a { color:var(--sea); }
-  .big { display:inline-block; margin-top:8px; padding:10px 16px; border-radius:10px; background:var(--sea); color:#06202d; font-weight:700; text-decoration:none; }
-  .after { margin-top:22px; }
-  .after h2 { font-size:18px; margin:0 0 10px; }
-  ul { margin:0; padding-left:20px; color:var(--mute); }
-  li { margin:4px 0; }
-  li b { color:var(--ink); }
-  footer { margin-top:28px; font-size:13px; color:var(--mute); }
+  .note { font-size:14px; color:var(--mute); }
+  footer { margin-top:24px; font-size:13px; color:var(--mute); }
   [hidden] { display:none !important; }
 </style>
 </head>
 <body>
 <main>
   <h1>Freedom V4: <span>Sea Shanties</span></h1>
-  <p class="tag">Create, ships, sea monsters and seasons. One step installs Prism Launcher and the modpack. It updates itself every time you press Play.</p>
+  <p class="tag">Create, ships, sea monsters and seasons. Four steps, no typing. After that the pack updates itself every time you press Play.</p>
+  <p class="os">Showing steps for <b id="osname">Mac</b>. <a onclick="show(cur === 'mac' ? 'win' : 'mac')">Switch to <span id="other">Windows</span></a></p>
 
-  <div class="tabs" role="tablist">
-    <button id="t-mac" onclick="show('mac')">Mac</button>
-    <button id="t-win" onclick="show('win')">Windows</button>
-  </div>
+  <section class="card"><div class="step"><div class="n">1</div><div>
+    <h2>Download Prism Launcher</h2>
+    <p class="sub">The free launcher the pack runs in.</p>
+    <a class="btn" id="dl" href="https://prismlauncher.org/download/">Download for Mac</a>
+    <ol id="inst-mac">
+      <li>Open the downloaded file and drag <b>Prism Launcher</b> into <b>Applications</b>.</li>
+      <li>Open <b>Prism Launcher</b> from Applications (or Launchpad).</li>
+    </ol>
+    <ol id="inst-win" hidden>
+      <li>Open the downloaded file and click <b>Next</b> until it's done.</li>
+      <li>If a blue "Windows protected your PC" box appears: <b>More info → Run anyway</b>.</li>
+    </ol>
+  </div></div></section>
 
-  <section class="card" id="mac">
-    <div class="step"><div class="n">1</div><p>Open <b>Terminal</b>: press <kbd>⌘</kbd> <kbd>Space</kbd>, type <b>Terminal</b>, press <kbd>Return</kbd>.</p></div>
-    <div class="step"><div class="n">2</div><div><p>Copy this line, paste it into Terminal and press <kbd>Return</kbd>.</p>
-      <div class="cmd"><span id="c-mac">curl -fsSL https://raw.githubusercontent.com/Cha0sslay3r/seashanties-pack/main/install/mac.sh | bash</span><button onclick="cp('c-mac',this)">Copy</button></div></div></div>
-    <div class="step"><div class="n">3</div><p>Prism Launcher opens with the pack added. Click <b>OK</b> if it asks to import.</p></div>
-  </section>
+  <section class="card"><div class="step"><div class="n">2</div><div>
+    <h2>Set up Prism and sign in</h2>
+    <ol>
+      <li>Click through the short welcome setup. When it asks about <b>Java</b>, let it download Java for you.</li>
+      <li>Top right: <b>Accounts → Manage Accounts → Add Microsoft</b>, and sign in with the account you play Minecraft with.</li>
+    </ol>
+  </div></div></section>
 
-  <section class="card" id="win" hidden>
-    <div class="step"><div class="n">1</div><p>Press <kbd>Win</kbd> <kbd>R</kbd>, type <b>powershell</b>, press <kbd>Enter</kbd>.</p></div>
-    <div class="step"><div class="n">2</div><div><p>Copy this line, paste it into the blue window (right-click pastes) and press <kbd>Enter</kbd>.</p>
-      <div class="cmd"><span id="c-win">irm https://raw.githubusercontent.com/Cha0sslay3r/seashanties-pack/main/install/windows.ps1 | iex</span><button onclick="cp('c-win',this)">Copy</button></div>
-      <p class="alt">Or <a class="big" href="https://raw.githubusercontent.com/Cha0sslay3r/seashanties-pack/main/install/Install-SeaShanties.bat" download>download the installer</a> and double-click it. If Windows says "protected your PC", click <b>More info → Run anyway</b>.</p></div></div>
-    <div class="step"><div class="n">3</div><p>Prism Launcher opens with the pack added. Click <b>OK</b> if it asks to import. No admin rights needed.</p></div>
-  </section>
+  <section class="card"><div class="step"><div class="n">3</div><div>
+    <h2>Add the modpack</h2>
+    <button class="btn" id="cp" onclick="cp()">Copy pack link</button>
+    <div class="link" id="pack">https://raw.githubusercontent.com/Cha0sslay3r/seashanties-pack/main/prism/Freedom-V4-Sea-Shanties-Prism.zip</div>
+    <ol>
+      <li>In Prism, click <b>Add Instance</b> (top left).</li>
+      <li>Choose <b>Import</b> on the left, paste the link into the box (<b id="paste">⌘ V</b>), and click <b>OK</b>.</li>
+    </ol>
+  </div></div></section>
 
-  <div class="card after">
-    <h2>Then, in Prism Launcher</h2>
-    <ul>
-      <li><b>First time only:</b> finish the short setup, let it download Java, and sign in with your Microsoft account (top right: Accounts → Manage Accounts → Add Microsoft).</li>
-      <li>Select <b>Freedom V4: Sea Shanties</b> and press <b>Launch</b>. The first launch downloads the mods (a few minutes).</li>
-      <li>Go to <b>Multiplayer</b>: the server is already in your list.</li>
-      <li>Every later Launch checks for updates by itself, so you never reinstall.</li>
-    </ul>
-  </div>
+  <section class="card"><div class="step"><div class="n">4</div><div>
+    <h2>Press Launch</h2>
+    <ol>
+      <li>Select <b>Freedom V4: Sea Shanties</b> and click <b>Launch</b>. The first time, it downloads the mods (a few minutes).</li>
+      <li>In the game: <b>Multiplayer</b>. The server is already in your list.</li>
+    </ol>
+    <p class="note">From now on just open Prism and press Launch. Updates install themselves.</p>
+  </div></div></section>
 
-  <footer>Need help? Ask Anant. Prefer doing it by hand? <a href="https://github.com/Cha0sslay3r/seashanties-pack#readme">Manual steps</a>.</footer>
+  <footer>Stuck? Ask Anant. Mac with 8 GB of memory? It works, just close other apps while playing.</footer>
 </main>
 <script>
+  // direct download links for the newest Prism release (falls back to prismlauncher.org if GitHub can't be reached)
+  const LINKS = { mac: 'https://prismlauncher.org/download/mac/', win: 'https://prismlauncher.org/download/windows/' };
+  let cur = 'mac';
   function show(os) {
-    document.getElementById('mac').hidden = os !== 'mac';
-    document.getElementById('win').hidden = os !== 'win';
-    document.getElementById('t-mac').classList.toggle('on', os === 'mac');
-    document.getElementById('t-win').classList.toggle('on', os === 'win');
+    cur = os;
+    document.getElementById('osname').textContent = os === 'mac' ? 'Mac' : 'Windows';
+    document.getElementById('other').textContent = os === 'mac' ? 'Windows' : 'Mac';
+    document.getElementById('inst-mac').hidden = os !== 'mac';
+    document.getElementById('inst-win').hidden = os !== 'win';
+    document.getElementById('paste').textContent = os === 'mac' ? '⌘ V' : 'Ctrl V';
+    const a = document.getElementById('dl');
+    a.textContent = 'Download for ' + (os === 'mac' ? 'Mac' : 'Windows');
+    a.href = LINKS[os];
   }
-  function cp(id, b) {
-    const t = document.getElementById(id).textContent;
-    const ok = () => { b.textContent = 'Copied'; b.classList.add('done'); setTimeout(() => { b.textContent = 'Copy'; b.classList.remove('done'); }, 2000); };
-    if (navigator.clipboard) navigator.clipboard.writeText(t).then(ok, () => {});
-    else { const r = document.createRange(); r.selectNode(document.getElementById(id)); getSelection().removeAllRanges(); getSelection().addRange(r); document.execCommand('copy'); ok(); }
+  function cp() {
+    const t = document.getElementById('pack').textContent, b = document.getElementById('cp');
+    const ok = () => { b.textContent = 'Copied!'; b.classList.add('done'); setTimeout(() => { b.textContent = 'Copy pack link'; b.classList.remove('done'); }, 2500); };
+    if (navigator.clipboard) navigator.clipboard.writeText(t).then(ok, fallback); else fallback();
+    function fallback() { const r = document.createRange(); r.selectNode(document.getElementById('pack')); getSelection().removeAllRanges(); getSelection().addRange(r); document.execCommand('copy'); ok(); }
   }
   const ua = navigator.userAgent + ' ' + (navigator.userAgentData ? navigator.userAgentData.platform : navigator.platform);
   show(/Win/i.test(ua) ? 'win' : 'mac');
+  fetch('https://api.github.com/repos/PrismLauncher/PrismLauncher/releases/latest').then(r => r.json()).then(rel => {
+    const find = re => (rel.assets || []).find(x => re.test(x.name));
+    const m = find(/macOS-[\d.]+\.dmg$/), w = find(/Windows-MinGW-w64-Setup-[\d.]+\.exe$/);
+    if (m) LINKS.mac = m.browser_download_url;
+    if (w) LINKS.win = w.browser_download_url;
+    show(cur);
+  }).catch(() => {});
 </script>
 </body>
 </html>
