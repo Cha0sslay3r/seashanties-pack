@@ -1,0 +1,1 @@
+{"type": "neoforge:add_spawns", "biomes": ["lukewarm_ocean", "warm_ocean", "beach", "deep_lukewarm_ocean"], "spawners": {"type": "benssharks:lemon_shark", "weight": 4, "minCount": 1, "maxCount": 1}}

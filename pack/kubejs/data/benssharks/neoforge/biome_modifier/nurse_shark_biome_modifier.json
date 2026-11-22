@@ -1,0 +1,1 @@
+{"type": "neoforge:add_spawns", "biomes": ["beach", "lukewarm_ocean", "warm_ocean", "ocean", "mangrove_swamp", "stony_shore"], "spawners": {"type": "benssharks:nurse_shark", "weight": 4, "minCount": 1, "maxCount": 1}}

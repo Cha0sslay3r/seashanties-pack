@@ -1,0 +1,8 @@
+name = "almanac"
+filename = "almanac-neoforge-1.21.1-1.26.11.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Gi02250Z/versions/hvOxynOa/almanac-neoforge-1.21.1-1.26.11.1.jar"
+hash-format = "sha1"
+hash = "b5c46d36aebc046f8f57ffef430dfe3aeb805320"
