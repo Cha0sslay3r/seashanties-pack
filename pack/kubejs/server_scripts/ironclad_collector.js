@@ -32,8 +32,8 @@ PlayerEvents.tick(event => {
 
 EntityEvents.beforeHurt(event => {
   let src = event.source
-  let p = src.getEntity()
-  if (!(p instanceof $Player2) || src.getDirectEntity() != p) return   // melee only
+  let p = src.actual
+  if (!(p instanceof $Player2) || src.immediate != p) return   // melee only
   if (p.mainHandItem.id != TIDECALLER) return
   let t = event.entity
   t.addEffect(new $MobEffectInstance2($MobEffects2.MOVEMENT_SLOWDOWN, 60, 1))
@@ -43,15 +43,17 @@ EntityEvents.beforeHurt(event => {
 ItemEvents.rightClicked(TIDECALLER, event => {
   let p = event.player
   let item = event.item
-  if (p.cooldowns.isOnCooldown(item.item)) return
-  p.cooldowns.addCooldown(item.item, WAVE_COOLDOWN)
+  let now = p.level.getGameTime()
+  if (now - p.persistentData.getLong('deepcaller_wave') < WAVE_COOLDOWN) return
+  p.persistentData.putLong('deepcaller_wave', now)
+  try { p.cooldowns.addCooldown(item.item, WAVE_COOLDOWN) } catch (err) { }   // just the white cooldown bar on the item
   let hit = 0
   p.level.getEntitiesWithin(p.boundingBox.inflate(7)).forEach(ent => {
     if (ent == p || !ent.isLiving() || !(ent instanceof $Enemy)) return
     let dx = ent.x - p.x, dz = ent.z - p.z
     let d = Math.max(0.5, Math.sqrt(dx * dx + dz * dz))
-    ent.hurt(p.damageSources().playerAttack(p), 6)
-    ent.setDeltaMovement(dx / d * 1.6, 0.6, dz / d * 1.6)
+    p.server.runCommandSilent('damage ' + ent.uuid + ' 6 minecraft:player_attack by ' + p.uuid)
+    ent.setMotion(dx / d * 1.6, 0.6, dz / d * 1.6)
     ent.hurtMarked = true
     hit++
   })

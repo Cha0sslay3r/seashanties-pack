@@ -1986,11 +1986,11 @@ hash = "93ea477afaa06aa8b729ad93bfb2cc08a3c3053b522c1e767de0afdf87ba47b0"
 
 [[files]]
 file = "kubejs/server_scripts/ironclad_balance.js"
-hash = "610e7a104d359e5e8b81f0e58f18f48fdb52e0cc6fb17a37414c1ee74bec7ac5"
+hash = "ed0b5737e285cd0df249f73465ad98d9ac71e6fb8dd8c1004776fa91a6b953d5"
 
 [[files]]
 file = "kubejs/server_scripts/ironclad_collector.js"
-hash = "75801599aa3d8f474b3faf2685cff17e3a4c6f81d90edd003de5244293ada331"
+hash = "6c68da6af580255c26ff64718fc73fd91a5ce78a5df8b1a4b56bf46a878bff7b"
 
 [[files]]
 file = "kubejs/server_scripts/ironclad_loot.js"

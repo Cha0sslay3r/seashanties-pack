@@ -74,7 +74,7 @@ EntityEvents.beforeHurt(event => {
 
   if (!(e instanceof $Player)) return
   // --- damage to a player ---
-  let attacker = src.getEntity()
+  let attacker = src.actual   // KubeJS name for the attacking entity (getEntity() is not reachable from scripts)
   let aid = bossId(attacker)
   if (aid != null) {
     dmg = dmg * tierOf(aid).dmg      // tier damage boost
