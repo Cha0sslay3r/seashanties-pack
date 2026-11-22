@@ -2094,7 +2094,7 @@ hash = "e4a0cf3602688570be29b2330036b5da4bf117454f02e226488db57048fb5375"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
-hash = "844b278b6202c617d5bd639b343b5e1ef7ffbe62bdd5207fdfb30cfb55465cc0"
+hash = "e43bf0ed3b22748343de89ad438b95529a30fed1bc8df2d3f76758e8d00cdb06"
 metafile = true
 
 [[files]]
@@ -2129,7 +2129,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "3b34c2257eca559f147f457d2c4369859077a325792387a6fa9ca45586813d03"
+hash = "6f693d57a45644d2cb5b666baedd839e270e704f8216d85d62838049cbed0557"
 metafile = true
 
 [[files]]
@@ -2679,7 +2679,7 @@ metafile = true
 
 [[files]]
 file = "mods/explosive-enhancement-forge.pw.toml"
-hash = "f16aa050fbb4a9c1dd99b46c659b3448e1f4320484d1ed0bc920fb0ce632f555"
+hash = "f1ec26b30773310c9513aef6b8fb8e698f7550aef894b122cac0146b6ddb6135"
 metafile = true
 
 [[files]]
@@ -2884,7 +2884,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "030d2dd43748ec836f0447ea1a0361b6469d8676d67b4686e851790da1fd1136"
+hash = "c8dc3c337d359df8b516714b615e9b439b2a87243b6aece0688fd091b3d57860"
 metafile = true
 
 [[files]]
@@ -2980,6 +2980,11 @@ metafile = true
 [[files]]
 file = "mods/l_enders-cataclysm.pw.toml"
 hash = "54116b9caea8cfec2eb4b0ab4db3da66dc516d0cd1a18c8f05a895474be46773"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "656e02757fee0c4f2c4ef4aa46e8a999a627ac67ec46d5f1049deb16af69a763"
 metafile = true
 
 [[files]]
@@ -3194,7 +3199,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "3eb334b531cf3ce7cdf01bde01a072afb7959684092c888f9afffde195068b01"
+hash = "6cb78d5eb4e45b28a85985c6403d58367f08ac05dc5426b052f63fd733af06de"
 metafile = true
 
 [[files]]
@@ -3235,6 +3240,11 @@ metafile = true
 [[files]]
 file = "mods/paragliders.pw.toml"
 hash = "5be1ac93c85b6eb0384054d06d0c705750a832da38b84de6a20b2eade40e7fe0"
+metafile = true
+
+[[files]]
+file = "mods/particle-rain.pw.toml"
+hash = "8943b9d26158d7e6b70b572f20379ea21d3c67bd90dfeb3cc3696467f87811c8"
 metafile = true
 
 [[files]]
@@ -3368,6 +3378,11 @@ hash = "a7faee26b1cd6e7480f39f3d412b88af0e53a6eb781ff42c8ee00ea6cacb702d"
 metafile = true
 
 [[files]]
+file = "mods/sable-dynamic-lights.pw.toml"
+hash = "a45609ecb27ab5496e2a1852698a04269343017b03358e85b66e07af14857d41"
+metafile = true
+
+[[files]]
 file = "mods/sable.pw.toml"
 hash = "cd112c35deb50802945824be971b49c2174e28b1727dfae2ae185671c3cc0de9"
 metafile = true
@@ -3470,6 +3485,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "7df4d40b5d20b5e3dc7d93038c7dc3a22311fadd28bcc7bf6eb2bebf41d1fbea"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "084144897ea210854175b7bd09ca031e11d9f3bf1ce7ae2c752aadc501b9d4d9"
 metafile = true
 
 [[files]]
@@ -3624,7 +3644,7 @@ metafile = true
 
 [[files]]
 file = "mods/wavey-capes.pw.toml"
-hash = "fee3689a91a8f26645ac411a207b2d2ad217a9fc52d62de022dc4c5897b7d773"
+hash = "098c3a4af3245303fcdfec8cddc2ac2b83e56ec5231c646907a35d0f88a5dd73"
 metafile = true
 
 [[files]]

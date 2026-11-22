@@ -6,3 +6,8 @@ side = "client"
 url = "https://cdn.modrinth.com/data/MPCX6s5C/versions/f9RkhlA0/notenoughanimations-neoforge-1.12.7-mc1.21.1.jar"
 hash-format = "sha1"
 hash = "137a878ed276a3dfab2715df1864d14f60bd3237"
+
+[option]
+optional = true
+default = true
+description = "Better first and third person animations (eating, maps, ladders). Light."
