@@ -63,6 +63,10 @@
 		"Proof you beat the sea"
 	]
 	chapter.711991831B26769E.title: "Sea Relics \\& Legendaries"
+	chapter.7767D46AA09A51D7.chapter_subtitle: [
+		"Seven legendary fish, two rewards you can't get any other way"
+	]
+	chapter.7767D46AA09A51D7.title: "Legends of the Deep"
 	chapter.79CCAA48BA0DD06A.chapter_subtitle: [
 		"Rods, fish and what lives in the deep"
 	]
@@ -119,6 +123,13 @@
 	]
 	quest.1120C8F39702719C.quest_subtitle: "Nenu's and Perfect Plushies"
 	quest.1120C8F39702719C.title: "Plushies"
+	quest.112FCF0841753A31.quest_desc: [
+		"Put a &6Void Hook&r on your rod at the Angling Table, dig down to the bottom of the world and cast &einto the void below bedrock&r in the &6Overworld&r."
+		""
+		"&cCareful:&r don't fall in."
+	]
+	quest.112FCF0841753A31.quest_subtitle: "Fishing the void, Overworld"
+	quest.112FCF0841753A31.title: "Alpha Fish"
 	quest.114A8020AEEBE3BF.quest_desc: [
 		"The Infernal Dragon drops bones for &6Dragon Bone armour&r. The Kraken and the Sandworm drop strong weapons too."
 	]
@@ -334,6 +345,11 @@
 	]
 	quest.1DAEC39E43C1DBDD.quest_subtitle: "Commands everyone can use"
 	quest.1DAEC39E43C1DBDD.title: "Shortcuts Home"
+	quest.1DD5F8197A2D6E0F.quest_desc: [
+		"The golden one. You need &eLuck 5 or more&r: wear the &6Angler's Crown&r (+3) and use a rod with &eLuck of the Sea II&r or better. Fish in water &ebelow y41&r."
+	]
+	quest.1DD5F8197A2D6E0F.quest_subtitle: "Luck 5 or more, below y41"
+	quest.1DD5F8197A2D6E0F.title: "Midas Fish"
 	quest.1E3ACD4265EB3660.quest_desc: [
 		"Build it yourself: soul sand T and three wither skeleton skulls. Fight it &eunderground&r so it can't fly away. It drops the &6Nether Star&r."
 	]
@@ -466,6 +482,18 @@
 	]
 	quest.21FBCCFC3458799D.quest_subtitle: "Magnets and generator coils"
 	quest.21FBCCFC3458799D.title: "Create: New Age"
+	quest.221E79BEC9328670.quest_desc: [
+		"&bAll seven legends.&r Very few sailors will ever see this blade."
+		""
+		"&6Tidecaller&r (netherite-class sword):"
+		"&eUndertow&r - every hit slows; +4 damage when you're in water or rain."
+		"&eTidal Wave&r - right-click to blast nearby monsters away (8 s cooldown)."
+		"&eHeld&r - Dolphin's Grace, plus Conduit Power when wet."
+		""
+		"The whole server hears when you claim it."
+	]
+	quest.221E79BEC9328670.quest_subtitle: "All seven legends"
+	quest.221E79BEC9328670.title: "The Tidecaller"
 	quest.22531C15FC789A08.quest_desc: [
 		"A &6Wireless Transmitter&r on the network plus a &6Wireless Grid&r in your hand: open your storage from anywhere in range."
 	]
@@ -976,11 +1004,11 @@
 	quest.3C76477A7E0E614F.quest_desc: [
 		"Look around before you sail. No monsters spawn in the harbour town (Mega Torches hide under it), and it's where the whole server trades. Please don't build in the harbour itself: it's everyone's."
 		""
-		"The market is on the &6Market Wharf&r: walk east along the quay from spawn and take the boardwalk."
-		"&6North stalls&r sell Create parts: sheets, alloy, brass, electron tubes, precision mechanisms."
-		"&6South stalls&r buy fish, crops, logs and kelp for coins."
-		"&6The bank and Trading Post&r sit in the middle of the wharf."
-		"&6The Public Press&r is next to them: drop an ingot on the depot and hold the crank to press a sheet."
+		"The market is inside the harbour town, next to the ship."
+		"&6Vendors selling&r Create parts: sheets, alloy, brass, electron tubes, precision mechanisms."
+		"&6Vendors buying&r fish, crops, logs and kelp for coins."
+		"&6The bank and Trading Post&r are in the market too."
+		"&6The Public Press&r: drop an ingot on the depot and hold the crank to press a sheet."
 		""
 		"Every quest in this book pays coins. This is where you spend them."
 	]
@@ -1206,6 +1234,11 @@
 	]
 	quest.4A51A83B7E2D2D2B.quest_subtitle: "&6Early&r - siren islands"
 	quest.4A51A83B7E2D2D2B.title: "Sirens"
+	quest.4A5BD7FEA6E7593D.quest_desc: [
+		"With the &6Void Hook&r, cast into the &evoid around the End islands&r."
+	]
+	quest.4A5BD7FEA6E7593D.quest_subtitle: "Fishing the void, The End"
+	quest.4A5BD7FEA6E7593D.title: "Voidseeker"
 	quest.4ADF38EB17476337.quest_desc: [
 		"In a cave in the swamp (Explorer's Compass: \"hydra_cave\"). Every head you cut off grows back... unless you burn the stump. Bring fire."
 	]
@@ -1289,6 +1322,11 @@
 	]
 	quest.4EFDFCF2B6791154.quest_subtitle: "Power where water can't reach"
 	quest.4EFDFCF2B6791154.title: "Electric Motor"
+	quest.4F5979B6F244E400.quest_desc: [
+		"Find (or make) water &eunderground between y20 and y30&r and fish there. Any cave lake or a bucket-filled pit works."
+	]
+	quest.4F5979B6F244E400.quest_subtitle: "Water between y20 and y30"
+	quest.4F5979B6F244E400.title: "Devil's Hole Pupfish"
 	quest.52302CD67AAE6CF0.quest_desc: [
 		"A &6Dockyard&r lets you park a ship, repair it and customise it (sail colours, banners, plating)."
 	]
@@ -1470,10 +1508,20 @@
 	quest.5E8AF5413AA4725A.quest_subtitle: "Builder's showcase"
 	quest.5E8AF5413AA4725A.title: "Show It Off"
 	quest.5E8FFA78603C81E6.quest_desc: [
-		"Catch fish to eat, to sell at the south stalls of the Market Wharf, and to cook. Rare fish sell for a lot."
+		"Catch fish to eat, to sell at the harbour market, and to cook. Rare fish sell for a lot."
 	]
 	quest.5E8FFA78603C81E6.quest_subtitle: "A full hold"
 	quest.5E8FFA78603C81E6.title: "Fifty Fish"
+	quest.5F3E53E27EEF4A8A.quest_desc: [
+		"Tide has &6seven legendary fish&r. Each one bites only in one strange place or time. Your &6Fishing Journal&r tracks which you have."
+		""
+		"&63 legends&r (Starfish, Coelacanth, Pupfish) earn the &6Angler's Crown&r."
+		"&6All 7&r earn the &bTidecaller&r, a sword that exists nowhere else: no recipe, no loot, no trades."
+		""
+		"You only need to &ehave&r each fish once. The quest doesn't take it, so keep them in a chest or a bucket display."
+	]
+	quest.5F3E53E27EEF4A8A.quest_subtitle: "The collector's hunt"
+	quest.5F3E53E27EEF4A8A.title: "The Seven Legends"
 	quest.5F84849C4D9D5F52.quest_desc: [
 		"A raft is fine for a bay. For open sea you want a &6Cog&r."
 		""
@@ -1549,6 +1597,11 @@
 	]
 	quest.63B555E7D5427486.quest_subtitle: "Bulk processing in the air"
 	quest.63B555E7D5427486.title: "Fans: Wash, Smelt, Smoke, Haunt"
+	quest.64D07F37E92F568E.quest_desc: [
+		"Fish a &6deep ocean&r at &enight&r during a &efull moon&r (the first night of the 8-night cycle). Stay above y40."
+	]
+	quest.64D07F37E92F568E.quest_subtitle: "Full moon, deep ocean, night"
+	quest.64D07F37E92F568E.title: "Shooting Starfish"
 	quest.6576F6FD3C7612B3.quest_desc: [
 		"Places a whole row or wall of the block you point at. Great for big walls."
 	]
@@ -1562,10 +1615,15 @@
 	quest.6699C2B30F671EB1.quest_subtitle: "The next tier begins"
 	quest.6699C2B30F671EB1.title: "Brass!"
 	quest.6783EB6579E1DEB8.quest_desc: [
-		"The &6south stalls&r on Brass Harbour's Market Wharf buy fish, crops, logs and kelp. A good fishing trip or harvest pays for your first Create parts."
+		"The &6buying vendors&r in Brass Harbour's market buy fish, crops, logs and kelp. A good fishing trip or harvest pays for your first Create parts."
 	]
 	quest.6783EB6579E1DEB8.quest_subtitle: "The south stalls"
 	quest.6783EB6579E1DEB8.title: "Sell Your Harvest"
+	quest.6801CCFADA2E7DD5.quest_desc: [
+		"A living fossil. Fish a &6deep ocean&r at &enight&r while it's &eraining or storming&r."
+	]
+	quest.6801CCFADA2E7DD5.quest_subtitle: "Deep ocean, night, rain"
+	quest.6801CCFADA2E7DD5.title: "Coelacanth"
 	quest.680FCB8195830205.quest_desc: [
 		"An &6Importer&r pulls items from a chest or machine into the network. An &6Exporter&r pushes chosen items out."
 		""
@@ -1603,6 +1661,13 @@
 	]
 	quest.6B19BF0DEC76C138.quest_subtitle: "Create Aeronautics: the idea"
 	quest.6B19BF0DEC76C138.title: "Build Your Own Ship"
+	quest.6D99EC3A8ED59EA0.quest_desc: [
+		"Three legends! Take the &6Angler's Crown&r."
+		""
+		"Wearing it gives &eLuck III&r, &eWater Breathing&r and &eNight Vision&r underwater. The luck matters: the next legend only bites for very lucky anglers."
+	]
+	quest.6D99EC3A8ED59EA0.quest_subtitle: "Three legends caught"
+	quest.6D99EC3A8ED59EA0.title: "The Angler's Crown"
 	quest.6DDDA5ADB3BB304C.quest_desc: [
 		"Tide rods get better: stone, iron, golden, diamond, netherite, plus special rods for the Nether and the End. A better rod means a bigger catch zone."
 	]
@@ -1742,6 +1807,11 @@
 	]
 	quest.735B81A33F9B2ED1.quest_subtitle: "Modular accumulator"
 	quest.735B81A33F9B2ED1.title: "Batteries"
+	quest.7364115C288EE052.quest_desc: [
+		"Also in the &eEnd's void&r, and rarer than the Voidseeker. Bring food and patience."
+	]
+	quest.7364115C288EE052.quest_subtitle: "Fishing the void, The End"
+	quest.7364115C288EE052.title: "Dragon Fish"
 	quest.73D0E356D235FA52.quest_desc: [
 		"&6Sophisticated Storage&r chests, barrels and shulker boxes can be upgraded in place: more slots, sorting, auto-pickup, compression."
 		""

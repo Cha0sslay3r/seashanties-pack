@@ -1198,19 +1198,19 @@ hash = "9f037bfe6db79392a0ab0197b0053a9067fb35f30867c8c8b732742173b226f5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/armory.snbt"
-hash = "4a9d5e4c5a5f1bd9646d7bc12227b4d6e62fe9ca98f2a7400b1de849d2189831"
+hash = "e9e0e83420ae2f2f2f48f46ddf9cdf1145e0142b38be2bf6e0d7963957727344"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bosses.snbt"
-hash = "899350cf0cd2c0caf863f40d9cb34f240ddf5f3f0c834c18ba09634651ec13f6"
+hash = "07e2d7eba70e52119ee5ec35feacb61b22d75011666acf40b1321095910d6235"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
-hash = "31d42f9cb22688f0a3366d2f8b8f773685b66943bb2e6bbe4f3f1640ebe240c3"
+hash = "8b5001faf5256ea13cf5858942f5f9618787201fe3381827d7277bd65268a5f7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/collect.snbt"
-hash = "2fe1961097688f6a5be207b64bedb000489e6b03235fed4f8b46ebb6f134e9e1"
+hash = "d99e37723274943ce85f5dd7d79ee6fd2a85cc9cef842be1d4f82c42301b82bc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create1.snbt"
@@ -1234,11 +1234,11 @@ hash = "3734fe5fc732976460018a405e24ae70b80ea3812231c386df006e58b2064a07"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
-hash = "e530a7a8d972ca93841aeef7079168240918418813b3129b8002a431d346c3d0"
+hash = "ca17788e34c2c5112610995e71bdb0ac8d218c784c0eaaf9ad730401d4b68333"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/explore.snbt"
-hash = "96958dba7e7b43b22622b9f60ef272e3c688f1775d59581099e951c499226b06"
+hash = "52d7d6f468786f9a5a3b8063bb5b0ddc97282e209c8ee6e10df5e9823e8bb1c3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fishing.snbt"
@@ -1246,11 +1246,15 @@ hash = "8a086e67f4feacf659ee3ff603ebc36035284b7ece63b21d8a9b8f5ca9d570d5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gear.snbt"
-hash = "41fbbc54bf38a8458e58a1b1af4fc04ba3a1f6b64c8bdfc09fe32f70fc21d55a"
+hash = "0b71e98095f4bba3f9916fb9013ee7a1abea7a30de8d70ad187810a2d67a15da"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kitchen.snbt"
-hash = "8112270dc2be1f086b40ef50245f0f6a6e8f8cb04c17592f1c2cbb180028412d"
+hash = "41c6d0c15cfffea2f71ece4b3ef68d93dc06f3f96e7e3fbe8130c242bbd08ea2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/legends.snbt"
+hash = "067901e6df2ffe97a5f057a6afdb1817b425af3e97d6e81064c30e9a1dfafbe9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/power.snbt"
@@ -1258,7 +1262,7 @@ hash = "cb4e2c13d143356b9af083b403a007b40412dedf1a778413d0fd2a0b87399762"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/relics.snbt"
-hash = "1d681a0e9421e1411763affe1e24940f7d7142d23cb6dd38fe058a902902e893"
+hash = "7179b244e9558d508ba33339477230c4e59c455ab9529023f2d20baaa3a0c31f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ships.snbt"
@@ -1286,7 +1290,7 @@ hash = "9b4b0a5fbceda66537ad392c3d524d9e90af3f9f3c0550217c0fd5fd1eba1db2"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "389b3e43dfa1319cfd683660715111b75741e852ac5666de833ca332e65c06d5"
+hash = "978cd229a002dad55c4eb11a6756254b9ba140d1e122e2d71aecfd7856db536a"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1826,7 +1830,11 @@ hash = "ea1fa91de03d8f6f3c36b0c6cef77375a8365790ac0acb63fd558643d54d677f"
 
 [[files]]
 file = "kubejs/assets/ironclad/lang/en_us.json"
-hash = "9f12302f778bb4e474272747ab1778da3757ce454be6620a0453eb22700caa20"
+hash = "65d8fe80b084efc49be5428099a07c79a32a365e5b9279f1c04eccab7271b5eb"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/anglers_crown.png"
+hash = "81a86afcf8e7c87cb5c141d13c5d4c2acb842dd1a38a8b9577586e689ee1a3a7"
 
 [[files]]
 file = "kubejs/assets/ironclad/textures/item/frozen_anchor.png"
@@ -1871,6 +1879,10 @@ hash = "fc0bbbbe904a1ea82b3969bf2e20269d4487977c3bd46f554d79dfcb87ab32ae"
 [[files]]
 file = "kubejs/assets/ironclad/textures/item/storage_circuit.png"
 hash = "fdd45f58846445b765ccac12fa618665a48446b474f90a5603a06426a25c8d42"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/tidecaller.png"
+hash = "7c0fe7daceec42f4b9589a79aecc1e1ff2752306891cd53c32cf004d8343a218"
 
 [[files]]
 file = "kubejs/data/ironclad/enchantment/anchor.json"
@@ -1949,6 +1961,10 @@ file = "kubejs/server_scripts/ironclad_balance.js"
 hash = "610e7a104d359e5e8b81f0e58f18f48fdb52e0cc6fb17a37414c1ee74bec7ac5"
 
 [[files]]
+file = "kubejs/server_scripts/ironclad_collector.js"
+hash = "95133ac16f7d7eabf1ee59ec19735726d3d02451e47e0adbdd99897570d07ca7"
+
+[[files]]
 file = "kubejs/server_scripts/ironclad_loot.js"
 hash = "2086e4f3748d725de08945ce5748444a89952369d3a706f7f2e8da0111a7c335"
 
@@ -1966,7 +1982,7 @@ hash = "71c7e13f78d8ee7ce1a91205df1df2d266999e79b9ab3ceac172b57256105b75"
 
 [[files]]
 file = "kubejs/startup_scripts/ironclad_items.js"
-hash = "51f074a397e43a32616c1ab1ee89b21759501c2dddaf5e36c4c2fa2d93aeaeda"
+hash = "f671e8e7164f584f15797285693e39de867fca3b47c3f989133ab790c9212cb3"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"

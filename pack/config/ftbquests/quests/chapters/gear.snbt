@@ -5,7 +5,7 @@
 	group: "3DB8DF94F687DD8E"
 	icon: { id: "simplyswords:iron_cutlass" }
 	id: "69C624E62151CF5F"
-	order_index: 13
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{

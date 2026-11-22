@@ -1,0 +1,158 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "legends"
+	group: "19AE4577F3C5F699"
+	icon: { id: "tide:coelacanth" }
+	id: "7767D46AA09A51D7"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2485382AA309E404"]
+			icon: { count: 1, id: "tide:fishing_journal" }
+			id: "5F3E53E27EEF4A8A"
+			rewards: [
+				{ id: "5CB61FD9534BC643", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "6B0F6C31E5288A1E", type: "checkmark" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["5F3E53E27EEF4A8A"]
+			icon: { count: 1, id: "tide:shooting_starfish" }
+			id: "64D07F37E92F568E"
+			rewards: [
+				{ id: "1C2FE1302A94E147", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "62C20095C9A65A4C", item: { count: 1, id: "tide:shooting_starfish" }, type: "item" }
+			]
+			x: 2.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["5F3E53E27EEF4A8A"]
+			icon: { count: 1, id: "tide:coelacanth" }
+			id: "6801CCFADA2E7DD5"
+			rewards: [
+				{ id: "752AB9A7835CEE7C", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "66E99AAED1A46F85", item: { count: 1, id: "tide:coelacanth" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["5F3E53E27EEF4A8A"]
+			icon: { count: 1, id: "tide:devils_hole_pupfish" }
+			id: "4F5979B6F244E400"
+			rewards: [
+				{ id: "437899BA7A8EC216", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2E05ACC530F58FB8", item: { count: 1, id: "tide:devils_hole_pupfish" }, type: "item" }
+			]
+			x: 2.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["64D07F37E92F568E" "6801CCFADA2E7DD5" "4F5979B6F244E400"]
+			icon: { count: 1, id: "ironclad:anglers_crown" }
+			id: "6D99EC3A8ED59EA0"
+			rewards: [
+				{ id: "269CED18C5437EE2", item: { count: 1, id: "ironclad:anglers_crown" }, type: "item" }
+				{ count: 2, id: "1BC05EEB572858ED", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "76B9D18F46081874", item: { count: 1, id: "tide:shooting_starfish" }, type: "item" }
+				{ id: "2F54C5F27C776CC1", item: { count: 1, id: "tide:coelacanth" }, type: "item" }
+				{ id: "265FFFE5601C403D", item: { count: 1, id: "tide:devils_hole_pupfish" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["6D99EC3A8ED59EA0"]
+			icon: { count: 1, id: "tide:midas_fish" }
+			id: "1DD5F8197A2D6E0F"
+			rewards: [
+				{ count: 2, id: "3EAA7A3F0EDD4F3D", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "253F85087F6C975E", item: { count: 1, id: "tide:midas_fish" }, type: "item" }
+			]
+			x: 6.00d
+			y: -2.62d
+		}
+		{
+			dependencies: ["6D99EC3A8ED59EA0"]
+			icon: { count: 1, id: "tide:alpha_fish" }
+			id: "112FCF0841753A31"
+			rewards: [
+				{ count: 2, id: "7D83422CEC5B0D92", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "1F3726314E943282", item: { count: 1, id: "tide:alpha_fish" }, type: "item" }
+			]
+			x: 6.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["6D99EC3A8ED59EA0"]
+			icon: { count: 1, id: "tide:voidseeker" }
+			id: "4A5BD7FEA6E7593D"
+			rewards: [
+				{ count: 2, id: "74082551D68184AF", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "67272B101B1CAB31", item: { count: 1, id: "tide:voidseeker" }, type: "item" }
+			]
+			x: 6.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["6D99EC3A8ED59EA0"]
+			icon: { count: 1, id: "tide:dragon_fish" }
+			id: "7364115C288EE052"
+			rewards: [
+				{ count: 2, id: "1B4DBA0EF4196491", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "6D8D6E058957880A", item: { count: 1, id: "tide:dragon_fish" }, type: "item" }
+			]
+			x: 6.00d
+			y: 2.62d
+		}
+		{
+			dependencies: ["1DD5F8197A2D6E0F" "112FCF0841753A31" "4A5BD7FEA6E7593D" "7364115C288EE052"]
+			icon: { count: 1, id: "ironclad:tidecaller" }
+			id: "221E79BEC9328670"
+			rewards: [
+				{ id: "2EE08D82DECBF5F1", item: { count: 1, id: "ironclad:tidecaller" }, type: "item" }
+				{ id: "6D3D85724DA7C3BD", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "5BD53FA62ADCF191", item: { count: 1, id: "tide:shooting_starfish" }, type: "item" }
+				{ id: "4978CEB27BA91900", item: { count: 1, id: "tide:coelacanth" }, type: "item" }
+				{ id: "5061F166BBFA9F36", item: { count: 1, id: "tide:devils_hole_pupfish" }, type: "item" }
+				{ id: "2B47930140719BC4", item: { count: 1, id: "tide:midas_fish" }, type: "item" }
+				{ id: "135503919AAACAD6", item: { count: 1, id: "tide:alpha_fish" }, type: "item" }
+				{ id: "2BD8B8E27FA0A0B5", item: { count: 1, id: "tide:voidseeker" }, type: "item" }
+				{ id: "40E42B4D2D92508C", item: { count: 1, id: "tide:dragon_fish" }, type: "item" }
+			]
+			x: 8.00d
+			y: 0.00d
+		}
+	]
+}
