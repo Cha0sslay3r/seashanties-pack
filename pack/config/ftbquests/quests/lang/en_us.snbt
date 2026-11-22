@@ -336,15 +336,14 @@
 	quest.1CF3864FFB79ABF9.quest_subtitle: "&5Endgame&r - Cursed Pyramid"
 	quest.1CF3864FFB79ABF9.title: "Ancient Remnant"
 	quest.1DAEC39E43C1DBDD.quest_desc: [
-		"&e/sethome&r and &e/home&r - up to 2 homes (10 min cooldown)."
-		"&e/spawn&r - back to Brass Harbour (5 min)."
-		"&e/tpa <name>&r - ask to teleport to a friend (5 min)."
-		"&e/back&r - back to where you died (5 min)."
+		"There is &cno /home, /tpa or /back&r on this server. The sea is meant to be crossed."
 		""
-		"All of these make you stand still for 5 seconds first. They are for emergencies. Ships, waystones and jetpacks are the real way to travel."
+		"&e/spawn&r - back to Brass Harbour (5 min cooldown, stand still 5 s). For emergencies only."
+		""
+		"Travel by &6ship&r, &6waystone&r (place one at every base and port you find) and later &6jetpacks&r. Beds still set where you respawn."
 	]
-	quest.1DAEC39E43C1DBDD.quest_subtitle: "Commands everyone can use"
-	quest.1DAEC39E43C1DBDD.title: "Shortcuts Home"
+	quest.1DAEC39E43C1DBDD.quest_subtitle: "How you get around"
+	quest.1DAEC39E43C1DBDD.title: "No Shortcuts"
 	quest.1DD5F8197A2D6E0F.quest_desc: [
 		"The golden one. You need &eLuck 5 or more&r: wear the &6Angler's Crown&r (+3) and use a rod with &eLuck of the Sea II&r or better. Fish in water &ebelow y41&r."
 	]
@@ -651,7 +650,7 @@
 	quest.29733E9760C412C9.quest_desc: [
 		"When you die, your items stay in a &6corpse&r where you fell. Nobody else can loot it."
 		""
-		"&e/back&r takes you to where you died (5 minute cooldown)."
+		"There is &cno /back&r: you have to sail or walk back to it. Set a &6waystone&r near where you adventure so the trip is short."
 		"Open the corpse and take everything back."
 		""
 		"&c Sea bosses hit hard.&r Even with good armour, one hit can take a big chunk of your health. A strong hit at full health will leave you on one heart once every 30 seconds. Don't count on it twice."
