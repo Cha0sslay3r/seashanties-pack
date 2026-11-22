@@ -657,6 +657,8 @@
 	quest.2A7013A2DE720368.quest_desc: [
 		"You now know how to make rotation, carry it, and see what it's doing. Next up: making it do work."
 		""
+		"&6Andesite Casing&r: right-click a &estripped log&r with andesite alloy. Casings are the base of most machines."
+		""
 		"&6Create II: Processing&r teaches the machines that crush, press, wash, mix and smelt."
 	]
 	quest.2A7013A2DE720368.quest_subtitle: "On to processing"
@@ -766,9 +768,9 @@
 	quest.2E4A1C47DBE38F93.quest_desc: [
 		"Sailing alone is fine. Sailing with a crew is better."
 		""
-		"&e1.&r Open this book, click the &6team icon&r (top-left) and create or join a team. Quest progress is shared."
+		"&e1.&r Open your inventory. The small buttons in the &6top-left corner&r include &6My Team&r: create a team or accept an invite. Quest progress is shared."
 		"&e2.&r Claim your base: press &e'&r (apostrophe) for Open Parties and Claims, then claim the chunks around your build. Nobody outside your party can break or open anything there."
-		"&e3.&r Proximity voice chat is on: players near you hear you. Press &eV&r for its menu (push-to-talk or voice activation), &eM&r mutes you, &eG&r makes a private group."
+		"&e3.&r Proximity voice chat is on: players near you hear you. Press &eV&r the first time to set it up. If you choose push-to-talk, the setup asks you to pick a key: try &eCaps Lock&r or a mouse side button. &eM&r mutes you, &eG&r makes a private group."
 	]
 	quest.2E4A1C47DBE38F93.quest_subtitle: "Teams, claims and voice"
 	quest.2E4A1C47DBE38F93.title: "Sign Your Crew"
@@ -869,7 +871,7 @@
 	quest.33826D13174DABA3.quest_subtitle: "&6Early&r - savanna"
 	quest.33826D13174DABA3.title: "Umvuthi"
 	quest.3442A5076CA963E5.quest_desc: [
-		"Illager War Triremes patrol the oceans. They ram and board. Sink one, or board it and clear the deck."
+		"Illager War Triremes patrol the oceans. They ram and board. Sink one, or board it and clear the deck: its crew are pillagers. Defeat 10 of them."
 	]
 	quest.3442A5076CA963E5.quest_subtitle: "Illager War Triremes"
 	quest.3442A5076CA963E5.title: "Sink a Trireme"
@@ -972,7 +974,7 @@
 	quest.3C317FAFB2BC86B1.quest_subtitle: "Multi-step recipes on a belt"
 	quest.3C317FAFB2BC86B1.title: "Sequenced Assembly"
 	quest.3C76477A7E0E614F.quest_desc: [
-		"Look around before you sail. The harbour is a no-build, no-mob zone, and it is where the server trades."
+		"Look around before you sail. No monsters spawn here (a Mega Torch hides under the fountain), and it's where the whole server trades. Please don't build in the harbour itself: it's everyone's."
 		""
 		"&6North stalls&r sell Create parts: sheets, alloy, brass, electron tubes, precision mechanisms."
 		"&6South stalls&r buy fish, crops, logs and kelp for coins."
@@ -1082,6 +1084,13 @@
 		"The F-keys need &efn&r (fn+F3 for coordinates, fn+F5 for third person)."
 		"Sprint is &etoggle&r so you don't hold Control (Control-click on a Mac is a right-click)."
 		"Give the game &e5 GB&r of memory on an 8 GB Mac, &e6-8 GB&r on 16 GB."
+		"{@pagebreak}"
+		"&6Smooth on an 8 GB Mac&r"
+		""
+		"&e1.&r Quit Chrome, Discord and other apps before playing. They share the same 8 GB."
+		"&e2.&r Render distance &e8&r, simulation distance &e6&r."
+		"&e3.&r Leave shaders &coff&r (&eK&r toggles them). They're too heavy for 8 GB."
+		"&e4.&r The first load takes a few minutes and the first minute in the world can stutter. That's normal; it settles."
 	]
 	quest.410B98B452B3CC66.quest_subtitle: "No remapping needed"
 	quest.410B98B452B3CC66.title: "Know Your Controls"
@@ -1264,6 +1273,8 @@
 	quest.4D1D38B1374216BD.title: "Breech Loaders"
 	quest.4E424447C1CB4729.quest_desc: [
 		"Big dungeons are everywhere: towers, temples, mines, fortresses. Each chest is &6per-player&r (Lootr): everyone in your crew gets their own loot."
+		""
+		"To finish this quest, find a &6Lighthouse&r (When Dungeons Arise). They stand on coasts, so you'll pass one while sailing."
 	]
 	quest.4E424447C1CB4729.quest_subtitle: "When Dungeons Arise and YUNG's"
 	quest.4E424447C1CB4729.title: "Into the Dungeon"
@@ -1377,14 +1388,14 @@
 	quest.5759EFF2B1DC0BE1.quest_subtitle: "&9Mid&r - Dragon Tower"
 	quest.5759EFF2B1DC0BE1.title: "Infernal Dragon"
 	quest.57D6703CA73BC5FC.quest_desc: [
-		"Sleeping skips the night and sets your spawn point. Place your bed in your first base, not at the harbour."
+		"Sleeping skips the night and sets your spawn point. Put the bed from your kit in your first base, not at the harbour."
 		""
 		"Phantoms are turned off in this pack, so you can stay up as long as you like. But nights here are dark and full of pirates."
 		""
-		"&aTip:&r a &6Sleeping Bag&r (Comforts) lets you sleep away from home without moving your spawn."
+		"For trips, craft a &6Sleeping Bag&r (Comforts): sleep anywhere to skip the night without moving your spawn point. Perfect on a ship."
 	]
-	quest.57D6703CA73BC5FC.quest_subtitle: "Sleeping and spawn points"
-	quest.57D6703CA73BC5FC.title: "A Roof Over You"
+	quest.57D6703CA73BC5FC.quest_subtitle: "Beds and sleeping bags"
+	quest.57D6703CA73BC5FC.title: "Sleep Anywhere"
 	quest.581A9F7F164379F9.quest_desc: [
 		"&6Create Diesel Generators&r burns liquid fuel."
 		""

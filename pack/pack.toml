@@ -1,12 +1,12 @@
 name = "Freedom V4: Sea Shanties"
 author = "Anant"
-version = "0.2.1"
+version = "0.2.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1c78a5a7819916271f9606c5a9de97a242601e91fb918287bcfc934f193309eb"
+hash = "4a600278f492488474252973781fc02a558b0d75666e3f7d9c2781894bbf1175"
 
 [versions]
 minecraft = "1.21.1"
