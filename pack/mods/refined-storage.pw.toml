@@ -1,0 +1,8 @@
+name = "refined-storage"
+filename = "refinedstorage-neoforge-2.0.9.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8211/701/refinedstorage-neoforge-2.0.9.jar"
+hash-format = "sha1"
+hash = "bf05b983968e75b5466a270c68d1fdc7ba2a5e77"

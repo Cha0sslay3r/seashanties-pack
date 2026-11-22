@@ -1,0 +1,8 @@
+name = "create-structures-arise"
+filename = "Create-Structures-Arise-1.21.1-NeoForge-176.49.50.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9232/207/Create-Structures-Arise-1.21.1-NeoForge-176.49.50.jar"
+hash-format = "sha1"
+hash = "fdfe305b58df9a4dd2aa4294800d91c3836b7acc"

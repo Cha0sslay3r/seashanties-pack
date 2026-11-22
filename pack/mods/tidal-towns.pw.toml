@@ -1,0 +1,8 @@
+name = "tidal-towns"
+filename = "tidal-towns-2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EEIwvQVo/versions/ahvrY85Y/tidal-towns-2.0.jar"
+hash-format = "sha1"
+hash = "f48816fb1b0759350b60e96cd595512fe2b24baf"

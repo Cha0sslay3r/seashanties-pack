@@ -1,0 +1,8 @@
+name = "extrastorage"
+filename = "ExtraStorage-1.21.1-5.1.0.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9221/26/ExtraStorage-1.21.1-5.1.0.jar"
+hash-format = "sha1"
+hash = "369c689c5d1cc93df1462edd9f523d474d298874"

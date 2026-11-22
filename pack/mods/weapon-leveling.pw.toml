@@ -1,0 +1,8 @@
+name = "weapon-leveling"
+filename = "weaponleveling-1.21.1-neoforge-3.2.0-beta.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IuFgFiGE/versions/CtJKpcVS/weaponleveling-1.21.1-neoforge-3.2.0-beta.1.jar"
+hash-format = "sha1"
+hash = "278c895b66b70eb61724230007a48014312e9deb"

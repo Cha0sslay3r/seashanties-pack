@@ -1,0 +1,8 @@
+name = "crabbers-delight"
+filename = "crabbersdelight-1.21.1-1.3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gBGdVBJy/versions/j5Nzh8kh/crabbersdelight-1.21.1-1.3.1.jar"
+hash-format = "sha1"
+hash = "28a459c17e69ce83e7b1f9dd3e22ee4ca62d1248"

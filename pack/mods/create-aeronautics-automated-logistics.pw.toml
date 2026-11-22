@@ -1,0 +1,8 @@
+name = "create-aeronautics-automated-logistics"
+filename = "create_aeronautics_automated_logistics-0.7.0.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9184/782/create_aeronautics_automated_logistics-0.7.0.jar"
+hash-format = "sha1"
+hash = "0da40850bdb4f3eb18340e6adb466d2af5fba50f"

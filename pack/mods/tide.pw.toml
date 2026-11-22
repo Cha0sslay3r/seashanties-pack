@@ -1,0 +1,8 @@
+name = "tide"
+filename = "tide-neoforge-1.21.1-2.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/die1AF7i/versions/1ki6UyqV/tide-neoforge-1.21.1-2.1.1.jar"
+hash-format = "sha1"
+hash = "6916fb787c0c3da859166b57a9aaac287d7ed144"

@@ -1,0 +1,8 @@
+name = "compass-to-map"
+filename = "compass-to-map-journeymap-2.1.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9542/565/compass-to-map-journeymap-2.1.1-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "03a65e518c668e5314e0466359e8f24a8e5fceb1"

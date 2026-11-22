@@ -1,0 +1,163 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power"
+	group: "6AA4A3C1E029AAAD"
+	icon: { id: "createaddition:alternator" }
+	id: "110AB9C49F581CB4"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5331A678CBFAE1C2"]
+			icon: { count: 1, id: "createaddition:alternator" }
+			id: "2E330F2191B655E0"
+			rewards: [
+				{ id: "3773A1473EA960B7", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "3B95476D32C2F76E", item: { count: 1, id: "createaddition:alternator" }, type: "item" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["2E330F2191B655E0"]
+			icon: { count: 1, id: "createaddition:rolling_mill" }
+			id: "719C5B8A125FB4EF"
+			rewards: [
+				{ count: 2, id: "6823C978E4533600", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2C091D3F8BD6C2C0", item: { count: 1, id: "createaddition:rolling_mill" }, type: "item" }
+				{ id: "7A584E827637C3B0", item: { count: 1, id: "createaddition:copper_spool" }, type: "item", count: 2L }
+			]
+			x: 2.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["719C5B8A125FB4EF"]
+			icon: { count: 1, id: "createaddition:connector" }
+			id: "7FB47F8DEFA76C3F"
+			rewards: [
+				{ count: 2, id: "57D89C92F5A6523A", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "6E4F9DD43D118A1B", item: { count: 1, id: "createaddition:connector" }, type: "item", count: 4L }
+			]
+			x: 4.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["7FB47F8DEFA76C3F"]
+			icon: { count: 1, id: "createaddition:modular_accumulator" }
+			id: "735B81A33F9B2ED1"
+			rewards: [
+				{ id: "285CE559932ABC83", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "20BDE6D2933547FE", item: { count: 1, id: "createaddition:modular_accumulator" }, type: "item", count: 4L }
+			]
+			x: 6.00d
+			y: -2.62d
+		}
+		{
+			dependencies: ["7FB47F8DEFA76C3F"]
+			icon: { count: 1, id: "createaddition:electric_motor" }
+			id: "4EFDFCF2B6791154"
+			rewards: [
+				{ id: "2F797574EEDD4B2B", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "688E13ABBEB07A0D", item: { count: 1, id: "createaddition:electric_motor" }, type: "item" }
+			]
+			x: 6.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["735B81A33F9B2ED1"]
+			icon: { count: 1, id: "createaddition:tesla_coil" }
+			id: "48E9290B96286D01"
+			rewards: [
+				{ id: "2EB6531A3AD8DB0C", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "19725F5A93E3CE5D", item: { count: 1, id: "createaddition:tesla_coil" }, type: "item" }
+			]
+			x: 8.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["2E330F2191B655E0"]
+			icon: { count: 1, id: "createdieselgenerators:biodiesel_bucket" }
+			id: "581A9F7F164379F9"
+			rewards: [
+				{ id: "4CADEB7D57950A82", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "14A2FD1EA43104A0", item: { count: 1, id: "createdieselgenerators:plant_oil_bucket" }, type: "item" }
+				{ id: "36C8DAB673959A14", item: { count: 1, id: "createdieselgenerators:biodiesel_bucket" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["581A9F7F164379F9"]
+			icon: { count: 1, id: "createdieselgenerators:diesel_engine" }
+			id: "4C4FD368C642CA97"
+			rewards: [
+				{ id: "630E03A201F39CCB", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "5992ABF2499B40BC", item: { count: 1, id: "createdieselgenerators:diesel_engine" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["4C4FD368C642CA97"]
+			icon: { count: 1, id: "createdieselgenerators:oil_scanner" }
+			id: "4762791963DF53CF"
+			rewards: [
+				{ id: "3738DA4A636BADA3", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "4D5B0541C5079D26", item: { count: 1, id: "createdieselgenerators:oil_scanner" }, type: "item" }
+				{ id: "1F59567173CC9454", item: { count: 1, id: "createdieselgenerators:pumpjack_bearing" }, type: "item" }
+			]
+			x: 6.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["2E330F2191B655E0"]
+			icon: { count: 1, id: "create_new_age:generator_coil" }
+			id: "21FBCCFC3458799D"
+			rewards: [
+				{ id: "216F8B7F47DC2EA7", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "351521EA217D47F9", item: { count: 1, id: "create_new_age:generator_coil" }, type: "item" }
+				{ id: "3B9BD5D93F0D8F32", item: { count: 1, id: "create_new_age:basic_energiser" }, type: "item" }
+			]
+			x: 2.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["4C4FD368C642CA97"]
+			icon: { count: 1, id: "create_power_loader:andesite_chunk_loader" }
+			id: "27B1FB63DF6836AD"
+			rewards: [
+				{ count: 2, id: "2163A73F7EBD1F5D", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "3CA500BB84FB1F54", item: { count: 1, id: "create_power_loader:andesite_chunk_loader" }, type: "item" }
+			]
+			x: 6.00d
+			y: 2.62d
+		}
+	]
+}

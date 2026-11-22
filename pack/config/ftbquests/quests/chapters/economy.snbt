@@ -1,0 +1,147 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "economy"
+	group: "6AF6577A356BBFCB"
+	icon: { id: "numismatics:cog" }
+	id: "2EF4FAEA0769136C"
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "numismatics:cog" }
+			id: "78A2DC9F010407C8"
+			rewards: [
+				{ count: 16, id: "200B412EFB1C4CC5", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "7A1A1C2B4EFEC4A3", type: "checkmark" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["78A2DC9F010407C8"]
+			icon: { count: 1, id: "numismatics:bevel" }
+			id: "6783EB6579E1DEB8"
+			rewards: [
+				{ count: 2, id: "50C8E02B79CC37F1", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "20E886140E8C9FDC", item: { count: 1, id: "numismatics:bevel" }, type: "item", count: 4L }
+			]
+			x: 2.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["6783EB6579E1DEB8"]
+			icon: { count: 1, id: "create:precision_mechanism" }
+			id: "35FA7FE887FD6D97"
+			rewards: [
+				{ count: 2, id: "27E47BBDF24F9FCC", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "56B5F2290C29BDDB", type: "checkmark" }
+			]
+			x: 4.00d
+			y: -3.50d
+		}
+		{
+			dependencies: ["78A2DC9F010407C8"]
+			icon: { count: 1, id: "numismatics:bank_terminal" }
+			id: "40B1790FE310E2F6"
+			rewards: [
+				{ count: 2, id: "4E5571B9A7655E7E", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "5BCBB5B231EADB93", item: { count: 1, id: "numismatics:bank_terminal" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["40B1790FE310E2F6"]
+			icon: { count: 1, id: "numismatics:blue_card" }
+			id: "5BDC6784A4C70691"
+			rewards: [
+				{ id: "5FB8D30CE5948BEF", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "79850AC66625B085", item: { count: 1, id: "numismatics:blue_card" }, type: "item" }
+			]
+			x: 4.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["40B1790FE310E2F6"]
+			icon: { count: 1, id: "numismatics:vendor" }
+			id: "22CC5EA877972320"
+			rewards: [
+				{ id: "70CA5081E947D7A7", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "1D2BE70F8E5F530E", item: { count: 1, id: "numismatics:vendor" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["78A2DC9F010407C8"]
+			icon: { count: 1, id: "tradingpost:trading_post" }
+			id: "47360AC152D2C494"
+			rewards: [
+				{ id: "1D91A6BEF6A4A125", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2F24E5250CB54250", item: { count: 1, id: "tradingpost:trading_post" }, type: "item" }
+			]
+			x: 2.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["47360AC152D2C494" "38F1AAA5DBD7D10B"]
+			icon: { count: 1, id: "trading_floor:trading_depot" }
+			id: "2C25C42BA782AF61"
+			rewards: [
+				{ id: "4FBA544B606707C4", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "642BF21955B40E83", item: { count: 1, id: "trading_floor:trading_depot" }, type: "item" }
+			]
+			x: 4.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["47360AC152D2C494"]
+			icon: { count: 1, id: "minecraft:emerald" }
+			id: "73432FB3B0565C85"
+			rewards: [
+				{ count: 2, id: "7CDFC260630EED1B", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "725ECB0276E4BD30", type: "checkmark" }
+			]
+			x: 4.00d
+			y: 3.50d
+		}
+		{
+			dependencies: ["22CC5EA877972320"]
+			icon: { count: 1, id: "numismatics:crown" }
+			id: "61FF1EB1AC35D023"
+			rewards: [
+				{ count: 2, id: "36335A56FCD2AE18", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "45E8BF99DFE3140B", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			x: 6.00d
+			y: 0.00d
+		}
+	]
+}

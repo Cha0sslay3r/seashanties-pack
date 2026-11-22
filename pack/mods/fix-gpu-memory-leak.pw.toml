@@ -1,0 +1,8 @@
+name = "fix-gpu-memory-leak"
+filename = "gpumemleakfix-1.21-1.8.jar"
+side = "client"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/5513/549/gpumemleakfix-1.21-1.8.jar"
+hash-format = "sha1"
+hash = "1894d2f0dd0c275aea0f1a6265ebd5715569c208"

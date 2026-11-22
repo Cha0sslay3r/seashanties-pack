@@ -1,0 +1,8 @@
+name = "just-a-raft-mod"
+filename = "JustARaftMod-1.21.1-7.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AXNDNPpm/versions/J3sQP4Lp/JustARaftMod-1.21.1-7.0.4.jar"
+hash-format = "sha1"
+hash = "a524d43585aadc5daa62ced852654642a44bfd18"

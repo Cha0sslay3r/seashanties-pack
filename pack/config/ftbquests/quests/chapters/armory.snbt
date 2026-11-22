@@ -1,0 +1,195 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armory"
+	group: "3DB8DF94F687DD8E"
+	icon: { id: "minecraft:netherite_chestplate" }
+	id: "6C21882B393B961F"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "minecraft:iron_chestplate" }
+			id: "3A4613302013C8CD"
+			rewards: [
+				{ id: "6985D0100DCDD30F", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "1D8E390E8F004E72", type: "checkmark" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["3A4613302013C8CD"]
+			icon: { count: 1, id: "magistuarmory:chainmail_chestplate" }
+			id: "6F2CD57F4D5CC6E9"
+			rewards: [
+				{ id: "2180FABB95090321", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2C3207CC2C8AA6F7", item: { count: 1, id: "magistuarmory:chainmail_chestplate" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["6F2CD57F4D5CC6E9"]
+			icon: { count: 1, id: "magistuarmory:platemail_chestplate" }
+			id: "4EAD22A427A6852F"
+			rewards: [
+				{ id: "4C88683B4183DFC6", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "7DAF160E6CA1233E", item: { count: 1, id: "magistuarmory:platemail_chestplate" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["4EAD22A427A6852F"]
+			icon: { count: 1, id: "minecraft:diamond_chestplate" }
+			id: "204913687AA05093"
+			rewards: [
+				{ count: 2, id: "3E9DC57967E53D5C", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "1A7305887F985F18", item: { count: 1, id: "minecraft:diamond_helmet" }, type: "item" }
+				{ id: "77D82A836886463C", item: { count: 1, id: "minecraft:diamond_chestplate" }, type: "item" }
+				{ id: "52A97356F131A132", item: { count: 1, id: "minecraft:diamond_leggings" }, type: "item" }
+				{ id: "5BD9ED6F12EC9E27", item: { count: 1, id: "minecraft:diamond_boots" }, type: "item" }
+			]
+			x: 6.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["4EAD22A427A6852F" "1F869CC1E485D665"]
+			icon: { count: 1, id: "aquaculture:neptunium_chestplate" }
+			id: "45363E9F981DC27F"
+			rewards: [
+				{ count: 2, id: "40847031558B8B51", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "7149A9FA7D85EF90", item: { count: 1, id: "aquaculture:neptunium_chestplate" }, type: "item" }
+			]
+			x: 6.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["204913687AA05093"]
+			icon: { count: 1, id: "block_factorys_bosses:dragon_bones_chestplate" }
+			id: "114A8020AEEBE3BF"
+			rewards: [
+				{ id: "1EDCB11D7724EB7D", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "67A91EE46E6C4CC5", item: { count: 1, id: "block_factorys_bosses:dragon_bones_chestplate" }, type: "item" }
+			]
+			x: 8.00d
+			y: -2.62d
+		}
+		{
+			dependencies: ["204913687AA05093"]
+			icon: { count: 1, id: "iceandfire:armor_red_chestplate" }
+			id: "1B7AD88873686836"
+			rewards: [
+				{ id: "26FC0A9F11B32AB6", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "23D5C91CB4594726", item: { count: 1, id: "iceandfire:armor_red_chestplate" }, type: "item" }
+			]
+			x: 8.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["204913687AA05093"]
+			icon: { count: 1, id: "aquamirae:terrible_chestplate" }
+			id: "3E411EEDA41927C7"
+			rewards: [
+				{ id: "40E0F81059D127F1", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "6E14517F31B10B37", item: { count: 1, id: "aquamirae:terrible_chestplate" }, type: "item" }
+			]
+			x: 8.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["204913687AA05093"]
+			icon: { count: 1, id: "minecraft:netherite_chestplate" }
+			id: "701251D33FFF1832"
+			rewards: [
+				{ id: "529F85D2C81CBF18", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "76CCF8580171F7DF", item: { count: 1, id: "minecraft:netherite_chestplate" }, type: "item" }
+			]
+			x: 8.00d
+			y: 2.62d
+		}
+		{
+			dependencies: ["701251D33FFF1832"]
+			icon: { count: 1, id: "cataclysm:ignitium_chestplate" }
+			id: "4CF2473BEC75F79C"
+			rewards: [
+				{ id: "6CA20D748E19A614", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{ id: "2F2FC99410135D8A", item: { count: 1, id: "cataclysm:ignitium_chestplate" }, type: "item" }
+			]
+			x: 10.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["701251D33FFF1832"]
+			icon: { count: 1, id: "cataclysm:cursium_chestplate" }
+			id: "4841B6DB20521128"
+			rewards: [
+				{ id: "29B333153F10FFD2", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{ id: "1055D3CD73E8D6E3", item: { count: 1, id: "cataclysm:cursium_chestplate" }, type: "item" }
+			]
+			x: 10.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["1B7AD88873686836" "701251D33FFF1832"]
+			icon: { count: 1, id: "iceandfire:dragonsteel_fire_chestplate" }
+			id: "45403AC2DD57280D"
+			rewards: [
+				{ id: "755A22DB3CA2744A", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{ id: "10CB114E5EAF5883", item: { count: 1, id: "iceandfire:dragonsteel_fire_chestplate" }, type: "item" }
+			]
+			x: 10.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["45403AC2DD57280D" "4CF2473BEC75F79C" "2C100CA8910DE4CF"]
+			icon: { count: 1, id: "minecraft:nether_star" }
+			id: "542F9DC633CB96D1"
+			rewards: [
+				{ id: "589C5B9103D7C988", item: { count: 1, id: "numismatics:sun" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "423655CE2CBADC48", type: "checkmark" }
+			]
+			x: 12.00d
+			y: 0.00d
+		}
+	]
+}

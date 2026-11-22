@@ -1,0 +1,8 @@
+name = "longwings"
+filename = "Longwings-v0.9.5-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YXWD6pbz/versions/h13ko2fP/Longwings-v0.9.5-1.21.1-NeoForge.jar"
+hash-format = "sha1"
+hash = "745475bd0428f1a426e9911e442771d4494fa80c"

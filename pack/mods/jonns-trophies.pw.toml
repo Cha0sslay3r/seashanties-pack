@@ -1,0 +1,8 @@
+name = "jonns-trophies"
+filename = "trophymanager-1.21.1-3.0.0.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8708/628/trophymanager-1.21.1-3.0.0.jar"
+hash-format = "sha1"
+hash = "a2ba03bcd77e413525f96f3a097e0d8338727675"

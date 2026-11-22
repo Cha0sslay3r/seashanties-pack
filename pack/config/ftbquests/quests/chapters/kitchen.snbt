@@ -1,0 +1,136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kitchen"
+	group: "19AE4577F3C5F699"
+	icon: { id: "farmersdelight:cooking_pot" }
+	id: "120ED53C5B82C84F"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "sereneseasons:calendar" }
+			id: "3DDE7D867EE50372"
+			rewards: [
+				{ count: 16, id: "550655E21A09E026", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "514B3065E36DE25F", item: { count: 1, id: "sereneseasons:calendar" }, type: "item" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["3DDE7D867EE50372"]
+			icon: { count: 1, id: "farmersdelight:tomato" }
+			id: "393E282F60754C6C"
+			rewards: [
+				{ id: "72E49EB2BB58BA05", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "3043FAA9AE737D76", item: { count: 1, id: "farmersdelight:tomato" }, type: "item", count: 8L }
+				{ id: "6F32D72E838D5C90", item: { count: 1, id: "farmersdelight:cabbage" }, type: "item", count: 8L }
+				{ id: "237C80B0A5D28AFF", item: { count: 1, id: "farmersdelight:onion" }, type: "item", count: 8L }
+			]
+			x: 2.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["3DDE7D867EE50372"]
+			icon: { count: 1, id: "farmersdelight:cooking_pot" }
+			id: "463D446859F0F953"
+			rewards: [
+				{ id: "38294605BBEF032E", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2AB0DB895F35CD86", item: { count: 1, id: "farmersdelight:cooking_pot" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["463D446859F0F953"]
+			icon: { count: 1, id: "farmersdelight:stove" }
+			id: "1214BF0775E5EB4C"
+			rewards: [
+				{ id: "4206F4CCC6FC4B49", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "7F6E9CA34FC297C5", item: { count: 1, id: "farmersdelight:stove" }, type: "item" }
+				{ id: "71BEF95853F75493", item: { count: 1, id: "farmersdelight:skillet" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["463D446859F0F953"]
+			icon: { count: 1, id: "crabbersdelight:crab_trap" }
+			id: "3185107A67C92807"
+			rewards: [
+				{ count: 2, id: "2F4CE2089802D179", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "13A3789432A532F7", item: { count: 1, id: "crabbersdelight:crab_trap" }, type: "item" }
+			]
+			x: 4.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["393E282F60754C6C"]
+			icon: { count: 1, id: "vinery:fermentation_barrel" }
+			id: "296B631968CD8AEE"
+			rewards: [
+				{ count: 2, id: "27D4541470A059E7", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "6F6A7243A12052F3", item: { count: 1, id: "vinery:fermentation_barrel" }, type: "item" }
+			]
+			x: 4.00d
+			y: -3.50d
+		}
+		{
+			dependencies: ["1214BF0775E5EB4C"]
+			icon: { count: 1, id: "farmersdelight:roast_chicken_block" }
+			id: "3D13A2DD4E0DAA97"
+			rewards: [
+				{ count: 2, id: "360A22F236EE355E", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "271C057CF3401E8A", item: { count: 1, id: "farmersdelight:roast_chicken_block" }, type: "item" }
+			]
+			x: 6.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["463D446859F0F953" "5470663DF9091C9D"]
+			icon: { count: 1, id: "sliceanddice:slicer" }
+			id: "5918544CD944F316"
+			rewards: [
+				{ id: "10467CEE4A06876E", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "3AC556BB5CDF5C60", item: { count: 1, id: "sliceanddice:slicer" }, type: "item" }
+			]
+			x: 4.00d
+			y: 3.50d
+		}
+		{
+			dependencies: ["393E282F60754C6C"]
+			icon: { count: 1, id: "minecraft:hay_block" }
+			id: "5F9833A540B767DF"
+			rewards: [
+				{ id: "6C232783833B78B1", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "41427147A777D03A", item: { count: 1, id: "minecraft:wheat" }, type: "item", count: 64L }
+				{ id: "2515F40D0A1543C9", item: { count: 1, id: "minecraft:carrot" }, type: "item", count: 64L }
+			]
+			x: 4.00d
+			y: -1.75d
+		}
+	]
+}

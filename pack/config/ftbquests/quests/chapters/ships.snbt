@@ -1,0 +1,194 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ships"
+	group: "19AE4577F3C5F699"
+	icon: { id: "smallships:oak_brigg" }
+	id: "1FB60F04EED51746"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "justaraftmod:oak_raft" }
+			id: "2D29AD345144C3A5"
+			rewards: [
+				{ count: 8, id: "4A5C1356F63D2A2D", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "3BB5F2B7C618D604", item: { count: 1, id: "justaraftmod:oak_raft" }, type: "item" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["2D29AD345144C3A5"]
+			icon: { count: 1, id: "smallships:oak_cog" }
+			id: "2F36473DFA5DA582"
+			rewards: [
+				{ count: 2, id: "5D4705B065AF5DE1", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "47988B78C428D2F0", item: { count: 1, id: "smallships:oak_cog" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["2F36473DFA5DA582"]
+			icon: { count: 1, id: "smallships:oak_brigg" }
+			id: "5E3B3FE7852B7C73"
+			rewards: [
+				{ id: "2895312FDDCE9264", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "22434588E66EC706", item: { count: 1, id: "smallships:oak_brigg" }, type: "item" }
+			]
+			x: 4.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["5E3B3FE7852B7C73"]
+			icon: { count: 1, id: "smallships:cannon" }
+			id: "22B04D99B8A151BD"
+			rewards: [
+				{ id: "4ACE09D26165DDA7", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "280120D69868964A", item: { count: 1, id: "smallships:cannon" }, type: "item" }
+				{ id: "516BE3D0F41A04FC", item: { count: 1, id: "smallships:cannon_ball" }, type: "item", count: 16L }
+			]
+			x: 6.00d
+			y: -2.62d
+		}
+		{
+			dependencies: ["5E3B3FE7852B7C73"]
+			icon: { count: 1, id: "smallships:dockyard" }
+			id: "52302CD67AAE6CF0"
+			rewards: [
+				{ count: 2, id: "61CE48972698FAB0", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "72C0B23EB7B45A20", item: { count: 1, id: "smallships:dockyard" }, type: "item" }
+			]
+			x: 6.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["2F36473DFA5DA582" "7300D460958AF10D"]
+			icon: { count: 1, id: "simulated:physics_assembler" }
+			id: "6B19BF0DEC76C138"
+			rewards: [
+				{ id: "37B0FCD80BBB6973", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "599028211B99A986", item: { count: 1, id: "simulated:physics_assembler" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["6B19BF0DEC76C138"]
+			icon: { count: 1, id: "create_high_seas:rudder" }
+			id: "7CA1B8FBC83C397F"
+			rewards: [
+				{ id: "4D8CD7322D7A41D1", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "22FC73783462B367", item: { count: 1, id: "create_high_seas:white_sail" }, type: "item", count: 4L }
+				{ id: "7123938143497D3F", item: { count: 1, id: "create_high_seas:rudder" }, type: "item" }
+				{ id: "2DF3D59DC10FE8BF", item: { count: 1, id: "create_high_seas:anchor" }, type: "item" }
+			]
+			x: 6.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["6B19BF0DEC76C138"]
+			icon: { count: 1, id: "aeronautics:wooden_propeller" }
+			id: "2B91345599EC0271"
+			rewards: [
+				{ id: "3CF3F38BCD3F2D9C", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "4CB5BC3FE8014B8D", item: { count: 1, id: "aeronautics:propeller_bearing" }, type: "item" }
+				{ id: "305505FFF8B0BA68", item: { count: 1, id: "aeronautics:wooden_propeller" }, type: "item" }
+			]
+			x: 6.00d
+			y: 2.62d
+		}
+		{
+			dependencies: ["2B91345599EC0271"]
+			icon: { count: 1, id: "aeroworks:control_desk" }
+			id: "11EBAEC64CC75602"
+			rewards: [
+				{ count: 2, id: "69F82278C466716C", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "595FF65919DEFF71", item: { count: 1, id: "simulated:steering_wheel" }, type: "item" }
+				{ id: "123CE0685BDE28A3", item: { count: 1, id: "aeroworks:control_desk" }, type: "item" }
+			]
+			x: 8.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["2B91345599EC0271"]
+			icon: { count: 1, id: "aeronautics:white_envelope" }
+			id: "3BEBD888A63297CD"
+			rewards: [
+				{ id: "68835DF101F82DCA", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "5FEB0199EBD1D860", item: { count: 1, id: "aeronautics:white_envelope" }, type: "item", count: 16L }
+				{ id: "1DA5F72789C2F6AF", item: { count: 1, id: "aeronautics:adjustable_burner" }, type: "item" }
+			]
+			x: 8.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["3BEBD888A63297CD"]
+			icon: { count: 1, id: "createpropulsion:thruster" }
+			id: "7F060F754256BF33"
+			rewards: [
+				{ id: "1C16669F5F80A44F", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "3990375821BF13D9", item: { count: 1, id: "createpropulsion:thruster" }, type: "item" }
+				{ id: "52BCBA657BD3C205", item: { count: 1, id: "createpropulsion:wing" }, type: "item", count: 4L }
+			]
+			x: 10.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["2B91345599EC0271"]
+			icon: { count: 1, id: "create_submarine:ballast_tank" }
+			id: "573FC8751A064E61"
+			rewards: [
+				{ id: "7BCBE2D41BFE8209", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "5F3D20C5ECC9B857", item: { count: 1, id: "create_submarine:ballast_tank" }, type: "item", count: 2L }
+				{ id: "191C8B3050A268AD", item: { count: 1, id: "create_submarine:pressure_goggles" }, type: "item" }
+			]
+			x: 8.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["11EBAEC64CC75602" "7CA1B8FBC83C397F"]
+			icon: { count: 1, id: "minecraft:heart_of_the_sea" }
+			id: "2B26FC45F75D01B0"
+			rewards: [
+				{ count: 2, id: "5C6797054EC47DD5", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "1C373DFC0068A885", type: "checkmark" }
+			]
+			x: 10.00d
+			y: -0.88d
+		}
+	]
+}

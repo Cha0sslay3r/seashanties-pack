@@ -1,0 +1,159 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building"
+	group: "6AF6577A356BBFCB"
+	icon: { id: "chipped:carpenters_table" }
+	id: "7F8FEA31AAA63CE5"
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "chipped:carpenters_table" }
+			id: "1FCDC129E991E033"
+			rewards: [
+				{ count: 16, id: "72430F5C8DF41B4C", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "10EB89AA8EC0D585", item: { count: 1, id: "chipped:carpenters_table" }, type: "item" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["1FCDC129E991E033"]
+			icon: { count: 1, id: "mcwroofs:oak_roof" }
+			id: "26CB822FC697BE55"
+			rewards: [
+				{ count: 16, id: "661FF038E0DA3449", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "6FB13DFBDCCD154C", item: { count: 1, id: "mcwfurnitures:oak_chair" }, type: "item" }
+			]
+			x: 2.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["1FCDC129E991E033"]
+			icon: { count: 1, id: "sawmill:sawmill" }
+			id: "3F25B1C419807CEB"
+			rewards: [
+				{ count: 8, id: "587CE913A3C2F477", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "47825FB8DB0AEFB3", item: { count: 1, id: "sawmill:sawmill" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["26CB822FC697BE55"]
+			icon: { count: 1, id: "handcrafted:oak_table" }
+			id: "328AA387D64F8BDE"
+			rewards: [
+				{ id: "382695527C3CD774", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "70687FAFC2898ADB", item: { count: 1, id: "handcrafted:oak_table" }, type: "item" }
+			]
+			x: 4.00d
+			y: -2.62d
+		}
+		{
+			dependencies: ["3F25B1C419807CEB"]
+			icon: { count: 1, id: "supplementaries:globe" }
+			id: "376C09DC9C542BDE"
+			rewards: [
+				{ id: "304F62AF96563568", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "5F3D663DC4875A7A", item: { count: 1, id: "supplementaries:jar" }, type: "item" }
+				{ id: "51226275AFA0C2B1", item: { count: 1, id: "supplementaries:globe" }, type: "item" }
+			]
+			x: 4.00d
+			y: 2.62d
+		}
+		{
+			dependencies: ["26CB822FC697BE55" "2A7013A2DE720368"]
+			icon: { count: 1, id: "createdeco:andesite_catwalk" }
+			id: "26EBB57D60E96870"
+			rewards: [
+				{ id: "5A70AC71E9DB0A79", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2292FF9916CAF228", item: { count: 1, id: "createdeco:andesite_catwalk" }, type: "item", count: 8L }
+			]
+			x: 4.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["26EBB57D60E96870"]
+			icon: { count: 1, id: "copycats:copycat_slope" }
+			id: "1F121FC3EA30733A"
+			rewards: [
+				{ id: "539DE46542F066F1", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "77D233733AB04CF3", item: { count: 1, id: "copycats:copycat_slope" }, type: "item", count: 4L }
+			]
+			x: 6.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["26CB822FC697BE55"]
+			icon: { count: 1, id: "constructionstick:iron_stick" }
+			id: "6576F6FD3C7612B3"
+			rewards: [
+				{ id: "4C4F0D3C6CD86FE6", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "4C2E0808F157DE41", item: { count: 1, id: "constructionstick:iron_stick" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["6576F6FD3C7612B3" "48E9290B96286D01"]
+			icon: { count: 1, id: "buildinggadgets2:gadget_building" }
+			id: "13159256B1315A7A"
+			rewards: [
+				{ id: "3C422686290D29C9", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "6615F2A566246C39", item: { count: 1, id: "buildinggadgets2:gadget_building" }, type: "item" }
+			]
+			x: 6.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["1FCDC129E991E033"]
+			icon: { count: 1, id: "minecraft:flower_pot" }
+			id: "1507AE60741A2C66"
+			rewards: [
+				{ count: 16, id: "32DB14D32D0E9891", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "166A8FC15572038D", type: "checkmark" }
+			]
+			x: 2.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["1F121FC3EA30733A" "376C09DC9C542BDE" "328AA387D64F8BDE"]
+			icon: { count: 1, id: "minecraft:painting" }
+			id: "5E8AF5413AA4725A"
+			rewards: [
+				{ id: "44BD18D488A4046F", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "17D3F2A432B34DCA", type: "checkmark" }
+			]
+			x: 8.00d
+			y: 0.00d
+		}
+	]
+}

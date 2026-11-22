@@ -1,0 +1,8 @@
+name = "corpse-x-cosmetic-armor-reworked-compat"
+filename = "cosmeticcorpsecompat-1.21.1-NeoForge--1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/6520/572/cosmeticcorpsecompat-1.21.1-NeoForge--1.0.0.jar"
+hash-format = "sha1"
+hash = "c9a4c265a2ca4ab2db0ab0c673d7b9978b0086aa"

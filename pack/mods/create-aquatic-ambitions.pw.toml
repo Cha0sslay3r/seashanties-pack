@@ -1,0 +1,8 @@
+name = "create-aquatic-ambitions"
+filename = "create_aquatic_ambitions-1.21.1-2.0.4.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8466/444/create_aquatic_ambitions-1.21.1-2.0.4.jar"
+hash-format = "sha1"
+hash = "a02ce8ffc8395566c4fbe7907e721e82fd1b590b"

@@ -1,0 +1,8 @@
+name = "unlimited-enchantments"
+filename = "Unlimited-enchantments-v1.0.3_1.21x.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5JZ1rVU6/versions/moBxAtNY/Unlimited-enchantments-v1.0.3_1.21x.jar"
+hash-format = "sha1"
+hash = "2fddb7e3909d40c6cea192a21f1fc3b455f502d3"

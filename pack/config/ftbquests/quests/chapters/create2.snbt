@@ -1,0 +1,182 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create2"
+	group: "6AA4A3C1E029AAAD"
+	icon: { id: "create:mechanical_press" }
+	id: "16EC3A672D5D07AC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2A7013A2DE720368"]
+			icon: { count: 1, id: "create:mechanical_press" }
+			id: "4248EAE28DBA467A"
+			rewards: [
+				{ count: 2, id: "71A55C16F9839DC5", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "4639483603BE776C", item: { count: 1, id: "create:mechanical_press" }, type: "item" }
+				{ id: "1A34D2DEBB048E87", item: { count: 1, id: "create:iron_sheet" }, type: "item", count: 16L }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["4248EAE28DBA467A"]
+			icon: { count: 1, id: "create:millstone" }
+			id: "49C676841D7D7EAD"
+			rewards: [
+				{ count: 16, id: "28E8162539A59C26", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "45BE33F967BA701D", item: { count: 1, id: "create:millstone" }, type: "item" }
+			]
+			x: 2.00d
+			y: -2.62d
+		}
+		{
+			dependencies: ["49C676841D7D7EAD"]
+			icon: { count: 1, id: "create:crushing_wheel" }
+			id: "2688F1AFB81B9316"
+			rewards: [
+				{ count: 4, id: "475822BF029F6CCE", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2A1E9D9B9AAD5D2C", item: { count: 1, id: "create:crushing_wheel" }, type: "item", count: 2L }
+				{ id: "49F1BD30BF016317", item: { count: 1, id: "create:crushed_raw_iron" }, type: "item", count: 16L }
+			]
+			x: 4.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["4248EAE28DBA467A"]
+			icon: { count: 1, id: "create:encased_fan" }
+			id: "63B555E7D5427486"
+			rewards: [
+				{ count: 2, id: "2801369B199B2B7A", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "6520C46FED34B5B9", item: { count: 1, id: "create:encased_fan" }, type: "item", count: 2L }
+			]
+			x: 2.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["2688F1AFB81B9316" "63B555E7D5427486"]
+			icon: { count: 1, id: "create:crushed_raw_zinc" }
+			id: "6E6FD9BF721729BE"
+			rewards: [
+				{ id: "57DF7B16638CE10A", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2B711C096495F902", item: { count: 1, id: "create:zinc_ingot" }, type: "item", count: 32L }
+			]
+			x: 6.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["4248EAE28DBA467A"]
+			icon: { count: 1, id: "create:mechanical_mixer" }
+			id: "5470663DF9091C9D"
+			rewards: [
+				{ count: 2, id: "41D26FACFDA4763A", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "4BB7FDDA55F0CBC2", item: { count: 1, id: "create:mechanical_mixer" }, type: "item" }
+				{ id: "140AD5767525C129", item: { count: 1, id: "create:basin" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["5470663DF9091C9D"]
+			icon: { count: 1, id: "create:blaze_burner" }
+			id: "337616E05FDD3184"
+			rewards: [
+				{ count: 2, id: "200318CC25100A02", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "113D5191694D795E", item: { count: 1, id: "create:blaze_burner" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["337616E05FDD3184"]
+			icon: { count: 1, id: "create:brass_ingot" }
+			id: "6699C2B30F671EB1"
+			rewards: [
+				{ count: 2, id: "5E3772047E14B7DE", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "3413C6C44F563FC5", item: { count: 1, id: "create:brass_ingot" }, type: "item", count: 32L }
+			]
+			x: 6.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["5470663DF9091C9D"]
+			icon: { count: 1, id: "create:fluid_pipe" }
+			id: "712A627C96AA3FB1"
+			rewards: [
+				{ count: 2, id: "66374444936A12C2", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "743C3C1946818240", item: { count: 1, id: "create:fluid_pipe" }, type: "item", count: 16L }
+				{ id: "4EFDB3ADECA04DE6", item: { count: 1, id: "create:mechanical_pump" }, type: "item" }
+				{ id: "425B327331863978", item: { count: 1, id: "create:fluid_tank" }, type: "item", count: 4L }
+			]
+			x: 4.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["712A627C96AA3FB1"]
+			icon: { count: 1, id: "create:spout" }
+			id: "209B2E6B80089323"
+			rewards: [
+				{ count: 2, id: "28D8F87D0C2832BF", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "5168A3404C05736C", item: { count: 1, id: "create:spout" }, type: "item" }
+				{ id: "1A8B3AC5CCFF6DC6", item: { count: 1, id: "create:item_drain" }, type: "item" }
+			]
+			x: 6.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["4248EAE28DBA467A"]
+			icon: { count: 1, id: "create:polished_rose_quartz" }
+			id: "2ED2C944CB9AF03F"
+			rewards: [
+				{ id: "1DDBAD97111C9E91", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2B8D483E9ED26A5F", item: { count: 1, id: "create:polished_rose_quartz" }, type: "item", count: 8L }
+			]
+			x: 2.00d
+			y: 2.62d
+		}
+		{
+			dependencies: ["6699C2B30F671EB1" "6E6FD9BF721729BE" "209B2E6B80089323" "2ED2C944CB9AF03F"]
+			icon: { count: 1, id: "create:brass_casing" }
+			id: "7300D460958AF10D"
+			rewards: [
+				{ id: "25E230B443E631C3", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "60F6A448E097D982", item: { count: 1, id: "create:brass_casing" }, type: "item", count: 8L }
+			]
+			x: 8.00d
+			y: 0.00d
+		}
+	]
+}

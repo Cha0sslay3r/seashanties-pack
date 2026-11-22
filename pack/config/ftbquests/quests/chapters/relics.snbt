@@ -1,0 +1,177 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "relics"
+	group: "3DB8DF94F687DD8E"
+	icon: { id: "ironclad:kraken_beak" }
+	id: "711991831B26769E"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "ironclad:navigators_chart" }
+			id: "19363EF7E421A963"
+			rewards: [
+				{ count: 2, id: "45C1ED7ABBA8A365", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "79ACF1AE6D76C7E1", type: "checkmark" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["19363EF7E421A963"]
+			icon: { count: 1, id: "ironclad:navigators_chart" }
+			id: "2EFC96B08967BA65"
+			rewards: [
+				{ id: "1D132A80CB87EF6C", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "4814BDD9226C39FB", item: { count: 1, id: "ironclad:navigators_chart" }, type: "item" }
+			]
+			x: 2.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["19363EF7E421A963"]
+			icon: { count: 1, id: "ironclad:sirens_pearl" }
+			id: "6879C5ACD340AF85"
+			rewards: [
+				{ count: 2, id: "34C851769F00FAFA", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "6232AF47ABF629DA", item: { count: 1, id: "ironclad:sirens_pearl" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["19363EF7E421A963"]
+			icon: { count: 1, id: "ironclad:pirate_medal" }
+			id: "287EB12220F361A3"
+			rewards: [
+				{ count: 2, id: "51A900CFB374163B", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "3D6F4BAEFC7A50A7", item: { count: 1, id: "ironclad:pirate_medal" }, type: "item" }
+			]
+			x: 2.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["287EB12220F361A3"]
+			icon: { count: 1, id: "ironclad:kraken_beak" }
+			id: "1B4D11F410E5409A"
+			rewards: [
+				{ count: 2, id: "389A5B1896AF4163", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "5AE47C551ABC80EC", item: { count: 1, id: "ironclad:kraken_beak" }, type: "item" }
+			]
+			x: 4.00d
+			y: 2.62d
+		}
+		{
+			dependencies: ["2EFC96B08967BA65"]
+			icon: { count: 1, id: "ironclad:frozen_anchor" }
+			id: "7D7E61655C1FEA92"
+			rewards: [
+				{ count: 2, id: "19FF20D8E5C79DA8", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "631AE4AD6D323403", item: { count: 1, id: "ironclad:frozen_anchor" }, type: "item" }
+			]
+			x: 4.00d
+			y: -2.62d
+		}
+		{
+			dependencies: ["6879C5ACD340AF85"]
+			icon: { count: 1, id: "ironclad:serpent_heart" }
+			id: "5637A0837FD0756F"
+			rewards: [
+				{ count: 2, id: "394C2C86D21EFA5B", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "779FAC960D47994B", item: { count: 1, id: "ironclad:serpent_heart" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["2EFC96B08967BA65"]
+			icon: { count: 1, id: "ironclad:sky_compass_core" }
+			id: "2DEC9BBE1F6D0B3E"
+			rewards: [
+				{ id: "4FFC10D31564BE2E", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "661414D607A42D21", item: { count: 1, id: "ironclad:sky_compass_core" }, type: "item" }
+			]
+			x: 4.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["1B4D11F410E5409A" "7D7E61655C1FEA92" "5637A0837FD0756F"]
+			icon: { count: 1, id: "ironclad:leviathan_ink" }
+			id: "2129DDB6C8F73309"
+			rewards: [
+				{ count: 2, id: "5820DA0C8AA33664", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "25F531CB73AB4C56", item: { count: 1, id: "ironclad:leviathan_ink" }, type: "item" }
+			]
+			x: 6.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["1B4D11F410E5409A"]
+			icon: { count: 1, id: "musketmod:musket_with_bayonet" }
+			id: "3640AC17DD0C3285"
+			rewards: [
+				{ id: "67E9C2A72D2EF2DF", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{ id: "283C7C380DFAD4FB", type: "checkmark" }
+			]
+			x: 6.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["2129DDB6C8F73309"]
+			icon: { count: 1, id: "minecraft:trident" }
+			id: "24193C631E63B982"
+			rewards: [
+				{ id: "7A7E89EA7DFF7B3C", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{ id: "63F6EC27AE90C2CF", type: "checkmark" }
+			]
+			x: 8.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["2129DDB6C8F73309"]
+			icon: { count: 1, id: "iceandfire:dragonsteel_fire_sword" }
+			id: "77F7807CB19F0128"
+			rewards: [
+				{ id: "160E5892E57A5924", item: { count: 1, id: "numismatics:sun" }, type: "item" }
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{ id: "4DA232516025EF4F", type: "checkmark" }
+			]
+			x: 8.00d
+			y: 0.88d
+		}
+	]
+}

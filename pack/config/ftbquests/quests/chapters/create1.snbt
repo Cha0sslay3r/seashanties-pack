@@ -1,0 +1,192 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create1"
+	group: "6AA4A3C1E029AAAD"
+	icon: { id: "create:cogwheel" }
+	id: "3AB5A5D126C7C417"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "create:cogwheel" }
+			id: "29FB745D0F4A9AFF"
+			rewards: [
+				{ id: "23EBB72B917C2C58", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "540C56334D143C2A", type: "checkmark" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["29FB745D0F4A9AFF"]
+			icon: { count: 1, id: "create:andesite_alloy" }
+			id: "7CD6C5C7F683DD2B"
+			rewards: [
+				{ count: 16, id: "7763CAE2767277A0", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "184ACE5760BE0F78", item: { count: 1, id: "create:andesite_alloy" }, type: "item", count: 32L }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["7CD6C5C7F683DD2B"]
+			icon: { count: 1, id: "create:shaft" }
+			id: "56480053B73A378F"
+			rewards: [
+				{ count: 16, id: "3FFACB21DA5A002D", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "7A9B44DBE6FADAAA", item: { count: 1, id: "create:shaft" }, type: "item", count: 16L }
+				{ id: "1B6517FFD88A3564", item: { count: 1, id: "create:cogwheel" }, type: "item", count: 8L }
+				{ id: "3B473EAE079DC3FF", item: { count: 1, id: "create:large_cogwheel" }, type: "item", count: 4L }
+			]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["56480053B73A378F"]
+			icon: { count: 1, id: "create:hand_crank" }
+			id: "2FF851ECAB021C7C"
+			rewards: [
+				{ count: 8, id: "6C08F57DBE1A3AFF", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "109D757E1BDEA41C", item: { count: 1, id: "create:hand_crank" }, type: "item" }
+			]
+			x: 6.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["56480053B73A378F"]
+			icon: { count: 1, id: "create:water_wheel" }
+			id: "111330F15024FC86"
+			rewards: [
+				{ id: "7EB46F1FCD735FDC", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2D65F71D6BF52488", item: { count: 1, id: "create:water_wheel" }, type: "item", count: 2L }
+			]
+			x: 6.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["111330F15024FC86"]
+			icon: { count: 1, id: "create:windmill_bearing" }
+			id: "4BAACCF611ED4CA7"
+			rewards: [
+				{ count: 2, id: "6E5CD2576344EDC6", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "242DDACDFA9FF760", item: { count: 1, id: "create:windmill_bearing" }, type: "item" }
+				{ id: "639D42239DF5B91E", item: { count: 1, id: "create:white_sail" }, type: "item", count: 16L }
+			]
+			x: 8.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["56480053B73A378F"]
+			icon: { count: 1, id: "create:goggles" }
+			id: "16BD5DF579669BB9"
+			rewards: [
+				{ count: 16, id: "353A9ABA8512787B", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "66000C6FDC5A02E2", item: { count: 1, id: "create:goggles" }, type: "item" }
+			]
+			x: 6.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["16BD5DF579669BB9"]
+			icon: { count: 1, id: "create:wrench" }
+			id: "2C2CE39497A9E963"
+			rewards: [
+				{ count: 8, id: "17E02522DE87853F", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2D24B2728A48C1AD", item: { count: 1, id: "create:wrench" }, type: "item" }
+			]
+			x: 8.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["2C2CE39497A9E963"]
+			icon: { count: 1, id: "create:gearbox" }
+			id: "5DBBA7BCEA02A055"
+			rewards: [
+				{ id: "7F43069EAC8C3D81", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "1670B3D7D1154E53", item: { count: 1, id: "create:gearbox" }, type: "item" }
+				{ id: "181CB7D69F3FE1B2", item: { count: 1, id: "create:clutch" }, type: "item" }
+				{ id: "3C96CCF84E7CF51F", item: { count: 1, id: "create:gearshift" }, type: "item" }
+			]
+			x: 10.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["5DBBA7BCEA02A055"]
+			icon: { count: 1, id: "create:belt_connector" }
+			id: "76C1240A41EBC696"
+			rewards: [
+				{ id: "11145C794DCD46DC", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "1756AF0716A1FE93", item: { count: 1, id: "create:belt_connector" }, type: "item", count: 8L }
+			]
+			x: 12.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["76C1240A41EBC696"]
+			icon: { count: 1, id: "create:andesite_funnel" }
+			id: "3D0EB020F793053C"
+			rewards: [
+				{ id: "226C9BCAF01D76A9", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "3C4F7D52FF1A3286", item: { count: 1, id: "create:andesite_funnel" }, type: "item", count: 4L }
+				{ id: "1FF2E7660701D9EA", item: { count: 1, id: "create:chute" }, type: "item", count: 4L }
+				{ id: "276F36E582CF7FE1", item: { count: 1, id: "create:depot" }, type: "item", count: 2L }
+			]
+			x: 14.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["16BD5DF579669BB9"]
+			icon: { count: 1, id: "create:stressometer" }
+			id: "29953AAADBD0F424"
+			rewards: [
+				{ count: 16, id: "1E6EA9D12F0921FF", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "7DEE203BFF7C4B1B", item: { count: 1, id: "create:speedometer" }, type: "item" }
+				{ id: "390444C3D89CA0F4", item: { count: 1, id: "create:stressometer" }, type: "item" }
+			]
+			x: 8.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["3D0EB020F793053C" "4BAACCF611ED4CA7" "29953AAADBD0F424"]
+			icon: { count: 1, id: "create:andesite_casing" }
+			id: "2A7013A2DE720368"
+			rewards: [
+				{ id: "343590481ECEA600", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "123CB7FEB26C9B34", item: { count: 1, id: "create:andesite_casing" }, type: "item", count: 8L }
+			]
+			x: 16.00d
+			y: 0.00d
+		}
+	]
+}

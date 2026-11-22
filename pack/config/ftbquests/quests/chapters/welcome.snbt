@@ -1,0 +1,157 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "1C5AFC61BB8A6A87"
+	icon: { id: "ftbquests:book" }
+	id: "50468FE5C2C2C588"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "ftbquests:book" }
+			id: "36311DCA566F09D8"
+			rewards: [
+				{ id: "7232C9F922395F8B", type: "xp_levels", xp_levels: 5 }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "5E2A68B5A0AD3DB6", type: "checkmark" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["36311DCA566F09D8"]
+			icon: { count: 1, id: "minecraft:knowledge_book" }
+			id: "78BB0F7DEFCCDF6B"
+			rewards: [
+				{ id: "283CBB173568CC40", type: "xp_levels", xp_levels: 5 }
+			]
+			tasks: [
+				{ id: "7B39941BBFEFE262", type: "checkmark" }
+			]
+			x: 2.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["36311DCA566F09D8"]
+			icon: { count: 1, id: "sophisticatedbackpacks:backpack" }
+			id: "33041CC80850B788"
+			rewards: [
+				{ count: 16, id: "266855FA42E019C5", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "58A5AD25713509BE", item: { count: 1, id: "sophisticatedbackpacks:backpack" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["33041CC80850B788"]
+			icon: { count: 1, id: "numismatics:cog" }
+			id: "3C76477A7E0E614F"
+			rewards: [
+				{ id: "59E0B2D5458606C6", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "30164F099853ED14", type: "checkmark" }
+			]
+			x: 4.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["36311DCA566F09D8"]
+			icon: { count: 1, id: "minecraft:map" }
+			id: "20F1BCB16E024929"
+			rewards: [
+				{ id: "114761339BD679FE", type: "xp_levels", xp_levels: 5 }
+			]
+			tasks: [
+				{ id: "24D89EA638733183", type: "checkmark" }
+			]
+			x: 2.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["20F1BCB16E024929"]
+			icon: { count: 1, id: "minecraft:white_banner" }
+			id: "2E4A1C47DBE38F93"
+			rewards: [
+				{ count: 16, id: "2842BE1FFA55E947", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "475F8F1A02B90E98", type: "checkmark" }
+			]
+			x: 4.00d
+			y: 2.62d
+		}
+		{
+			dependencies: ["2E4A1C47DBE38F93"]
+			icon: { count: 1, id: "minecraft:skeleton_skull" }
+			id: "29733E9760C412C9"
+			rewards: [
+				{ id: "2903A309AAF4AA32", type: "xp_levels", xp_levels: 5 }
+			]
+			tasks: [
+				{ id: "31568C632197901E", type: "checkmark" }
+			]
+			x: 6.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["29733E9760C412C9"]
+			icon: { count: 1, id: "minecraft:ender_pearl" }
+			id: "1DAEC39E43C1DBDD"
+			rewards: [
+				{ id: "13AB0BBC4B17D542", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "240BA9CF27E89A30", type: "checkmark" }
+			]
+			x: 8.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["78BB0F7DEFCCDF6B"]
+			icon: { count: 1, id: "minecraft:oak_sign" }
+			id: "410B98B452B3CC66"
+			rewards: [
+				{ id: "1FFD8C820F895B2D", type: "xp_levels", xp_levels: 5 }
+			]
+			tasks: [
+				{ id: "3151E3B44E495122", type: "checkmark" }
+			]
+			x: 4.00d
+			y: -2.62d
+		}
+		{
+			dependencies: ["410B98B452B3CC66"]
+			icon: { count: 1, id: "minecraft:iron_pickaxe" }
+			id: "2A9552CC028C7F4B"
+			rewards: [
+				{ count: 8, id: "2E64D239FAF249C8", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "1EEABDC64909E89C", type: "checkmark" }
+			]
+			x: 6.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["33041CC80850B788"]
+			id: "742C10193081CB13"
+			rewards: [
+				{ count: 16, id: "7303A7E78603F3D3", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "2576F36E23D61E58", item: { count: 1, id: "justaraftmod:jungle_raft" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.88d
+		}
+	]
+}

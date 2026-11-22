@@ -1,0 +1,34 @@
+{
+  "description": {
+    "text": "Seafarer's Lung"
+  },
+  "supported_items": "#minecraft:enchantable/head_armor",
+  "weight": 5,
+  "max_level": 5,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 38,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "head"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "ironclad:enchantment.seafarers_lung",
+        "attribute": "minecraft:generic.oxygen_bonus",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1.5,
+          "per_level_above_first": 1.5
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

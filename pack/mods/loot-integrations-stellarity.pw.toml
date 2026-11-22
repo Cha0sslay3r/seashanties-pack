@@ -1,0 +1,8 @@
+name = "loot-integrations-stellarity"
+filename = "lootintegrations_stellarity-1.3.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9573/601/lootintegrations_stellarity-1.3.jar"
+hash-format = "sha1"
+hash = "a6ce9b8c19084cfed2e2511b6c767ac21c45101e"

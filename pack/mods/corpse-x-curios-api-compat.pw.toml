@@ -1,0 +1,8 @@
+name = "corpse-x-curios-api-compat"
+filename = "corpsecurioscompat-1.21.1-NeoForge-4.2.1.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9541/624/corpsecurioscompat-1.21.1-NeoForge-4.2.1.jar"
+hash-format = "sha1"
+hash = "2461e8df65eb46810ed15ca0771e8fcdaa28edef"

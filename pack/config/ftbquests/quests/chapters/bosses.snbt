@@ -1,0 +1,444 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses"
+	group: "3DB8DF94F687DD8E"
+	icon: { id: "minecraft:wither_skeleton_skull" }
+	id: "200D0DF6F7856D0B"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "minecraft:wither_skeleton_skull" }
+			id: "40E022B75257DF43"
+			rewards: [
+				{ count: 2, id: "1B1D1B191D8651FE", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "1E506D11C1A8DB66", type: "checkmark" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["40E022B75257DF43"]
+			icon: { count: 1, id: "block_factorys_bosses:pirate_saber" }
+			id: "6ECDB11B24E81D1A"
+			rewards: [
+				{ count: 2, id: "1FBD2E2F141BA67B", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "block_factorys_bosses:pirate_captain", id: "7091C56AF850887B", type: "kill", value: 1L }
+			]
+			x: 2.00d
+			y: -5.25d
+		}
+		{
+			dependencies: ["40E022B75257DF43"]
+			icon: { count: 1, id: "block_factorys_bosses:ice_gauntlet" }
+			id: "63121C01080C41E7"
+			rewards: [
+				{ count: 2, id: "70169B0C0860198A", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "block_factorys_bosses:yeti", id: "6D7DD8048B06821A", type: "kill", value: 1L }
+			]
+			x: 2.00d
+			y: -3.50d
+		}
+		{
+			dependencies: ["40E022B75257DF43"]
+			icon: { count: 1, id: "block_factorys_bosses:sandworm_gauntlet" }
+			id: "1619D733D2BD7E0E"
+			rewards: [
+				{ count: 2, id: "5A48D62B554F67F0", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "block_factorys_bosses:sandworm", id: "29DD21761B15FD50", type: "kill", value: 1L }
+			]
+			x: 2.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["40E022B75257DF43"]
+			icon: { count: 1, id: "minecraft:iron_axe" }
+			id: "29039B590902CE5A"
+			rewards: [
+				{ count: 2, id: "7D9BE1CA8D0BB4D1", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "mowziesmobs:ferrous_wroughtnaut", id: "3B95268819D58B73", type: "kill", value: 1L }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["40E022B75257DF43"]
+			icon: { count: 1, id: "minecraft:gold_block" }
+			id: "33826D13174DABA3"
+			rewards: [
+				{ count: 2, id: "61C179555BAACC25", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "mowziesmobs:umvuthi", id: "66E40FCD41EDC828", type: "kill", value: 1L }
+			]
+			x: 2.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["40E022B75257DF43"]
+			icon: { count: 1, id: "ironclad:sirens_pearl" }
+			id: "4A51A83B7E2D2D2B"
+			rewards: [
+				{ count: 2, id: "7E9FE29888E6FF11", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "iceandfire:siren", id: "223736DEDF146E0C", type: "kill", value: 1L }
+			]
+			x: 2.00d
+			y: 3.50d
+		}
+		{
+			dependencies: ["40E022B75257DF43"]
+			icon: { count: 1, id: "minecraft:pumpkin_pie" }
+			id: "2BFBAAF88439B8A7"
+			rewards: [
+				{ id: "5CACEFFC7D4E7550", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "randy:big_randy", id: "534388F12819F271", type: "kill", value: 1L }
+			]
+			x: 2.00d
+			y: 5.25d
+		}
+		{
+			dependencies: ["6ECDB11B24E81D1A" "29039B590902CE5A" "63121C01080C41E7"]
+			icon: { count: 1, id: "minecraft:diamond_sword" }
+			id: "21BDDB66EEBCE4A5"
+			rewards: [
+				{ id: "7C9810400C4511DE", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "208695F48922A564", item: { count: 1, id: "minecraft:diamond_chestplate" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["21BDDB66EEBCE4A5"]
+			icon: { count: 1, id: "ironclad:kraken_beak" }
+			id: "178252E488588759"
+			rewards: [
+				{ count: 2, id: "7E258AC7C69AC351", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "block_factorys_bosses:kraken", id: "4F33025CC8A51D13", type: "kill", value: 1L }
+			]
+			x: 6.00d
+			y: -7.88d
+		}
+		{
+			dependencies: ["21BDDB66EEBCE4A5"]
+			icon: { count: 1, id: "aquamirae:shell_horn" }
+			id: "3EDCA5431DAACFE0"
+			rewards: [
+				{ count: 2, id: "44D73EEE462418BB", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "aquamirae:captain_cornelia", id: "3D4F7A88DE8635BD", type: "kill", value: 1L }
+			]
+			x: 6.00d
+			y: -6.12d
+		}
+		{
+			dependencies: ["3EDCA5431DAACFE0"]
+			icon: { count: 1, id: "aquamirae:maze_rose" }
+			id: "14D3A69286AA0813"
+			rewards: [
+				{ id: "1F53119D7CD6452B", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "aquamirae:maze_mother", id: "3BCB9819324A4189", type: "kill", value: 1L }
+			]
+			x: 8.00d
+			y: -7.88d
+		}
+		{
+			dependencies: ["21BDDB66EEBCE4A5"]
+			icon: { count: 1, id: "minecraft:blue_ice" }
+			id: "6FE6FB36E39F88E7"
+			rewards: [
+				{ id: "657C09DFE67697D9", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "mowziesmobs:frostmaw", id: "14DD791C6301817D", type: "kill", value: 1L }
+			]
+			x: 6.00d
+			y: -4.38d
+		}
+		{
+			dependencies: ["21BDDB66EEBCE4A5"]
+			icon: { count: 1, id: "ironclad:serpent_heart" }
+			id: "5714C0A63FBF6578"
+			rewards: [
+				{ count: 2, id: "6FE8153994C1568E", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "iceandfire:sea_serpent", id: "69AD23730AF1C07A", type: "kill", value: 1L }
+			]
+			x: 6.00d
+			y: -2.62d
+		}
+		{
+			dependencies: ["21BDDB66EEBCE4A5"]
+			icon: { count: 1, id: "minecraft:fire_charge" }
+			id: "4ADF38EB17476337"
+			rewards: [
+				{ count: 2, id: "65EDCA15BFED5EF4", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "iceandfire:hydra", id: "2D608BE0DD9A8732", type: "kill", value: 1L }
+			]
+			x: 6.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["21BDDB66EEBCE4A5"]
+			icon: { count: 1, id: "block_factorys_bosses:dragon_skull" }
+			id: "5759EFF2B1DC0BE1"
+			rewards: [
+				{ count: 2, id: "5BE098E4FDEFADC3", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "block_factorys_bosses:infernal_dragon", id: "50351F422832B7FF", type: "kill", value: 1L }
+			]
+			x: 6.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["21BDDB66EEBCE4A5"]
+			icon: { count: 1, id: "block_factorys_bosses:knight_sword" }
+			id: "5A16B7234EF22107"
+			rewards: [
+				{ count: 2, id: "694144727C0BFB4E", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "block_factorys_bosses:underworld_knight", id: "789BF041ECE18BAB", type: "kill", value: 1L }
+			]
+			x: 6.00d
+			y: 2.62d
+		}
+		{
+			dependencies: ["21BDDB66EEBCE4A5"]
+			icon: { count: 1, id: "minecraft:prismarine_shard" }
+			id: "32A70A7C80E573BA"
+			rewards: [
+				{ id: "302D338240EE43FC", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "minecraft:elder_guardian", id: "16659B4264F86FE4", type: "kill", value: 1L }
+			]
+			x: 6.00d
+			y: 4.38d
+		}
+		{
+			dependencies: ["21BDDB66EEBCE4A5"]
+			icon: { count: 1, id: "minecraft:nether_star" }
+			id: "1E3ACD4265EB3660"
+			rewards: [
+				{ count: 2, id: "77EE76911E3BF7A3", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "minecraft:wither", id: "15AB95A518568499", type: "kill", value: 1L }
+			]
+			x: 6.00d
+			y: 6.12d
+		}
+		{
+			dependencies: ["21BDDB66EEBCE4A5" "204913687AA05093"]
+			icon: { count: 1, id: "minecraft:totem_of_undying" }
+			id: "5DD935709EB02382"
+			rewards: [
+				{ count: 2, id: "4AC6D098DC888680", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "380E590B38B92A1B", type: "checkmark" }
+			]
+			x: 6.00d
+			y: 7.88d
+		}
+		{
+			dependencies: ["5DD935709EB02382"]
+			icon: { count: 1, id: "cataclysm:ancient_remnant_spawn_egg" }
+			id: "1CF3864FFB79ABF9"
+			rewards: [
+				{ id: "5858488117BB27BD", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			tasks: [
+				{ id: "61E1BAB0D4EE49E7", structure: "cataclysm:cursed_pyramid", type: "structure" }
+				{ entity: "cataclysm:ancient_remnant", id: "4FB6906145FCD919", type: "kill", value: 1L }
+			]
+			x: 8.00d
+			y: -6.12d
+		}
+		{
+			dependencies: ["5DD935709EB02382"]
+			icon: { count: 1, id: "cataclysm:cursium_ingot" }
+			id: "527715E968D4389E"
+			rewards: [
+				{ id: "1043953B338B9C7C", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			tasks: [
+				{ id: "6339D4962597BF46", structure: "cataclysm:frosted_prison", type: "structure" }
+				{ entity: "cataclysm:maledictus", id: "345C0430778F7CB2", type: "kill", value: 1L }
+			]
+			x: 8.00d
+			y: -4.38d
+		}
+		{
+			dependencies: ["5DD935709EB02382"]
+			icon: { count: 1, id: "minecraft:netherite_block" }
+			id: "1AE34EC212686DC0"
+			rewards: [
+				{ id: "758540BB593A5EAF", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			tasks: [
+				{ id: "7A7FD9D621C01723", structure: "cataclysm:soul_black_smith", type: "structure" }
+				{ entity: "cataclysm:netherite_monstrosity", id: "6F356879F5A60BDA", type: "kill", value: 1L }
+			]
+			x: 8.00d
+			y: -2.62d
+		}
+		{
+			dependencies: ["5DD935709EB02382"]
+			icon: { count: 1, id: "cataclysm:altar_of_fire" }
+			id: "19C12E9599CD7952"
+			rewards: [
+				{ count: 2, id: "16141B9116F238DB", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			tasks: [
+				{ id: "1A16C68BB38733D8", structure: "cataclysm:burning_arena", type: "structure" }
+				{ entity: "cataclysm:ignis", id: "666727988C696C92", type: "kill", value: 1L }
+			]
+			x: 8.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["5DD935709EB02382"]
+			icon: { count: 1, id: "minecraft:redstone_block" }
+			id: "7D043F65093F9B34"
+			rewards: [
+				{ id: "3753FF9D21AAF15C", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			tasks: [
+				{ id: "1586F7BC4788D54B", structure: "cataclysm:ancient_factory", type: "structure" }
+				{ entity: "cataclysm:the_harbinger", id: "18FD547C51B31666", type: "kill", value: 1L }
+			]
+			x: 8.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["5DD935709EB02382" "45363E9F981DC27F"]
+			icon: { count: 1, id: "cataclysm:azure_seastone" }
+			id: "62E400DC5306CEBE"
+			rewards: [
+				{ count: 2, id: "30D855E7AB82812A", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			tasks: [
+				{ id: "1FFCBCA912CA37A1", structure: "cataclysm:acropolis", type: "structure" }
+				{ entity: "cataclysm:scylla", id: "155B426D22E41EFB", type: "kill", value: 1L }
+			]
+			x: 8.00d
+			y: 2.62d
+		}
+		{
+			dependencies: ["62E400DC5306CEBE"]
+			icon: { count: 1, id: "ironclad:leviathan_ink" }
+			id: "1775A115DB18256E"
+			rewards: [
+				{ count: 2, id: "33A15A0DE4E1D192", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "119E930D2D407EA2", structure: "cataclysm:sunken_city", type: "structure" }
+				{ entity: "cataclysm:the_leviathan", id: "1B674E59A93D9149", type: "kill", value: 1L }
+			]
+			x: 10.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["5DD935709EB02382"]
+			icon: { count: 1, id: "iceandfire:dragonscales_red" }
+			id: "19856D3F2C0E13FD"
+			rewards: [
+				{ count: 2, id: "2F88D2FC90D3F672", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "iceandfire:fire_dragon", id: "233CC8BD63127C8E", type: "kill", value: 1L }
+			]
+			x: 8.00d
+			y: 4.38d
+		}
+		{
+			dependencies: ["5FFB415C95FF40C4" "5DD935709EB02382"]
+			icon: { count: 1, id: "minecraft:end_stone" }
+			id: "70652A9613BFA269"
+			rewards: [
+				{ id: "14968D9AF278F71C", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "cataclysm:ender_guardian", id: "34DB164216BCDC96", type: "kill", value: 1L }
+			]
+			x: 10.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["5DD935709EB02382"]
+			icon: { count: 1, id: "minecraft:dragon_head" }
+			id: "5FFB415C95FF40C4"
+			rewards: [
+				{ count: 2, id: "4FC672A99004DA57", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "minecraft:ender_dragon", id: "1A16735CDCDCC802", type: "kill", value: 1L }
+			]
+			x: 8.00d
+			y: 6.12d
+		}
+		{
+			dependencies: ["5DD935709EB02382"]
+			icon: { count: 1, id: "minecraft:sculk_shrieker" }
+			id: "1CE842CB53C63DDC"
+			rewards: [
+				{ id: "53ECC227608768A9", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "minecraft:warden", id: "361D197177033A94", type: "kill", value: 1L }
+			]
+			x: 8.00d
+			y: 7.88d
+		}
+		{
+			dependencies: ["1775A115DB18256E" "19C12E9599CD7952" "19856D3F2C0E13FD" "70652A9613BFA269" "7D043F65093F9B34" "1AE34EC212686DC0" "527715E968D4389E" "1CF3864FFB79ABF9" "1CE842CB53C63DDC"]
+			icon: { count: 1, id: "minecraft:dragon_egg" }
+			id: "15009E9F55B41AB1"
+			rewards: [
+				{ id: "61716B1D5A738BAE", item: { count: 1, id: "numismatics:sun" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "155A715943A63D4D", type: "checkmark" }
+			]
+			x: 12.00d
+			y: 0.00d
+		}
+	]
+}

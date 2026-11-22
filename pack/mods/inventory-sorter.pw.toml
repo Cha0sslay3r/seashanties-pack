@@ -1,0 +1,8 @@
+name = "inventory-sorter"
+filename = "inventorysorter-1.21.1-24.0.24.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/7188/660/inventorysorter-1.21.1-24.0.24.jar"
+hash-format = "sha1"
+hash = "8c842959ecb1927e1c7049d41d024fadf329a584"

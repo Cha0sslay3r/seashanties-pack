@@ -1,0 +1,8 @@
+name = "hypertubes"
+filename = "create_hypertube-0.6.1-NEOFORGE.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9702/624/create_hypertube-0.6.1-NEOFORGE.jar"
+hash-format = "sha1"
+hash = "c62fb925810ab0b59488d0c43d35fc7301ffc51e"

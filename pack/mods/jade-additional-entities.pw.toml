@@ -1,0 +1,8 @@
+name = "jade-additional-entities"
+filename = "jademoddedentities-neoforge-1.21.1-1.3.1.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/7601/743/jademoddedentities-neoforge-1.21.1-1.3.1.jar"
+hash-format = "sha1"
+hash = "db7577bf1f0f2ccc6393e7feec7bb7166004363f"

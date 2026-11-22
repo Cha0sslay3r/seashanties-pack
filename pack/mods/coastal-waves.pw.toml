@@ -1,0 +1,8 @@
+name = "coastal-waves"
+filename = "Waves-1.21.x-1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2ygdYUcf/versions/U5Cx2fXK/Waves-1.21.x-1.6.jar"
+hash-format = "sha1"
+hash = "744a47559d55f018f3906e3c03617d7f123764c2"

@@ -1,0 +1,194 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create3"
+	group: "6AA4A3C1E029AAAD"
+	icon: { id: "create:precision_mechanism" }
+	id: "7D2D14276F084EB0"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7300D460958AF10D"]
+			icon: { count: 1, id: "create:electron_tube" }
+			id: "23D263023C4AAB5B"
+			rewards: [
+				{ count: 2, id: "3A8F9B0DD8DE9375", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "6E38A4CA846BB408", item: { count: 1, id: "create:electron_tube" }, type: "item", count: 8L }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["23D263023C4AAB5B"]
+			icon: { count: 1, id: "create:filter" }
+			id: "151BFE640EDDEA1F"
+			rewards: [
+				{ count: 16, id: "1931C03C6FB85B20", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "300B12242345BFE1", item: { count: 1, id: "create:filter" }, type: "item" }
+				{ id: "5332CE6A6376661B", item: { count: 1, id: "create:attribute_filter" }, type: "item" }
+			]
+			x: 2.00d
+			y: -2.62d
+		}
+		{
+			dependencies: ["151BFE640EDDEA1F"]
+			icon: { count: 1, id: "create:brass_funnel" }
+			id: "1CF3503A48A6BABC"
+			rewards: [
+				{ count: 2, id: "6BCE4807DD9A758A", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "44860C3ED19063AA", item: { count: 1, id: "create:brass_funnel" }, type: "item", count: 4L }
+				{ id: "3E1972208C5B2083", item: { count: 1, id: "create:brass_tunnel" }, type: "item", count: 2L }
+				{ id: "6837C4BAB823D9D9", item: { count: 1, id: "create:smart_chute" }, type: "item", count: 2L }
+			]
+			x: 4.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["1CF3503A48A6BABC"]
+			icon: { count: 1, id: "create:mechanical_arm" }
+			id: "70509D1087E217E2"
+			rewards: [
+				{ id: "3D8AAF11FC3AA631", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "4365614B09DEA5DF", item: { count: 1, id: "create:mechanical_arm" }, type: "item" }
+			]
+			x: 6.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["23D263023C4AAB5B"]
+			icon: { count: 1, id: "create:deployer" }
+			id: "38F1AAA5DBD7D10B"
+			rewards: [
+				{ count: 4, id: "11B9EC6007B65AA0", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "7B7FD401A7841BE8", item: { count: 1, id: "create:deployer" }, type: "item", count: 2L }
+			]
+			x: 2.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["38F1AAA5DBD7D10B" "70509D1087E217E2"]
+			icon: { count: 1, id: "create:precision_mechanism" }
+			id: "3C317FAFB2BC86B1"
+			rewards: [
+				{ id: "58CAE47AE7ACE77B", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "6E1569EA8B00A8F8", item: { count: 1, id: "create:precision_mechanism" }, type: "item", count: 4L }
+			]
+			x: 8.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["23D263023C4AAB5B"]
+			icon: { count: 1, id: "create:mechanical_crafter" }
+			id: "4BA0B9405197EDFC"
+			rewards: [
+				{ id: "552D18365B5D7896", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "7E4AA871F0568855", item: { count: 1, id: "create:mechanical_crafter" }, type: "item", count: 9L }
+			]
+			x: 2.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["38F1AAA5DBD7D10B"]
+			icon: { count: 1, id: "create:mechanical_piston" }
+			id: "7C727724F417A8E7"
+			rewards: [
+				{ count: 4, id: "6038FBA0D97E5070", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "145E2E9CAC1C3230", item: { count: 1, id: "create:mechanical_piston" }, type: "item" }
+				{ id: "76964CE55DDB8F80", item: { count: 1, id: "create:super_glue" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["7C727724F417A8E7"]
+			icon: { count: 1, id: "create:mechanical_harvester" }
+			id: "2D3396AE10760A0C"
+			rewards: [
+				{ count: 4, id: "599E33A838373469", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "7FA54FAB113D2EB8", item: { count: 1, id: "create:mechanical_harvester" }, type: "item", count: 4L }
+			]
+			x: 6.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["7C727724F417A8E7"]
+			icon: { count: 1, id: "create:mechanical_drill" }
+			id: "401A5D95817B220D"
+			rewards: [
+				{ count: 4, id: "770CA274A43F2A50", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "44685ED6D76707DB", item: { count: 1, id: "create:mechanical_drill" }, type: "item", count: 4L }
+			]
+			x: 6.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["23D263023C4AAB5B"]
+			icon: { count: 1, id: "create:redstone_link" }
+			id: "25DDE575580BB924"
+			rewards: [
+				{ id: "76FAFCA61249E233", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "727F62F0CC1D42FA", item: { count: 1, id: "create:redstone_link" }, type: "item", count: 2L }
+			]
+			x: 2.00d
+			y: 2.62d
+		}
+		{
+			dependencies: ["25DDE575580BB924"]
+			icon: { count: 1, id: "create:display_board" }
+			id: "6F523702901D1D49"
+			rewards: [
+				{ count: 2, id: "68CA55C659EB55BB", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "41B8586565A65271", item: { count: 1, id: "create:display_link" }, type: "item" }
+				{ id: "604227F70E808611", item: { count: 1, id: "create:display_board" }, type: "item", count: 4L }
+			]
+			x: 4.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["3C317FAFB2BC86B1" "4BA0B9405197EDFC"]
+			icon: { count: 1, id: "create:precision_mechanism" }
+			id: "5331A678CBFAE1C2"
+			rewards: [
+				{ count: 2, id: "1AE091D416F05FEE", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "5958803CD4CA1473", item: { count: 1, id: "create:precision_mechanism" }, type: "item", count: 16L }
+			]
+			x: 10.00d
+			y: 0.00d
+		}
+	]
+}

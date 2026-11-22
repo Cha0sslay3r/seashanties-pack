@@ -1,0 +1,8 @@
+name = "bens-sharks"
+filename = "benssharks-1.2.5-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kF6ZFH7j/versions/zg8XkWtU/benssharks-1.2.5-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "32a95251580ee46c71a9824488c7794cd3864f96"

@@ -1,0 +1,6 @@
+#Whether Chunky should automatically pause when a player joins and resume after the resume delay once the server is empty.
+enabled = true
+#How many seconds to wait after the last player leaves before resuming Chunky, if no one rejoins in the meantime.
+# Default: 120
+# Range: > 0
+resumeDelaySeconds = 120

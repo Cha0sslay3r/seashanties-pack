@@ -1,0 +1,175 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fishing"
+	group: "19AE4577F3C5F699"
+	icon: { id: "tide:fishing_journal" }
+	id: "79CCAA48BA0DD06A"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "minecraft:fishing_rod" }
+			id: "2119521919141CBE"
+			rewards: [
+				{ count: 8, id: "18E646FA1919612E", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "784A6ED0D34BC515", item: { count: 1, id: "minecraft:fishing_rod" }, type: "item" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["2119521919141CBE"]
+			icon: { count: 1, id: "tide:fishing_journal" }
+			id: "2485382AA309E404"
+			rewards: [
+				{ id: "6A252716C7C6A00D", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "1A88F9BCBD1E336E", item: { count: 1, id: "tide:fishing_journal" }, type: "item" }
+			]
+			x: 2.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["2119521919141CBE"]
+			icon: { count: 1, id: "tide:angling_table" }
+			id: "40B6670A539C4838"
+			rewards: [
+				{ id: "215FE1581B0A97E5", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "3CC850566ED85139", item: { count: 1, id: "tide:angling_table" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["40B6670A539C4838"]
+			icon: { count: 1, id: "tide:diamond_fishing_rod" }
+			id: "6DDDA5ADB3BB304C"
+			rewards: [
+				{ id: "16CF3010379EC563", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "1AFAA44C92BF61D7", item: { count: 1, id: "tide:diamond_fishing_rod" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["2485382AA309E404"]
+			icon: { count: 1, id: "tide:tuna" }
+			id: "5E8FFA78603C81E6"
+			rewards: [
+				{ id: "143835A543F3911D", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "4E987C00CCD2EE40", item: { count: 1, id: "tide:tuna" }, type: "item", count: 4L }
+				{ id: "272586178C2A2FDC", item: { count: 1, id: "tide:swordfish" }, type: "item" }
+			]
+			x: 4.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["5E8FFA78603C81E6"]
+			icon: { count: 1, id: "sereneseasons:calendar" }
+			id: "4CC411F923F22EC2"
+			rewards: [
+				{ id: "4C769DA90BC43F77", type: "xp_levels", xp_levels: 10 }
+			]
+			tasks: [
+				{ id: "1ABBD44687DEFD02", type: "checkmark" }
+			]
+			x: 6.00d
+			y: -2.62d
+		}
+		{
+			dependencies: ["5E8FFA78603C81E6"]
+			icon: { count: 1, id: "fishofthieves:splashtail" }
+			id: "3DA5407C3C424513"
+			rewards: [
+				{ id: "19307550E36B4CB3", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "6E012A3405E8EE7F", item: { count: 1, id: "fishofthieves:splashtail" }, type: "item" }
+			]
+			x: 6.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["40B6670A539C4838"]
+			icon: { count: 1, id: "aquaculture:tackle_box" }
+			id: "4BF9872FC59B9BF3"
+			rewards: [
+				{ count: 2, id: "781215F0AEA06649", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "22812C3E088351EC", item: { count: 1, id: "aquaculture:tackle_box" }, type: "item" }
+			]
+			x: 4.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["4BF9872FC59B9BF3" "4248EAE28DBA467A"]
+			icon: { count: 1, id: "aquaculture:neptunium_ingot" }
+			id: "1F869CC1E485D665"
+			rewards: [
+				{ id: "7C026DE049C60650", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "456C1E377F2F0594", item: { count: 1, id: "aquaculture:neptunium_ingot" }, type: "item" }
+				{ id: "6B8F62D3EFB52FE2", item: { count: 1, id: "ironclad:neptunium_sheet" }, type: "item" }
+			]
+			x: 6.00d
+			y: 2.62d
+		}
+		{
+			dependencies: ["5E8FFA78603C81E6"]
+			icon: { count: 1, id: "minecraft:cod" }
+			id: "138A81E55B608DA6"
+			rewards: [
+				{ id: "20B5DC9FDC037CA0", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "benssharks:greatwhiteshark", id: "1BC23A5162DCCB11", type: "kill", value: 1L }
+			]
+			x: 6.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["138A81E55B608DA6"]
+			icon: { count: 1, id: "minecraft:heart_of_the_sea" }
+			id: "14AECFFB1ECFE2E8"
+			rewards: [
+				{ count: 2, id: "24DED1A855965B00", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ entity: "benssharks:megalodon", id: "20212ED6B109B6DB", type: "kill", value: 1L }
+			]
+			x: 8.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["138A81E55B608DA6"]
+			icon: { count: 1, id: "artifacts:snorkel" }
+			id: "26FC79D1E823D978"
+			rewards: [
+				{ id: "1D6622E0BB5D83E9", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "5B3BEB815D7F83A4", item: { count: 1, id: "artifacts:snorkel" }, type: "item" }
+			]
+			x: 8.00d
+			y: 0.88d
+		}
+	]
+}

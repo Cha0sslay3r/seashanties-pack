@@ -1,0 +1,132 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "collect"
+	group: "6AF6577A356BBFCB"
+	icon: { id: "simplehats:hatbag_common" }
+	id: "7C87991CE433DC02"
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "simplehats:hatbag_common" }
+			id: "1CDC4D4DB2DC077E"
+			rewards: [
+				{ count: 16, id: "32739FAD0DAD4DCF", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "167302200D80DB5D", item: { count: 1, id: "simplehats:hatbag_common" }, type: "item" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["1CDC4D4DB2DC077E"]
+			icon: { count: 1, id: "minecraft:white_wool" }
+			id: "1120C8F39702719C"
+			rewards: [
+				{ id: "5B8CEBDAE11234DC", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "15FF71653D528FD2", type: "checkmark" }
+			]
+			x: 2.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["1CDC4D4DB2DC077E"]
+			icon: { count: 1, id: "minecraft:zombie_head" }
+			id: "2753D0D2A87CC858"
+			rewards: [
+				{ id: "12B60250DBEEE16B", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2D8655853C9914D0", type: "checkmark" }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["2753D0D2A87CC858"]
+			icon: { count: 1, id: "trophymanager:trophy" }
+			id: "2C5486C97CBF74E2"
+			rewards: [
+				{ id: "48E1FDFA7AEC690D", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "7A2DD4EEF7DAA38E", item: { count: 1, id: "trophymanager:trophy" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["1120C8F39702719C"]
+			icon: { count: 1, id: "immersive_melodies:lute" }
+			id: "25AA30D182F85406"
+			rewards: [
+				{ count: 2, id: "627F3DB2B697FAFE", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "13D0F5BDB6EE37AD", item: { count: 1, id: "immersive_melodies:lute" }, type: "item" }
+			]
+			x: 4.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["25AA30D182F85406"]
+			icon: { count: 1, id: "etched:etching_table" }
+			id: "21993AF742289B80"
+			rewards: [
+				{ count: 2, id: "61210BFBC7DA2899", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "5E048546D9DF0000", item: { count: 1, id: "etched:etching_table" }, type: "item" }
+			]
+			x: 6.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["2C5486C97CBF74E2"]
+			icon: { count: 1, id: "exposure:camera" }
+			id: "5BF7DA79A22B11B1"
+			rewards: [
+				{ count: 2, id: "5754C39D8E14622C", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "5BB454524960692B", item: { count: 1, id: "exposure:camera" }, type: "item" }
+			]
+			x: 6.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["5BF7DA79A22B11B1" "21993AF742289B80"]
+			icon: { count: 1, id: "immersive_paintings:painting" }
+			id: "211AA355E28CE8EE"
+			rewards: [
+				{ id: "2DB2F44AF93DA63D", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "620313081D9F36CF", item: { count: 1, id: "immersive_paintings:painting" }, type: "item" }
+			]
+			x: 8.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["1CDC4D4DB2DC077E"]
+			icon: { count: 1, id: "minecraft:wheat_seeds" }
+			id: "2B0C8B0F0EC54F11"
+			rewards: [
+				{ id: "2FCD4E195A02C004", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "27178ED532C9BC57", type: "checkmark" }
+			]
+			x: 2.00d
+			y: 1.75d
+		}
+	]
+}

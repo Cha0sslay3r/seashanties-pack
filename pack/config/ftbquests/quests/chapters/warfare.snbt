@@ -1,0 +1,180 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "warfare"
+	group: "19AE4577F3C5F699"
+	icon: { id: "createbigcannons:cannon_mount" }
+	id: "4BE72AC1B7F1F07A"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "minecraft:crossbow" }
+			id: "1ECC72DA784E1415"
+			rewards: [
+				{ id: "7B789A44E724B60E", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "31291FC4A43E8139", type: "checkmark" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["1ECC72DA784E1415" "7300D460958AF10D"]
+			icon: { count: 1, id: "createbigcannons:cannon_mount" }
+			id: "625E956994B28E4C"
+			rewards: [
+				{ id: "1328F6E8A5AF85F4", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "39EC7D4E4960411D", item: { count: 1, id: "createbigcannons:cannon_mount" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["625E956994B28E4C"]
+			icon: { count: 1, id: "createbigcannons:cast_iron_cannon_barrel" }
+			id: "4B1491C7132C243B"
+			rewards: [
+				{ count: 2, id: "2D99BCE712C2CCF9", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "23617386D4C2B014", item: { count: 1, id: "createbigcannons:cast_iron_cannon_barrel" }, type: "item", count: 2L }
+				{ id: "22A847642F65CE75", item: { count: 1, id: "createbigcannons:cast_iron_cannon_chamber" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["4B1491C7132C243B"]
+			icon: { count: 1, id: "createbigcannons:powder_charge" }
+			id: "7EF06E6C3209BDCE"
+			rewards: [
+				{ id: "52C402C4D24E223F", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "21CAD9DE67CE7552", item: { count: 1, id: "createbigcannons:powder_charge" }, type: "item", count: 4L }
+				{ id: "770BD970235ED57E", item: { count: 1, id: "createbigcannons:solid_shot" }, type: "item", count: 4L }
+			]
+			x: 6.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["7EF06E6C3209BDCE"]
+			icon: { count: 1, id: "createbigcannons:he_shell" }
+			id: "4130FDE0CB4C49CD"
+			rewards: [
+				{ count: 2, id: "44FF6599C7C1FE08", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "65DB4FEB28C4A497", item: { count: 1, id: "createbigcannons:he_shell" }, type: "item", count: 4L }
+				{ id: "3AEFF3A8F83EDCD6", item: { count: 1, id: "createbigcannons:impact_fuze" }, type: "item", count: 4L }
+			]
+			x: 8.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["7EF06E6C3209BDCE"]
+			icon: { count: 1, id: "createbigcannons:cast_iron_sliding_breech" }
+			id: "4D1D38B1374216BD"
+			rewards: [
+				{ count: 2, id: "27292FF3B6683FF5", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "172C0CB1FE9A6409", item: { count: 1, id: "createbigcannons:cast_iron_sliding_breech" }, type: "item" }
+			]
+			x: 8.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["4D1D38B1374216BD"]
+			icon: { count: 1, id: "createbigcannons:steel_ingot" }
+			id: "481AB6F6218D0F14"
+			rewards: [
+				{ id: "116665E9C9E6AFDA", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "64F9BEB2829DF8EE", item: { count: 1, id: "createbigcannons:steel_ingot" }, type: "item", count: 8L }
+			]
+			x: 10.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["4D1D38B1374216BD"]
+			icon: { count: 1, id: "createbigcannons:cast_iron_autocannon_breech" }
+			id: "10E17C3EAF2BED90"
+			rewards: [
+				{ id: "392E13DF09C29958", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "619BF3FC9163E4D9", item: { count: 1, id: "createbigcannons:cast_iron_autocannon_breech" }, type: "item" }
+				{ id: "1D948AE34CC50305", item: { count: 1, id: "createbigcannons:autocannon_cartridge" }, type: "item", count: 8L }
+			]
+			x: 10.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["481AB6F6218D0F14" "5331A678CBFAE1C2"]
+			icon: { count: 1, id: "create_radar:radar_bearing" }
+			id: "7D10B96FCBD98F41"
+			rewards: [
+				{ count: 2, id: "6EF68C2A67D8FFF3", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "12F5E4E189C471C2", item: { count: 1, id: "create_radar:radar_bearing" }, type: "item" }
+				{ id: "276A86702FA6FCE4", item: { count: 1, id: "create_radar:monitor" }, type: "item" }
+			]
+			x: 12.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["7EF06E6C3209BDCE"]
+			icon: { count: 1, id: "minecraft:pillager_spawn_egg" }
+			id: "3442A5076CA963E5"
+			rewards: [
+				{ count: 2, id: "4DD018667B92C566", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ entity: "minecraft:pillager", id: "11ED0588B6D8ABBF", type: "kill", value: 10L }
+			]
+			x: 8.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["3442A5076CA963E5"]
+			icon: { count: 1, id: "minecraft:black_banner" }
+			id: "497E20D7753F7446"
+			rewards: [
+				{ id: "796B4E8D66828E29", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2B10C8D4902BB352", structure: "dungeons_arise_seven_seas:unicorn_galleon", type: "structure" }
+			]
+			x: 10.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["7D10B96FCBD98F41" "10E17C3EAF2BED90"]
+			icon: { count: 1, id: "createbigcannons:steel_block" }
+			id: "473191D939A989A4"
+			rewards: [
+				{ id: "525AD585A97469A2", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "1BC8A38C4787D948", type: "checkmark" }
+			]
+			x: 14.00d
+			y: 0.00d
+		}
+	]
+}

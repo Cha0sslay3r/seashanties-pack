@@ -1,0 +1,156 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "6AA4A3C1E029AAAD"
+	icon: { id: "refinedstorage:controller" }
+	id: "4D211C7499678983"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "sophisticatedstorage:chest" }
+			id: "73D0E356D235FA52"
+			rewards: [
+				{ count: 16, id: "186A8348BBF77EE1", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "42A4B733EB4313FA", item: { count: 1, id: "sophisticatedstorage:chest" }, type: "item" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["73D0E356D235FA52"]
+			icon: { count: 1, id: "sophisticatedstorage:iron_chest" }
+			id: "24642A86E7884788"
+			rewards: [
+				{ count: 2, id: "24BC772E374C2024", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "72EF66ABB63D9CA3", item: { count: 1, id: "sophisticatedstorage:basic_to_iron_tier_upgrade" }, type: "item" }
+			]
+			x: 2.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["73D0E356D235FA52"]
+			icon: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+			id: "17CBD924DEF48C00"
+			rewards: [
+				{ count: 4, id: "31422DCBDED889F6", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "5163BF016251016A", item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }, type: "item" }
+				{ id: "1960DA31DA61830C", item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["73D0E356D235FA52" "5331A678CBFAE1C2"]
+			icon: { count: 1, id: "refinedstorage:basic_processor" }
+			id: "719E4F1CEEB4B37E"
+			rewards: [
+				{ count: 2, id: "3CEAB73B82E8A7AE", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "3398B139D86D9C96", item: { count: 1, id: "refinedstorage:basic_processor" }, type: "item", count: 4L }
+			]
+			x: 2.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["719E4F1CEEB4B37E" "7FB47F8DEFA76C3F"]
+			icon: { count: 1, id: "refinedstorage:controller" }
+			id: "22D3A1FAA784EB39"
+			rewards: [
+				{ id: "79861C3BF5782732", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "1EE839A9E8C73915", item: { count: 1, id: "refinedstorage:controller" }, type: "item" }
+				{ id: "585FAE730041AA4E", item: { count: 1, id: "refinedstorage:cable" }, type: "item", count: 8L }
+			]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["22D3A1FAA784EB39"]
+			icon: { count: 1, id: "refinedstorage:grid" }
+			id: "1EB5C83AFBD2146B"
+			rewards: [
+				{ count: 2, id: "3ACE48CF5C318A3C", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "6FCB9F7B99D0A848", item: { count: 1, id: "refinedstorage:disk_drive" }, type: "item" }
+				{ id: "6383C5E19CC21E8F", item: { count: 1, id: "refinedstorage:grid" }, type: "item" }
+				{ id: "14EE3725F67336B2", item: { count: 1, id: "refinedstorage:1k_storage_disk" }, type: "item", count: 4L }
+			]
+			x: 6.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["1EB5C83AFBD2146B"]
+			icon: { count: 1, id: "refinedstorage:exporter" }
+			id: "680FCB8195830205"
+			rewards: [
+				{ id: "13F46D0B40AAA116", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "5E6C2F9B65683BFF", item: { count: 1, id: "refinedstorage:importer" }, type: "item" }
+				{ id: "4FC66D4EDDD0A091", item: { count: 1, id: "refinedstorage:exporter" }, type: "item" }
+			]
+			x: 8.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["680FCB8195830205"]
+			icon: { count: 1, id: "refinedstorage:autocrafter" }
+			id: "10FFB8FA86161B62"
+			rewards: [
+				{ id: "193C61C0B9ADD675", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "4FA7CB94D9A6894E", item: { count: 1, id: "refinedstorage:pattern_grid" }, type: "item" }
+				{ id: "3692A4A592936035", item: { count: 1, id: "refinedstorage:autocrafter" }, type: "item" }
+			]
+			x: 10.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["1EB5C83AFBD2146B"]
+			icon: { count: 1, id: "refinedstorage:wireless_grid" }
+			id: "22531C15FC789A08"
+			rewards: [
+				{ id: "31DE1F3B8283702E", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "5E324780A3737233", item: { count: 1, id: "refinedstorage:wireless_transmitter" }, type: "item" }
+				{ id: "669ACB17C8D8D5B1", item: { count: 1, id: "refinedstorage:wireless_grid" }, type: "item" }
+			]
+			x: 8.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["10FFB8FA86161B62"]
+			icon: { count: 1, id: "refinedstorage:64k_storage_disk" }
+			id: "71B935E7A70A9A12"
+			rewards: [
+				{ count: 2, id: "5840456A8388C9FD", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "7C0CEB1AC039BBDC", item: { count: 1, id: "refinedstorage:64k_storage_disk" }, type: "item" }
+			]
+			x: 12.00d
+			y: 0.00d
+		}
+	]
+}

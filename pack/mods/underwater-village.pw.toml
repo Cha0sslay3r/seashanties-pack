@@ -1,0 +1,8 @@
+name = "underwater-village"
+filename = "underwater_village-1.0.2-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/6410/823/underwater_village-1.0.2-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "0adcea413b73bad85a5dbb7f18e80576378817e2"

@@ -1,0 +1,8 @@
+name = "tiered"
+filename = "Reforged-1.21.1-1.1.0-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fQL9oTmq/versions/9oYWF1jr/Reforged-1.21.1-1.1.0-NeoForge.jar"
+hash-format = "sha1"
+hash = "dc03cdce2a4ea3830a4ea4997fef086222f9a04f"

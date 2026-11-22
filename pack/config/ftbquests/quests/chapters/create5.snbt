@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create5"
+	group: "6AA4A3C1E029AAAD"
+	icon: { id: "create:steam_engine" }
+	id: "7DE590E96A535D98"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5331A678CBFAE1C2"]
+			icon: { count: 1, id: "create:steam_engine" }
+			id: "2D9A9BD806BFED8F"
+			rewards: [
+				{ id: "276BDB730DC2458F", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "27124456EBABFA5F", item: { count: 1, id: "create:steam_engine" }, type: "item", count: 4L }
+				{ id: "2AE6CD2F07B548A9", item: { count: 1, id: "create:fluid_tank" }, type: "item", count: 8L }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["2D9A9BD806BFED8F"]
+			icon: { count: 1, id: "create:steam_whistle" }
+			id: "305751BFE2FD2E0C"
+			rewards: [
+				{ count: 16, id: "2075FE19CC116626", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "44D3559F4AA845FD", item: { count: 1, id: "create:steam_whistle" }, type: "item" }
+			]
+			x: 2.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["2D9A9BD806BFED8F"]
+			icon: { count: 1, id: "create:rotation_speed_controller" }
+			id: "74FF09C3161F8413"
+			rewards: [
+				{ count: 4, id: "695D8F0C94C3F6D5", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "117AC10A552604D1", item: { count: 1, id: "create:rotation_speed_controller" }, type: "item" }
+				{ id: "550440FDB9852E8A", item: { count: 1, id: "create:sequenced_gearshift" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["2D9A9BD806BFED8F"]
+			icon: { count: 1, id: "create:track" }
+			id: "26BEEDCEB3568B62"
+			rewards: [
+				{ count: 4, id: "2F29DFCDB2E9BD39", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "23FE278256387D90", item: { count: 1, id: "create:track" }, type: "item", count: 64L }
+			]
+			x: 2.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["26BEEDCEB3568B62"]
+			icon: { count: 1, id: "create:track_station" }
+			id: "2183B1AFF1B26F52"
+			rewards: [
+				{ id: "51000BB72B213E33", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "3F0C10001CDE45AA", item: { count: 1, id: "create:track_station" }, type: "item" }
+				{ id: "49546DE39F3A4C0C", item: { count: 1, id: "create:railway_casing" }, type: "item", count: 4L }
+				{ id: "75981899BF29D9A5", item: { count: 1, id: "create:controls" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["2183B1AFF1B26F52"]
+			icon: { count: 1, id: "create:schedule" }
+			id: "52CC57D4BA2CB6B2"
+			rewards: [
+				{ count: 4, id: "5B932B930C6FBE48", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "6F90DA7489A67BE1", item: { count: 1, id: "create:schedule" }, type: "item" }
+				{ id: "394B6B0564A9B506", item: { count: 1, id: "create:track_signal" }, type: "item", count: 2L }
+			]
+			x: 6.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["52CC57D4BA2CB6B2"]
+			icon: { count: 1, id: "railways:lime_conductor_cap" }
+			id: "1E834E18700BB7B1"
+			rewards: [
+				{ id: "6A706C95F75E376C", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2192A70A524D3A42", item: { count: 1, id: "railways:lime_conductor_cap" }, type: "item" }
+			]
+			x: 8.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["52CC57D4BA2CB6B2"]
+			icon: { count: 1, id: "createrailwaysnavigator:navigator" }
+			id: "72CF6FB3CAC003F9"
+			rewards: [
+				{ id: "10BDE808AB982C85", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "5F3970C460563AC4", item: { count: 1, id: "createrailwaysnavigator:navigator" }, type: "item" }
+			]
+			x: 8.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["2183B1AFF1B26F52" "74FF09C3161F8413"]
+			icon: { count: 1, id: "create:steam_engine" }
+			id: "54DA2ED10C612F26"
+			rewards: [
+				{ count: 2, id: "2E6BD3892BA10745", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "25ED8F39205BB450", item: { count: 1, id: "create:track_station" }, type: "item" }
+			]
+			x: 6.00d
+			y: 0.88d
+		}
+	]
+}

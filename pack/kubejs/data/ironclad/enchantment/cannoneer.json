@@ -1,0 +1,41 @@
+{
+  "description": {
+    "text": "Cannoneer"
+  },
+  "supported_items": "#minecraft:enchantable/crossbow",
+  "weight": 4,
+  "max_level": 5,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 35,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1.5,
+            "per_level_above_first": 1.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        }
+      }
+    ]
+  }
+}

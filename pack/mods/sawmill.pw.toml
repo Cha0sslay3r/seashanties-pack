@@ -1,0 +1,8 @@
+name = "sawmill"
+filename = "sawmill-1.21-1.9.0-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9422/876/sawmill-1.21-1.9.0-neoforge.jar"
+hash-format = "sha1"
+hash = "fb13c5e2b0303bb162348dcce6754e8ad9d58d1d"

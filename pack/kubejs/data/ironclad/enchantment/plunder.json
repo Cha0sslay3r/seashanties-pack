@@ -1,0 +1,34 @@
+{
+  "description": {
+    "text": "Plunder"
+  },
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 3,
+  "max_level": 5,
+  "min_cost": {
+    "base": 12,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 42,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:mob_experience": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": {
+            "type": "minecraft:linear",
+            "base": 1.25,
+            "per_level_above_first": 0.25
+          }
+        }
+      }
+    ]
+  }
+}

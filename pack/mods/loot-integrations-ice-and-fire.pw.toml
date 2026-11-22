@@ -1,0 +1,8 @@
+name = "loot-integrations-ice-and-fire"
+filename = "lootintegrations_iceandfire-1.3.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8914/945/lootintegrations_iceandfire-1.3.jar"
+hash-format = "sha1"
+hash = "282613b9b381ec34800bf7c9af232d22488a5aac"

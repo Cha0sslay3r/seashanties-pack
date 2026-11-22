@@ -1,0 +1,15 @@
+// Freedom: Ironclad — Sea Relic drops (LootJS)
+LootJS.modifiers(event => {
+  const add = (target, item, chance) => event.addEntityModifier(target).randomChance(chance).addLoot(item)
+  add('iceandfire:siren', 'ironclad:sirens_pearl', 0.35)
+  add('iceandfire:sea_serpent', 'ironclad:serpent_heart', 1.0)
+  add('block_factorys_bosses:pirate_captain', 'ironclad:pirate_medal', 1.0)
+  add('block_factorys_bosses:kraken', 'ironclad:kraken_beak', 1.0)
+  add('aquamirae:captain_cornelia', 'ironclad:frozen_anchor', 1.0)
+  add('cataclysm:the_leviathan', 'ironclad:leviathan_ink', 1.0)
+  event.addTableModifier(/dungeons_arise_seven_seas:chests\/(victory_frigate|unicorn_galleon).*/).randomChance(0.25).addLoot('ironclad:pirate_medal')
+  event.addTableModifier(/mss:.*/).randomChance(0.15).addLoot('ironclad:sky_compass_core')
+  event.addTableModifier(/(dungeons_arise_seven_seas:chests\/.*|minecraft:chests\/(shipwreck_map|buried_treasure)|hopo:chests\/.*|underwater_village:.*)/).randomChance(0.08).addLoot('ironclad:navigators_chart')
+  // Leviathan Ink also from rare night fishing in a thunderstorm
+  event.addTableModifier('minecraft:gameplay/fishing').randomChance(0.004).addLoot('ironclad:leviathan_ink')
+})

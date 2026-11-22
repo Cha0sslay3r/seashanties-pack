@@ -1,0 +1,57 @@
+{
+  "description": {
+    "text": "Confetti"
+  },
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 2,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 31,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:spawn_particles",
+              "particle": {
+                "type": "minecraft:firework"
+              },
+              "horizontal_position": {
+                "type": "in_bounding_box"
+              },
+              "vertical_position": {
+                "type": "in_bounding_box"
+              },
+              "horizontal_velocity": {
+                "base": 0.3
+              },
+              "vertical_velocity": {
+                "base": 0.4
+              }
+            },
+            {
+              "type": "minecraft:play_sound",
+              "sound": "minecraft:entity.firework_rocket.twinkle",
+              "volume": 1.0,
+              "pitch": 1.2
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

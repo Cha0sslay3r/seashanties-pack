@@ -1,0 +1,8 @@
+name = "integrated-dungeons-arise"
+filename = "IDA_v2.1.3-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9015/554/IDA_v2.1.3-1.21.1.jar"
+hash-format = "sha1"
+hash = "6312ae0d10f27554d2ebeaf3d711feff2c258487"

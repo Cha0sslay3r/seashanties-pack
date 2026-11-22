@@ -1,0 +1,122 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gear"
+	group: "3DB8DF94F687DD8E"
+	icon: { id: "simplyswords:iron_cutlass" }
+	id: "69C624E62151CF5F"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "magistuarmory:iron_heatershield" }
+			id: "12362BCA83DFFE8D"
+			rewards: [
+				{ id: "4FBF5EA5E427F3A0", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "39F8E4DC52C45A12", item: { count: 1, id: "magistuarmory:iron_heatershield" }, type: "item" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["12362BCA83DFFE8D"]
+			icon: { count: 1, id: "simplyswords:iron_cutlass" }
+			id: "60A6D811407E2970"
+			rewards: [
+				{ count: 2, id: "39C291C2D31AA5F0", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "62EA09AD6E42C249", item: { count: 1, id: "simplyswords:iron_cutlass" }, type: "item" }
+			]
+			x: 2.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["12362BCA83DFFE8D"]
+			icon: { count: 1, id: "musketmod:musket" }
+			id: "52797682E0E1525A"
+			rewards: [
+				{ count: 2, id: "7939764A21A32D83", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "6F796E178969DE7C", item: { count: 1, id: "musketmod:musket" }, type: "item" }
+				{ id: "368296BD8A568473", item: { count: 1, id: "musketmod:cartridge" }, type: "item", count: 16L }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["60A6D811407E2970"]
+			icon: { count: 1, id: "minecraft:experience_bottle" }
+			id: "600D8C5305B01A9C"
+			rewards: [
+				{ id: "4F0B90772AF94704", type: "xp_levels", xp_levels: 10 }
+			]
+			tasks: [
+				{ id: "75A60FEF78EC2770", type: "checkmark" }
+			]
+			x: 4.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["600D8C5305B01A9C"]
+			icon: { count: 1, id: "reforged:weaponsmiths_hammer" }
+			id: "458048B9EC9DB69C"
+			rewards: [
+				{ id: "49E718506D220886", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "1B1C4EBF6390F60C", item: { count: 1, id: "reforged:weaponsmiths_hammer" }, type: "item" }
+			]
+			x: 6.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["12362BCA83DFFE8D"]
+			icon: { count: 1, id: "minecraft:enchanting_table" }
+			id: "68E42E1CB0228378"
+			rewards: [
+				{ count: 2, id: "2673E005A37BAAC7", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "56B501B0359CD7F5", item: { count: 1, id: "minecraft:enchanting_table" }, type: "item" }
+			]
+			x: 2.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["68E42E1CB0228378" "337616E05FDD3184"]
+			icon: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+			id: "2814FA77B7589F74"
+			rewards: [
+				{ id: "7197C6D696AB9F84", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "1A1C8625FEEFE609", item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["2814FA77B7589F74" "458048B9EC9DB69C"]
+			icon: { count: 1, id: "minecraft:enchanted_book" }
+			id: "2C100CA8910DE4CF"
+			rewards: [
+				{ id: "494B00B9D92C875A", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "4E1BCA375678203B", type: "checkmark" }
+			]
+			x: 8.00d
+			y: 0.00d
+		}
+	]
+}

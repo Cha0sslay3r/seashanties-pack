@@ -1,0 +1,162 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shore"
+	group: "1C5AFC61BB8A6A87"
+	icon: { id: "minecraft:oak_sapling" }
+	id: "62AA6923E715DB2E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { count: 1, id: "minecraft:oak_log" }
+			id: "7D0A35D1AD532EDA"
+			rewards: [
+				{ count: 8, id: "59D4FC87BBD63416", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "18C3E9D0D905F5ED", item: { count: 1, id: "minecraft:oak_log" }, type: "item", count: 32L }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["7D0A35D1AD532EDA"]
+			icon: { count: 1, id: "minecraft:furnace" }
+			id: "13CBBFB80CF9D1C7"
+			rewards: [
+				{ count: 8, id: "49AE2C575A2C032F", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2FFE2875F163E27D", item: { count: 1, id: "minecraft:furnace" }, type: "item" }
+			]
+			x: 2.00d
+			y: -2.62d
+		}
+		{
+			dependencies: ["13CBBFB80CF9D1C7"]
+			icon: { count: 1, id: "minecraft:iron_ingot" }
+			id: "748BD344D0CBFAAC"
+			rewards: [
+				{ id: "4299CD02281E69A9", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "342FB14394640A0B", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item", count: 16L }
+				{ id: "6D72EFE0B58EE2B7", item: { count: 1, id: "minecraft:copper_ingot" }, type: "item", count: 16L }
+				{ id: "191E54FFAD2FC422", item: { count: 1, id: "create:raw_zinc" }, type: "item", count: 8L }
+			]
+			x: 4.00d
+			y: -2.62d
+		}
+		{
+			dependencies: ["7D0A35D1AD532EDA"]
+			icon: { count: 1, id: "farmersdelight:cutting_board" }
+			id: "142644C28A842373"
+			rewards: [
+				{ count: 8, id: "17EB46B24F7305E5", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "42B005F9CE3978E7", item: { count: 1, id: "farmersdelight:cutting_board" }, type: "item" }
+			]
+			x: 2.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["7D0A35D1AD532EDA"]
+			icon: { count: 1, id: "minecraft:red_bed" }
+			id: "57D6703CA73BC5FC"
+			rewards: [
+				{ count: 8, id: "1A57A9C16936FB86", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "346CB7FC6FC88FA2", item: { count: 1, id: "comforts:sleeping_bag_white" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["748BD344D0CBFAAC"]
+			icon: { count: 1, id: "torchmaster:megatorch" }
+			id: "68152C868ADE8039"
+			rewards: [
+				{ count: 2, id: "24B511720D989410", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "5A8F9564ACD13DAE", item: { count: 1, id: "torchmaster:megatorch" }, type: "item" }
+			]
+			x: 6.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["748BD344D0CBFAAC"]
+			icon: { count: 1, id: "paraglider:paraglider" }
+			id: "46EE69F6458C5992"
+			rewards: [
+				{ id: "19B749B0A50AB3CD", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "1CF5A5492F83D4C2", item: { count: 1, id: "paraglider:paraglider" }, type: "item" }
+			]
+			x: 6.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["13CBBFB80CF9D1C7"]
+			icon: { count: 1, id: "naturescompass:naturescompass" }
+			id: "14A4924B646FFBFA"
+			rewards: [
+				{ count: 8, id: "4C865DBA861CB702", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2C9519F99BB67A53", item: { count: 1, id: "naturescompass:naturescompass" }, type: "item" }
+			]
+			x: 4.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["142644C28A842373"]
+			icon: { count: 1, id: "beachparty:beach_chair" }
+			id: "244FFB9D3B812468"
+			rewards: [
+				{ count: 8, id: "51706A85E8049504", item: { count: 1, id: "numismatics:spur" }, type: "item" }
+			]
+			tasks: [
+				{ id: "7F946BB09DB4F198", type: "checkmark" }
+			]
+			x: 4.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["7D0A35D1AD532EDA"]
+			icon: { count: 1, id: "smallships:oak_cog" }
+			id: "5F84849C4D9D5F52"
+			rewards: [
+				{ count: 2, id: "1885AFA394DF614A", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "2A999FF4D54429E1", item: { count: 1, id: "smallships:oak_cog" }, type: "item" }
+			]
+			x: 2.00d
+			y: 2.62d
+		}
+		{
+			dependencies: ["5F84849C4D9D5F52" "57D6703CA73BC5FC"]
+			icon: { count: 1, id: "waystones:waystone" }
+			id: "261AA8443B23FA58"
+			rewards: [
+				{ count: 2, id: "58D2343A54E36A5C", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "416990ECE05700B1", item: { count: 1, id: "waystones:waystone" }, type: "item" }
+			]
+			x: 4.00d
+			y: 2.62d
+		}
+	]
+}

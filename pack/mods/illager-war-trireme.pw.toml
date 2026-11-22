@@ -1,0 +1,8 @@
+name = "illager-war-trireme"
+filename = "illager_war_trireme-1.0.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YcGaXNNp/versions/lgM1VBEc/illager_war_trireme-1.0.1-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "432804dcf883d67bd7641fa2e31530b3ef1adb84"

@@ -1,0 +1,137 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create4"
+	group: "6AA4A3C1E029AAAD"
+	icon: { id: "create:stock_ticker" }
+	id: "6658487AD1F533ED"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5331A678CBFAE1C2"]
+			icon: { count: 1, id: "create:packager" }
+			id: "59AA4F7C4217B9F0"
+			rewards: [
+				{ id: "4FCD73F6C4697360", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "2A3F95E855022DD7", item: { count: 1, id: "create:packager" }, type: "item", count: 2L }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["59AA4F7C4217B9F0"]
+			icon: { count: 1, id: "create:item_vault" }
+			id: "197FD467186F6098"
+			rewards: [
+				{ count: 2, id: "230892076FA90F9D", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "6F50309B7A518F58", item: { count: 1, id: "create:item_vault" }, type: "item", count: 8L }
+			]
+			x: 2.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["59AA4F7C4217B9F0"]
+			icon: { count: 1, id: "create:stock_link" }
+			id: "4941D6CD8C0E3969"
+			rewards: [
+				{ count: 2, id: "53DE0A7788792888", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "12020EF8E4E7130E", item: { count: 1, id: "create:stock_link" }, type: "item", count: 2L }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["4941D6CD8C0E3969" "197FD467186F6098"]
+			icon: { count: 1, id: "create:stock_ticker" }
+			id: "2A7E1310C48A80D6"
+			rewards: [
+				{ id: "2ACD8DFF24D35B7B", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "127AD735836557E0", item: { count: 1, id: "create:stock_ticker" }, type: "item" }
+			]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["59AA4F7C4217B9F0"]
+			icon: { count: 1, id: "create:package_frogport" }
+			id: "550BFD614DB4CA4F"
+			rewards: [
+				{ id: "125249C68F0B3F55", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "68C34D438D622BBA", item: { count: 1, id: "create:package_frogport" }, type: "item", count: 2L }
+				{ id: "112C096120477858", item: { count: 1, id: "create:chain_conveyor" }, type: "item", count: 4L }
+			]
+			x: 2.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["2A7E1310C48A80D6"]
+			icon: { count: 1, id: "create:redstone_requester" }
+			id: "1F0323F0A061CCFA"
+			rewards: [
+				{ count: 2, id: "4FC6DABC748309E6", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			tasks: [
+				{ id: "648A1E5512A7B9CF", item: { count: 1, id: "create:redstone_requester" }, type: "item" }
+			]
+			x: 6.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["2A7E1310C48A80D6" "550BFD614DB4CA4F"]
+			icon: { count: 1, id: "create:factory_gauge" }
+			id: "7218CF1B59676B58"
+			rewards: [
+				{ count: 2, id: "7BB848004D7B1986", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "7174F318444AA7EC", item: { count: 1, id: "create:factory_gauge" }, type: "item", count: 4L }
+			]
+			x: 6.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["7218CF1B59676B58"]
+			icon: { count: 1, id: "create_factory_logistics:jar_packager" }
+			id: "2617C6C8BFEAA862"
+			rewards: [
+				{ id: "1DDA5AEBDBFAA3FA", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "6BF0BAE0FD266540", item: { count: 1, id: "create_factory_logistics:jar_packager" }, type: "item" }
+				{ id: "1F007D1B55EACE7A", item: { count: 1, id: "create_factory_logistics:factory_fluid_gauge" }, type: "item" }
+			]
+			x: 8.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["7218CF1B59676B58"]
+			icon: { count: 1, id: "create:cardboard_block" }
+			id: "1EAF7D430FA2D00C"
+			rewards: [
+				{ count: 2, id: "242B465BA01C0ED4", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "4BE933A07504B400", item: { count: 1, id: "create:stock_ticker" }, type: "item" }
+			]
+			x: 8.00d
+			y: 0.88d
+		}
+	]
+}

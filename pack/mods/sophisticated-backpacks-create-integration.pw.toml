@@ -1,0 +1,8 @@
+name = "sophisticated-backpacks-create-integration"
+filename = "sophisticatedbackpackscreateintegration-1.21.1-0.2.3.194.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9151/543/sophisticatedbackpackscreateintegration-1.21.1-0.2.3.194.jar"
+hash-format = "sha1"
+hash = "6519e78e8aff212826d650b8d803f9a23e1dc1be"

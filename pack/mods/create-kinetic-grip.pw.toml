@@ -1,0 +1,8 @@
+name = "create-kinetic-grip"
+filename = "KineticGrip-1.21.1-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8265/245/KineticGrip-1.21.1-1.0.5.jar"
+hash-format = "sha1"
+hash = "c3363b8e398ea87f548547aaccb4739f0226a75c"

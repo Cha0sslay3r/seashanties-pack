@@ -1,0 +1,8 @@
+name = "chunkyautopause"
+filename = "chunkyautopause-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8429/804/chunkyautopause-1.0.0.jar"
+hash-format = "sha1"
+hash = "72d40ffaaeb15eeea116c604c98c1c6e6d57c6ff"

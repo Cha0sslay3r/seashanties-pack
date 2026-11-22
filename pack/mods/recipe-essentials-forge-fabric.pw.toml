@@ -1,0 +1,8 @@
+name = "recipe-essentials-forge-fabric"
+filename = "recipeessentials-1.21.1-4.7.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8463/998/recipeessentials-1.21.1-4.7.jar"
+hash-format = "sha1"
+hash = "77c1796d445683b237b7391fe277388cd2ea0ee7"

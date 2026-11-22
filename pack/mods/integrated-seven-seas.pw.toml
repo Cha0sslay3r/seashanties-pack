@@ -1,0 +1,8 @@
+name = "integrated-seven-seas"
+filename = "ISS-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8203/979/ISS-1.21.1.jar"
+hash-format = "sha1"
+hash = "dc824a92a51129ca3c8f0210dcb88d7f7e792c11"

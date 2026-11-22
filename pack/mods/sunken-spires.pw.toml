@@ -1,0 +1,8 @@
+name = "sunken-spires"
+filename = "sunken-spires-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/annHP7q0/versions/z8rNnW0F/sunken-spires-1.0.jar"
+hash-format = "sha1"
+hash = "7b40ea20c3f42ec4a86581e245c1d7edd8045b39"

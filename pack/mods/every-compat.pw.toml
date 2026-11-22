@@ -1,0 +1,8 @@
+name = "every-compat"
+filename = "everycomp-1.21-2.11.59-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/eiktJyw1/versions/BCNgVdRE/everycomp-1.21-2.11.59-neoforge.jar"
+hash-format = "sha1"
+hash = "44798e255827773703342b1ecaf13ae4c81e06b7"

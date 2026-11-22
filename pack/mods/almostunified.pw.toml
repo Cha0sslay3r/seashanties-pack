@@ -1,0 +1,8 @@
+name = "almostunified"
+filename = "almostunified-neoforge-1.21.1-1.4.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sdaSaQEz/versions/e8iYxxI3/almostunified-neoforge-1.21.1-1.4.2.jar"
+hash-format = "sha1"
+hash = "f9a58fa95780f4b045d30559c1fdaedaa7f0fba3"

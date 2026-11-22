@@ -1,0 +1,8 @@
+name = "loot-integrations"
+filename = "lootintegrations-1.21.1-4.9.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9600/289/lootintegrations-1.21.1-4.9.jar"
+hash-format = "sha1"
+hash = "6adc473d1b762c6e2ce65b7d246519ceadbf1eb6"

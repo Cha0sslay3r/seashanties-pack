@@ -1,0 +1,8 @@
+name = "big-randy"
+filename = "Randy 1.20.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8584/205/Randy%201.20.jar"
+hash-format = "sha1"
+hash = "ae790d8117ab449d0a81bc17f969b59b447524eb"

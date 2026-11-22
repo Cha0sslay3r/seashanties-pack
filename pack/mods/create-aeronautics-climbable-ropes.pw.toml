@@ -1,0 +1,8 @@
+name = "create-aeronautics-climbable-ropes"
+filename = "climbable_ropes-2.2.2.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9529/382/climbable_ropes-2.2.2.jar"
+hash-format = "sha1"
+hash = "5788f0263f701b56e7689c1da914ee537f5c3d23"

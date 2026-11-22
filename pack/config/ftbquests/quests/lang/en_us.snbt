@@ -1,0 +1,1895 @@
+{
+	chapter.110AB9C49F581CB4.chapter_subtitle: [
+		"Crafts & Additions, diesel and New Age"
+	]
+	chapter.110AB9C49F581CB4.title: "Electricity & Fuel"
+	chapter.120ED53C5B82C84F.chapter_subtitle: [
+		"Farming by the calendar, cooking for buffs"
+	]
+	chapter.120ED53C5B82C84F.title: "Seasons & Kitchen"
+	chapter.16EC3A672D5D07AC.chapter_subtitle: [
+		"Press, crush, wash, mix and smelt"
+	]
+	chapter.16EC3A672D5D07AC.title: "Create II: Processing"
+	chapter.1FB60F04EED51746.chapter_subtitle: [
+		"From raft to physics-driven warship"
+	]
+	chapter.1FB60F04EED51746.title: "Ships & Shipwrights"
+	chapter.200D0DF6F7856D0B.chapter_subtitle: [
+		"Every boss, in the order to fight them"
+	]
+	chapter.200D0DF6F7856D0B.title: "Boss Flow"
+	chapter.2EF4FAEA0769136C.chapter_subtitle: [
+		"Coins, shops and trading"
+	]
+	chapter.2EF4FAEA0769136C.title: "Market & Coins"
+	chapter.3AB5A5D126C7C417.chapter_subtitle: [
+		"Rotation, speed and stress"
+	]
+	chapter.3AB5A5D126C7C417.title: "Create I: Turning Gears"
+	chapter.3BA28A278EB545B6.chapter_subtitle: [
+		"Compasses, waystones, jetpacks and other worlds"
+	]
+	chapter.3BA28A278EB545B6.title: "Exploration & Travel"
+	chapter.4BE72AC1B7F1F07A.chapter_subtitle: [
+		"Create Big Cannons, radar and sea battles"
+	]
+	chapter.4BE72AC1B7F1F07A.title: "Guns & Battleships"
+	chapter.4D211C7499678983.chapter_subtitle: [
+		"Chests, vaults and Refined Storage"
+	]
+	chapter.4D211C7499678983.title: "Storage Networks"
+	chapter.50468FE5C2C2C588.chapter_subtitle: [
+		"Read this first, sailor"
+	]
+	chapter.50468FE5C2C2C588.title: "Welcome to Brass Harbour"
+	chapter.62AA6923E715DB2E.chapter_subtitle: [
+		"Your first days on the islands"
+	]
+	chapter.62AA6923E715DB2E.title: "Island Life"
+	chapter.6658487AD1F533ED.chapter_subtitle: [
+		"Packages, stock keepers and crafting on demand"
+	]
+	chapter.6658487AD1F533ED.title: "Create IV: Logistics"
+	chapter.69C624E62151CF5F.chapter_subtitle: [
+		"Swords, muskets, reforging and enchants"
+	]
+	chapter.69C624E62151CF5F.title: "Weapons & Enchanting"
+	chapter.6C21882B393B961F.chapter_subtitle: [
+		"What to wear for each tier of boss"
+	]
+	chapter.6C21882B393B961F.title: "The Armory"
+	chapter.711991831B26769E.chapter_subtitle: [
+		"Proof you beat the sea"
+	]
+	chapter.711991831B26769E.title: "Sea Relics & Legendaries"
+	chapter.79CCAA48BA0DD06A.chapter_subtitle: [
+		"Rods, fish and what lives in the deep"
+	]
+	chapter.79CCAA48BA0DD06A.title: "Seas & Fishing"
+	chapter.7C87991CE433DC02.chapter_subtitle: [
+		"Hats, plushies, music and pictures"
+	]
+	chapter.7C87991CE433DC02.title: "Collecting & Cosmetics"
+	chapter.7D2D14276F084EB0.chapter_subtitle: [
+		"Filters, arms, assembly lines and auto-crafting"
+	]
+	chapter.7D2D14276F084EB0.title: "Create III: Brass & Automation"
+	chapter.7DE590E96A535D98.chapter_subtitle: [
+		"Big power and the railway"
+	]
+	chapter.7DE590E96A535D98.title: "Create V: Steam & Trains"
+	chapter.7F8FEA31AAA63CE5.chapter_subtitle: [
+		"Blocks, furniture and every wood"
+	]
+	chapter.7F8FEA31AAA63CE5.title: "Building & Decor"
+	chapter_group.19AE4577F3C5F699.title: "The Sailor's Life"
+	chapter_group.1C5AFC61BB8A6A87.title: "Start Here"
+	chapter_group.3DB8DF94F687DD8E.title: "The Adventurer's Road"
+	chapter_group.6AA4A3C1E029AAAD.title: "The Engineer's Voyage"
+	chapter_group.6AF6577A356BBFCB.title: "The Collector's Corner"
+	file.0000000000000001.title: "Freedom V4: Sea Shanties"
+	quest.10E17C3EAF2BED90.quest_desc: [
+		"An &6Autocannon&r fires small rounds very quickly. It's the best gun against fast boats and flying things. Feed it &6Autocannon Cartridges&r."
+		""
+		"&6CBC Firepower Components&r adds twin and large autocannons, ammo feeds and magazines for ships."
+	]
+	quest.10E17C3EAF2BED90.quest_subtitle: "Rapid fire"
+	quest.10E17C3EAF2BED90.title: "Autocannon"
+	quest.10FFB8FA86161B62.quest_desc: [
+		"Write a recipe onto a &6Pattern&r in a &6Pattern Grid&r. Put the pattern in an &6Autocrafter&r next to a machine (or plain crafting)."
+		""
+		"Now you can ask the Grid for an item you don't have: it works out every step, crafts the ingredients, and makes it."
+	]
+	quest.10FFB8FA86161B62.quest_subtitle: "Patterns and autocrafters"
+	quest.10FFB8FA86161B62.title: "Autocrafting"
+	quest.111330F15024FC86.quest_desc: [
+		"A &6Water Wheel&r turns when water flows past it. No fuel, no upkeep."
+		""
+		"&e1.&r Place the wheel, then a shaft through its middle."
+		"&e2.&r Pour water so it &eflows&r past one side of the wheel (still water does nothing)."
+		"&e3.&r Several wheels on the same shaft add their power together."
+		""
+		"The &6Large Water Wheel&r is slower but much stronger. Island bases have water everywhere, so use it."
+	]
+	quest.111330F15024FC86.quest_subtitle: "Free power forever"
+	quest.111330F15024FC86.title: "Water Wheel"
+	quest.1120C8F39702719C.quest_desc: [
+		"Over 300 plushies. Find them in loot and trades, and put them on shelves."
+	]
+	quest.1120C8F39702719C.quest_subtitle: "Nenu's and Perfect Plushies"
+	quest.1120C8F39702719C.title: "Plushies"
+	quest.114A8020AEEBE3BF.quest_desc: [
+		"The Infernal Dragon drops bones for &6Dragon Bone armour&r. The Kraken and the Sandworm drop strong weapons too."
+	]
+	quest.114A8020AEEBE3BF.quest_subtitle: "Bosses' Rise armour"
+	quest.114A8020AEEBE3BF.title: "Dragon Bones"
+	quest.11EBAEC64CC75602.quest_desc: [
+		"&6Steering Wheel&r - sit behind it and steer."
+		"&6Navigation Table&r - helps you hold a heading."
+		"&6Aeroworks Control Desk&r - a bridge with joysticks, yokes, throttles and buttons that send signals anywhere on the ship."
+		""
+		"Without a helm, your ship just drifts."
+	]
+	quest.11EBAEC64CC75602.quest_subtitle: "Steering and controls"
+	quest.11EBAEC64CC75602.title: "Take the Helm"
+	quest.1214BF0775E5EB4C.quest_desc: [
+		"A &6Stove&r is a clean heat source and cooks six things on top. A &6Skillet&r fries food in your hand or on a stove."
+	]
+	quest.1214BF0775E5EB4C.quest_subtitle: "Stove and skillet"
+	quest.1214BF0775E5EB4C.title: "Galley Kitchen"
+	quest.12362BCA83DFFE8D.quest_desc: [
+		"&6Epic Knights&r adds real medieval armour and weapons: chainmail, plate, lances, maces, longswords, heater shields."
+		""
+		"In this pack their metal parts use &6Create sheets&r, so press your iron first. Click any piece to see its recipe."
+	]
+	quest.12362BCA83DFFE8D.quest_subtitle: "Epic Knights"
+	quest.12362BCA83DFFE8D.title: "Knight's Kit"
+	quest.13159256B1315A7A.quest_desc: [
+		"The &6Building Gadget&r places whole walls and floors. The &6Copy-Paste Gadget&r clones builds. They run on energy: charge them with a Tesla Coil."
+	]
+	quest.13159256B1315A7A.quest_subtitle: "Copy, paste and fill"
+	quest.13159256B1315A7A.title: "Building Gadgets"
+	quest.138A81E55B608DA6.quest_desc: [
+		"&cDeep water has sharks.&r Great whites will chase boats and swimmers. Bring a weapon, swim near the shore, or stay in your boat."
+	]
+	quest.138A81E55B608DA6.quest_subtitle: "Sharks"
+	quest.138A81E55B608DA6.title: "Something Is Circling"
+	quest.13CBBFB80CF9D1C7.quest_desc: [
+		"Your kit came with stone tools. Iron is next, but first you need a furnace and a lot of cobblestone."
+		""
+		"Every normal recipe works as you know it. The pack only changes the strong things, and when it does, clicking the item in a quest shows you the new recipe."
+	]
+	quest.13CBBFB80CF9D1C7.quest_subtitle: "Better tools"
+	quest.13CBBFB80CF9D1C7.title: "Stone and Sweat"
+	quest.142644C28A842373.quest_desc: [
+		"The more different foods you eat, the better. Proper meals from &6Farmer's Delight&r give long buffs like &eNourishment&r (no hunger loss) and &eComfort&r (faster healing)."
+		""
+		"Start simple: a &6Cutting Board&r and a &6Flint Knife&r. Put food on the board and right-click with the knife."
+	]
+	quest.142644C28A842373.quest_subtitle: "Eat well, live long"
+	quest.142644C28A842373.title: "Ship's Galley"
+	quest.14A4924B646FFBFA.quest_desc: [
+		"Open your &6Nature's Compass&r (right-click) and pick any biome. It points straight there."
+		""
+		"Good first targets:"
+		"&6Tropics / Tropical Island&r - palm wood, coconuts, warm fish."
+		"&6Mushroom islands&r - safe nights, no hostile mobs."
+		"&6Frozen oceans&r - danger. That's where the ghost captain hides."
+	]
+	quest.14A4924B646FFBFA.quest_subtitle: "Nature's Compass"
+	quest.14A4924B646FFBFA.title: "Where Am I?"
+	quest.14AECFFB1ECFE2E8.quest_desc: [
+		"Sailors swear something enormous lives in the deepest ocean. They're right. The &6Megalodon&r can sink small boats."
+		""
+		"Fight it from a big ship, with cannons or a crew of archers."
+	]
+	quest.14AECFFB1ECFE2E8.quest_subtitle: "The biggest fish in the sea"
+	quest.14AECFFB1ECFE2E8.title: "Megalodon"
+	quest.14D3A69286AA0813.quest_desc: [
+		"The mother of the maze's monsters hunts under the ice of the Ice Maze. Bring water breathing."
+		""
+		"&eDrops:&r &6Maze Rose&r and rare materials."
+	]
+	quest.14D3A69286AA0813.quest_subtitle: "&9Mid&r - the Ice Maze"
+	quest.14D3A69286AA0813.title: "Maze Mother"
+	quest.15009E9F55B41AB1.quest_desc: [
+		"You've beaten the worst the islands could throw at you. Brass Harbour will tell stories about this crew for years."
+	]
+	quest.15009E9F55B41AB1.quest_subtitle: "Every boss beaten"
+	quest.15009E9F55B41AB1.title: "Master of the Seas"
+	quest.1507AE60741A2C66.quest_desc: [
+		"Yuushya adds thousands of detail and decoration blocks. Browse them with &e@yuushya&r in EMI."
+	]
+	quest.1507AE60741A2C66.quest_subtitle: "Detail blocks"
+	quest.1507AE60741A2C66.title: "Yuushya"
+	quest.151BFE640EDDEA1F.quest_desc: [
+		"A &6Filter&r holds a list of items. An &6Attribute Filter&r matches by property (all ores, all food, anything enchanted...)."
+		""
+		"Many brass blocks have a small &efilter slot&r on their face. Right-click it with a filter, or just with an item, to only let that item through."
+	]
+	quest.151BFE640EDDEA1F.quest_subtitle: "Only the items you want"
+	quest.151BFE640EDDEA1F.title: "Filters"
+	quest.1619D733D2BD7E0E.quest_desc: [
+		"The &6Sandworm&r bursts out of the sand near its nest in the desert (Explorer's Compass: \"sandworm_nest\"). Stay moving."
+		""
+		"&eDrops:&r the &6Sandworm Gauntlet&r."
+	]
+	quest.1619D733D2BD7E0E.quest_subtitle: "&6Early&r - deserts"
+	quest.1619D733D2BD7E0E.title: "The Sandworm"
+	quest.16BD5DF579669BB9.quest_desc: [
+		"Wear &6Engineer's Goggles&r and look at any Create block. You'll see:"
+		""
+		"&bSpeed&r in RPM, and its &bstress&r: how much capacity the network has and how much is in use."
+		""
+		"If the bar goes red, you're &coverstressed&r: everything on that network stops. Add another source or remove a machine."
+		""
+		"&aTip:&r the goggles also show what's inside tanks, basins and depots."
+	]
+	quest.16BD5DF579669BB9.quest_subtitle: "See the numbers"
+	quest.16BD5DF579669BB9.title: "Engineer's Goggles"
+	quest.16F0884CAD7DF4F4.quest_desc: [
+		"&6Hypertubes&r shoot you through glass tubes at high speed. Perfect between buildings on the same island."
+	]
+	quest.16F0884CAD7DF4F4.quest_subtitle: "Base travel"
+	quest.16F0884CAD7DF4F4.title: "Hypertubes"
+	quest.1775A115DB18256E.quest_desc: [
+		"The great sea boss. In the &6Sunken City&r on the ocean floor (Explorer's Compass: \"sunken_city\"). Summon it at the &6Altar of Abyss&r."
+		""
+		"&eDrops:&r &6Leviathan Ink&r (Sea Relic) and abyssal materials."
+	]
+	quest.1775A115DB18256E.quest_subtitle: "&5Endgame&r - Sunken City"
+	quest.1775A115DB18256E.title: "The Leviathan"
+	quest.178252E488588759.quest_desc: [
+		"The &6Kraken&r guards its ship far out at sea (Explorer's Compass: \"kraken_ship\"). Fight it from a sturdy ship or a platform; tentacles grab swimmers."
+		""
+		"&eDrops:&r &6Kraken Tooth&r, the &6Kraken Trident&r, and the &6Kraken Beak&r (Sea Relic)."
+	]
+	quest.178252E488588759.quest_subtitle: "&9Mid&r - deep ocean"
+	quest.178252E488588759.title: "The Kraken"
+	quest.17CBD924DEF48C00.quest_desc: [
+		"Your backpack takes upgrades too: &6Pickup&r (grabs items into the pack), &6Magnet&r, &6Feeding&r (eats for you), &6Refill&r, &6Crafting&r, &6Stack&r and more."
+		""
+		"Upgrade the backpack itself to iron, gold, diamond and netherite for more slots and more upgrade slots."
+	]
+	quest.17CBD924DEF48C00.quest_subtitle: "Backpack upgrades"
+	quest.17CBD924DEF48C00.title: "Bigger Backpack"
+	quest.19346869270870FF.quest_desc: [
+		"An &6Atlas&r holds many maps in one item and shows a minimap when held. Add empty maps and it fills itself in as you sail."
+	]
+	quest.19346869270870FF.quest_subtitle: "Map Atlases"
+	quest.19346869270870FF.title: "Atlas"
+	quest.19363EF7E421A963.quest_desc: [
+		"&6Sea Relics&r are rare drops from sea bosses and sea structures. Each one is used to craft a &blegendary weapon&r."
+		""
+		"Press &eU&r on any relic in EMI to see where it drops and what it makes."
+	]
+	quest.19363EF7E421A963.quest_subtitle: "Rare trophies of the deep"
+	quest.19363EF7E421A963.title: "Sea Relics"
+	quest.197FD467186F6098.quest_desc: [
+		"An &6Item Vault&r is a multiblock chest. Place several next to each other and they merge into one big inventory. Funnels and packagers can use any face."
+	]
+	quest.197FD467186F6098.quest_subtitle: "Huge simple storage"
+	quest.197FD467186F6098.title: "Item Vault"
+	quest.19856D3F2C0E13FD.quest_desc: [
+		"Fire, ice and lightning dragons sleep in &6caves&r (young) and &6roosts&r (adults) in the right biomes. A sleeping dragon wakes when you get close."
+		""
+		"Bring dragonscale-resistant armour of the opposite element, and fight from cover. &eDrops:&r scales, bones, blood, and its heart."
+	]
+	quest.19856D3F2C0E13FD.quest_subtitle: "&5Endgame&r - Ice and Fire"
+	quest.19856D3F2C0E13FD.title: "Dragon Slayer"
+	quest.19C12E9599CD7952.quest_desc: [
+		"In the Nether: the &6Burning Arena&r (Explorer's Compass: \"burning_arena\"). Summon Ignis at the altar. Fire resistance, a shield, and patience."
+		""
+		"&eDrops:&r &6Ignitium&r for Ignitium armour."
+	]
+	quest.19C12E9599CD7952.quest_subtitle: "&5Endgame&r - Burning Arena"
+	quest.19C12E9599CD7952.title: "Ignis"
+	quest.1AE34EC212686DC0.quest_desc: [
+		"In the Nether: the &6Soul Forge&r (Explorer's Compass: \"soul_black_smith\"). It's slow and armoured. Dodge its slams."
+	]
+	quest.1AE34EC212686DC0.quest_subtitle: "&5Endgame&r - Soul Forge"
+	quest.1AE34EC212686DC0.title: "Netherite Monstrosity"
+	quest.1B4D11F410E5409A.quest_desc: [
+		"The Kraken's beak. Proof you won."
+	]
+	quest.1B4D11F410E5409A.quest_subtitle: "The Kraken"
+	quest.1B4D11F410E5409A.title: "Kraken Beak"
+	quest.1B7AD88873686836.quest_desc: [
+		"Kill a dragon (Ice and Fire), collect its &6scales&r, and make Dragonscale armour. It resists that dragon's element."
+	]
+	quest.1B7AD88873686836.quest_subtitle: "Deep & Storm tier"
+	quest.1B7AD88873686836.title: "Dragonscale"
+	quest.1CDC4D4DB2DC077E.quest_desc: [
+		"Hat bags drop from mobs. Open them for a random hat. Wear hats in the &6cosmetic slot&r so they show over your armour without replacing it."
+	]
+	quest.1CDC4D4DB2DC077E.quest_subtitle: "SimpleHats"
+	quest.1CDC4D4DB2DC077E.title: "Hat Bags"
+	quest.1CE842CB53C63DDC.quest_desc: [
+		"It's blind and it hits harder than anything. Sneak. If you must fight it, bring ranged weapons and the whole crew."
+	]
+	quest.1CE842CB53C63DDC.quest_subtitle: "&5Endgame&r - the Deep Dark"
+	quest.1CE842CB53C63DDC.title: "The Warden"
+	quest.1CF3503A48A6BABC.quest_desc: [
+		"&6Brass Funnel&r - like the andesite one, but with a filter slot and a stack-size setting (scroll on it)."
+		"&6Brass Tunnel&r - splits items between belts in a pattern (round robin, prefer nearest, randomise...)."
+		"&6Smart Chute&r - a chute with a filter."
+		""
+		"These are how you sort a whole factory with no hoppers."
+	]
+	quest.1CF3503A48A6BABC.quest_subtitle: "Brass funnels, tunnels and chutes"
+	quest.1CF3503A48A6BABC.title: "Smart Logistics"
+	quest.1CF3864FFB79ABF9.quest_desc: [
+		"Under the desert, the &6Cursed Pyramid&r (Explorer's Compass: \"cursed_pyramid\"). Brush the &6suspicious sand&r in its tomb to wake the Ancient Remnant."
+	]
+	quest.1CF3864FFB79ABF9.quest_subtitle: "&5Endgame&r - Cursed Pyramid"
+	quest.1CF3864FFB79ABF9.title: "Ancient Remnant"
+	quest.1DAEC39E43C1DBDD.quest_desc: [
+		"&e/sethome&r and &e/home&r - up to 2 homes (10 min cooldown)."
+		"&e/spawn&r - back to Brass Harbour (5 min)."
+		"&e/tpa <name>&r - ask to teleport to a friend (5 min)."
+		"&e/back&r - back to where you died (5 min)."
+		""
+		"All of these make you stand still for 5 seconds first. They are for emergencies. Ships, waystones and jetpacks are the real way to travel."
+	]
+	quest.1DAEC39E43C1DBDD.quest_subtitle: "Commands everyone can use"
+	quest.1DAEC39E43C1DBDD.title: "Shortcuts Home"
+	quest.1E3ACD4265EB3660.quest_desc: [
+		"Build it yourself: soul sand T and three wither skeleton skulls. Fight it &eunderground&r so it can't fly away. It drops the &6Nether Star&r."
+	]
+	quest.1E3ACD4265EB3660.quest_subtitle: "&9Mid&r - summoned"
+	quest.1E3ACD4265EB3660.title: "The Wither"
+	quest.1E834E18700BB7B1.quest_desc: [
+		"&6Steam 'n' Rails&r adds tracks in every wood type, wide and narrow gauge, locomotive bodies (boilers, smokestacks), couplers, conductor caps and more."
+		""
+		"Put a &6Conductor Cap&r on a mob to make it a conductor."
+	]
+	quest.1E834E18700BB7B1.quest_subtitle: "Fancy trains"
+	quest.1E834E18700BB7B1.title: "Steam 'n' Rails"
+	quest.1EAF7D430FA2D00C.quest_desc: [
+		"Packages, links, tickers and gauges: your base can now fetch, craft and deliver on its own."
+		""
+		"&aTip:&r &6Create: Vibrant Vaults&r adds coloured vaults, packagers and frogports so you can colour-code your network."
+	]
+	quest.1EAF7D430FA2D00C.quest_subtitle: "A base that runs itself"
+	quest.1EAF7D430FA2D00C.title: "Quartermaster"
+	quest.1EB5C83AFBD2146B.quest_desc: [
+		"&e1.&r A &6Disk Drive&r holds &6Storage Disks&r. Start with 1k disks (1,000 items each)."
+		"&e2.&r A &6Grid&r is the terminal: search, take and insert everything stored."
+		"&e3.&r A &6Crafting Grid&r adds a crafting table that pulls ingredients straight from storage."
+	]
+	quest.1EB5C83AFBD2146B.quest_subtitle: "Your digital chest"
+	quest.1EB5C83AFBD2146B.title: "Disk Drive and Grid"
+	quest.1ECC72DA784E1415.quest_desc: [
+		"The sea fights back:"
+		""
+		"&6Pirate ships&r (Seven Seas): galleons, junks and frigates that shoot on sight."
+		"&6Illager War Triremes&r: rowed warships full of illagers."
+		"&6Frozen pirate ships&r in the Ice Maze."
+		"&6Sharks&r: great whites follow boats."
+		""
+		"A good crew needs guns. Here's how to build real ones."
+	]
+	quest.1ECC72DA784E1415.quest_subtitle: "Who wants to sink you"
+	quest.1ECC72DA784E1415.title: "Hostile Waters"
+	quest.1F0323F0A061CCFA.quest_desc: [
+		"A &6Redstone Requester&r remembers one order. Each time it gets a redstone pulse, it orders those items again."
+		""
+		"Hook it to a button by your door (\"send me 64 torches\") or to a timer that keeps a furnace stocked."
+	]
+	quest.1F0323F0A061CCFA.quest_subtitle: "Automatic orders"
+	quest.1F0323F0A061CCFA.title: "Redstone Requester"
+	quest.1F121FC3EA30733A.quest_desc: [
+		"A &6Copycat&r block takes the look of any block you put in it: slopes, stairs, steps, panels. Make smooth hulls and detailed roofs from any material."
+	]
+	quest.1F121FC3EA30733A.quest_subtitle: "Shape any block"
+	quest.1F121FC3EA30733A.title: "Copycats"
+	quest.1F869CC1E485D665.quest_desc: [
+		"&6Neptunium Ingots&r come from Neptune's Bounty. Press them into &6Neptunium Sheets&r with a Mechanical Press: all Neptunium gear in this pack is made from sheets."
+		""
+		"Neptunium tools and armour are the best for underwater work: fast swimming and water breathing."
+	]
+	quest.1F869CC1E485D665.quest_subtitle: "Treasure of the deep"
+	quest.1F869CC1E485D665.title: "Neptunium"
+	quest.1FCDC129E991E033.quest_desc: [
+		"&6Chipped&r workbenches turn one block into dozens of variants. Put stone in a &6Mason Table&r, wood in a &6Carpenter's Table&r, glass in a &6Glassblower&r..."
+	]
+	quest.1FCDC129E991E033.quest_subtitle: "Thousands of block variants"
+	quest.1FCDC129E991E033.title: "Chipped Workbenches"
+	quest.204913687AA05093.quest_desc: [
+		"Full diamond is &e20 armour&r: exactly what you need so endgame bosses can't one-shot you. Don't fight them before this."
+	]
+	quest.204913687AA05093.quest_subtitle: "Your ticket to the endgame"
+	quest.204913687AA05093.title: "Full Diamond"
+	quest.206ECEBF17B061FB.quest_desc: [
+		"Brush suspicious sand and gravel in ruins for pottery, fossils, and rare artefacts."
+	]
+	quest.206ECEBF17B061FB.quest_subtitle: "Better Archeology"
+	quest.206ECEBF17B061FB.title: "Archaeology"
+	quest.209B2E6B80089323.quest_desc: [
+		"A &6Spout&r pours fluid onto the item below it: fills bottles and buckets, makes honey bread, coats things."
+		"An &6Item Drain&r does the opposite: drop a full bucket or bottle on it and it empties into the pipe."
+	]
+	quest.209B2E6B80089323.quest_subtitle: "Filling and emptying"
+	quest.209B2E6B80089323.title: "Spout and Drain"
+	quest.20F1BCB16E024929.quest_desc: [
+		"The minimap is in the top-right corner. Press &eJ&r for the full map."
+		""
+		"&e,&r (comma) drops a waypoint where you stand. Mark every island you like."
+		"The &6Season HUD&r under the minimap tells you the season. Farming and fishing both care about it."
+		""
+		"&aTip:&r the full map can show caves (top-left buttons) and lets you right-click to teleport to a waypoint if you're an operator."
+	]
+	quest.20F1BCB16E024929.quest_subtitle: "JourneyMap and waypoints"
+	quest.20F1BCB16E024929.title: "Chart Your Course"
+	quest.2119521919141CBE.quest_desc: [
+		"Fishing here is a small minigame. When a fish bites, keep the &ebobber inside the moving zone&r until the bar fills."
+		""
+		"Every biome, depth, weather, time of day and &eseason&r has different fish. Rain and night change everything."
+	]
+	quest.2119521919141CBE.quest_subtitle: "Tide fishing"
+	quest.2119521919141CBE.title: "Cast a Line"
+	quest.211AA355E28CE8EE.quest_desc: [
+		"Paint your own pictures or import images onto paintings of any size."
+	]
+	quest.211AA355E28CE8EE.quest_subtitle: "Immersive Paintings"
+	quest.211AA355E28CE8EE.title: "Gallery"
+	quest.2129DDB6C8F73309.quest_desc: [
+		"From the Leviathan in the Sunken City. The rarest relic."
+	]
+	quest.2129DDB6C8F73309.quest_subtitle: "The Leviathan"
+	quest.2129DDB6C8F73309.title: "Leviathan Ink"
+	quest.2183B1AFF1B26F52.quest_desc: [
+		"&e1.&r Place a &6Train Station&r next to your track."
+		"&e2.&r Right-click the track with a &6Railway Casing&r to make &ebogeys&r (wheels). You need at least one."
+		"&e3.&r Build your train on top: glue blocks, add seats, and put a &6Train Controls&r block facing forward."
+		"&e4.&r Open the station and press &eAssemble&r."
+		""
+		"Sit at the controls and press W to drive. Disassemble at any station."
+	]
+	quest.2183B1AFF1B26F52.quest_subtitle: "Station, bogeys and controls"
+	quest.2183B1AFF1B26F52.title: "Build a Train"
+	quest.21993AF742289B80.quest_desc: [
+		"Etch your own music discs from audio links at the &6Etching Table&r."
+	]
+	quest.21993AF742289B80.quest_subtitle: "Etched"
+	quest.21993AF742289B80.title: "Press a Record"
+	quest.21BDDB66EEBCE4A5.quest_desc: [
+		"From here on, wear &6full diamond&r (or better), carry good food and a stack of healing. Fight with your crew."
+	]
+	quest.21BDDB66EEBCE4A5.quest_subtitle: "Full diamond from here"
+	quest.21BDDB66EEBCE4A5.title: "Mid Tier"
+	quest.21FBCCFC3458799D.quest_desc: [
+		"&6New Age&r makes electricity the Create way: &6Generator Coils&r spinning past &6Magnets&r. Energisers charge iron and gold into &6overcharged&r metal for better wire and parts."
+		""
+		"&6Solar Heating Plates&r heat a boiler without blaze burners. For the brave: a full &cnuclear reactor&r with thorium. Read every Ponder first."
+	]
+	quest.21FBCCFC3458799D.quest_subtitle: "Magnets and generator coils"
+	quest.21FBCCFC3458799D.title: "Create: New Age"
+	quest.22531C15FC789A08.quest_desc: [
+		"A &6Wireless Transmitter&r on the network plus a &6Wireless Grid&r in your hand: open your storage from anywhere in range."
+	]
+	quest.22531C15FC789A08.quest_subtitle: "Wireless grid"
+	quest.22531C15FC789A08.title: "Storage in Your Pocket"
+	quest.22B04D99B8A151BD.quest_desc: [
+		"Place a &6Cannon&r on a ship that has cannon slots (Brigg, Galleon...). Load &6Cannon Balls&r and &6gunpowder&r, then fire from the side with right-click."
+		""
+		"Grape shot and chain shot are good against sails and crews."
+	]
+	quest.22B04D99B8A151BD.quest_subtitle: "Small Ships broadsides"
+	quest.22B04D99B8A151BD.title: "Ship Cannons"
+	quest.22CC5EA877972320.quest_desc: [
+		"A &6Vendor&r sells (or buys) one item for a set price, automatically. Put it at your base and feed it from your factory. Engineers and farmers can trade with each other this way."
+	]
+	quest.22CC5EA877972320.quest_subtitle: "Vendors"
+	quest.22CC5EA877972320.title: "Open a Stall"
+	quest.22D3A1FAA784EB39.quest_desc: [
+		"The &6Controller&r powers the whole network. It needs &bForge Energy&r: run cable from an alternator (Electricity & Fuel chapter)."
+		""
+		"Every other RS block connects to it with &6Cable&r or by touching."
+	]
+	quest.22D3A1FAA784EB39.quest_subtitle: "The heart of the network"
+	quest.22D3A1FAA784EB39.title: "Controller"
+	quest.23D263023C4AAB5B.quest_desc: [
+		"An &6Electron Tube&r is polished rose quartz on an iron sheet. Every smart Create block needs one, and so do &6waystones&r and &6jetpacks&r in this pack."
+	]
+	quest.23D263023C4AAB5B.quest_subtitle: "The brass-age brain"
+	quest.23D263023C4AAB5B.title: "Electron Tube"
+	quest.24193C631E63B982.quest_desc: [
+		"A trident that has &eLoyalty and Riptide together&r, made with sea relics."
+	]
+	quest.24193C631E63B982.quest_subtitle: "Legendary trident"
+	quest.24193C631E63B982.title: "Tidecaller"
+	quest.244FFB9D3B812468.quest_desc: [
+		"The tropics have their own furniture, drinks and decorations: deck chairs, beach towels, palm bars, cocktails and mini fridges."
+		""
+		"Cocktails are mixed in the &6Tiki Bar&r (Mini Fridge and Palm Bar too). Most drinks give a short buff."
+	]
+	quest.244FFB9D3B812468.quest_subtitle: "Let's Do Beachparty"
+	quest.244FFB9D3B812468.title: "Beach Day"
+	quest.24642A86E7884788.quest_desc: [
+		"Right-click a placed chest with a &6tier upgrade&r (copper, iron, gold, diamond, netherite) and it grows without spilling anything."
+		""
+		"Add a &6Storage Controller&r and &6Storage Links&r to see many chests as one inventory, no electricity needed."
+	]
+	quest.24642A86E7884788.quest_subtitle: "Tier upgrades"
+	quest.24642A86E7884788.title: "Upgrade in Place"
+	quest.2485382AA309E404.quest_desc: [
+		"The &6Fishing Journal&r fills in as you catch fish. Each entry says where and when that fish bites. It's the collector's checklist for the whole ocean."
+	]
+	quest.2485382AA309E404.quest_subtitle: "Collect every fish"
+	quest.2485382AA309E404.title: "The Fishing Journal"
+	quest.25AA30D182F85406.quest_desc: [
+		"Lutes, flutes, drums and more. Play together with your crew. Sea shanties strongly encouraged."
+	]
+	quest.25AA30D182F85406.quest_subtitle: "Immersive Melodies"
+	quest.25AA30D182F85406.title: "Band Practice"
+	quest.25DDE575580BB924.quest_desc: [
+		"Two &6Redstone Links&r with the same two items in their frequency slots talk to each other from far away. One sends, the other receives."
+		""
+		"Use them to switch machines from your control room, or to build a remote control for your ship."
+	]
+	quest.25DDE575580BB924.quest_subtitle: "Redstone links"
+	quest.25DDE575580BB924.title: "Wireless Redstone"
+	quest.2617C6C8BFEAA862.quest_desc: [
+		"&6Create: Factory Logistics&r adds fluid packages. A &6Jar Packager&r boxes fluid into jars, and the &6Factory Fluid Gauge&r requests fluids the same way the item gauge does."
+	]
+	quest.2617C6C8BFEAA862.quest_subtitle: "Factory Logistics"
+	quest.2617C6C8BFEAA862.title: "Fluids in Jars"
+	quest.261AA8443B23FA58.quest_desc: [
+		"Pick an island and make it home. Good signs: flat land, a river or the sea close by (water wheels), trees, and stone."
+		""
+		"&e1.&r Place your &6waystone&r there so you can always get back."
+		"&e2.&r Claim the chunks (&e'&r key)."
+		"&e3.&r Put your bed down."
+		""
+		"&aTip:&r build near flowing water. Your first Create power will come from water wheels."
+	]
+	quest.261AA8443B23FA58.quest_subtitle: "Set up your first base"
+	quest.261AA8443B23FA58.title: "Island Hopper"
+	quest.2688F1AFB81B9316.quest_desc: [
+		"Two &6Crushing Wheels&r side by side, spinning toward each other, crush anything dropped between them."
+		""
+		"&bWhy:&r raw ore becomes &6crushed ore&r plus bonus nuggets and extra materials. Wash or smelt the crushed ore and you get about &e1.75x&r the metal of smelting raw ore."
+		""
+		"&e1.&r Place two wheels side by side so they touch."
+		"&e2.&r Power them so they spin toward each other (the Ponder shows how)."
+		"&e3.&r Drop items in from above."
+		""
+		"They need a lot of stress. Make sure your power can handle it."
+	]
+	quest.2688F1AFB81B9316.quest_subtitle: "Double your ore"
+	quest.2688F1AFB81B9316.title: "Crushing Wheels"
+	quest.26BEEDCEB3568B62.quest_desc: [
+		"Trains run on &6Train Tracks&r. Hold track, right-click the start point, then right-click the end point: Create builds a smooth curve or slope between them."
+		""
+		"Plan your line from island to island. Bridges over the sea look amazing with girders."
+	]
+	quest.26BEEDCEB3568B62.quest_subtitle: "Create railways"
+	quest.26BEEDCEB3568B62.title: "Laying Track"
+	quest.26CB822FC697BE55.quest_desc: [
+		"Macaw's mods add roofs, windows, doors, bridges, fences, paths, lights, stairs and furniture in &eevery wood type&r (thanks to Every Compat)."
+	]
+	quest.26CB822FC697BE55.quest_subtitle: "Roofs, windows, doors, furniture"
+	quest.26CB822FC697BE55.title: "Macaw's Collection"
+	quest.26EBB57D60E96870.quest_desc: [
+		"&6Create Deco&r adds catwalks, metal sheets, bars, lamps and hull windows. Perfect for factories and ships."
+	]
+	quest.26EBB57D60E96870.quest_subtitle: "Create Deco and friends"
+	quest.26EBB57D60E96870.title: "Industrial Look"
+	quest.26FC79D1E823D978.quest_desc: [
+		"Look for the &6Snorkel&r and &6Flippers&r in shipwreck and ocean-ruin chests. The &6Seafarer's Lung&r and &6Mariner's Stride&r enchantments help too."
+		""
+		"Down there: sunken spires, coral reefs, underwater villages and the Sunken City."
+	]
+	quest.26FC79D1E823D978.quest_subtitle: "Underwater exploring"
+	quest.26FC79D1E823D978.title: "Breathe Easy"
+	quest.2753D0D2A87CC858.quest_desc: [
+		"Every mob has a small chance to drop its head. Collect a wall of them."
+	]
+	quest.2753D0D2A87CC858.quest_subtitle: "Mob Heads"
+	quest.2753D0D2A87CC858.title: "Head Hunter"
+	quest.27B1FB63DF6836AD.quest_desc: [
+		"Machines stop when nobody is nearby, because the chunk unloads. A &6Chunk Loader&r (Create Power Loader) keeps chunks loaded while it is &espinning&r."
+		""
+		"Andesite loaders cover a small area, brass ones more. Use them for the parts that really need to run while you sail."
+	]
+	quest.27B1FB63DF6836AD.quest_subtitle: "Chunk loaders"
+	quest.27B1FB63DF6836AD.title: "Keep It Running"
+	quest.2814FA77B7589F74.quest_desc: [
+		"Turn experience into a &bfluid&r. A &6Mechanical Grindstone&r and &6Experience Hatch&r collect it, pipes move it, and a &6Blaze Enchanter&r uses it to enchant items with exactly the enchantment you choose (use an &6Enchanting Template&r)."
+		""
+		"The &6Printer&r copies enchanted books and written books."
+	]
+	quest.2814FA77B7589F74.quest_subtitle: "Create: Enchantment Industry"
+	quest.2814FA77B7589F74.title: "Liquid Experience"
+	quest.287EB12220F361A3.quest_desc: [
+		"From the Pirate Captain and the captains of Seven Seas pirate ships."
+	]
+	quest.287EB12220F361A3.quest_subtitle: "Pirate Captain and pirate ships"
+	quest.287EB12220F361A3.title: "Pirate Medal"
+	quest.29039B590902CE5A.quest_desc: [
+		"A giant suit of armour sealed in a &6Wrought Chamber&r underground (Explorer's Compass: \"wrought_chamber\"). It's only vulnerable from &ebehind&r, after it swings and gets its axe stuck."
+		""
+		"&eDrops:&r the &6Axe of a Thousand Metals&r and its helm."
+	]
+	quest.29039B590902CE5A.quest_subtitle: "&6Early&r - underground"
+	quest.29039B590902CE5A.title: "Ferrous Wroughtnaut"
+	quest.296B631968CD8AEE.quest_desc: [
+		"Grapes are seasonal. Press them in a &6Grapevine Pot&r, then put the juice in a &6Fermentation Barrel&r. Wine gets better the longer it ages, and good wine sells well."
+	]
+	quest.296B631968CD8AEE.quest_subtitle: "Vinery"
+	quest.296B631968CD8AEE.title: "Vintner"
+	quest.29733E9760C412C9.quest_desc: [
+		"When you die, your items stay in a &6corpse&r where you fell. Nobody else can loot it."
+		""
+		"&e/back&r takes you to where you died (5 minute cooldown)."
+		"Open the corpse and take everything back."
+		""
+		"&c Sea bosses hit hard.&r Even with good armour, one hit can take a big chunk of your health. A strong hit at full health will leave you on one heart once every 30 seconds. Don't count on it twice."
+	]
+	quest.29733E9760C412C9.quest_subtitle: "Dying, graves and getting home"
+	quest.29733E9760C412C9.title: "Davy Jones Can Wait"
+	quest.29953AAADBD0F424.quest_desc: [
+		"Put a &6Speedometer&r or &6Stressometer&r on a shaft to show speed or stress on its dial, without goggles. They also give a redstone signal you can use (for example, turn on a backup engine when stress is high)."
+	]
+	quest.29953AAADBD0F424.quest_subtitle: "Speedometer and stressometer"
+	quest.29953AAADBD0F424.title: "Know Your Network"
+	quest.29FB745D0F4A9AFF.quest_desc: [
+		"Everything strong in this pack runs through &6Create&r: machines you build out of shafts and gears that you can &esee&r spinning."
+		""
+		"Here's the one idea to understand:"
+		"&e1.&r A &6source&r makes rotation (water wheel, windmill, steam engine)."
+		"&e2.&r &6Shafts and cogs&r carry it."
+		"&e3.&r &6Machines&r use it."
+		""
+		"Every source gives &bstress capacity&r (SU). Every machine uses some. If machines need more than you make, everything stops."
+		"{@pagebreak}"
+		"&6Where's the electricity?&r"
+		""
+		"There isn't any... yet. Create runs on rotation. Later you can turn rotation into electricity (Crafts & Additions) and back again, but you never need it to get started."
+		""
+		"&6Learning Create the easy way&r"
+		"Every Create block has a Ponder lesson. Hover it and hold &eW&r. Watch the lesson before you place a new machine."
+	]
+	quest.29FB745D0F4A9AFF.quest_subtitle: "Machines made of moving parts"
+	quest.29FB745D0F4A9AFF.title: "What Is Create?"
+	quest.2A7013A2DE720368.quest_desc: [
+		"You now know how to make rotation, carry it, and see what it's doing. Next up: making it do work."
+		""
+		"&6Create II: Processing&r teaches the machines that crush, press, wash, mix and smelt."
+	]
+	quest.2A7013A2DE720368.quest_subtitle: "On to processing"
+	quest.2A7013A2DE720368.title: "Spinning Up"
+	quest.2A7E1310C48A80D6.quest_desc: [
+		"The &6Stock Ticker&r shows everything stored in the network. Pick what you want and how many, and it sends a request: the right packagers box it up and send it to the address you give."
+	]
+	quest.2A7E1310C48A80D6.quest_subtitle: "Order anything from one screen"
+	quest.2A7E1310C48A80D6.title: "Stock Ticker"
+	quest.2A9552CC028C7F4B.quest_desc: [
+		"&eHold `&r (the key left of 1) and break a block: you mine the whole vein, or fell the whole tree. It costs hunger, so eat first."
+		""
+		"&eMiddle-click&r in a chest or your inventory sorts it."
+		"The &6trash slot&r next to your inventory deletes whatever you drop in."
+		"&6Carry On&r: sneak + right-click with an empty hand picks up a chest (with its contents) or a small animal."
+	]
+	quest.2A9552CC028C7F4B.quest_subtitle: "Ultimine, sorting and the trash slot"
+	quest.2A9552CC028C7F4B.title: "Work Smarter"
+	quest.2B0C8B0F0EC54F11.quest_desc: [
+		"Tame a hamster. Yes, you can throw it. No, you shouldn't."
+	]
+	quest.2B0C8B0F0EC54F11.quest_subtitle: "Adorable Hamster Pets"
+	quest.2B0C8B0F0EC54F11.title: "Hamster Crew"
+	quest.2B26FC45F75D01B0.quest_desc: [
+		"Build a ship you're proud of: a helm, power, cargo and a way to fight. Show it off at Brass Harbour."
+		""
+		"Then turn to &6Guns & Battleships&r to arm it properly."
+	]
+	quest.2B26FC45F75D01B0.quest_subtitle: "Your masterpiece"
+	quest.2B26FC45F75D01B0.title: "Flagship"
+	quest.2B91345599EC0271.quest_desc: [
+		"A &6Propeller Bearing&r with a &6Wooden Propeller&r (or Andesite / Smart propeller) pushes your ship with rotation from an engine on board."
+		""
+		"Under water it's a ship's screw. In the air it's an airship's prop."
+	]
+	quest.2B91345599EC0271.quest_subtitle: "Powered ships"
+	quest.2B91345599EC0271.title: "Propellers"
+	quest.2BFBAAF88439B8A7.quest_desc: [
+		"Something strange roams the land. If you meet &6Big Randy&r, fight back: he has more health here than he should."
+	]
+	quest.2BFBAAF88439B8A7.quest_subtitle: "&6Early&r - joke boss"
+	quest.2BFBAAF88439B8A7.title: "Big Randy"
+	quest.2C100CA8910DE4CF.quest_desc: [
+		"Anvil level limits are gone. Combine two Sharpness V books into Sharpness VI, then VI and VI into VII..."
+		""
+		"This is the long grind to a truly overpowered weapon. Liquid XP makes it bearable."
+	]
+	quest.2C100CA8910DE4CF.quest_subtitle: "Unlimited Enchantments"
+	quest.2C100CA8910DE4CF.title: "No Level Cap"
+	quest.2C25C42BA782AF61.quest_desc: [
+		"A &6Trading Depot&r lets a deployer trade with villagers automatically."
+	]
+	quest.2C25C42BA782AF61.quest_subtitle: "Create: Trading Floor"
+	quest.2C25C42BA782AF61.title: "Trade Automation"
+	quest.2C2CE39497A9E963.quest_desc: [
+		"The &6Wrench&r rotates a Create block (right-click) or picks it up instantly (sneak + right-click)."
+		""
+		"Use it to turn gearboxes, flip fans, point funnels and connect mechanical crafters."
+	]
+	quest.2C2CE39497A9E963.quest_subtitle: "Every engineer carries one"
+	quest.2C2CE39497A9E963.title: "The Wrench"
+	quest.2C5486C97CBF74E2.quest_desc: [
+		"Trophies of every mob, earned by beating them. Display your boss kills."
+	]
+	quest.2C5486C97CBF74E2.quest_subtitle: "Jonn's Trophies"
+	quest.2C5486C97CBF74E2.title: "Trophy Room"
+	quest.2D29AD345144C3A5.quest_desc: [
+		"Rafts carry you and a friend across bays. Every wood type has one. Good for the first week."
+	]
+	quest.2D29AD345144C3A5.quest_subtitle: "Island hopping"
+	quest.2D29AD345144C3A5.title: "Rafts"
+	quest.2D3396AE10760A0C.quest_desc: [
+		"Classic first automation: a long beam of &6Mechanical Harvesters&r on a piston that sweeps over a crop field. It harvests ripe crops and leaves the plants to regrow."
+		""
+		"&aTip:&r crops grow fastest in their season (check the Season HUD). Saws do the same job for tree farms."
+	]
+	quest.2D3396AE10760A0C.quest_subtitle: "Harvesters on a piston"
+	quest.2D3396AE10760A0C.title: "Automatic Farm"
+	quest.2D9A9BD806BFED8F.quest_desc: [
+		"When water wheels aren't enough, build a boiler."
+		""
+		"&e1.&r Build a &6Fluid Tank&r (a 2x2 or 3x3 tank works well). This is the boiler."
+		"&e2.&r Put &6Blaze Burners&r under it and feed them fuel."
+		"&e3.&r Pump &bwater&r into the tank (a pump on a water source)."
+		"&e4.&r Place &6Steam Engines&r on the sides of the tank, with a shaft coming out of each."
+		""
+		"Look at the tank with goggles: the &eboiler level&r shows how many engines it can run. More heat, more water and a bigger tank = higher level."
+	]
+	quest.2D9A9BD806BFED8F.quest_subtitle: "Real power"
+	quest.2D9A9BD806BFED8F.title: "Steam Engine"
+	quest.2DEC9BBE1F6D0B3E.quest_desc: [
+		"Found in floating sky structures. Needed for the netherite jetpack."
+	]
+	quest.2DEC9BBE1F6D0B3E.quest_subtitle: "Sky structures"
+	quest.2DEC9BBE1F6D0B3E.title: "Sky Compass Core"
+	quest.2E330F2191B655E0.quest_desc: [
+		"Some machines (Refined Storage, building gadgets, chargers) run on &bForge Energy&r (FE) instead of rotation."
+		""
+		"&6Create Crafts & Additions&r is the bridge:"
+		"&6Alternator&r - rotation in, FE out."
+		"&6Electric Motor&r - FE in, rotation out."
+		""
+		"So: your steam engines or water wheels turn an alternator, and wires carry the power anywhere."
+	]
+	quest.2E330F2191B655E0.quest_subtitle: "Rotation meets Forge Energy"
+	quest.2E330F2191B655E0.title: "Why Electricity?"
+	quest.2E4A1C47DBE38F93.quest_desc: [
+		"Sailing alone is fine. Sailing with a crew is better."
+		""
+		"&e1.&r Open this book, click the &6team icon&r (top-left) and create or join a team. Quest progress is shared."
+		"&e2.&r Claim your base: press &e'&r (apostrophe) for Open Parties and Claims, then claim the chunks around your build. Nobody outside your party can break or open anything there."
+		"&e3.&r Proximity voice chat is on: players near you hear you. Press &eV&r for its menu (push-to-talk or voice activation), &eM&r mutes you, &eG&r makes a private group."
+	]
+	quest.2E4A1C47DBE38F93.quest_subtitle: "Teams, claims and voice"
+	quest.2E4A1C47DBE38F93.title: "Sign Your Crew"
+	quest.2ED2C944CB9AF03F.quest_desc: [
+		"&6Rose Quartz&r is quartz and redstone crafted together. &6Sand Paper&r polishes it into &6Polished Rose Quartz&r."
+		""
+		"Hold the sand paper with the quartz in your other hand and right-click, or let a deployer do it on a belt. You'll need polished rose quartz for electron tubes."
+	]
+	quest.2ED2C944CB9AF03F.quest_subtitle: "Sandpaper and polishing"
+	quest.2ED2C944CB9AF03F.title: "Rose Quartz"
+	quest.2EFC96B08967BA65.quest_desc: [
+		"Found in ocean ruin and shipwreck chests. Used for the Sky Compass Core."
+	]
+	quest.2EFC96B08967BA65.quest_subtitle: "Ocean ruins and shipwrecks"
+	quest.2EFC96B08967BA65.title: "Navigator's Chart"
+	quest.2F36473DFA5DA582.quest_desc: [
+		"&6Small Ships&r are real sailing ships you craft like boats. No Create needed."
+		""
+		"&6Cog&r - small, quick, a little cargo."
+		"&6Brigg&r - bigger hold, room for crew and cannons."
+		"&6Galley&r - oars and sail, fast in any wind."
+		"&6Galleon&r - the big one: lots of cargo, lots of cannons."
+		"&6Drakkar&r - a longship with shields."
+		""
+		"&eW/S&r raise and lower sail, &eA/D&r steer, sneak + right-click opens cargo."
+	]
+	quest.2F36473DFA5DA582.quest_subtitle: "Sailing without machines"
+	quest.2F36473DFA5DA582.title: "Small Ships"
+	quest.2FF851ECAB021C7C.quest_desc: [
+		"The simplest power source is you. Place a &6Hand Crank&r on a shaft and hold right-click to turn it."
+		""
+		"It's weak and it makes you hungry, but it's perfect for testing a new machine before you have real power."
+	]
+	quest.2FF851ECAB021C7C.quest_subtitle: "The hand crank"
+	quest.2FF851ECAB021C7C.title: "Elbow Grease"
+	quest.305751BFE2FD2E0C.quest_desc: [
+		"A &6Steam Whistle&r on a boiler plays a note when powered with redstone. Stack them for a lower note. Every harbour needs a horn."
+	]
+	quest.305751BFE2FD2E0C.quest_subtitle: "Steam whistle"
+	quest.305751BFE2FD2E0C.title: "Make Some Noise"
+	quest.310FF5D96BFE9720.quest_desc: [
+		"&6Create: Offroad&r adds tyres and wheel mounts, so an Aeronautics build can drive on land too."
+	]
+	quest.310FF5D96BFE9720.quest_subtitle: "Off-road vehicles"
+	quest.310FF5D96BFE9720.title: "Wheels"
+	quest.3185107A67C92807.quest_desc: [
+		"&6Crab Traps&r catch crabs, lobsters and clams. &6Ocean's Delight&r cooks squid, guardian and elder guardian (yes, really)."
+		""
+		"Your Tide catch goes straight into the pot."
+	]
+	quest.3185107A67C92807.quest_subtitle: "Ocean's and Crabber's Delight"
+	quest.3185107A67C92807.title: "Seafood"
+	quest.3287B2B261770D57.quest_desc: [
+		"The End is reworked by &6Stellarity&r: new biomes, structures and creatures. Go there after the dragon for the best loot."
+	]
+	quest.3287B2B261770D57.quest_subtitle: "Stellarity"
+	quest.3287B2B261770D57.title: "The End"
+	quest.328AA387D64F8BDE.quest_desc: [
+		"&6Handcrafted&r and &6Another Furniture&r: tables, chairs, cupboards, couches, shelves, lamps, pillows."
+	]
+	quest.328AA387D64F8BDE.quest_subtitle: "Cosy interiors"
+	quest.328AA387D64F8BDE.title: "Handcrafted"
+	quest.32A70A7C80E573BA.quest_desc: [
+		"Three Elder Guardians live in every &6Ocean Monument&r. They give mining fatigue. Neptunium armour and a Conduit help a lot."
+	]
+	quest.32A70A7C80E573BA.quest_subtitle: "&9Mid&r - ocean monuments"
+	quest.32A70A7C80E573BA.title: "Elder Guardian"
+	quest.33041CC80850B788.quest_desc: [
+		"Everyone who steps off the boat gets a sea chest. Check your inventory:"
+		""
+		"&6Backpack&r - press &eB&r to open it while it's on your back."
+		"&6Waystone&r - place it at your first real base. You can teleport back to it from any other waystone."
+		"&6Raft&r - your first boat."
+		"&6Nature's Compass&r - finds any biome."
+		"&6Spyglass, rod, stone tools, food, torches, a bed and this book.&r"
+		""
+		"Lost it all? An operator can give the kit again with &e/starterkit&r."
+	]
+	quest.33041CC80850B788.quest_subtitle: "The starter kit"
+	quest.33041CC80850B788.title: "Your Sea Chest"
+	quest.337616E05FDD3184.quest_desc: [
+		"Some recipes need &cheat&r under the basin. That heat comes from a &6Blaze Burner&r."
+		""
+		"&e1.&r Craft an &6Empty Blaze Burner&r."
+		"&e2.&r Go to the Nether, find a blaze (fortresses), and right-click it with the empty burner. Or right-click a blaze spawner."
+		"&e3.&r Place it under your basin and feed it any fuel (logs, coal). It's now &eHeated&r."
+		"&e4.&r Feed it a &6Blaze Cake&r for &bSuperheated&r (needed for some late recipes)."
+		""
+		"&aTip:&r a blaze burner also heats boilers for steam engines."
+	]
+	quest.337616E05FDD3184.quest_subtitle: "Blaze Burner: heat for your basin"
+	quest.337616E05FDD3184.title: "Capture a Blaze"
+	quest.33826D13174DABA3.quest_desc: [
+		"The masked sun chief lives in an &6Umvuthana Grove&r in savannas (Explorer's Compass: \"umvuthana_grove\"). Defeat his followers first."
+		""
+		"&eDrops:&r the &6Sol Visage&r mask (sun powers)."
+	]
+	quest.33826D13174DABA3.quest_subtitle: "&6Early&r - savanna"
+	quest.33826D13174DABA3.title: "Umvuthi"
+	quest.3442A5076CA963E5.quest_desc: [
+		"Illager War Triremes patrol the oceans. They ram and board. Sink one, or board it and clear the deck."
+	]
+	quest.3442A5076CA963E5.quest_subtitle: "Illager War Triremes"
+	quest.3442A5076CA963E5.title: "Sink a Trireme"
+	quest.35FA7FE887FD6D97.quest_desc: [
+		"The &6north stalls&r sell Create parts: sheets, andesite alloy, brass, electron tubes and precision mechanisms. If you'd rather build than grind, buy your way into the Engineer's Voyage."
+	]
+	quest.35FA7FE887FD6D97.quest_subtitle: "The north stalls"
+	quest.35FA7FE887FD6D97.title: "Buy Your Parts"
+	quest.36311DCA566F09D8.quest_desc: [
+		"&bAhoy, sailor.&r You've washed up at &6Brass Harbour&r, the last safe port before the open sea."
+		""
+		"Out there: hundreds of islands, pirate fleets, sea serpents, sunken cities and things that have never seen daylight."
+		""
+		"In here: a market, a press, a warm bed, and &ethis book&r. It is your chart. Each quest teaches you one thing and pays you in coin."
+		"{@pagebreak}"
+		"&6How the book works&r"
+		""
+		"&e1.&r Click a quest to open it. Read it, do the task, claim the reward."
+		"&e2.&r &eClick any item&r inside a quest to see exactly how to craft it."
+		"&e3.&r Quests with a lock need the quests before them first."
+		"&e4.&r Chapters on the left are grouped by how you like to play. Do them in any order."
+	]
+	quest.36311DCA566F09D8.quest_subtitle: "A word from the Harbourmaster"
+	quest.36311DCA566F09D8.title: "Welcome Aboard"
+	quest.3640AC17DD0C3285.quest_desc: [
+		"A musket with bayonet, upgraded with a &6Pirate Medal&r. Press &eR&r on it to see the recipe."
+	]
+	quest.3640AC17DD0C3285.quest_subtitle: "Legendary"
+	quest.3640AC17DD0C3285.title: "Captain's Musket"
+	quest.376C09DC9C542BDE.quest_desc: [
+		"Jars, globes, signposts, flags, sacks, clocks, planters, notice boards... and a cannon you can stand in. Supplementaries makes builds feel lived-in."
+	]
+	quest.376C09DC9C542BDE.quest_subtitle: "All the small things"
+	quest.376C09DC9C542BDE.title: "Supplementaries"
+	quest.38F1AAA5DBD7D10B.quest_desc: [
+		"A &6Deployer&r holds an item and uses it, like a player would: places blocks, uses tools, hits mobs, shears sheep, applies items to other items on a belt."
+		""
+		"It's the key part of assembly lines: a deployer holding a cogwheel pushes it onto a sheet on the belt below."
+		""
+		"&aTip:&r right-click the deployer with an item to give it one. Sneak + right-click to take it back."
+	]
+	quest.38F1AAA5DBD7D10B.quest_subtitle: "A robot hand"
+	quest.38F1AAA5DBD7D10B.title: "Deployer"
+	quest.393E282F60754C6C.quest_desc: [
+		"Wild crops grow around the world. Harvest them, then plant them in the right season."
+		""
+		"&aTip:&r right-click a ripe crop to harvest it and replant in one go."
+	]
+	quest.393E282F60754C6C.quest_subtitle: "Tomatoes, cabbages, rice, onions"
+	quest.393E282F60754C6C.title: "Plant for the Season"
+	quest.3A4613302013C8CD.quest_desc: [
+		"Bosses in this pack are much tougher than normal, and they get &ctougher with more players nearby&r (+40% health per extra player)."
+		""
+		"&6Early bosses&r - 1.5x health, 1.25x damage."
+		"&9Mid bosses&r - 2x health, 1.5x damage."
+		"&5Endgame bosses&r - 3x health, 1.75x damage."
+		"{@pagebreak}"
+		"&cThe armour rule&r"
+		""
+		"Fight an endgame boss with &cless than 20 armour&r (less than full diamond) and it &ecan one-shot you&r."
+		""
+		"With real armour, one hit can never take more than &e60%&r of your health."
+		""
+		"Your hits are capped too: one hit does at most &e5%&r of a boss's health. Bring sustained damage, not one big swing."
+	]
+	quest.3A4613302013C8CD.quest_subtitle: "Bosses here hit hard"
+	quest.3A4613302013C8CD.title: "Gear Up"
+	quest.3A9D3141B8230C7A.quest_desc: [
+		"The brass jetpack flies further on a tank."
+	]
+	quest.3A9D3141B8230C7A.quest_subtitle: "Faster and longer"
+	quest.3A9D3141B8230C7A.title: "Brass Jetpack"
+	quest.3BEBD888A63297CD.quest_desc: [
+		"To fly, a ship needs lift:"
+		""
+		"&6Envelopes&r - balloon blocks filled with hot air from a &6Steam Vent&r or &6Adjustable Burner&r below."
+		"&6Levitite&r - a crystal that floats on its own. Make it from Levitite Blend."
+		""
+		"More lift than weight = up. Fill or vent to go up and down."
+	]
+	quest.3BEBD888A63297CD.quest_subtitle: "Balloons and levitite"
+	quest.3BEBD888A63297CD.title: "Lighter Than Air"
+	quest.3C317FAFB2BC86B1.quest_desc: [
+		"Some items are made in steps. &6Precision Mechanisms&r are the first you'll need:"
+		""
+		"&e1.&r Start with a &6Golden Sheet&r."
+		"&e2.&r Deployer adds a &6Cogwheel&r."
+		"&e3.&r Deployer adds a &6Large Cogwheel&r."
+		"&e4.&r Deployer adds an &6Iron Nugget&r."
+		"&e5.&r Repeat steps 2-4 five times. Some come out as scrap; most come out as mechanisms."
+		"{@pagebreak}"
+		"&6How to build the line&r"
+		""
+		"A belt with three deployers above it, one for each part. Put golden sheets on one end. The half-finished item rides past each deployer in order and loops back with a funnel until it's done."
+		""
+		"Press &eR&r on the Precision Mechanism in EMI: the sequenced assembly page shows each step."
+		""
+		"&bPrecision mechanisms gate&r explorer's compasses, jetpacks, Refined Storage and many ship parts."
+	]
+	quest.3C317FAFB2BC86B1.quest_subtitle: "Multi-step recipes on a belt"
+	quest.3C317FAFB2BC86B1.title: "Sequenced Assembly"
+	quest.3C76477A7E0E614F.quest_desc: [
+		"Look around before you sail. The harbour is a no-build, no-mob zone, and it is where the server trades."
+		""
+		"&6North stalls&r sell Create parts: sheets, alloy, brass, electron tubes, precision mechanisms."
+		"&6South stalls&r buy fish, crops, logs and kelp for coins."
+		"&6The bank and Trading Post&r sit on the west side."
+		"&6The Public Press&r is by the pier: drop an ingot on the depot and hold the crank to press a sheet."
+		""
+		"Every quest in this book pays coins. This is where you spend them."
+	]
+	quest.3C76477A7E0E614F.quest_subtitle: "Brass Harbour, the safe port"
+	quest.3C76477A7E0E614F.title: "Walk the Market"
+	quest.3D0EB020F793053C.quest_desc: [
+		"&6Andesite Funnel&r - put it on a chest or machine. It pulls items off a belt into the block, or pushes items out onto a belt."
+		"&6Chute&r - a vertical pipe for items. Items fall down; an encased fan underneath pushes them up."
+		"&6Depot&r - a single-item table. Machines above it work on that item."
+		"&6Andesite Tunnel&r - splits a belt's items between several belts."
+	]
+	quest.3D0EB020F793053C.quest_subtitle: "Getting items in and out"
+	quest.3D0EB020F793053C.title: "Funnels and Chutes"
+	quest.3D13A2DD4E0DAA97.quest_desc: [
+		"Big dishes are placed on a table and served in slices or bowls. Cook one for your crew before a raid."
+	]
+	quest.3D13A2DD4E0DAA97.quest_subtitle: "Something for the whole crew"
+	quest.3D13A2DD4E0DAA97.title: "Feast"
+	quest.3DA5407C3C424513.quest_desc: [
+		"&6Fish of Thieves&r adds pondies, islehoppers, plentifins, wildsplashes and more, each in several rare colour variants. Some only appear at night or near shipwrecks. Collect them all."
+	]
+	quest.3DA5407C3C424513.quest_subtitle: "Fish of Thieves"
+	quest.3DA5407C3C424513.title: "Rare Colours"
+	quest.3DDE7D867EE50372.quest_desc: [
+		"There are four seasons, each split into early, mid and late. A full year takes a few real days."
+		""
+		"Crops grow at full speed &eonly in their season&r. Out of season they grow very slowly. Hover a seed to see its seasons."
+		""
+		"The Season HUD shows the date. A &6Calendar&r item does too."
+	]
+	quest.3DDE7D867EE50372.quest_subtitle: "Serene Seasons"
+	quest.3DDE7D867EE50372.title: "Read the Calendar"
+	quest.3DF48A03496A1AE7.quest_desc: [
+		"Open it, pick any structure (pirate ships, dungeons, boss arenas, villages), and it points the way. It needs a &6precision mechanism&r and brass sheets in this pack."
+	]
+	quest.3DF48A03496A1AE7.quest_subtitle: "Find any structure"
+	quest.3DF48A03496A1AE7.title: "Explorer's Compass"
+	quest.3E411EEDA41927C7.quest_desc: [
+		"From the frozen sea. Very strong, and it gets stronger in water."
+	]
+	quest.3E411EEDA41927C7.quest_subtitle: "Aquamirae"
+	quest.3E411EEDA41927C7.title: "Terrible Armour"
+	quest.3EDCA5431DAACFE0.quest_desc: [
+		"&e1.&r Sail to the &6Ice Maze&r (Aquamirae's frozen sea; use Nature's Compass)."
+		"&e2.&r Raid a &6frozen pirate ship&r there and take its &6Shell Horn&r."
+		"&e3.&r Use the horn near water in the Ice Maze. The captain rises."
+		""
+		"&eDrops:&r the &6Frozen Key&r, Terrible armour templates, and the &6Frozen Anchor&r (Sea Relic)."
+	]
+	quest.3EDCA5431DAACFE0.quest_subtitle: "&9Mid&r - the Ice Maze"
+	quest.3EDCA5431DAACFE0.title: "Ghost of Captain Cornelia"
+	quest.3F25B1C419807CEB.quest_desc: [
+		"The &6Sawmill&r cuts logs into stairs, slabs, beams and planks without crafting waste."
+	]
+	quest.3F25B1C419807CEB.quest_subtitle: "Any wood, any shape"
+	quest.3F25B1C419807CEB.title: "Sawmill"
+	quest.401A5D95817B220D.quest_desc: [
+		"&6Mechanical Drills&r glued to a moving contraption break whatever they hit, and the blocks go into any chest on the contraption."
+		""
+		"A spinning ring of drills on a bearing, lowered by a rope pulley, makes a simple quarry. Watch the Ponder for the piston and bearing first."
+	]
+	quest.401A5D95817B220D.quest_subtitle: "Drills on a bearing"
+	quest.401A5D95817B220D.title: "Quarry Rig"
+	quest.40B1790FE310E2F6.quest_desc: [
+		"A &6Bank Terminal&r stores your coins safely. Your account is tied to you, so you can pay with a &6card&r at shops."
+	]
+	quest.40B1790FE310E2F6.quest_subtitle: "Bank terminal"
+	quest.40B1790FE310E2F6.title: "Open an Account"
+	quest.40B6670A539C4838.quest_desc: [
+		"The &6Angling Table&r puts &6hooks, lines and bobbers&r on your rod. Better parts make the minigame easier and catch rarer fish. Lava-proof hooks let you fish in lava."
+	]
+	quest.40B6670A539C4838.quest_subtitle: "Customise your rod"
+	quest.40B6670A539C4838.title: "Angling Table"
+	quest.40E022B75257DF43.quest_desc: [
+		"This chapter lists every boss in the order we recommend. Each quest says &ewhere to find it&r, &ewhat to bring&r and &ewhat it drops&r."
+		""
+		"&6Finding bosses:&r most live in their own structure. An &6Explorer's Compass&r (needs a precision mechanism) can point to any structure: open it and search the name in the quest."
+		""
+		"&6What it drops:&r press &eU&r on the boss's spawn egg in EMI, or search the boss name in EMI Loot."
+		"{@pagebreak}"
+		"&6Tiers&r"
+		"&6Early&r - iron or knight's plate."
+		"&9Mid&r - full diamond, good food, a crew."
+		"&5Endgame&r - full diamond is the &cminimum&r. Under 20 armour they can one-shot you."
+		""
+		"Bosses get &e+40% health per extra player&r nearby, up to +80%. Bring friends for the damage, not to make it easier."
+	]
+	quest.40E022B75257DF43.quest_subtitle: "Read before you fight"
+	quest.40E022B75257DF43.title: "The Boss Ladder"
+	quest.410B98B452B3CC66.quest_desc: [
+		"The pack ships with sensible keys. The ones worth remembering:"
+		""
+		"&eB&r backpack   &eJ&r map   &e,&r waypoint   &eC&r zoom"
+		"&e`&r (key left of 1) hold while mining = &6Ultimine&r"
+		"&eZ&r dodge roll   &eR / Y / I / X&r Cataclysm armour abilities"
+		"&eV&r voice chat   &eU&r corpse menu   &eK&r shaders on/off"
+		"&eW&r Ponder (hover a block)   &eLeft Alt&r Create radial menus"
+		"&e'&r claims"
+		"{@pagebreak}"
+		"&6Mac players&r"
+		""
+		"The F-keys need &efn&r (fn+F3 for coordinates, fn+F5 for third person)."
+		"Sprint is &etoggle&r so you don't hold Control (Control-click on a Mac is a right-click)."
+		"Give the game &e5 GB&r of memory on an 8 GB Mac, &e6-8 GB&r on 16 GB."
+	]
+	quest.410B98B452B3CC66.quest_subtitle: "No remapping needed"
+	quest.410B98B452B3CC66.title: "Know Your Controls"
+	quest.4130FDE0CB4C49CD.quest_desc: [
+		"&6HE Shells&r with an &6Impact Fuze&r burst when they hit. A &6Timed Fuze&r bursts in the air, great against airships."
+	]
+	quest.4130FDE0CB4C49CD.quest_subtitle: "Explosive ammunition"
+	quest.4130FDE0CB4C49CD.title: "Shells and Fuzes"
+	quest.4248EAE28DBA467A.quest_desc: [
+		"The &6Mechanical Press&r slams down on whatever sits below it: a depot, a belt, or a basin."
+		""
+		"&bThe big one:&r it turns ingots into &6sheets&r. In this pack, &6metal armour, swords, muskets, backpack upgrades and jetpacks use sheets instead of ingots&r. You'll press a lot."
+		""
+		"&e1.&r Press above a depot or a belt, powered from the side."
+		"&e2.&r Drop ingots on the depot/belt."
+		"&e3.&r Take the sheets."
+		""
+		"&aNo base yet?&r Use the Public Press at Brass Harbour."
+	]
+	quest.4248EAE28DBA467A.quest_subtitle: "Ingots into sheets"
+	quest.4248EAE28DBA467A.title: "Mechanical Press"
+	quest.45363E9F981DC27F.quest_desc: [
+		"Neptunium armour (from sheets) lets you breathe and move freely underwater. Best for the Kraken, Scylla and the Leviathan's arena."
+	]
+	quest.45363E9F981DC27F.quest_subtitle: "For sea fights"
+	quest.45363E9F981DC27F.title: "Neptunium Armour"
+	quest.45403AC2DD57280D.quest_desc: [
+		"Dragonsteel is forged from dragon blood and iron in a &6Dragonforge&r. The strongest armour Ice and Fire has."
+	]
+	quest.45403AC2DD57280D.quest_subtitle: "Ironclad tier"
+	quest.45403AC2DD57280D.title: "Dragonsteel"
+	quest.458048B9EC9DB69C.quest_desc: [
+		"Every weapon, tool and armour piece rolls a &6modifier&r: \"Legendary\", \"Sharp\", \"Broken\"... It changes damage, speed or protection."
+		""
+		"Don't like your roll? Use a &6Weaponsmith's Hammer&r (weapons), &6Toolsmith's Hammer&r (tools) or &6Armorer's Hammer&r (armour) at an anvil to &ereforge&r it."
+	]
+	quest.458048B9EC9DB69C.quest_subtitle: "Hammers and modifiers"
+	quest.458048B9EC9DB69C.title: "Reforging"
+	quest.463D446859F0F953.quest_desc: [
+		"The &6Cooking Pot&r makes stews, soups and meals that give long buffs. Place it over a fire, a stove or a heated blaze burner."
+		""
+		"&eNourishment&r stops hunger draining. &eComfort&r helps you heal. Big meals are worth it before a boss fight."
+	]
+	quest.463D446859F0F953.quest_subtitle: "Proper meals"
+	quest.463D446859F0F953.title: "Cooking Pot"
+	quest.46EE69F6458C5992.quest_desc: [
+		"Islands here have tall cliffs. A &6Paraglider&r lets you jump off and glide across bays."
+		""
+		"Hold right-click in the air to open it. Gliding uses &estamina&r (the wheel next to your crosshair). Warm air rising off campfires lifts you up."
+	]
+	quest.46EE69F6458C5992.quest_subtitle: "Paragliding"
+	quest.46EE69F6458C5992.title: "Leap of Faith"
+	quest.473191D939A989A4.quest_desc: [
+		"A steel-hulled ship with radar-aimed big guns. If you've built one, you've finished the Engineer's Voyage."
+	]
+	quest.473191D939A989A4.quest_subtitle: "The pack's namesake"
+	quest.473191D939A989A4.title: "Ironclad"
+	quest.47360AC152D2C494.quest_desc: [
+		"The &6Trading Post&r shows every villager trade nearby on one screen."
+	]
+	quest.47360AC152D2C494.quest_subtitle: "All villagers in one place"
+	quest.47360AC152D2C494.title: "Trading Post"
+	quest.4762791963DF53CF.quest_desc: [
+		"Crude oil lies under some chunks. An &6Oil Scanner&r tells you how much is under you."
+		""
+		"Build a &6Pumpjack&r over it to pump crude oil, then refine it in a &6Distillation Tower&r into diesel and gasoline. This is the high-output end of the fuel chain."
+	]
+	quest.4762791963DF53CF.quest_subtitle: "Pumpjacks and refining"
+	quest.4762791963DF53CF.title: "Black Gold"
+	quest.481AB6F6218D0F14.quest_desc: [
+		"Stronger metals take more powder without bursting, so they shoot further and harder."
+		""
+		"&6Bronze&r, then &6Steel&r, then &6Nethersteel&r. Press &eR&r on each ingot to see how it's made. Steel barrels are &ebuilt up&r: layers are welded together, then &ebored&r with a &6Cannon Drill&r."
+	]
+	quest.481AB6F6218D0F14.quest_subtitle: "Bronze, steel and nethersteel"
+	quest.481AB6F6218D0F14.title: "Better Metals"
+	quest.4841B6DB20521128.quest_desc: [
+		"Made from Cursium dropped by &6Maledictus&r. Built for speed and dodging."
+	]
+	quest.4841B6DB20521128.quest_subtitle: "From Maledictus"
+	quest.4841B6DB20521128.title: "Cursium"
+	quest.48E9290B96286D01.quest_desc: [
+		"A &6Tesla Coil&r charges items below it (on a depot or belt): building gadgets, jetpack batteries and anything else that holds FE."
+	]
+	quest.48E9290B96286D01.quest_subtitle: "Tesla coil"
+	quest.48E9290B96286D01.title: "Charging Station"
+	quest.4941D6CD8C0E3969.quest_desc: [
+		"A &6Stock Link&r on a packager adds that packager's inventory to your logistics network. Before placing a new link, right-click an existing link or Stock Ticker with it to tune it to the same network (the Ponder shows it)."
+		""
+		"Every inventory with a linked packager becomes part of one shared stock."
+	]
+	quest.4941D6CD8C0E3969.quest_subtitle: "Joining the network"
+	quest.4941D6CD8C0E3969.title: "Stock Link"
+	quest.497E20D7753F7446.quest_desc: [
+		"Pirate galleons, corsair corvettes and junks carry real treasure, and sometimes a &6Pirate Medal&r (a Sea Relic)."
+		""
+		"Find them on open ocean. An &6Explorer's Compass&r can point to one: search \"unicorn galleon\", \"pirate junk\" or \"corsair corvette\"."
+	]
+	quest.497E20D7753F7446.quest_subtitle: "Seven Seas ships"
+	quest.497E20D7753F7446.title: "Pirate Hunter"
+	quest.49C676841D7D7EAD.quest_desc: [
+		"A &6Millstone&r grinds what you put in: wheat into flour, flowers into dye, gravel into flint, ore into crushed ore."
+		""
+		"Feed it from the top (hopper, chute or funnel) and take the output from the side."
+	]
+	quest.49C676841D7D7EAD.quest_subtitle: "Grinding"
+	quest.49C676841D7D7EAD.title: "Millstone"
+	quest.4A51A83B7E2D2D2B.quest_desc: [
+		"&6Sirens&r sing from rocky islands at sea (Explorer's Compass: \"siren_island\"). Their song pulls you toward them. &eEarplugs&r (or keeping your distance) help."
+		""
+		"&eDrops:&r &6Siren Tears&r and sometimes a &6Siren's Pearl&r (Sea Relic)."
+	]
+	quest.4A51A83B7E2D2D2B.quest_subtitle: "&6Early&r - siren islands"
+	quest.4A51A83B7E2D2D2B.title: "Sirens"
+	quest.4ADF38EB17476337.quest_desc: [
+		"In a cave in the swamp (Explorer's Compass: \"hydra_cave\"). Every head you cut off grows back... unless you burn the stump. Bring fire."
+	]
+	quest.4ADF38EB17476337.quest_subtitle: "&9Mid&r - swamps"
+	quest.4ADF38EB17476337.title: "The Hydra"
+	quest.4B1491C7132C243B.quest_desc: [
+		"&6Cast Iron&r is the first cannon metal. Barrel and chamber blocks are &ecast&r: pour molten cast iron into a &6Cannon Cast&r mould, let it cool, then break the cast."
+		""
+		"Press &eR&r on the Cast Iron Cannon Barrel to see the full chain (it uses Create mixers and basins)."
+	]
+	quest.4B1491C7132C243B.quest_subtitle: "Your first cannon"
+	quest.4B1491C7132C243B.title: "Cast Iron Gun"
+	quest.4BA0B9405197EDFC.quest_desc: [
+		"&6Mechanical Crafters&r are an automatic crafting table you build in the shape of the recipe."
+		""
+		"&e1.&r Place crafters in a grid the size of the recipe (3x3 for most, up to 9x9 for big ones)."
+		"&e2.&r Use the wrench on the &earrows&r so every crafter points along a path toward &eone last crafter&r."
+		"&e3.&r Right-click crafters with items to fill the pattern, or feed them with funnels/arms."
+		"&e4.&r Power them. When every slot is full they assemble and push out the result."
+		"{@pagebreak}"
+		"&6Making it automatic&r"
+		""
+		"Put a funnel or arm on the input crafters and keep them topped up from a chest. Set a filter on each input so the right item goes in the right slot."
+		""
+		"Some big items in this pack (cannons, ship parts, the Wand of Symmetry) can &eonly&r be made in a mechanical crafter grid."
+	]
+	quest.4BA0B9405197EDFC.quest_subtitle: "Auto-crafting with Create"
+	quest.4BA0B9405197EDFC.title: "Mechanical Crafters"
+	quest.4BAACCF611ED4CA7.quest_desc: [
+		"A &6Windmill Bearing&r turns any sails glued to it into a windmill."
+		""
+		"&e1.&r Place the bearing facing out (it sits on a shaft or gearbox)."
+		"&e2.&r Build a cross of &6Sails&r (white sails, or any wool shape) in front of it."
+		"&e3.&r Right-click the bearing to start it."
+		""
+		"More sail blocks = more power. Windmills work anywhere, even out at sea on a platform."
+	]
+	quest.4BAACCF611ED4CA7.quest_subtitle: "Windmills"
+	quest.4BAACCF611ED4CA7.title: "Catch the Wind"
+	quest.4BF9872FC59B9BF3.quest_desc: [
+		"&6Aquaculture&r adds a &6Tackle Box&r, fillet knives, new fish, and &6Neptune's Bounty&r treasure from deep-water fishing."
+	]
+	quest.4BF9872FC59B9BF3.quest_subtitle: "Tackle box and treasure"
+	quest.4BF9872FC59B9BF3.title: "Aquaculture"
+	quest.4C4FD368C642CA97.quest_desc: [
+		"A &6Diesel Engine&r burns fuel piped into it and spins a shaft. It's much smaller than a steam boiler for the same power. Large and huge engines exist for even more."
+		""
+		"Add a &6Turbocharger&r for more power or a &6Silencer&r if the noise annoys your crew."
+	]
+	quest.4C4FD368C642CA97.quest_subtitle: "Compact big power"
+	quest.4C4FD368C642CA97.title: "Diesel Engine"
+	quest.4CC411F923F22EC2.quest_desc: [
+		"Some fish only bite in one season. Check the Season HUD and the journal before a fishing trip. Winter ice fishing has its own catches."
+	]
+	quest.4CC411F923F22EC2.quest_subtitle: "Fish follow the calendar"
+	quest.4CC411F923F22EC2.title: "Seasonal Catch"
+	quest.4CF2473BEC75F79C.quest_desc: [
+		"Made from Ignitium dropped by &6Ignis&r. One of the best sets in the game, with its own armour ability (see Controls)."
+	]
+	quest.4CF2473BEC75F79C.quest_subtitle: "From Ignis"
+	quest.4CF2473BEC75F79C.title: "Ignitium"
+	quest.4D1D38B1374216BD.quest_desc: [
+		"A &6Sliding Breech&r opens at the back so you (or a deployer!) can load without walking to the muzzle. With a &6Cannon Loader&r and a ram, you can automate reloading completely."
+	]
+	quest.4D1D38B1374216BD.quest_subtitle: "Reloading faster"
+	quest.4D1D38B1374216BD.title: "Breech Loaders"
+	quest.4E424447C1CB4729.quest_desc: [
+		"Big dungeons are everywhere: towers, temples, mines, fortresses. Each chest is &6per-player&r (Lootr): everyone in your crew gets their own loot."
+	]
+	quest.4E424447C1CB4729.quest_subtitle: "When Dungeons Arise and YUNG's"
+	quest.4E424447C1CB4729.title: "Into the Dungeon"
+	quest.4EAD22A427A6852F.quest_desc: [
+		"Full &6plate armour&r (made with iron sheets) is the best armour before diamond."
+	]
+	quest.4EAD22A427A6852F.quest_subtitle: "Copper Coast tier"
+	quest.4EAD22A427A6852F.title: "Knight's Plate"
+	quest.4EFDFCF2B6791154.quest_desc: [
+		"An &6Electric Motor&r turns FE back into rotation. Run cable to a far corner of your base and put a motor there: no need for long shaft lines."
+	]
+	quest.4EFDFCF2B6791154.quest_subtitle: "Power where water can't reach"
+	quest.4EFDFCF2B6791154.title: "Electric Motor"
+	quest.52302CD67AAE6CF0.quest_desc: [
+		"A &6Dockyard&r lets you park a ship, repair it and customise it (sail colours, banners, plating)."
+	]
+	quest.52302CD67AAE6CF0.quest_subtitle: "Storing and fixing ships"
+	quest.52302CD67AAE6CF0.title: "Dockyard"
+	quest.527715E968D4389E.quest_desc: [
+		"In the &6Frosted Prison&r in snowy lands (Explorer's Compass: \"frosted_prison\"). Summon him at the altar."
+		""
+		"&eDrops:&r &6Cursium&r for Cursium armour."
+	]
+	quest.527715E968D4389E.quest_subtitle: "&5Endgame&r - Frosted Prison"
+	quest.527715E968D4389E.title: "Maledictus"
+	quest.52797682E0E1525A.quest_desc: [
+		"A &6Musket&r hits very hard and very slowly. Load a &6Cartridge&r (hold right-click), aim, fire. Add a &6bayonet&r for close fights or a &6scope&r for range. Pistols and blunderbusses too."
+	]
+	quest.52797682E0E1525A.quest_subtitle: "Musket Mod"
+	quest.52797682E0E1525A.title: "Powder and Shot"
+	quest.52CC57D4BA2CB6B2.quest_desc: [
+		"A &6Schedule&r tells a train where to go. Add stops (station names) and conditions (\"wait until cargo is full\", \"wait 30 seconds\"), then give it to a seated conductor (any mob or a blaze) or right-click the train with it."
+		""
+		"&6Train Signals&r split track into blocks so two trains can share a line without crashing."
+	]
+	quest.52CC57D4BA2CB6B2.quest_subtitle: "Schedules and signals"
+	quest.52CC57D4BA2CB6B2.title: "Timetables"
+	quest.5331A678CBFAE1C2.quest_desc: [
+		"You can now build machines that build parts, sort items, and craft on their own."
+		""
+		"Next: &6Create IV: Logistics&r (packages and auto-crafting on request) and &6Create V: Steam & Trains&r (big power and railways). You'll want both."
+	]
+	quest.5331A678CBFAE1C2.quest_subtitle: "Bigger things await"
+	quest.5331A678CBFAE1C2.title: "Master of Brass"
+	quest.542F9DC633CB96D1.quest_desc: [
+		"Top armour, a good reforge roll, and enchantments past the old level caps. Now you're ready for anything."
+	]
+	quest.542F9DC633CB96D1.quest_subtitle: "Stack it all"
+	quest.542F9DC633CB96D1.title: "Overpowered"
+	quest.5470663DF9091C9D.quest_desc: [
+		"A &6Mechanical Mixer&r above a &6Basin&r mixes whatever is in the basin."
+		""
+		"Shapeless crafting recipes with lots of items, dough, andesite alloy, and many fluids are made this way. Fill the basin by hand, with funnels or with pipes; take the result from a funnel on its side."
+	]
+	quest.5470663DF9091C9D.quest_subtitle: "Stirring things together"
+	quest.5470663DF9091C9D.title: "Mixer and Basin"
+	quest.54DA2ED10C612F26.quest_desc: [
+		"Steam for power, trains for transport. You're running a real industry now."
+		""
+		"Next: &6Electricity & Fuel&r if you want bigger power, or &6Ships & Shipwrights&r if you want to sail what you've built."
+	]
+	quest.54DA2ED10C612F26.quest_subtitle: "The islands are connected"
+	quest.54DA2ED10C612F26.title: "Rail Baron"
+	quest.550BFD614DB4CA4F.quest_desc: [
+		"&6Chain Conveyors&r are hanging chain lines between large cogwheel-like hubs. &6Package Frogports&r sit next to them and hop packages on and off."
+		""
+		"&e1.&r Build chain conveyor hubs and connect them with chains."
+		"&e2.&r Put a frogport by the chain at each station. Give it an address (name it)."
+		"&e3.&r Packagers send packages into the frogport; it delivers them to the frogport with the matching address."
+	]
+	quest.550BFD614DB4CA4F.quest_subtitle: "Moving packages"
+	quest.550BFD614DB4CA4F.title: "Frogports and Chains"
+	quest.5637A0837FD0756F.quest_desc: [
+		"From a Sea Serpent."
+	]
+	quest.5637A0837FD0756F.quest_subtitle: "Sea Serpent"
+	quest.5637A0837FD0756F.title: "Serpent Heart"
+	quest.56480053B73A378F.quest_desc: [
+		"&6Shafts&r pass rotation in a straight line."
+		"&6Cogwheels&r pass it to other cogs that touch them, so you can turn corners."
+		"A &6Large Cogwheel&r next to a small one changes speed: small to large halves it, large to small doubles it."
+		""
+		"&aRule of thumb:&r faster speed = faster machines, but the same machine uses more stress at higher speed."
+	]
+	quest.56480053B73A378F.quest_subtitle: "Carrying rotation"
+	quest.56480053B73A378F.title: "Shafts and Cogwheels"
+	quest.564BD493296177F6.quest_desc: [
+		"Build a portal. The Nether here is bigger and stranger (Incendium). You need it for blazes (Blaze Burners!), quartz, and several bosses."
+	]
+	quest.564BD493296177F6.quest_subtitle: "Fire and brimstone"
+	quest.564BD493296177F6.title: "Into the Nether"
+	quest.5714C0A63FBF6578.quest_desc: [
+		"&6Sea Serpents&r rise from deep ocean, often during &estorms&r. They're huge. Fight from a ship with cannons, or with a Tidecaller-style trident."
+		""
+		"&eDrops:&r serpent scales (Tide armour) and the &6Serpent Heart&r (Sea Relic)."
+	]
+	quest.5714C0A63FBF6578.quest_subtitle: "&9Mid&r - open ocean"
+	quest.5714C0A63FBF6578.title: "Sea Serpent"
+	quest.573FC8751A064E61.quest_desc: [
+		"A submarine is a sealed hull with &6Ballast Tanks&r. Fill them to sink, empty them to rise."
+		""
+		"&6Pressure Goggles&r and the &6Diving Suit&r keep you alive at depth. An &6Oxygen Diffuser&r keeps the cabin breathable. &6Sonar&r shows the seabed."
+	]
+	quest.573FC8751A064E61.quest_subtitle: "Create Submarines"
+	quest.573FC8751A064E61.title: "Run Silent, Run Deep"
+	quest.5759EFF2B1DC0BE1.quest_desc: [
+		"Climb the &6Dragon Tower&r (Explorer's Compass: \"dragon_tower\"). Fire resistance potions are a must."
+		""
+		"&eDrops:&r &6Dragon Bones&r for Dragon Bone armour."
+	]
+	quest.5759EFF2B1DC0BE1.quest_subtitle: "&9Mid&r - Dragon Tower"
+	quest.5759EFF2B1DC0BE1.title: "Infernal Dragon"
+	quest.57D6703CA73BC5FC.quest_desc: [
+		"Sleeping skips the night and sets your spawn point. Place your bed in your first base, not at the harbour."
+		""
+		"Phantoms are turned off in this pack, so you can stay up as long as you like. But nights here are dark and full of pirates."
+		""
+		"&aTip:&r a &6Sleeping Bag&r (Comforts) lets you sleep away from home without moving your spawn."
+	]
+	quest.57D6703CA73BC5FC.quest_subtitle: "Sleeping and spawn points"
+	quest.57D6703CA73BC5FC.title: "A Roof Over You"
+	quest.581A9F7F164379F9.quest_desc: [
+		"&6Create Diesel Generators&r burns liquid fuel."
+		""
+		"&e1.&r &6Plant Oil&r: press seeds (wheat, pumpkin, melon, beetroot...) in a basin under a mechanical press."
+		"&e2.&r &6Ethanol&r: ferment sugar or potatoes in a &6Bulk Fermenter&r."
+		"&e3.&r &6Biodiesel&r: mix plant oil and ethanol in a basin."
+		""
+		"Press &eR&r on each bucket to see the exact recipe."
+	]
+	quest.581A9F7F164379F9.quest_subtitle: "Fuel from your farm"
+	quest.581A9F7F164379F9.title: "Plant Oil"
+	quest.5918544CD944F316.quest_desc: [
+		"&6Create: Central Kitchen&r lets Create machines cook: a &6Deployer&r uses a knife on a cutting board, a basin with a mixer cooks pot recipes, and a blaze burner heats it."
+		"&6Slice & Dice&r adds the &6Slicer&r (cuts ingredients) and &6Sprinklers&r (water crops faster)."
+	]
+	quest.5918544CD944F316.quest_subtitle: "Central Kitchen and Slice & Dice"
+	quest.5918544CD944F316.title: "Automated Kitchen"
+	quest.59AA4F7C4217B9F0.quest_desc: [
+		"Create's newest trick is &6packages&r: boxes of items with an &eaddress&r, sent around your base by machines."
+		""
+		"&e1.&r A &6Packager&r on a chest or vault boxes up items."
+		"&e2.&r Packages travel on belts, chain conveyors (carried by frogports), trains or airships."
+		"&e3.&r At the other end, a packager with a matching address unpacks them."
+		""
+		"You build a network once, then &eorder things&r from a single screen."
+	]
+	quest.59AA4F7C4217B9F0.quest_subtitle: "Create 6 logistics"
+	quest.59AA4F7C4217B9F0.title: "The Package System"
+	quest.5A16B7234EF22107.quest_desc: [
+		"The &6Underworld Arena&r (Explorer's Compass: \"underworld_arena\") is locked. Find its &6Arena Key&r in nearby chests, open the door, and face the knight."
+	]
+	quest.5A16B7234EF22107.quest_subtitle: "&9Mid&r - Underworld Arena"
+	quest.5A16B7234EF22107.title: "Underworld Knight"
+	quest.5BDC6784A4C70691.quest_desc: [
+		"A &6Card&r is linked to your bank account. Shops can take payment straight from it."
+	]
+	quest.5BDC6784A4C70691.quest_subtitle: "Paying by card"
+	quest.5BDC6784A4C70691.title: "Card, Please"
+	quest.5BF7DA79A22B11B1.quest_desc: [
+		"A real camera. Take photos, develop them, frame them."
+	]
+	quest.5BF7DA79A22B11B1.quest_subtitle: "Exposure"
+	quest.5BF7DA79A22B11B1.title: "Say Cheese"
+	quest.5DBBA7BCEA02A055.quest_desc: [
+		"&6Gearbox&r - sends rotation out of all four sides (great for splitting power)."
+		"&6Clutch&r - cuts power when it gets a redstone signal."
+		"&6Gearshift&r - reverses direction when powered."
+		"&6Encased Chain Drive&r - carries rotation sideways along a line of drives."
+		""
+		"These let you switch machines on and off with levers and redstone."
+	]
+	quest.5DBBA7BCEA02A055.quest_subtitle: "Gearboxes, clutches and gearshifts"
+	quest.5DBBA7BCEA02A055.title: "Turning Corners"
+	quest.5DD935709EB02382.quest_desc: [
+		"&cUnder 20 armour, these bosses can one-shot you.&r Get full diamond, ideally enchanted and reforged, Dragonscale or Netherite. Bring your crew, totems and your best food."
+		""
+		"Most Cataclysm bosses need to be &esummoned&r at an altar in their arena. Press &eU&r on the altar in EMI to see what wakes it."
+	]
+	quest.5DD935709EB02382.quest_subtitle: "Full diamond is the minimum"
+	quest.5DD935709EB02382.title: "Endgame"
+	quest.5E3B3FE7852B7C73.quest_desc: [
+		"Bigger hulls carry more and survive more hits. A &6Galleon&r is a floating base: beds, chests, cannons."
+		""
+		"&aTip:&r ships can be repaired. Hover them with goggles or look at their health bar."
+	]
+	quest.5E3B3FE7852B7C73.quest_subtitle: "Brigg and Galleon"
+	quest.5E3B3FE7852B7C73.title: "Upgrade Your Fleet"
+	quest.5E8AF5413AA4725A.quest_desc: [
+		"Build something beautiful: a harbour, a lighthouse, a ship, a town. Invite the server over."
+	]
+	quest.5E8AF5413AA4725A.quest_subtitle: "Builder's showcase"
+	quest.5E8AF5413AA4725A.title: "Show It Off"
+	quest.5E8FFA78603C81E6.quest_desc: [
+		"Catch fish to eat, to sell at the south stalls of the market, and to cook. Rare fish sell for a lot."
+	]
+	quest.5E8FFA78603C81E6.quest_subtitle: "A full hold"
+	quest.5E8FFA78603C81E6.title: "Fifty Fish"
+	quest.5F84849C4D9D5F52.quest_desc: [
+		"A raft is fine for a bay. For open sea you want a &6Cog&r."
+		""
+		"&e1.&r Build it at a crafting table (click the Cog to see the recipe)."
+		"&e2.&r Place it in water. Right-click to board."
+		"&e3.&r &eW/S&r set the sails, &eA/D&r steer. More sail = more speed."
+		"&e4.&r Sneak + right-click opens its cargo hold."
+		""
+		"Bigger ships (Brigg, Galley, Galleon, Drakkar) carry more crew and cargo and can mount &6cannons&r."
+	]
+	quest.5F84849C4D9D5F52.quest_subtitle: "Small Ships: the Cog"
+	quest.5F84849C4D9D5F52.title: "A Proper Ship"
+	quest.5F9833A540B767DF.quest_desc: [
+		"The market buys crops. In the right season, a big field and a harvester piston (Create III) pays well."
+	]
+	quest.5F9833A540B767DF.quest_subtitle: "Feeding the market"
+	quest.5F9833A540B767DF.title: "Big Harvest"
+	quest.5FFB415C95FF40C4.quest_desc: [
+		"Find a stronghold with Eyes of Ender, fill the portal, and finish the job. The End is reworked by &6Stellarity&r: expect new islands, structures and dangers afterwards."
+	]
+	quest.5FFB415C95FF40C4.quest_subtitle: "&5Endgame&r - the End"
+	quest.5FFB415C95FF40C4.title: "The Ender Dragon"
+	quest.600D8C5305B01A9C.quest_desc: [
+		"Your weapons gain &eXP&r as you fight and level up to &e100&r, getting stronger each level. A sword you've used since day one becomes your best sword."
+	]
+	quest.600D8C5305B01A9C.quest_subtitle: "Weapon Leveling"
+	quest.600D8C5305B01A9C.title: "Weapons Level Up"
+	quest.60A6D811407E2970.quest_desc: [
+		"&6Simply Swords&r adds cutlasses, rapiers, katanas, glaives, greatswords and more. Each type swings differently (Better Combat): some are fast, some sweep, some reach further."
+		""
+		"&aTip:&r find unique named swords in dungeon chests. They have special powers."
+	]
+	quest.60A6D811407E2970.quest_subtitle: "Simply Swords"
+	quest.60A6D811407E2970.title: "A Proper Sword"
+	quest.61FF1EB1AC35D023.quest_desc: [
+		"Save up a whole &6Crown&r (512 spurs)."
+	]
+	quest.61FF1EB1AC35D023.quest_subtitle: "A crown in your pocket"
+	quest.61FF1EB1AC35D023.title: "Merchant Prince"
+	quest.625E956994B28E4C.quest_desc: [
+		"&6Create Big Cannons&r cannons are built block by block:"
+		""
+		"&e1.&r A &6Cannon Mount&r (it aims the gun, powered by rotation for yaw and pitch)."
+		"&e2.&r A &6breech&r or chamber at the back."
+		"&e3.&r &6Barrels&r in front."
+		""
+		"Build them in a line in front of the mount, then &eassemble&r the cannon at the mount. Watch the mount's Ponder: it shows every step."
+	]
+	quest.625E956994B28E4C.quest_subtitle: "Big Cannons basics"
+	quest.625E956994B28E4C.title: "Cannon Mount"
+	quest.62E400DC5306CEBE.quest_desc: [
+		"An underwater temple, the &6Acropolis&r (Explorer's Compass: \"acropolis\"). Neptunium armour and water breathing are essential."
+	]
+	quest.62E400DC5306CEBE.quest_subtitle: "&5Endgame&r - Acropolis"
+	quest.62E400DC5306CEBE.title: "Scylla, the Storm Empress"
+	quest.63121C01080C41E7.quest_desc: [
+		"The &6Yeti&r lives in a hideout in cold mountains (Explorer's Compass: \"yeti_hideout\")."
+		""
+		"&eBring:&r warm food, a bow, plate armour."
+		"&eDrops:&r the &6Ice Gauntlet&r, a powerful frost weapon and shield."
+	]
+	quest.63121C01080C41E7.quest_subtitle: "&6Early&r - snowy mountains"
+	quest.63121C01080C41E7.title: "The Yeti"
+	quest.63B555E7D5427486.quest_desc: [
+		"An &6Encased Fan&r blows a stream of air. Put something in the stream and it changes what the air does to items passing through:"
+		""
+		"&bWater&r in front = &eWashing&r (crushed ore into nuggets, gravel into flint, sand into clay)."
+		"&cLava or fire&r = &eSmelting&r (works like a furnace, no fuel)."
+		"&6Campfire&r = &eSmoking&r (cooks food)."
+		"&9Soul fire&r = &eHaunting&r (turns some items into nether versions)."
+		""
+		"Run a belt through the stream, or throw items in front of the fan."
+	]
+	quest.63B555E7D5427486.quest_subtitle: "Bulk processing in the air"
+	quest.63B555E7D5427486.title: "Fans: Wash, Smelt, Smoke, Haunt"
+	quest.6576F6FD3C7612B3.quest_desc: [
+		"Places a whole row or wall of the block you point at. Great for big walls."
+	]
+	quest.6576F6FD3C7612B3.quest_subtitle: "Build faster"
+	quest.6576F6FD3C7612B3.title: "Construction Stick"
+	quest.6699C2B30F671EB1.quest_desc: [
+		"Put &6copper&r and &6zinc&r in a basin over a &eheated&r blaze burner with a mixer on top. Out comes &6Brass&r."
+		""
+		"Brass unlocks everything in the next chapter: electron tubes, smart funnels, mechanical arms, trains and jetpacks."
+	]
+	quest.6699C2B30F671EB1.quest_subtitle: "The next tier begins"
+	quest.6699C2B30F671EB1.title: "Brass!"
+	quest.6783EB6579E1DEB8.quest_desc: [
+		"The &6south stalls&r at Brass Harbour buy fish, crops, logs and kelp. A good fishing trip or harvest pays for your first Create parts."
+	]
+	quest.6783EB6579E1DEB8.quest_subtitle: "The south stalls"
+	quest.6783EB6579E1DEB8.title: "Sell Your Harvest"
+	quest.680FCB8195830205.quest_desc: [
+		"An &6Importer&r pulls items from a chest or machine into the network. An &6Exporter&r pushes chosen items out."
+		""
+		"Hook exporters into your Create machines and importers onto their outputs: the network feeds your factory and stores what comes out."
+	]
+	quest.680FCB8195830205.quest_subtitle: "Machines talk to storage"
+	quest.680FCB8195830205.title: "Importers and Exporters"
+	quest.68152C868ADE8039.quest_desc: [
+		"A &6Mega Torch&r stops hostile mobs spawning in a huge area around it. One in the middle of your base makes it safe for good."
+		""
+		"You'll need a few gold and diamond pieces, so this is a goal for your second or third day."
+	]
+	quest.68152C868ADE8039.quest_subtitle: "Stop mobs spawning at your base"
+	quest.68152C868ADE8039.title: "Safe Harbour"
+	quest.6879C5ACD340AF85.quest_desc: [
+		"Dropped by Sirens on their islands."
+	]
+	quest.6879C5ACD340AF85.quest_subtitle: "Sirens"
+	quest.6879C5ACD340AF85.title: "Siren's Pearl"
+	quest.68E42E1CB0228378.quest_desc: [
+		"The vanilla &6Enchanting Table&r works as normal. Bookshelves around it give better rolls. Easy Anvils makes combining books cheaper."
+		""
+		"This pack adds &b12 sea enchantments&r (Seafarer's Lung, Mariner's Stride, Tidebreaker and more). Find them at the table, from librarians and in loot."
+	]
+	quest.68E42E1CB0228378.quest_subtitle: "Books and the table"
+	quest.68E42E1CB0228378.title: "Enchanting"
+	quest.6B19BF0DEC76C138.quest_desc: [
+		"With &6Create Aeronautics&r you can turn &eanything you build&r into a moving ship or airship with real physics. It floats if it's light enough, sinks if it's too heavy, and tips over if it's top-heavy."
+		""
+		"&e1.&r Build your hull out of blocks (wood floats well)."
+		"&e2.&r Place a &6Physics Assembler&r on it and use it to &eassemble&r: the whole connected build becomes one moving object (its Ponder shows how)."
+		"&e4.&r Add something to move it (sails, propellers, thrusters) and something to steer it."
+		""
+		"Watch the Ponder on every Aeronautics block first."
+	]
+	quest.6B19BF0DEC76C138.quest_subtitle: "Create Aeronautics: the idea"
+	quest.6B19BF0DEC76C138.title: "Build Your Own Ship"
+	quest.6DDDA5ADB3BB304C.quest_desc: [
+		"Tide rods get better: stone, iron, golden, diamond, netherite, plus special rods for the Nether and the End. A better rod means a bigger catch zone."
+	]
+	quest.6DDDA5ADB3BB304C.quest_subtitle: "Rod tiers"
+	quest.6DDDA5ADB3BB304C.title: "Better Rods"
+	quest.6E6FD9BF721729BE.quest_desc: [
+		"Build your first real factory:"
+		""
+		"&e1.&r Crushing wheels drop crushed ore onto a belt."
+		"&e2.&r The belt runs through a fan's &bwater&r stream: crushed ore becomes &6nuggets&r and bonus items."
+		"&e3.&r Or through a &clava&r stream: straight to &6ingots&r."
+		"&e4.&r A funnel at the end puts everything in a chest."
+		""
+		"This doubles your metal from every mining trip."
+	]
+	quest.6E6FD9BF721729BE.quest_subtitle: "Crushed ore to ingots"
+	quest.6E6FD9BF721729BE.title: "Ore Washing Line"
+	quest.6ECDB11B24E81D1A.quest_desc: [
+		"Pirate crews sail with a &6Pirate Captain&r. Look on the &6Kraken Ship&r (Explorer's Compass: \"kraken_ship\") and on Seven Seas pirate ships."
+		""
+		"&eBring:&r iron or plate, a shield, food."
+		"&eDrops:&r the &6Pirate Saber&r, and sometimes a &6Pirate Medal&r (Sea Relic)."
+	]
+	quest.6ECDB11B24E81D1A.quest_subtitle: "&6Early&r - Bosses' Rise"
+	quest.6ECDB11B24E81D1A.title: "The Pirate Captain"
+	quest.6F2CD57F4D5CC6E9.quest_desc: [
+		"Epic Knights chainmail is cheap and good enough for early bosses. Wear it under a surcoat."
+	]
+	quest.6F2CD57F4D5CC6E9.quest_subtitle: "Shore tier"
+	quest.6F2CD57F4D5CC6E9.title: "Chainmail"
+	quest.6F523702901D1D49.quest_desc: [
+		"A &6Display Link&r reads information from a block (a chest's contents, a tank's level, a train's arrival time, stress...) and shows it on a &6Display Board&r, a sign, or a lectern."
+		""
+		"Great for a factory dashboard or a train station timetable."
+	]
+	quest.6F523702901D1D49.quest_subtitle: "Display links and boards"
+	quest.6F523702901D1D49.title: "Status Boards"
+	quest.6FE6FB36E39F88E7.quest_desc: [
+		"A huge ice ape &esleeping&r in snowy biomes (Explorer's Compass: \"frostmaw_spawn\"). Hit it to wake it. Stay out of its ice breath."
+		""
+		"&eDrops:&r the &6Ice Crystal&r (frost breath item)."
+	]
+	quest.6FE6FB36E39F88E7.quest_subtitle: "&9Mid&r - frozen lands"
+	quest.6FE6FB36E39F88E7.title: "Frostmaw"
+	quest.701251D33FFF1832.quest_desc: [
+		"Upgrade diamond with netherite at a smithing table. Knockback resistance and fire-proof."
+	]
+	quest.701251D33FFF1832.quest_subtitle: "The classic"
+	quest.701251D33FFF1832.title: "Netherite"
+	quest.70509D1087E217E2.quest_desc: [
+		"The &6Mechanical Arm&r picks items up from one place and puts them in another: chests, depots, belts, furnaces, saws, even jukeboxes."
+		""
+		"&e1.&r Hold the arm in your hand. Right-click the blocks it should &etake from&r (blue) and &eput into&r (orange)."
+		"&e2.&r Place the arm within reach (about 5 blocks)."
+		"&e3.&r Power it."
+		""
+		"One arm can feed a whole ring of depots with presses above them."
+	]
+	quest.70509D1087E217E2.quest_subtitle: "A robot that moves items"
+	quest.70509D1087E217E2.title: "Mechanical Arm"
+	quest.70652A9613BFA269.quest_desc: [
+		"In the End: the &6Ruined Citadel&r (Explorer's Compass: \"ruined_citadel\"). Clear the &6Ender Golems&r first."
+	]
+	quest.70652A9613BFA269.quest_subtitle: "&5Endgame&r - the End"
+	quest.70652A9613BFA269.title: "Ender Guardian"
+	quest.712A627C96AA3FB1.quest_desc: [
+		"&6Fluid Pipes&r carry liquids. A &6Mechanical Pump&r on the pipe moves them (it needs rotation, and the arrow shows the direction)."
+		"&6Fluid Tanks&r stack into big tanks. Basins, spouts and drains all connect to pipes."
+		""
+		"&aTip:&r a pump pulling from a water source block gives endless water."
+	]
+	quest.712A627C96AA3FB1.quest_subtitle: "Pipes, pumps and tanks"
+	quest.712A627C96AA3FB1.title: "Plumbing"
+	quest.719C5B8A125FB4EF.quest_desc: [
+		"The &6Rolling Mill&r presses ingots into &6rods&r and &6wire&r. Wind wire onto a &6Spool&r to make a cable you can lay between connectors."
+	]
+	quest.719C5B8A125FB4EF.quest_subtitle: "Rods and wires"
+	quest.719C5B8A125FB4EF.title: "Rolling Mill"
+	quest.719E4F1CEEB4B37E.quest_desc: [
+		"&6Refined Storage&r is a digital storage network: one terminal shows every item you own."
+		""
+		"Its &6Processors&r are made by &esequenced assembly&r in this pack: iron sheet, then deployers add the metal, redstone and silicon, then a press finishes it. Click a processor to see the exact steps."
+	]
+	quest.719E4F1CEEB4B37E.quest_subtitle: "Made on a Create assembly line"
+	quest.719E4F1CEEB4B37E.title: "Processors"
+	quest.71B935E7A70A9A12.quest_desc: [
+		"&6Extra Storage&r adds disks up to millions of items, and faster crafters. Your storage will never be full again."
+	]
+	quest.71B935E7A70A9A12.quest_subtitle: "Extra Storage"
+	quest.71B935E7A70A9A12.title: "Bigger Disks"
+	quest.71FA66B5C4FE148A.quest_desc: [
+		"&6Copper Jetpack&r first, then &6Brass&r (needs a precision mechanism and electron tube), then &6Netherite&r (needs a &6Sky Compass Core&r Sea Relic)."
+		""
+		"Fill it with &bfuel&r at a Fueling Tank. Press jump in the air to fly."
+	]
+	quest.71FA66B5C4FE148A.quest_subtitle: "Create Stuff 'N Additions"
+	quest.71FA66B5C4FE148A.title: "Jetpack"
+	quest.7218CF1B59676B58.quest_desc: [
+		"This is how Create crafts &eautomatically when stock runs low&r."
+		""
+		"&e1.&r Put a &6Factory Gauge&r on a packager connected to your network."
+		"&e2.&r Set the item the gauge should keep in stock, and how many."
+		"&e3.&r Connect the gauge to other gauges (its ingredients) by dragging between them. Set how many of each make one output."
+		"&e4.&r Give it an address: where the ingredients should be sent (your crafter, press or mixer)."
+		"{@pagebreak}"
+		"&6Example: iron sheets&r"
+		""
+		"Gauge 1: \"Iron Sheet, keep 64\"."
+		"Connected input gauge: \"Iron Ingot, 1 per sheet\"."
+		"Address: your press line's frogport."
+		""
+		"When sheets drop below 64, the gauge sends ingots to the press. The press line sends sheets back. No hand work."
+		""
+		"Chain gauges together for complex items. This is the end-game of Create automation."
+	]
+	quest.7218CF1B59676B58.quest_subtitle: "Auto-crafting on demand"
+	quest.7218CF1B59676B58.title: "Factory Gauges"
+	quest.72CF6FB3CAC003F9.quest_desc: [
+		"The &6Navigator&r plans a route for you across the rail network: which train, which stop, when to change. &6Advanced Displays&r show live departure boards at your stations."
+	]
+	quest.72CF6FB3CAC003F9.quest_subtitle: "Create Railways Navigator"
+	quest.72CF6FB3CAC003F9.title: "Passenger Service"
+	quest.7300D460958AF10D.quest_desc: [
+		"Pressing, crushing, washing, mixing, heat and fluids: that's the heart of Create."
+		""
+		"&6Create III: Brass & Automation&r shows you how to make machines that build machines."
+	]
+	quest.7300D460958AF10D.quest_subtitle: "On to automation"
+	quest.7300D460958AF10D.title: "Ready for Brass"
+	quest.73432FB3B0565C85.quest_desc: [
+		"Goblin traders appear in caves with rare items. Be quick: they leave soon."
+	]
+	quest.73432FB3B0565C85.quest_subtitle: "Underground deals"
+	quest.73432FB3B0565C85.title: "Goblin Traders"
+	quest.735B81A33F9B2ED1.quest_desc: [
+		"A &6Modular Accumulator&r stores FE. Stack several to make a big battery. Put one between your generators and machines so short spikes don't drain everything."
+	]
+	quest.735B81A33F9B2ED1.quest_subtitle: "Modular accumulator"
+	quest.735B81A33F9B2ED1.title: "Batteries"
+	quest.73D0E356D235FA52.quest_desc: [
+		"&6Sophisticated Storage&r chests, barrels and shulker boxes can be upgraded in place: more slots, sorting, auto-pickup, compression."
+		""
+		"Upgrades in this pack need &6Create sheets&r instead of plain ingots, so press some first."
+	]
+	quest.73D0E356D235FA52.quest_subtitle: "Sophisticated Storage"
+	quest.73D0E356D235FA52.title: "Better Chests"
+	quest.742C10193081CB13.quest_desc: [
+		"The whole world is islands. That is the game: island to island, port to port."
+		""
+		"Put your &6raft&r on the water, hop in and paddle to the next island on the horizon. Bring the bed."
+		""
+		"&aLost your raft?&r Any wood makes another (click the raft to see the recipe). When you want something that can cross open sea with storage, build a &6Cog&r (Island Life chapter)."
+	]
+	quest.742C10193081CB13.quest_subtitle: "Your first voyage"
+	quest.742C10193081CB13.title: "Cast Off"
+	quest.748BD344D0CBFAAC.quest_desc: [
+		"You'll need three metals soon:"
+		""
+		"&6Iron&r - tools, buckets, and Create parts."
+		"&6Copper&r - the backbone of Create (pipes, casings, coins)."
+		"&6Zinc&r - found deep in stone as zinc ore. You'll need it for brass."
+		""
+		"Dig down on any island or explore caves. Ultimine makes short work of ore veins."
+	]
+	quest.748BD344D0CBFAAC.quest_subtitle: "Iron, copper and zinc"
+	quest.748BD344D0CBFAAC.title: "Iron Age"
+	quest.74FF09C3161F8413.quest_desc: [
+		"A &6Rotation Speed Controller&r sets any speed you want on the network after it (scroll on it). A &6Sequenced Gearshift&r runs a short program: turn this way for X degrees, wait, turn back. Good for doors, drawbridges and elevators."
+	]
+	quest.74FF09C3161F8413.quest_subtitle: "Rotation speed controller"
+	quest.74FF09C3161F8413.title: "Speed Control"
+	quest.76C1240A41EBC696.quest_desc: [
+		"&6Belts&r join two shafts and carry items (and you) along."
+		""
+		"&e1.&r Place two shafts in a line, up to 20 blocks apart."
+		"&e2.&r Use a &6Belt Connector&r on the first shaft, then the second."
+		"&e3.&r Power either shaft."
+		""
+		"Items dropped on a belt ride along. Machines over a belt (press, saw, deployer) work on items as they pass."
+	]
+	quest.76C1240A41EBC696.quest_subtitle: "Move items between machines"
+	quest.76C1240A41EBC696.title: "Conveyor Belts"
+	quest.77A5FD755FA80E5E.quest_desc: [
+		"Right-click a waystone to save it. Then use any waystone to teleport to any other you've saved (it costs a little XP)."
+		""
+		"More waystones need an &6Electron Tube&r and a &6Warp Stone&r. Put one at every base and every big discovery."
+	]
+	quest.77A5FD755FA80E5E.quest_subtitle: "Fast travel between bases"
+	quest.77A5FD755FA80E5E.title: "Waystones"
+	quest.77F7807CB19F0128.quest_desc: [
+		"Any dragonsteel sword combined with &6Leviathan Ink&r. The finest blade on the seven seas."
+	]
+	quest.77F7807CB19F0128.quest_subtitle: "Legendary blade"
+	quest.77F7807CB19F0128.title: "Dragonsteel Cutlass"
+	quest.78A2DC9F010407C8.quest_desc: [
+		"The server's money is &6Numismatics&r coins:"
+		""
+		"&6Spur&r 1  &6Bevel&r 8  &6Sprocket&r 16  &6Cog&r 64  &6Crown&r 512  &6Sun&r 4096"
+		""
+		"Every quest pays coins. Spend them at Brass Harbour's market, or at other players' shops."
+	]
+	quest.78A2DC9F010407C8.quest_subtitle: "Numismatics"
+	quest.78A2DC9F010407C8.title: "Coin of the Realm"
+	quest.78BB0F7DEFCCDF6B.quest_desc: [
+		"The list on the right of your inventory is &6EMI&r. It knows every recipe in the pack."
+		""
+		"&eR&r on any item: how to make it."
+		"&eU&r on any item: what it is used for."
+		"Type in the search bar to find anything. Start with &e@&r to search one mod (&e@create&r)."
+		""
+		"&6EMI Loot&r is built in: press &eU&r on a mob drop or chest item to see who drops it and where it spawns."
+		"{@pagebreak}"
+		"&6Ponder&r"
+		""
+		"Most Create blocks (and the ship and cannon mods) come with little animated lessons."
+		""
+		"Hover a block in any inventory and &ehold W&r. A 3D scene plays and shows how to place and use it. When this book says \"watch the Ponder\", that is what it means."
+	]
+	quest.78BB0F7DEFCCDF6B.quest_subtitle: "EMI, your recipe almanac"
+	quest.78BB0F7DEFCCDF6B.title: "Look Anything Up"
+	quest.7C727724F417A8E7.quest_desc: [
+		"Create can move whole structures. &6Super Glue&r sticks blocks together, and a mover carries them:"
+		""
+		"&6Mechanical Piston&r - pushes a glued structure in and out."
+		"&6Mechanical Bearing&r - spins it."
+		"&6Rope Pulley&r - lifts it up and down (elevators!)."
+		"&6Cart Assembler&r - turns it into a minecart."
+		""
+		"Put &6Drills, Saws, Harvesters and Ploughs&r on a moving contraption and it mines, chops and farms as it goes."
+	]
+	quest.7C727724F417A8E7.quest_subtitle: "Contraptions"
+	quest.7C727724F417A8E7.title: "Moving Machines"
+	quest.7CA1B8FBC83C397F.quest_desc: [
+		"&6Create: High Seas&r adds the parts for sailing a built ship:"
+		""
+		"&6Sails&r catch the wind (a &6Wind Vane&r shows which way it blows)."
+		"&6Rudders&r steer."
+		"&6Anchors&r hold you in place."
+		"&6Oars&r and &6Boat Engines&r move you when there's no wind."
+		"&6Buoys&r mark channels."
+	]
+	quest.7CA1B8FBC83C397F.quest_subtitle: "Create: High Seas"
+	quest.7CA1B8FBC83C397F.title: "Sails and Rudders"
+	quest.7CD6C5C7F683DD2B.quest_desc: [
+		"Almost every early Create block needs &6Andesite Alloy&r."
+		""
+		"Craft it from &6andesite&r and &6iron nuggets&r (or zinc nuggets) in a 2x2 checker pattern. Later a mixer makes it faster."
+		""
+		"&aTip:&r andesite is everywhere underground. Ultimine it."
+	]
+	quest.7CD6C5C7F683DD2B.quest_subtitle: "The first Create material"
+	quest.7CD6C5C7F683DD2B.title: "Andesite Alloy"
+	quest.7D043F65093F9B34.quest_desc: [
+		"In the &6Ancient Factory&r (Explorer's Compass: \"ancient_factory\"). A machine that fires lasers and missiles. Wake it at its core."
+	]
+	quest.7D043F65093F9B34.quest_subtitle: "&5Endgame&r - Ancient Factory"
+	quest.7D043F65093F9B34.title: "The Harbinger"
+	quest.7D0A35D1AD532EDA.quest_desc: [
+		"Wood is your hull, your tools and your fire."
+		""
+		"There are dozens of wood types out here: palm, jacaranda, redwood, mahogany, baobab... Every one of them gets matching furniture, roofs, windows and boats."
+		""
+		"&aTip:&r hold &e`&r while chopping to fell the whole tree."
+	]
+	quest.7D0A35D1AD532EDA.quest_subtitle: "Every island starts with a tree"
+	quest.7D0A35D1AD532EDA.title: "Timber!"
+	quest.7D10B96FCBD98F41.quest_desc: [
+		"&6Create Radars&r: a &6Radar Bearing&r spins a dish made of &6Radar Plates&r. A &6Monitor&r shows every ship and mob nearby."
+		""
+		"Add a &6Fire Controller&r and &6Auto Yaw/Pitch Controllers&r on your cannon mounts: the guns aim themselves at targets you pick. &6Guided Fuzes&r even steer shells into targets."
+	]
+	quest.7D10B96FCBD98F41.quest_subtitle: "See them before they see you"
+	quest.7D10B96FCBD98F41.title: "Radar"
+	quest.7D7E61655C1FEA92.quest_desc: [
+		"From the ghost of Captain Cornelia in the Ice Maze."
+	]
+	quest.7D7E61655C1FEA92.quest_subtitle: "Captain Cornelia"
+	quest.7D7E61655C1FEA92.title: "Frozen Anchor"
+	quest.7EF06E6C3209BDCE.quest_desc: [
+		"&e1.&r &6Powder Charges&r give the push. More charges = longer range (too many and a weak barrel bursts!)."
+		"&e2.&r A &6projectile&r: &6Solid Shot&r for hulls, &6HE Shell&r explodes, &6Shrapnel&r for crews, &6Grapeshot&r at close range."
+		"&e3.&r Shells need a &6Fuze&r on the nose (impact, timed or proximity)."
+		""
+		"Load from the back into the breech (or muzzle on simple guns), then fire with a redstone signal on the mount."
+	]
+	quest.7EF06E6C3209BDCE.quest_subtitle: "Loading a cannon"
+	quest.7EF06E6C3209BDCE.title: "Powder and Shot"
+	quest.7F060F754256BF33.quest_desc: [
+		"&6Create Propulsion&r adds thrusters that burn fuel for raw push, wings for lift at speed, and tilt adapters for aiming them. Great for fast boats and fighter airships."
+	]
+	quest.7F060F754256BF33.quest_subtitle: "Create Propulsion"
+	quest.7F060F754256BF33.title: "Thrusters and Wings"
+	quest.7FB47F8DEFA76C3F.quest_desc: [
+		"&e1.&r Put a &6Connector&r on the alternator and another on the machine."
+		"&e2.&r Right-click the first connector with a &6Copper Spool&r, then the second."
+		"&e3.&r Power flows along the wire."
+		""
+		"Large connectors with gold or electrum wire carry more power over longer distances."
+	]
+	quest.7FB47F8DEFA76C3F.quest_subtitle: "Connectors and wires"
+	quest.7FB47F8DEFA76C3F.title: "Running Cable"
+}

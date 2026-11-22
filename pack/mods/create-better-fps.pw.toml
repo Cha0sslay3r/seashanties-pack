@@ -1,0 +1,8 @@
+name = "create-better-fps"
+filename = "createbetterfps-1.21.1-1.1.5.jar"
+side = "client"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8908/301/createbetterfps-1.21.1-1.1.5.jar"
+hash-format = "sha1"
+hash = "c06111569e30af58d1cec4b4ee4b545f0021172a"

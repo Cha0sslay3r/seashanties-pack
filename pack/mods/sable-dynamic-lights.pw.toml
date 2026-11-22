@@ -1,0 +1,8 @@
+name = "sable-dynamic-lights"
+filename = "sable-dynamic-lights-1.21.1-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8301/1/sable-dynamic-lights-1.21.1-1.0.0.jar"
+hash-format = "sha1"
+hash = "074ed0cfe1de1d27db9bb3c46f212107a4ade842"
