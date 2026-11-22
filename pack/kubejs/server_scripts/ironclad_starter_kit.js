@@ -42,6 +42,16 @@ PlayerEvents.loggedIn(event => {
   giveKit(p)
   p.tell(Text.gold('Welcome aboard! ').append(Text.gray('Your starter kit is packed in your backpack (press B): a waystone for your first base, a raft, compass, spyglass, tools, food, torches and a bed.')))
   p.tell(Text.gray('Open the quest book to begin. Fair winds!'))
+  // First join only: big on-screen welcome, then open the quest book for them once the world has loaded
+  let name = p.username, srv = p.server
+  srv.scheduleInTicks(100, () => {
+    srv.runCommandSilent('title ' + name + ' times 10 100 30')
+    srv.runCommandSilent('title ' + name + ' subtitle {"text":"Your quest book opens in a moment. It shows you everything.","color":"yellow"}')
+    srv.runCommandSilent('title ' + name + ' title {"text":"Welcome aboard!","color":"gold","bold":true}')
+    srv.runCommandSilent('tellraw ' + name + ' ["",{"text":"\u2693 START HERE: ","color":"gold","bold":true},{"text":"the Quest Book","color":"yellow"},{"text":" teaches the whole pack and pays you coins.","color":"gray"}]')
+    srv.runCommandSilent('tellraw ' + name + ' ["",{"text":"Open it any time: right-click the ","color":"gray"},{"text":"book in your hotbar","color":"yellow"},{"text":", or click the ","color":"gray"},{"text":"scroll icon top-left of your inventory","color":"yellow"},{"text":".","color":"gray"}]')
+  })
+  srv.scheduleInTicks(200, () => srv.runCommandSilent('execute as ' + name + ' run ftbquests open_book'))
 })
 
 ServerEvents.commandRegistry(event => {

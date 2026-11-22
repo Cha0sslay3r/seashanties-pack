@@ -2078,7 +2078,7 @@ hash = "da22339ee701f874f8276aebe22075a309ac3a19de33ed811e143878d16e56a4"
 
 [[files]]
 file = "kubejs/server_scripts/ironclad_starter_kit.js"
-hash = "100f6c15ca3b3fa12e86724b0f4eb04f67000bf3cd77f6d60b56dc36d69c04f5"
+hash = "baa5eb4332cf9c88d37d7d2bbe7fcb2215fb76bd78689f93b0ab8bdbc21163a0"
 
 [[files]]
 file = "kubejs/server_scripts/ironclad_tags.js"
