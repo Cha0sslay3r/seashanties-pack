@@ -5,7 +5,7 @@
 	group: "3DB8DF94F687DD8E"
 	icon: { id: "ironclad:kraken_beak" }
 	id: "711991831B26769E"
-	order_index: 17
+	order_index: 18
 	quest_links: [ ]
 	quests: [
 		{

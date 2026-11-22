@@ -5,7 +5,7 @@
 	group: "6AF6577A356BBFCB"
 	icon: { id: "simplehats:hatbag_common" }
 	id: "7C87991CE433DC02"
-	order_index: 20
+	order_index: 21
 	quest_links: [ ]
 	quests: [
 		{

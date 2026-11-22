@@ -5,7 +5,7 @@
 	group: "3DB8DF94F687DD8E"
 	icon: { id: "minecraft:netherite_chestplate" }
 	id: "6C21882B393B961F"
-	order_index: 15
+	order_index: 16
 	quest_links: [ ]
 	quests: [
 		{

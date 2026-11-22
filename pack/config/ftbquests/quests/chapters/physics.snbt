@@ -1,0 +1,261 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "physics"
+	group: "19AE4577F3C5F699"
+	icon: { id: "simulated:physics_assembler" }
+	id: "10C512838DAAC354"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6B19BF0DEC76C138"]
+			icon: { count: 1, id: "simulated:physics_assembler" }
+			id: "53E491E2312998EA"
+			rewards: [
+				{ count: 2, id: "497374C80684D963", item: { count: 1, id: "numismatics:bevel" }, type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{ id: "249C5932F400E846", type: "checkmark" }
+			]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["53E491E2312998EA"]
+			icon: { count: 1, id: "simulated:honey_glue" }
+			id: "5A8BFA7790022681"
+			rewards: [
+				{ id: "77F5FD84F232BF49", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "311DB5143C0B3D77", item: { count: 1, id: "simulated:physics_assembler" }, type: "item" }
+				{ id: "400A40E806F0C8A8", item: { count: 1, id: "simulated:honey_glue" }, type: "item" }
+			]
+			x: 2.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["5A8BFA7790022681"]
+			icon: { count: 1, id: "simulated:contraption_diagram" }
+			id: "32CED91416502E98"
+			rewards: [
+				{ id: "6C0FC8C2573F179C", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "7ABFEB4301F9B150", item: { count: 1, id: "simulated:contraption_diagram" }, type: "item" }
+				{ id: "7073CACB0696E4DB", item: { count: 1, id: "aeronautics:aviators_goggles" }, type: "item" }
+			]
+			x: 4.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["5A8BFA7790022681"]
+			icon: { count: 1, id: "minecraft:oak_planks" }
+			id: "28CAE2C10ED387ED"
+			rewards: [
+				{ id: "7E6AF70E7D83E34B", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "221BA547CD514E14", type: "checkmark" }
+			]
+			x: 4.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["5A8BFA7790022681"]
+			icon: { count: 1, id: "simulated:white_portable_engine" }
+			id: "3F0D110F2D5EEE85"
+			rewards: [
+				{ id: "3928916B6374E419", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "11D9BA10B811B5F0", item: { count: 1, id: "simulated:white_portable_engine" }, type: "item" }
+			]
+			x: 4.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["3F0D110F2D5EEE85"]
+			icon: { count: 1, id: "aeronautics:andesite_propeller" }
+			id: "46C007A7057868C5"
+			rewards: [
+				{ count: 2, id: "798992C35A191F4F", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "365B327513E59AAE", item: { count: 1, id: "aeronautics:propeller_bearing" }, type: "item" }
+				{ id: "67944124048A7BD8", item: { count: 1, id: "aeronautics:andesite_propeller" }, type: "item" }
+			]
+			x: 6.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["46C007A7057868C5"]
+			icon: { count: 1, id: "simulated:white_symmetric_sail" }
+			id: "18EC95C78FB8BF46"
+			rewards: [
+				{ id: "1A95542FC91A11F4", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "7C4ABDFFB8AD3A1A", item: { count: 1, id: "simulated:white_symmetric_sail" }, type: "item", count: 8L }
+			]
+			x: 8.00d
+			y: -2.62d
+		}
+		{
+			dependencies: ["46C007A7057868C5"]
+			icon: { count: 1, id: "aeronautics:white_envelope" }
+			id: "510F776EBFEC310D"
+			rewards: [
+				{ id: "277C14BDD6B7E545", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "4850275544FD575F", item: { count: 1, id: "aeronautics:white_envelope" }, type: "item", count: 16L }
+				{ id: "67C0A4B9AEDA65A1", item: { count: 1, id: "aeronautics:adjustable_burner" }, type: "item" }
+			]
+			x: 8.00d
+			y: -0.88d
+		}
+		{
+			dependencies: ["510F776EBFEC310D"]
+			icon: { count: 1, id: "aeronautics:levitite" }
+			id: "713525F55F2219A3"
+			rewards: [
+				{ count: 2, id: "1A7F97DD31235619", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "41F67937F0EDBE82", item: { count: 1, id: "aeronautics:levitite" }, type: "item", count: 8L }
+			]
+			x: 10.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["46C007A7057868C5"]
+			icon: { count: 1, id: "simulated:steering_wheel" }
+			id: "15AE0A334C7F0862"
+			rewards: [
+				{ count: 2, id: "6A0C5DD970BC9B5C", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "1D094C0A37DEF65C", item: { count: 1, id: "simulated:steering_wheel" }, type: "item" }
+				{ id: "159E48EC3DF7E6AB", item: { count: 1, id: "simulated:throttle_lever" }, type: "item" }
+				{ id: "31B4FC52A342BAB2", item: { count: 1, id: "simulated:linked_typewriter" }, type: "item" }
+			]
+			x: 8.00d
+			y: 0.88d
+		}
+		{
+			dependencies: ["15AE0A334C7F0862"]
+			icon: { count: 1, id: "simulated:swivel_bearing" }
+			id: "24527CAEE59DCE23"
+			rewards: [
+				{ count: 2, id: "26C933B01876A4C5", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "433F7DE403D49906", item: { count: 1, id: "simulated:swivel_bearing" }, type: "item" }
+				{ id: "296C8E1CCE8959DF", item: { count: 1, id: "simulated:torsion_spring" }, type: "item" }
+			]
+			x: 10.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["15AE0A334C7F0862"]
+			icon: { count: 1, id: "simulated:gimbal_sensor" }
+			id: "3803B717BF0B85D9"
+			rewards: [
+				{ id: "72D68EE0A7105455", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "262D4CC243801E37", item: { count: 1, id: "simulated:gimbal_sensor" }, type: "item" }
+				{ id: "5A9E75601B3D34D5", item: { count: 1, id: "simulated:altitude_sensor" }, type: "item" }
+			]
+			x: 10.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["24527CAEE59DCE23"]
+			icon: { count: 1, id: "simulated:docking_connector" }
+			id: "44836D4F1F27ACBB"
+			rewards: [
+				{ count: 2, id: "501BA25069AACDB4", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "29C72E4D5A546587", item: { count: 1, id: "simulated:docking_connector" }, type: "item", count: 2L }
+				{ id: "3D81189D5AD03BD4", item: { count: 1, id: "simulated:rope_winch" }, type: "item" }
+			]
+			x: 12.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["3F0D110F2D5EEE85"]
+			icon: { count: 1, id: "offroad:tire" }
+			id: "2ACE7A9C3CB277B8"
+			rewards: [
+				{ count: 2, id: "1422A4F3BD5CDEE3", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "1DD8582F18166E25", item: { count: 1, id: "offroad:wheel_mount" }, type: "item", count: 4L }
+				{ id: "2403EAF5EC20EFDA", item: { count: 1, id: "offroad:tire" }, type: "item", count: 4L }
+			]
+			x: 6.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["2ACE7A9C3CB277B8"]
+			icon: { count: 1, id: "offroad:borehead_bearing" }
+			id: "5E6A878E78783922"
+			rewards: [
+				{ id: "6DD5E33D1634A4B9", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			tasks: [
+				{ id: "2124C9D47AEA8159", item: { count: 1, id: "offroad:borehead_bearing" }, type: "item" }
+				{ id: "2D6B136B312E108B", item: { count: 1, id: "offroad:rockcutting_wheel" }, type: "item", count: 4L }
+			]
+			x: 8.00d
+			y: 2.62d
+		}
+		{
+			dependencies: ["24527CAEE59DCE23"]
+			icon: { count: 1, id: "aeronautics:mounted_potato_cannon" }
+			id: "73B10CC00158FE7A"
+			rewards: [
+				{ id: "1040B2FF399CD424", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "1666AC814324CEC1", item: { count: 1, id: "aeronautics:mounted_potato_cannon" }, type: "item" }
+			]
+			x: 12.00d
+			y: 1.75d
+		}
+		{
+			dependencies: ["32CED91416502E98" "28CAE2C10ED387ED"]
+			icon: { count: 1, id: "minecraft:writable_book" }
+			id: "10AEF128C4D9E10D"
+			rewards: [
+				{ id: "2E05E7B408660EDD", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }
+			]
+			tasks: [
+				{ id: "762CEE991EAE22BB", type: "checkmark" }
+			]
+			x: 6.00d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3803B717BF0B85D9" "510F776EBFEC310D" "10AEF128C4D9E10D"]
+			icon: { count: 1, id: "aeronautics:aviators_goggles" }
+			id: "32DE91734221F82A"
+			rewards: [
+				{ id: "4D4507FB34EFD91E", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ id: "42BCB6563A1C7F52", type: "checkmark" }
+			]
+			x: 12.00d
+			y: -1.75d
+		}
+	]
+}

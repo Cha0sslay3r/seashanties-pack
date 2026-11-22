@@ -10,6 +10,7 @@
   "item.ironclad.neptunium_sheet": "Neptunium Sheet",
   "item.ironclad.storage_circuit": "Storage Circuit",
   "item.ironclad.incomplete_storage_circuit": "Incomplete Storage Circuit",
-  "item.ironclad.tidecaller": "Tidecaller",
-  "item.ironclad.anglers_crown": "Angler's Crown"
+  "item.ironclad.tidecaller": "Deepcaller",
+  "item.ironclad.anglers_crown": "Angler's Crown",
+  "effect.ironclad.well_fed": "Well Fed"
 }

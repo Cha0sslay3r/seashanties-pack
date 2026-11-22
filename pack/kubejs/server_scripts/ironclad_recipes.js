@@ -61,3 +61,12 @@ ServerEvents.recipes(event => {
   ;['fire', 'ice', 'lightning'].forEach(e => mc([' L ', 'PSP', ' B '], { L: I('ironclad:leviathan_ink'), P: I('create:precision_mechanism'), S: I(`iceandfire:dragonsteel_${e}_sword`), B: I('create:brass_sheet') },
      { id: `iceandfire:dragonsteel_${e}_sword`, components: { 'minecraft:custom_name': `{"text":"Dragonsteel Cutlass","color":"light_purple","italic":false}`, 'minecraft:enchantments': { levels: { 'ironclad:tidebreaker': 5, 'ironclad:krakens_grip': 3 } } } }))
 })
+
+// ---- Reforged hammers: the mod ships with NO recipes, so they could never be made (Nov 22) ----
+// Reforging = anvil: your item on the left, the matching hammer on the right. Costs XP + hammer durability.
+ServerEvents.recipes(event => {
+  const hammer = (out, sheet, block) => event.shaped(out, [' SB', ' TS', 'T  '], { S: sheet, B: block, T: 'minecraft:stick' })
+  hammer('reforged:weaponsmiths_hammer', 'create:iron_sheet', 'minecraft:iron_block')
+  hammer('reforged:toolsmiths_hammer', 'create:copper_sheet', 'minecraft:copper_block')
+  hammer('reforged:armorers_hammer', 'create:brass_sheet', 'create:brass_block')
+})

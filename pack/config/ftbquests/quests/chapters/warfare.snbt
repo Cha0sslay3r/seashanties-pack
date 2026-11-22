@@ -5,7 +5,7 @@
 	group: "19AE4577F3C5F699"
 	icon: { id: "createbigcannons:cannon_mount" }
 	id: "4BE72AC1B7F1F07A"
-	order_index: 10
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{

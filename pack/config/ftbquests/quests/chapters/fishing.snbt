@@ -5,7 +5,7 @@
 	group: "19AE4577F3C5F699"
 	icon: { id: "tide:fishing_journal" }
 	id: "79CCAA48BA0DD06A"
-	order_index: 11
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{

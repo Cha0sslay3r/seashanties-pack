@@ -1,4 +1,8 @@
 {
+	chapter.10C512838DAAC354.chapter_subtitle: [
+		"Create Aeronautics in depth: build anything that moves"
+	]
+	chapter.10C512838DAAC354.title: "Shipwright's Manual"
 	chapter.110AB9C49F581CB4.chapter_subtitle: [
 		"Crafts \\& Additions, diesel and New Age"
 	]
@@ -93,6 +97,22 @@
 	chapter_group.6AA4A3C1E029AAAD.title: "The Engineer's Voyage"
 	chapter_group.6AF6577A356BBFCB.title: "The Collector's Corner"
 	file.0000000000000001.title: "Freedom V4: Sea Shanties"
+	quest.10AEF128C4D9E10D.quest_desc: [
+		"&e...flip over?&r Top-heavy. Move weight down, widen the hull, add a gimbal-stabiliser."
+		"&e...not take off?&r Lift < weight. Bigger balloon, more burners, levitite, or lose weight."
+		"&e...not move?&r Props need stress: check the engine. Is thrust reversed?"
+		"&e...spin in circles?&r Uneven thrust or a gun's recoil. Balance the props, add symmetric-sail fins."
+		"&e...fall apart?&r A section lost its connection and split off. Re-glue and merge with a slime ball."
+		"&e...shake?&r Two contraptions fighting each other. Don't overlap Super Glue and Honey Glue areas."
+		"{@pagebreak}"
+		"&6Be a good shipwright&r"
+		""
+		"Huge contraptions cost the server a lot. &eSmaller, smarter ships&r run smoother for everyone."
+		"Park big ships in port and &edisassemble&r ones you won't use for a while."
+		"Don't leave props spinning on parked ships."
+	]
+	quest.10AEF128C4D9E10D.quest_subtitle: "Why does my ship..."
+	quest.10AEF128C4D9E10D.title: "Troubleshooting"
 	quest.10E17C3EAF2BED90.quest_desc: [
 		"An &6Autocannon&r fires small rounds very quickly. It's the best gun against fast boats and flying things. Feed it &6Autocannon Cartridges&r."
 		""
@@ -198,9 +218,7 @@
 	quest.14AECFFB1ECFE2E8.quest_subtitle: "The biggest fish in the sea"
 	quest.14AECFFB1ECFE2E8.title: "Megalodon"
 	quest.14D3A69286AA0813.quest_desc: [
-		"The mother of the maze's monsters hunts under the ice of the Ice Maze. Bring water breathing."
-		""
-		"&eDrops:&r &6Maze Rose&r and rare materials."
+		"Under the same frozen sea, something mothers the monsters of the maze."
 	]
 	quest.14D3A69286AA0813.quest_subtitle: "&9Mid&r - the Ice Maze"
 	quest.14D3A69286AA0813.title: "Maze Mother"
@@ -221,10 +239,17 @@
 	]
 	quest.151BFE640EDDEA1F.quest_subtitle: "Only the items you want"
 	quest.151BFE640EDDEA1F.title: "Filters"
-	quest.1619D733D2BD7E0E.quest_desc: [
-		"The &6Sandworm&r bursts out of the sand near its nest in the desert (Explorer's Compass: \"sandworm_nest\"). Stay moving."
+	quest.15AE0A334C7F0862.quest_desc: [
+		"&6Steering Wheel&r - hold right-click and move the mouse to turn; sneak to snap to 45°. It outputs exact rotation: connect it to a &6Swivel Bearing&r holding a rudder, or to the angle of a propeller. Set the max angle on its panel. (Bearings must be told &enot&r to disassemble.)"
 		""
-		"&eDrops:&r the &6Sandworm Gauntlet&r."
+		"&6Throttle Lever&r - drag to set any redstone strength 0-15. Perfect for burners and engine speed."
+		""
+		"&6Linked Typewriter&r - turns your keyboard into a control panel: bind any key to a Redstone Link frequency. Right-click to take control, W/A/S/D and your bound keys now fly the ship."
+	]
+	quest.15AE0A334C7F0862.quest_subtitle: "Steering and controls"
+	quest.15AE0A334C7F0862.title: "The Helm"
+	quest.1619D733D2BD7E0E.quest_desc: [
+		"Caravans don't cross certain deserts any more. The sand moves on its own."
 	]
 	quest.1619D733D2BD7E0E.quest_subtitle: "&6Early&r - deserts"
 	quest.1619D733D2BD7E0E.title: "The Sandworm"
@@ -245,16 +270,12 @@
 	quest.16F0884CAD7DF4F4.quest_subtitle: "Base travel"
 	quest.16F0884CAD7DF4F4.title: "Hypertubes"
 	quest.1775A115DB18256E.quest_desc: [
-		"The great sea boss. In the &6Sunken City&r on the ocean floor (Explorer's Compass: \"sunken_city\"). Summon it at the &6Altar of Abyss&r."
-		""
-		"&eDrops:&r &6Leviathan Ink&r (Sea Relic) and abyssal materials."
+		"The oldest sailors won't name it. A sunken city lies on the sea floor, and it lives there."
 	]
 	quest.1775A115DB18256E.quest_subtitle: "&5Endgame&r - Sunken City"
 	quest.1775A115DB18256E.title: "The Leviathan"
 	quest.178252E488588759.quest_desc: [
-		"The &6Kraken&r guards its ship far out at sea (Explorer's Compass: \"kraken_ship\"). Fight it from a sturdy ship or a platform; tentacles grab swimmers."
-		""
-		"&eDrops:&r &6Kraken Tooth&r, the &6Kraken Trident&r, and the &6Kraken Beak&r (Sea Relic)."
+		"Ships far out on the deep ocean vanish in calm weather."
 	]
 	quest.178252E488588759.quest_subtitle: "&9Mid&r - deep ocean"
 	quest.178252E488588759.title: "The Kraken"
@@ -265,6 +286,15 @@
 	]
 	quest.17CBD924DEF48C00.quest_subtitle: "Backpack upgrades"
 	quest.17CBD924DEF48C00.title: "Bigger Backpack"
+	quest.18EC95C78FB8BF46.quest_desc: [
+		"On a moving contraption, &6regular sails&r act like &ewings&r: the faster you go, the more &elift&r they make, pushing at right angles to the sail. With enough speed and angled sails, a heavy craft can fly like a plane."
+		""
+		"&6Symmetric Sails&r make only &edrag&r, never lift. Edge-on to the wind they do nothing; angled, they slow that side. Use them as &erudders, fins and stabilisers&r."
+		""
+		"Symmetric sails stick to each other without glue (great for windmills), and dye recolours them."
+	]
+	quest.18EC95C78FB8BF46.quest_subtitle: "Shaping the airflow"
+	quest.18EC95C78FB8BF46.title: "Sails, Wings and Drag"
 	quest.19346869270870FF.quest_desc: [
 		"An &6Atlas&r holds many maps in one item and shows a minimap when held. Add empty maps and it fills itself in as you sail."
 	]
@@ -283,21 +313,17 @@
 	quest.197FD467186F6098.quest_subtitle: "Huge simple storage"
 	quest.197FD467186F6098.title: "Item Vault"
 	quest.19856D3F2C0E13FD.quest_desc: [
-		"Fire, ice and lightning dragons sleep in &6caves&r (young) and &6roosts&r (adults) in the right biomes. A sleeping dragon wakes when you get close."
-		""
-		"Bring dragonscale-resistant armour of the opposite element, and fight from cover. &eDrops:&r scales, bones, blood, and its heart."
+		"Dragons of fire, ice and lightning sleep in caves and roosts across the world."
 	]
 	quest.19856D3F2C0E13FD.quest_subtitle: "&5Endgame&r - Ice and Fire"
 	quest.19856D3F2C0E13FD.title: "Dragon Slayer"
 	quest.19C12E9599CD7952.quest_desc: [
-		"In the Nether: the &6Burning Arena&r (Explorer's Compass: \"burning_arena\"). Summon Ignis at the altar. Fire resistance, a shield, and patience."
-		""
-		"&eDrops:&r &6Ignitium&r for Ignitium armour."
+		"In the Nether, an arena of fire waits for a challenger."
 	]
 	quest.19C12E9599CD7952.quest_subtitle: "&5Endgame&r - Burning Arena"
 	quest.19C12E9599CD7952.title: "Ignis"
 	quest.1AE34EC212686DC0.quest_desc: [
-		"In the Nether: the &6Soul Forge&r (Explorer's Compass: \"soul_black_smith\"). It's slow and armoured. Dodge its slams."
+		"In the Nether, a forge still burns. Something forged itself there."
 	]
 	quest.1AE34EC212686DC0.quest_subtitle: "&5Endgame&r - Soul Forge"
 	quest.1AE34EC212686DC0.title: "Netherite Monstrosity"
@@ -317,7 +343,7 @@
 	quest.1CDC4D4DB2DC077E.quest_subtitle: "SimpleHats"
 	quest.1CDC4D4DB2DC077E.title: "Hat Bags"
 	quest.1CE842CB53C63DDC.quest_desc: [
-		"It's blind and it hits harder than anything. Sneak. If you must fight it, bring ranged weapons and the whole crew."
+		"In the deep dark, something listens. Be very quiet."
 	]
 	quest.1CE842CB53C63DDC.quest_subtitle: "&5Endgame&r - the Deep Dark"
 	quest.1CE842CB53C63DDC.title: "The Warden"
@@ -331,7 +357,7 @@
 	quest.1CF3503A48A6BABC.quest_subtitle: "Brass funnels, tunnels and chutes"
 	quest.1CF3503A48A6BABC.title: "Smart Logistics"
 	quest.1CF3864FFB79ABF9.quest_desc: [
-		"Under the desert, the &6Cursed Pyramid&r (Explorer's Compass: \"cursed_pyramid\"). Brush the &6suspicious sand&r in its tomb to wake the Ancient Remnant."
+		"Under the desert, a pharaoh's tomb, and something buried with him."
 	]
 	quest.1CF3864FFB79ABF9.quest_subtitle: "&5Endgame&r - Cursed Pyramid"
 	quest.1CF3864FFB79ABF9.title: "Ancient Remnant"
@@ -350,7 +376,7 @@
 	quest.1DD5F8197A2D6E0F.quest_subtitle: "Luck 5 or more, below y41"
 	quest.1DD5F8197A2D6E0F.title: "Midas Fish"
 	quest.1E3ACD4265EB3660.quest_desc: [
-		"Build it yourself: soul sand T and three wither skeleton skulls. Fight it &eunderground&r so it can't fly away. It drops the &6Nether Star&r."
+		"Some things aren't found. They're built, by people who should know better."
 	]
 	quest.1E3ACD4265EB3660.quest_subtitle: "&9Mid&r - summoned"
 	quest.1E3ACD4265EB3660.title: "The Wither"
@@ -450,7 +476,7 @@
 	quest.211AA355E28CE8EE.quest_subtitle: "Immersive Paintings"
 	quest.211AA355E28CE8EE.title: "Gallery"
 	quest.2129DDB6C8F73309.quest_desc: [
-		"From the Leviathan in the Sunken City. The rarest relic."
+		"The rarest relic. The deepest thing in the sea guards it."
 	]
 	quest.2129DDB6C8F73309.quest_subtitle: "The Leviathan"
 	quest.2129DDB6C8F73309.title: "Leviathan Ink"
@@ -470,7 +496,7 @@
 	quest.21993AF742289B80.quest_subtitle: "Etched"
 	quest.21993AF742289B80.title: "Press a Record"
 	quest.21BDDB66EEBCE4A5.quest_desc: [
-		"From here on, wear &6full diamond&r (or better), carry good food and a stack of healing. Fight with your crew."
+		"From here on, the rumours get darker. Full diamond, good food and a crew."
 	]
 	quest.21BDDB66EEBCE4A5.quest_subtitle: "Full diamond from here"
 	quest.21BDDB66EEBCE4A5.title: "Mid Tier"
@@ -484,7 +510,7 @@
 	quest.221E79BEC9328670.quest_desc: [
 		"&bAll seven legends.&r Very few sailors will ever see this blade."
 		""
-		"&6Tidecaller&r (netherite-class sword):"
+		"&6Deepcaller&r (netherite-class sword):"
 		"&eUndertow&r - every hit slows; +4 damage when you're in water or rain."
 		"&eTidal Wave&r - right-click to blast nearby monsters away (8 s cooldown)."
 		"&eHeld&r - Dolphin's Grace, plus Conduit Power when wet."
@@ -492,7 +518,7 @@
 		"The whole server hears when you claim it."
 	]
 	quest.221E79BEC9328670.quest_subtitle: "All seven legends"
-	quest.221E79BEC9328670.title: "The Tidecaller"
+	quest.221E79BEC9328670.title: "The Deepcaller"
 	quest.22531C15FC789A08.quest_desc: [
 		"A &6Wireless Transmitter&r on the network plus a &6Wireless Grid&r in your hand: open your storage from anywhere in range."
 	]
@@ -534,6 +560,14 @@
 	]
 	quest.244FFB9D3B812468.quest_subtitle: "Let's Do Beachparty"
 	quest.244FFB9D3B812468.title: "Beach Day"
+	quest.24527CAEE59DCE23.quest_desc: [
+		"A &6Swivel Bearing&r turns the glued block group in front of it into its own contraption that rotates on the bearing: rudders, turrets, folding wings, cranes. Rotation passes &ethrough&r it, so a turret can still power the gun on top. Redstone unlocks it to spin freely."
+		""
+		"&6Torsion Spring&r - turns only within an angle limit and springs back when the input stops."
+		"&6Spring&r - joins two blocks with a springy link (wrench for strength). Suspension and shock absorbers."
+	]
+	quest.24527CAEE59DCE23.quest_subtitle: "Moving parts on moving ships"
+	quest.24527CAEE59DCE23.title: "Swivel Bearings and Springs"
 	quest.24642A86E7884788.quest_desc: [
 		"Right-click a placed chest with a &6tier upgrade&r (copper, iron, gold, diamond, netherite) and it grows without spilling anything."
 		""
@@ -635,10 +669,20 @@
 	]
 	quest.287EB12220F361A3.quest_subtitle: "Pirate Captain and pirate ships"
 	quest.287EB12220F361A3.title: "Pirate Medal"
-	quest.29039B590902CE5A.quest_desc: [
-		"A giant suit of armour sealed in a &6Wrought Chamber&r underground (Explorer's Compass: \"wrought_chamber\"). It's only vulnerable from &ebehind&r, after it swings and gets its axe stuck."
+	quest.28CAE2C10ED387ED.quest_desc: [
+		"On water, a contraption floats if the water it pushes aside weighs more than it does."
 		""
-		"&eDrops:&r the &6Axe of a Thousand Metals&r and its helm."
+		"&e-&r Build the hull from &6planks and logs&r: light and buoyant."
+		"&e-&r A wide, flat bottom is stable. A tall, narrow hull rolls."
+		"&e-&r Put engines, cannons and cargo &elow and centred&r."
+		"&e-&r Make the deck a few blocks above the waterline so waves don't swamp it."
+		""
+		"&aTest in a harbour first.&r If it lists to one side, the Contraption Diagram shows where the centre of mass is: move weight to the other side."
+	]
+	quest.28CAE2C10ED387ED.quest_subtitle: "Building for water"
+	quest.28CAE2C10ED387ED.title: "Hulls That Float"
+	quest.29039B590902CE5A.quest_desc: [
+		"Miners tell of a sealed chamber deep underground, and an empty suit of armour that isn't empty."
 	]
 	quest.29039B590902CE5A.quest_subtitle: "&6Early&r - underground"
 	quest.29039B590902CE5A.title: "Ferrous Wroughtnaut"
@@ -704,6 +748,16 @@
 	]
 	quest.2A9552CC028C7F4B.quest_subtitle: "Ultimine, sorting and the trash slot"
 	quest.2A9552CC028C7F4B.title: "Work Smarter"
+	quest.2ACE7A9C3CB277B8.quest_desc: [
+		"A &6Wheel Mount&r holds a tire: &6Small&r, normal, &6Large&r and &6Monstrous&r. Right-click a tire onto the mount and give the mount rotation to drive."
+		""
+		"&e-&r Redstone from the &etop&r = brake."
+		"&e-&r Redstone from a &eside&r = steer toward that side."
+		""
+		"Cars, tanks, trains without rails, siege towers, mobile bases."
+	]
+	quest.2ACE7A9C3CB277B8.quest_subtitle: "Offroad"
+	quest.2ACE7A9C3CB277B8.title: "Land Vehicles"
 	quest.2B0C8B0F0EC54F11.quest_desc: [
 		"Tame a hamster. Yes, you can throw it. No, you shouldn't."
 	]
@@ -724,7 +778,7 @@
 	quest.2B91345599EC0271.quest_subtitle: "Powered ships"
 	quest.2B91345599EC0271.title: "Propellers"
 	quest.2BFBAAF88439B8A7.quest_desc: [
-		"Something strange roams the land. If you meet &6Big Randy&r, fight back: he has more health here than he should."
+		"Something strange roams the land. Nobody can describe it with a straight face."
 	]
 	quest.2BFBAAF88439B8A7.quest_subtitle: "&6Early&r - joke boss"
 	quest.2BFBAAF88439B8A7.title: "Big Randy"
@@ -777,7 +831,7 @@
 	quest.2D9A9BD806BFED8F.quest_subtitle: "Real power"
 	quest.2D9A9BD806BFED8F.title: "Steam Engine"
 	quest.2DEC9BBE1F6D0B3E.quest_desc: [
-		"Found in floating sky structures. Needed for the netherite jetpack."
+		"Somewhere above the clouds. Needed for the netherite jetpack."
 	]
 	quest.2DEC9BBE1F6D0B3E.quest_subtitle: "Sky structures"
 	quest.2DEC9BBE1F6D0B3E.title: "Sky Compass Core"
@@ -861,10 +915,26 @@
 	quest.328AA387D64F8BDE.quest_subtitle: "Cosy interiors"
 	quest.328AA387D64F8BDE.title: "Handcrafted"
 	quest.32A70A7C80E573BA.quest_desc: [
-		"Three Elder Guardians live in every &6Ocean Monument&r. They give mining fatigue. Neptunium armour and a Conduit help a lot."
+		"The old guardians of the sea temples are still watching."
 	]
 	quest.32A70A7C80E573BA.quest_subtitle: "&9Mid&r - ocean monuments"
 	quest.32A70A7C80E573BA.title: "Elder Guardian"
+	quest.32CED91416502E98.quest_desc: [
+		"&6Contraption Diagram&r - right-click a contraption to see every force on it: weight, lift, thrust, drag, and the centre of mass. &eUse this whenever a ship misbehaves.&r"
+		""
+		"&6Aviator's Goggles&r - like Engineer's Goggles, plus thrust, airflow, air pressure, stress and tank contents at a glance."
+		""
+		"&6Nameplate&r - name your ship (dye to colour, honeycomb to lock). All nameplates on one craft share the name."
+		""
+		"&6Handles&r - hold right-click to grab and climb around a moving ship; sneak to drag the ship by its handle."
+	]
+	quest.32CED91416502E98.quest_subtitle: "Diagram, goggles, nameplate"
+	quest.32CED91416502E98.title: "Know Your Ship"
+	quest.32DE91734221F82A.quest_desc: [
+		"Build a craft that uses a helm, its own engine and at least one sensor-driven system (self-levelling, altitude hold or cruise control), and take a friend for a ride."
+	]
+	quest.32DE91734221F82A.quest_subtitle: "Fly it, sail it, drive it"
+	quest.32DE91734221F82A.title: "Master Shipwright"
 	quest.33041CC80850B788.quest_desc: [
 		"Everyone who steps off the boat gets a sea chest. Check your inventory:"
 		""
@@ -891,9 +961,7 @@
 	quest.337616E05FDD3184.quest_subtitle: "Blaze Burner: heat for your basin"
 	quest.337616E05FDD3184.title: "Capture a Blaze"
 	quest.33826D13174DABA3.quest_desc: [
-		"The masked sun chief lives in an &6Umvuthana Grove&r in savannas (Explorer's Compass: \"umvuthana_grove\"). Defeat his followers first."
-		""
-		"&eDrops:&r the &6Sol Visage&r mask (sun powers)."
+		"Out on the savanna, masked people serve a chief who speaks for the sun."
 	]
 	quest.33826D13174DABA3.quest_subtitle: "&6Early&r - savanna"
 	quest.33826D13174DABA3.title: "Umvuthi"
@@ -933,6 +1001,24 @@
 	]
 	quest.376C09DC9C542BDE.quest_subtitle: "All the small things"
 	quest.376C09DC9C542BDE.title: "Supplementaries"
+	quest.3803B717BF0B85D9.quest_desc: [
+		"These blocks read the ship's state as redstone, so your ship can fly itself:"
+		""
+		"&6Gimbal Sensor&r - signal from the tilt, on each axis. Wire it to props on each side: &ethe low side pushes harder, the ship levels itself&r."
+		"&6Altitude Sensor&r - signal from height. Into the burners: &eholds a set altitude&r."
+		"&6Velocity Sensor&r - signal from speed along its facing. Cruise control."
+		"&6Navigation Table&r - put in a navigation item (a compass, a map...) and it outputs redstone toward that place. Steer automatically."
+		"{@pagebreak}"
+		"&6More signal tricks&r"
+		""
+		"&6Optical Sensor&r - a rangefinder: stronger the closer the block. Landing gear and collision warning."
+		"&6Laser Pointer + Laser Sensor&r - beams between ships or to a dock."
+		"&6Directional / Modulating Linked Receivers&r - read the direction or distance to a Redstone Link. Follow-the-leader and homing."
+		"&6Redstone Accumulator / Inductor&r - smooth or ramp a signal over time (soft throttle)."
+		"&6Analog Transmission&r, &6Directional Gearshift&r - redstone-controlled gearboxes."
+	]
+	quest.3803B717BF0B85D9.quest_subtitle: "Sensors and redstone"
+	quest.3803B717BF0B85D9.title: "Autopilot"
 	quest.38F1AAA5DBD7D10B.quest_desc: [
 		"A &6Deployer&r holds an item and uses it, like a player would: places blocks, uses tools, hits mobs, shears sheep, applies items to other items on a belt."
 		""
@@ -1051,14 +1137,20 @@
 	quest.3E411EEDA41927C7.quest_subtitle: "Aquamirae"
 	quest.3E411EEDA41927C7.title: "Terrible Armour"
 	quest.3EDCA5431DAACFE0.quest_desc: [
-		"&e1.&r Sail to the &6Ice Maze&r (Aquamirae's frozen sea; use Nature's Compass)."
-		"&e2.&r Raid a &6frozen pirate ship&r there and take its &6Shell Horn&r."
-		"&e3.&r Use the horn near water in the Ice Maze. The captain rises."
-		""
-		"&eDrops:&r the &6Frozen Key&r, Terrible armour templates, and the &6Frozen Anchor&r (Sea Relic)."
+		"A drowned captain haunts a frozen sea in the far north. They say she can be called."
 	]
 	quest.3EDCA5431DAACFE0.quest_subtitle: "&9Mid&r - the Ice Maze"
 	quest.3EDCA5431DAACFE0.title: "Ghost of Captain Cornelia"
+	quest.3F0D110F2D5EEE85.quest_desc: [
+		"Anything that needs rotation (propellers, winches, wheels, drills) needs an engine &eon the ship&r."
+		""
+		"&6Portable Engine&r - burns fuel (coal, charcoal, logs...). Small, cheap, set its direction with the panel. Feed it from a chest with a funnel. A &6Blaze Cake&r superheats it for much more power."
+		"&6Steam engines&r - the big option for large ships: boiler + burners + water tank on board."
+		""
+		"Check stress with goggles. Too little stress capacity = props spin slowly = no thrust."
+	]
+	quest.3F0D110F2D5EEE85.quest_subtitle: "Engines that travel with you"
+	quest.3F0D110F2D5EEE85.title: "Power on Board"
 	quest.3F25B1C419807CEB.quest_desc: [
 		"The &6Sawmill&r cuts logs into stairs, slabs, beams and planks without crafting waste."
 	]
@@ -1082,18 +1174,14 @@
 	quest.40B6670A539C4838.quest_subtitle: "Customise your rod"
 	quest.40B6670A539C4838.title: "Angling Table"
 	quest.40E022B75257DF43.quest_desc: [
-		"This chapter lists every boss in the order we recommend. Each quest says &ewhere to find it&r, &ewhat to bring&r and &ewhat it drops&r."
-		""
-		"&6Finding bosses:&r most live in their own structure. An &6Explorer's Compass&r (needs a precision mechanism) can point to any structure: open it and search the name in the quest."
-		""
-		"&6What it drops:&r press &eU&r on the boss's spawn egg in EMI, or search the boss name in EMI Loot."
+		"Every boss in the pack, roughly in the order to face them. These pages are only &esailors' rumours&r: where to look and what to fear is for you to find out."
 		"{@pagebreak}"
 		"&6Tiers&r"
 		"&6Early&r - iron or knight's plate."
 		"&9Mid&r - full diamond, good food, a crew."
 		"&5Endgame&r - full diamond is the &cminimum&r. Under 20 armour they can one-shot you."
 		""
-		"Bosses get &e+40% health per extra player&r nearby, up to +80%. Bring friends for the damage, not to make it easier."
+		"Bosses get &e+40% health per extra player&r nearby, up to +80%."
 	]
 	quest.40E022B75257DF43.quest_subtitle: "Read before you fight"
 	quest.40E022B75257DF43.title: "The Boss Ladder"
@@ -1140,6 +1228,16 @@
 	]
 	quest.4248EAE28DBA467A.quest_subtitle: "Ingots into sheets"
 	quest.4248EAE28DBA467A.title: "Mechanical Press"
+	quest.44836D4F1F27ACBB.quest_desc: [
+		"&6Docking Connectors&r - extend a pair and they line up and lock into a rigid joint, while both sides stay separate ships. Items and fluids flow through once docked. Retract either one to undock. A comparator reads the docking progress."
+		""
+		"&6Rope Winch + Rope Connector&r - join them with a &6Rope Coupling&r. Turning the winch reels in or out: cargo hooks, anchors, towing a barge. Shears cut the rope. Wrench + right-click to slide down it."
+		""
+		"&6Redstone Magnets&r - opposite poles attract and line up, the same poles repel. Grabbers and magnetic docks."
+		"&6Plunger Launcher&r - fires two plungers that pull blocks together. Runs on air from a Backtank."
+	]
+	quest.44836D4F1F27ACBB.quest_subtitle: "Connecting ships to things"
+	quest.44836D4F1F27ACBB.title: "Docking and Towing"
 	quest.45363E9F981DC27F.quest_desc: [
 		"Neptunium armour (from sheets) lets you breathe and move freely underwater. Best for the Kraken, Scylla and the Leviathan's arena."
 	]
@@ -1153,7 +1251,18 @@
 	quest.458048B9EC9DB69C.quest_desc: [
 		"Every weapon, tool and armour piece rolls a &6modifier&r: \"Legendary\", \"Sharp\", \"Broken\"... It changes damage, speed or protection."
 		""
-		"Don't like your roll? Use a &6Weaponsmith's Hammer&r (weapons), &6Toolsmith's Hammer&r (tools) or &6Armorer's Hammer&r (armour) at an anvil to &ereforge&r it."
+		"Hover an item to see its modifier name and what it changes. Better rolls (&6Rare, Epic, Legendary&r) are rarer."
+		"{@pagebreak}"
+		"&6How to reforge&r"
+		""
+		"&e1.&r Craft the right hammer (press &eR&r on it):"
+		"&6Weaponsmith's Hammer&r - swords, axes, maces (iron sheets + iron block)."
+		"&6Toolsmith's Hammer&r - pickaxes, shovels, hoes, fishing rods (copper)."
+		"&6Armorer's Hammer&r - armour and shields (brass)."
+		"&e2.&r Open an &6anvil&r. Your item goes in the &eleft&r slot, the hammer in the &eright&r slot."
+		"&e3.&r Take the result: a fresh random modifier. It costs &eXP levels&r and some &ehammer durability&r."
+		""
+		"Reroll until you like it. A Legendary weapon roll is worth a lot of XP."
 	]
 	quest.458048B9EC9DB69C.quest_subtitle: "Hammers and modifiers"
 	quest.458048B9EC9DB69C.title: "Reforging"
@@ -1161,9 +1270,33 @@
 		"The &6Cooking Pot&r makes stews, soups and meals that give long buffs. Place it over a fire, a stove or a heated blaze burner."
 		""
 		"&eNourishment&r stops hunger draining. &eComfort&r helps you heal. Big meals are worth it before a boss fight."
+		"{@pagebreak}"
+		"&6Well Fed&r"
+		""
+		"Every proper meal (bowls, plates, feast servings) also makes you &6Well Fed&r: extra hearts, a little speed and a little damage."
+		""
+		"&eA dish you haven't had in your last 4 meals&r gives &6Well Fed II&r for 8 minutes (+2 hearts, +8% speed, +1 damage)."
+		"Repeating a recent dish only gives &6Well Fed I&r for 4 minutes."
+		""
+		"Cook a variety. Sailors who live on one stew don't get far."
 	]
 	quest.463D446859F0F953.quest_subtitle: "Proper meals"
 	quest.463D446859F0F953.title: "Cooking Pot"
+	quest.46C007A7057868C5.quest_desc: [
+		"A &6Propeller Bearing&r spins whatever is glued in front of it. Any shape with &eat least 2 sail-like blocks&r is a propeller: the &6Wooden&r and &6Andesite Propeller&r are ready-made, or build your own from sails."
+		""
+		"&e-&r More blades = more efficient."
+		"&e-&r Reverse the spin (or use a wrench on it) to reverse thrust: that's your reverse gear and your brake."
+		"&e-&r A prop moving through the air pushes less hard, so top speed is limited."
+		"&e-&r Thrust weakens high up where the air is thin."
+		"{@pagebreak}"
+		"&6Smart Propeller&r - tilts itself to try to face upward. Great for VTOL craft."
+		"&6Gyroscopic Propeller Bearing&r - keeps the rotor upright on its own: the one to use for &ehelicopters&r. Facing down, it can even hold up a top-heavy island. A redstone signal resets its tilt."
+		""
+		"Under water, the same propellers work as a ship's screw."
+	]
+	quest.46C007A7057868C5.quest_subtitle: "Making it move"
+	quest.46C007A7057868C5.title: "Propellers and Thrust"
 	quest.46EE69F6458C5992.quest_desc: [
 		"Islands here have tall cliffs. A &6Paraglider&r lets you jump off and glide across bays."
 		""
@@ -1227,9 +1360,7 @@
 	quest.49C676841D7D7EAD.quest_subtitle: "Grinding"
 	quest.49C676841D7D7EAD.title: "Millstone"
 	quest.4A51A83B7E2D2D2B.quest_desc: [
-		"&6Sirens&r sing from rocky islands at sea (Explorer's Compass: \"siren_island\"). Their song pulls you toward them. &eEarplugs&r (or keeping your distance) help."
-		""
-		"&eDrops:&r &6Siren Tears&r and sometimes a &6Siren's Pearl&r (Sea Relic)."
+		"Don't listen to the singing from the rocks."
 	]
 	quest.4A51A83B7E2D2D2B.quest_subtitle: "&6Early&r - siren islands"
 	quest.4A51A83B7E2D2D2B.title: "Sirens"
@@ -1239,7 +1370,7 @@
 	quest.4A5BD7FEA6E7593D.quest_subtitle: "Fishing the void, The End"
 	quest.4A5BD7FEA6E7593D.title: "Voidseeker"
 	quest.4ADF38EB17476337.quest_desc: [
-		"In a cave in the swamp (Explorer's Compass: \"hydra_cave\"). Every head you cut off grows back... unless you burn the stump. Bring fire."
+		"There's a cave in the swamp. Whatever lives there has more than one head."
 	]
 	quest.4ADF38EB17476337.quest_subtitle: "&9Mid&r - swamps"
 	quest.4ADF38EB17476337.title: "The Hydra"
@@ -1326,15 +1457,33 @@
 	]
 	quest.4F5979B6F244E400.quest_subtitle: "Water between y20 and y30"
 	quest.4F5979B6F244E400.title: "Devil's Hole Pupfish"
+	quest.510F776EBFEC310D.quest_desc: [
+		"&6Envelopes&r form a balloon. Fill the space inside with hot air and it lifts."
+		""
+		"&e-&r The balloon must be &eairtight&r: any gap and the air leaks. Shafts through it need to be &6Envelope Encased Shafts&r."
+		"&e-&r Hot air fills from the &etop down&r. Blocks inside the balloon steal volume."
+		"&e-&r A bigger balloon = more maximum lift."
+		"{@pagebreak}"
+		"&6Hot Air Burner&r - sits under the balloon. Give it &eredstone&r to burn; the signal strength scales its output. The panel sets the maximum."
+		"&6Steam Vent&r - the same job with steam: it needs heat, water and boiler space like a steam engine. Stronger, for big airships."
+		""
+		"Several burners or vents can fill one balloon."
+		"{@pagebreak}"
+		"&6Altitude control&r"
+		""
+		"Air gets thinner as you climb, so lift drops. Your ship &esettles&r at the height where lift = weight."
+		""
+		"&eMore burner = higher. Less burner = lower.&r A &6Throttle Lever&r wired to the burners is your altitude knob. An &6Altitude Sensor&r reads the exact height and air pressure."
+	]
+	quest.510F776EBFEC310D.quest_subtitle: "Hot air and steam"
+	quest.510F776EBFEC310D.title: "Balloons"
 	quest.52302CD67AAE6CF0.quest_desc: [
 		"A &6Dockyard&r lets you park a ship, repair it and customise it (sail colours, banners, plating)."
 	]
 	quest.52302CD67AAE6CF0.quest_subtitle: "Storing and fixing ships"
 	quest.52302CD67AAE6CF0.title: "Dockyard"
 	quest.527715E968D4389E.quest_desc: [
-		"In the &6Frosted Prison&r in snowy lands (Explorer's Compass: \"frosted_prison\"). Summon him at the altar."
-		""
-		"&eDrops:&r &6Cursium&r for Cursium armour."
+		"A prison in the ice holds a cursed soul."
 	]
 	quest.527715E968D4389E.quest_subtitle: "&5Endgame&r - Frosted Prison"
 	quest.527715E968D4389E.title: "Maledictus"
@@ -1357,6 +1506,26 @@
 	]
 	quest.5331A678CBFAE1C2.quest_subtitle: "Bigger things await"
 	quest.5331A678CBFAE1C2.title: "Master of Brass"
+	quest.53E491E2312998EA.quest_desc: [
+		"&6Create Aeronautics&r (with its parts mods &6Simulated&r and &6Offroad&r) turns any group of blocks into a &bSimulated Contraption&r: one object with real weight, momentum and balance."
+		""
+		"Unlike normal Create contraptions it isn't on rails. It falls, floats, tips, collides and gets pushed by forces. And you can still walk on it and use every block on it: chests, furnaces, beds, cannons."
+		"{@pagebreak}"
+		"&6The four rules&r"
+		""
+		"&e1. Weight.&r Every block has a weight. Wood and wool are light; stone, metal and machines are heavy."
+		"&e2. Centre of mass.&r Heavy blocks high up make it top-heavy, and it rolls over. Keep heavy things low and in the middle."
+		"&e3. Forces.&r Nothing moves on its own. Sails, propellers, burners, wheels and magnets push it."
+		"&e4. Balance.&r It settles where the forces cancel out: lift = weight, thrust = drag."
+		"{@pagebreak}"
+		"&6Block properties&r"
+		""
+		"Some blocks are &eLight&r or &eSuper Heavy&r, some are &eSlippery&r (slide on the ground), some are &eFragile&r (break in a crash). Hover an item with &eShift&r (and goggles) to see its physics values."
+		""
+		"&aTip:&r the Ponder for the Physics Assembler shows all of this. Hold &eW&r over it."
+	]
+	quest.53E491E2312998EA.quest_subtitle: "Read this before your first hull"
+	quest.53E491E2312998EA.title: "How Physics Builds Work"
 	quest.542F9DC633CB96D1.quest_desc: [
 		"Top armour, a good reforge roll, and enchantments past the old level caps. Now you're ready for anything."
 	]
@@ -1405,9 +1574,7 @@
 	quest.564BD493296177F6.quest_subtitle: "Fire and brimstone"
 	quest.564BD493296177F6.title: "Into the Nether"
 	quest.5714C0A63FBF6578.quest_desc: [
-		"&6Sea Serpents&r rise from deep ocean, often during &estorms&r. They're huge. Fight from a ship with cannons, or with a Tidecaller-style trident."
-		""
-		"&eDrops:&r serpent scales (Tide armour) and the &6Serpent Heart&r (Sea Relic)."
+		"In storms, sailors see coils rising from the deep that are longer than their ships."
 	]
 	quest.5714C0A63FBF6578.quest_subtitle: "&9Mid&r - open ocean"
 	quest.5714C0A63FBF6578.title: "Sea Serpent"
@@ -1419,9 +1586,7 @@
 	quest.573FC8751A064E61.quest_subtitle: "Create Submarines"
 	quest.573FC8751A064E61.title: "Run Silent, Run Deep"
 	quest.5759EFF2B1DC0BE1.quest_desc: [
-		"Climb the &6Dragon Tower&r (Explorer's Compass: \"dragon_tower\"). Fire resistance potions are a must."
-		""
-		"&eDrops:&r &6Dragon Bones&r for Dragon Bone armour."
+		"A tower stands somewhere, and its top is always smoking."
 	]
 	quest.5759EFF2B1DC0BE1.quest_subtitle: "&9Mid&r - Dragon Tower"
 	quest.5759EFF2B1DC0BE1.title: "Infernal Dragon"
@@ -1463,10 +1628,27 @@
 	quest.59AA4F7C4217B9F0.quest_subtitle: "Create 6 logistics"
 	quest.59AA4F7C4217B9F0.title: "The Package System"
 	quest.5A16B7234EF22107.quest_desc: [
-		"The &6Underworld Arena&r (Explorer's Compass: \"underworld_arena\") is locked. Find its &6Arena Key&r in nearby chests, open the door, and face the knight."
+		"A locked arena, a missing key, and a knight who never left."
 	]
 	quest.5A16B7234EF22107.quest_subtitle: "&9Mid&r - Underworld Arena"
 	quest.5A16B7234EF22107.title: "Underworld Knight"
+	quest.5A8BFA7790022681.quest_desc: [
+		"&e1.&r Build your craft on the ground or in shallow water."
+		"&e2.&r Select it: &6Super Glue&r or &6Honey Glue&r, click two corners. Blocks touching diagonally are included too."
+		"&e3.&r Put a &6Physics Assembler&r on it, &ehold right-click&r and pull its lever. The build is now a contraption."
+		""
+		"After that the assembler isn't special. &eAny&r Physics Assembler on the craft can turn it back into normal blocks (disassemble), for example to rebuild it in port."
+		"{@pagebreak}"
+		"&6Honey Glue vs Super Glue&r"
+		""
+		"&6Honey Glue&r only sticks to physics contraptions, never to normal Create contraptions. Use it for the hull so your on-board drills, pistons and bearings keep their own Super Glue."
+		""
+		"Honey Glue areas: click two corners, &eCtrl + scroll&r to grow or shrink, hold &eAlt&r to place a corner in mid-air."
+		""
+		"&cSplitting:&r if a part loses every connection, it breaks off as its own contraption. A &6Slime Ball&r merges two contraptions back into one."
+	]
+	quest.5A8BFA7790022681.quest_subtitle: "Glue, assembler, lever"
+	quest.5A8BFA7790022681.title: "Assemble and Disassemble"
 	quest.5BDC6784A4C70691.quest_desc: [
 		"A &6Card&r is linked to your bank account. Shops can take payment straight from it."
 	]
@@ -1488,9 +1670,7 @@
 	quest.5DBBA7BCEA02A055.quest_subtitle: "Gearboxes, clutches and gearshifts"
 	quest.5DBBA7BCEA02A055.title: "Turning Corners"
 	quest.5DD935709EB02382.quest_desc: [
-		"&cUnder 20 armour, these bosses can one-shot you.&r Get full diamond, ideally enchanted and reforged, Dragonscale or Netherite. Bring your crew, totems and your best food."
-		""
-		"Most Cataclysm bosses need to be &esummoned&r at an altar in their arena. Press &eU&r on the altar in EMI to see what wakes it."
+		"&cUnder 20 armour, these can one-shot you.&r Bring your best gear, your crew and your best food. The rest you'll have to work out."
 	]
 	quest.5DD935709EB02382.quest_subtitle: "Full diamond is the minimum"
 	quest.5DD935709EB02382.title: "Endgame"
@@ -1501,6 +1681,16 @@
 	]
 	quest.5E3B3FE7852B7C73.quest_subtitle: "Brigg and Galleon"
 	quest.5E3B3FE7852B7C73.title: "Upgrade Your Fleet"
+	quest.5E6A878E78783922.quest_desc: [
+		"A &6Borehead Bearing&r with &6Rock Cutting Wheels&r and a storage container on it is a giant drill. The wheels stick to each other without glue and break blocks in a range all around them."
+		""
+		"&e-&r It spins at a quarter of its input speed, the other way round."
+		"&e-&r The more blocks it tries to break, the slower it goes. Use several."
+		"&e-&r Drops land in the drill's storage. When it's full, it stops: pull items out of the bearing."
+		"&e-&r &6Auger Shafts&r collect from any harvesting actor along them."
+	]
+	quest.5E6A878E78783922.quest_subtitle: "Mining on the move"
+	quest.5E6A878E78783922.title: "Tunnel Borer"
 	quest.5E8AF5413AA4725A.quest_desc: [
 		"Build something beautiful: a harbour, a lighthouse, a ship, a town. Invite the server over."
 	]
@@ -1515,7 +1705,7 @@
 		"Tide has &6seven legendary fish&r. Each one bites only in one strange place or time. Your &6Fishing Journal&r tracks which you have."
 		""
 		"&63 legends&r (Starfish, Coelacanth, Pupfish) earn the &6Angler's Crown&r."
-		"&6All 7&r earn the &bTidecaller&r, a sword that exists nowhere else: no recipe, no loot, no trades."
+		"&6All 7&r earn the &bDeepcaller&r, a sword that exists nowhere else: no recipe, no loot, no trades."
 		""
 		"You only need to &ehave&r each fish once. The quest doesn't take it, so keep them in a chest or a bucket display."
 	]
@@ -1539,7 +1729,7 @@
 	quest.5F9833A540B767DF.quest_subtitle: "Feeding the market"
 	quest.5F9833A540B767DF.title: "Big Harvest"
 	quest.5FFB415C95FF40C4.quest_desc: [
-		"Find a stronghold with Eyes of Ender, fill the portal, and finish the job. The End is reworked by &6Stellarity&r: expect new islands, structures and dangers afterwards."
+		"The oldest boss there is. Find the portal and finish the job."
 	]
 	quest.5FFB415C95FF40C4.quest_subtitle: "&5Endgame&r - the End"
 	quest.5FFB415C95FF40C4.title: "The Ender Dragon"
@@ -1572,15 +1762,12 @@
 	quest.625E956994B28E4C.quest_subtitle: "Big Cannons basics"
 	quest.625E956994B28E4C.title: "Cannon Mount"
 	quest.62E400DC5306CEBE.quest_desc: [
-		"An underwater temple, the &6Acropolis&r (Explorer's Compass: \"acropolis\"). Neptunium armour and water breathing are essential."
+		"Under the waves, a temple to the storm. Its empress doesn't welcome visitors."
 	]
 	quest.62E400DC5306CEBE.quest_subtitle: "&5Endgame&r - Acropolis"
 	quest.62E400DC5306CEBE.title: "Scylla, the Storm Empress"
 	quest.63121C01080C41E7.quest_desc: [
-		"The &6Yeti&r lives in a hideout in cold mountains (Explorer's Compass: \"yeti_hideout\")."
-		""
-		"&eBring:&r warm food, a bow, plate armour."
-		"&eDrops:&r the &6Ice Gauntlet&r, a powerful frost weapon and shield."
+		"Something big leaves footprints in the high snow."
 	]
 	quest.63121C01080C41E7.quest_subtitle: "&6Early&r - snowy mountains"
 	quest.63121C01080C41E7.title: "The Yeti"
@@ -1638,7 +1825,7 @@
 	quest.68152C868ADE8039.quest_subtitle: "Stop mobs spawning at your base"
 	quest.68152C868ADE8039.title: "Safe Harbour"
 	quest.6879C5ACD340AF85.quest_desc: [
-		"Dropped by Sirens on their islands."
+		"Listen for singing on the rocks."
 	]
 	quest.6879C5ACD340AF85.quest_subtitle: "Sirens"
 	quest.6879C5ACD340AF85.title: "Siren's Pearl"
@@ -1654,9 +1841,9 @@
 		""
 		"&e1.&r Build your hull out of blocks (wood floats well)."
 		"&e2.&r Place a &6Physics Assembler&r on it and use it to &eassemble&r: the whole connected build becomes one moving object (its Ponder shows how)."
-		"&e4.&r Add something to move it (sails, propellers, thrusters) and something to steer it."
+		"&e3.&r Add something to move it (sails, propellers, thrusters) and something to steer it."
 		""
-		"Watch the Ponder on every Aeronautics block first."
+		"Watch the Ponder on every Aeronautics block first, then read the &6Shipwright's Manual&r chapter."
 	]
 	quest.6B19BF0DEC76C138.quest_subtitle: "Create Aeronautics: the idea"
 	quest.6B19BF0DEC76C138.title: "Build Your Own Ship"
@@ -1685,10 +1872,7 @@
 	quest.6E6FD9BF721729BE.quest_subtitle: "Crushed ore to ingots"
 	quest.6E6FD9BF721729BE.title: "Ore Washing Line"
 	quest.6ECDB11B24E81D1A.quest_desc: [
-		"Pirate crews sail with a &6Pirate Captain&r. Look on the &6Kraken Ship&r (Explorer's Compass: \"kraken_ship\") and on Seven Seas pirate ships."
-		""
-		"&eBring:&r iron or plate, a shield, food."
-		"&eDrops:&r the &6Pirate Saber&r, and sometimes a &6Pirate Medal&r (Sea Relic)."
+		"Sailors say a captain commands the worst pirate crews on the sea."
 	]
 	quest.6ECDB11B24E81D1A.quest_subtitle: "&6Early&r - Bosses' Rise"
 	quest.6ECDB11B24E81D1A.title: "The Pirate Captain"
@@ -1705,9 +1889,7 @@
 	quest.6F523702901D1D49.quest_subtitle: "Display links and boards"
 	quest.6F523702901D1D49.title: "Status Boards"
 	quest.6FE6FB36E39F88E7.quest_desc: [
-		"A huge ice ape &esleeping&r in snowy biomes (Explorer's Compass: \"frostmaw_spawn\"). Hit it to wake it. Stay out of its ice breath."
-		""
-		"&eDrops:&r the &6Ice Crystal&r (frost breath item)."
+		"In the frozen lands, a mountain of fur is sleeping. Let it sleep, if you're wise."
 	]
 	quest.6FE6FB36E39F88E7.quest_subtitle: "&9Mid&r - frozen lands"
 	quest.6FE6FB36E39F88E7.title: "Frostmaw"
@@ -1728,7 +1910,7 @@
 	quest.70509D1087E217E2.quest_subtitle: "A robot that moves items"
 	quest.70509D1087E217E2.title: "Mechanical Arm"
 	quest.70652A9613BFA269.quest_desc: [
-		"In the End: the &6Ruined Citadel&r (Explorer's Compass: \"ruined_citadel\"). Clear the &6Ender Golems&r first."
+		"Beyond the End, a citadel lies in ruins. It still has a guard."
 	]
 	quest.70652A9613BFA269.quest_subtitle: "&5Endgame&r - the End"
 	quest.70652A9613BFA269.title: "Ender Guardian"
@@ -1740,6 +1922,18 @@
 	]
 	quest.712A627C96AA3FB1.quest_subtitle: "Pipes, pumps and tanks"
 	quest.712A627C96AA3FB1.title: "Plumbing"
+	quest.713525F55F2219A3.quest_desc: [
+		"&6Levitite&r holds a contraption up by itself: enough of it and your ship hovers. But levitite &ecan't make you climb&r: you still need a prop, sails or a balloon to gain height. At low speed it also resists movement (handy for parking), less so when you go fast."
+		""
+		"&6How to make it:&r"
+		"&e1.&r Crush &6End Stone&r into &6End Stone Powder&r."
+		"&e2.&r Heated mixing: 4 powder + 2 zinc nuggets + water = &6Levitite Blend&r (a fluid)."
+		"&e3.&r Pour it into a mould and add &eheat&r nearby. It crystallizes and spreads through all the fluid."
+		""
+		"Some blocks used as the mould break during the reaction. Once set, levitite can't be turned back into blend."
+	]
+	quest.713525F55F2219A3.quest_subtitle: "The floating crystal"
+	quest.713525F55F2219A3.title: "Levitite"
 	quest.719C5B8A125FB4EF.quest_desc: [
 		"The &6Rolling Mill&r presses ingots into &6rods&r and &6wire&r. Wind wire onto a &6Spool&r to make a cable you can lay between connectors."
 	]
@@ -1811,6 +2005,13 @@
 	]
 	quest.7364115C288EE052.quest_subtitle: "Fishing the void, The End"
 	quest.7364115C288EE052.title: "Dragon Fish"
+	quest.73B10CC00158FE7A.quest_desc: [
+		"&6Mounted Potato Cannon&r - charge it with rotation, fire with redstone; hold the signal for automatic fire. Loads from funnels."
+		""
+		"For real firepower, put &6Create Big Cannons&r on a &6Swivel Bearing&r turret (see &6Guns \\& Battleships&r). Recoil pushes your ship: big guns on a small hull will spin it. Mount heavy guns near the centre and low."
+	]
+	quest.73B10CC00158FE7A.quest_subtitle: "Turrets that move"
+	quest.73B10CC00158FE7A.title: "Arming a Physics Ship"
 	quest.73D0E356D235FA52.quest_desc: [
 		"&6Sophisticated Storage&r chests, barrels and shulker boxes can be upgraded in place: more slots, sorting, auto-pickup, compression."
 		""
@@ -1925,7 +2126,7 @@
 	quest.7CD6C5C7F683DD2B.quest_subtitle: "The first Create material"
 	quest.7CD6C5C7F683DD2B.title: "Andesite Alloy"
 	quest.7D043F65093F9B34.quest_desc: [
-		"In the &6Ancient Factory&r (Explorer's Compass: \"ancient_factory\"). A machine that fires lasers and missiles. Wake it at its core."
+		"Deep in the earth, an ancient factory hums. Its machines remember what they were built for."
 	]
 	quest.7D043F65093F9B34.quest_subtitle: "&5Endgame&r - Ancient Factory"
 	quest.7D043F65093F9B34.title: "The Harbinger"
@@ -1946,7 +2147,7 @@
 	quest.7D10B96FCBD98F41.quest_subtitle: "See them before they see you"
 	quest.7D10B96FCBD98F41.title: "Radar"
 	quest.7D7E61655C1FEA92.quest_desc: [
-		"From the ghost of Captain Cornelia in the Ice Maze."
+		"A haunted captain keeps it. Where? Ask the frozen north."
 	]
 	quest.7D7E61655C1FEA92.quest_subtitle: "Captain Cornelia"
 	quest.7D7E61655C1FEA92.title: "Frozen Anchor"

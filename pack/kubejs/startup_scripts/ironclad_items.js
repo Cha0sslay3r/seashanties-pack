@@ -22,3 +22,12 @@ StartupEvents.registry('item', event => {
     .tooltip(Text.aqua('Worn: ').append(Text.gray('Luck III, Water Breathing, Night Vision underwater')))
     .tooltip(Text.darkGray('Reward for 3 legendary fish'))
 })
+
+// Well Fed: given by eating a meal (farmersdelight:meals), see server_scripts/ironclad_meals.js.
+// Level I = a meal you had recently, level II = a new meal (variety pays). Attribute amounts scale with the level.
+StartupEvents.registry('mob_effect', event => {
+  event.create('ironclad:well_fed').beneficial().color(0xE8B44C)
+    .modifyAttribute('minecraft:generic.max_health', 'ironclad:well_fed_health', 2, 'add_value')
+    .modifyAttribute('minecraft:generic.movement_speed', 'ironclad:well_fed_speed', 0.04, 'add_multiplied_total')
+    .modifyAttribute('minecraft:generic.attack_damage', 'ironclad:well_fed_damage', 0.5, 'add_value')
+})

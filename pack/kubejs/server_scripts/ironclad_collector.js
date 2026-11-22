@@ -1,6 +1,6 @@
 // Freedom V4: Sea Shanties - "Legends of the Deep" collector rewards (quest-only items, no recipes).
 // Angler's Crown (3 legendary fish): worn = Luck III (helps the Midas Fish bite), Water Breathing, Night Vision underwater.
-// Tidecaller (all 7 legendary fish): held = Dolphin's Grace (+ Conduit Power when wet).
+// Deepcaller (all 7 legendary fish): held = Dolphin's Grace (+ Conduit Power when wet).
 //   Undertow: every hit slows the target; +4 damage when you're in water or rain (not against bosses).
 //   Tidal Wave: right-click = blast monsters within 7 blocks away from you, 6 damage. 8 s cooldown.
 
@@ -71,7 +71,7 @@ PlayerEvents.inventoryChanged(event => {
   let key = 'legend_announced_' + (id == TIDECALLER ? 'tide' : 'crown')
   if (p.persistentData.getBoolean(key)) return
   p.persistentData.putBoolean(key, true)
-  let what = id == TIDECALLER ? 'the Tidecaller (all 7 legendary fish!)' : "the Angler's Crown"
+  let what = id == TIDECALLER ? 'the Deepcaller (all 7 legendary fish!)' : "the Angler's Crown"
   p.server.tell(Text.gold(p.username + ' earned ' + what))
   p.server.runCommandSilent('execute as ' + p.username + ' at @s run playsound minecraft:ui.toast.challenge_complete player @a ~ ~ ~ 1 1')
 })
