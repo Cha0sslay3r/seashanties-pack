@@ -1514,7 +1514,7 @@ hash = "c05fd12f45de76fe04cfb65419e37623270c6967be7687d6bc2ffc5e1d1e28d6"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "413c7266146aeba3083ba7e5a9546f678ac00c1d7ff1721ca4a224fcc1a41318"
+hash = "cec8ed5f6796861ebbf20287d0bcb7dfca8fae2482fd373f914ae9e88f0811aa"
 
 [[files]]
 file = "config/railways-common.toml"

@@ -543,7 +543,7 @@
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
-		"Ignored Recipes" = []
+		"Ignored Recipes" = ["stellarity:events/spellbooks/use_conveyance", "stellarity:events/spellbooks/use_jinx", "stellarity:events/spellbooks/use_light", "stellarity:events/spellbooks/use_return", "stellarity:events/spellbooks/use_updraft"]
 		"Force Limited Crafting" = false
 		"Disable Recipe Book" = false
 		#If true, recipes that have no output will be skipped from unlock
