@@ -3,7 +3,11 @@
 A Minecraft 1.21.1 (NeoForge) modpack: Create, ships, seas and seasons on a tropical island world.
 It **updates itself every time you press Play** in Prism Launcher.
 
-## Install (once, about 5 minutes)
+## Easiest: one-step installer
+
+**https://cha0sslay3r.github.io/seashanties-pack/** picks Mac or Windows for you, installs Prism Launcher and adds the pack. Then sign in and press Launch.
+
+## Install by hand (once, about 5 minutes)
 
 1. Install **[Prism Launcher](https://prismlauncher.org/download/)** (free, Mac and Windows) and sign in with your Microsoft account.
 2. In Prism click **Add Instance → Import**, paste this link and click OK:
