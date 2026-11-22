@@ -974,12 +974,13 @@
 	quest.3C317FAFB2BC86B1.quest_subtitle: "Multi-step recipes on a belt"
 	quest.3C317FAFB2BC86B1.title: "Sequenced Assembly"
 	quest.3C76477A7E0E614F.quest_desc: [
-		"Look around before you sail. No monsters spawn here (a Mega Torch hides under the fountain), and it's where the whole server trades. Please don't build in the harbour itself: it's everyone's."
+		"Look around before you sail. No monsters spawn in the harbour town (Mega Torches hide under it), and it's where the whole server trades. Please don't build in the harbour itself: it's everyone's."
 		""
+		"The market is on the &6Market Wharf&r: walk east along the quay from spawn and take the boardwalk."
 		"&6North stalls&r sell Create parts: sheets, alloy, brass, electron tubes, precision mechanisms."
 		"&6South stalls&r buy fish, crops, logs and kelp for coins."
-		"&6The bank and Trading Post&r sit on the west side."
-		"&6The Public Press&r is by the pier: drop an ingot on the depot and hold the crank to press a sheet."
+		"&6The bank and Trading Post&r sit in the middle of the wharf."
+		"&6The Public Press&r is next to them: drop an ingot on the depot and hold the crank to press a sheet."
 		""
 		"Every quest in this book pays coins. This is where you spend them."
 	]
@@ -1469,7 +1470,7 @@
 	quest.5E8AF5413AA4725A.quest_subtitle: "Builder's showcase"
 	quest.5E8AF5413AA4725A.title: "Show It Off"
 	quest.5E8FFA78603C81E6.quest_desc: [
-		"Catch fish to eat, to sell at the south stalls of the market, and to cook. Rare fish sell for a lot."
+		"Catch fish to eat, to sell at the south stalls of the Market Wharf, and to cook. Rare fish sell for a lot."
 	]
 	quest.5E8FFA78603C81E6.quest_subtitle: "A full hold"
 	quest.5E8FFA78603C81E6.title: "Fifty Fish"
@@ -1561,7 +1562,7 @@
 	quest.6699C2B30F671EB1.quest_subtitle: "The next tier begins"
 	quest.6699C2B30F671EB1.title: "Brass!"
 	quest.6783EB6579E1DEB8.quest_desc: [
-		"The &6south stalls&r at Brass Harbour buy fish, crops, logs and kelp. A good fishing trip or harvest pays for your first Create parts."
+		"The &6south stalls&r on Brass Harbour's Market Wharf buy fish, crops, logs and kelp. A good fishing trip or harvest pays for your first Create parts."
 	]
 	quest.6783EB6579E1DEB8.quest_subtitle: "The south stalls"
 	quest.6783EB6579E1DEB8.title: "Sell Your Harvest"

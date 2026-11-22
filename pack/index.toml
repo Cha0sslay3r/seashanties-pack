@@ -1286,7 +1286,7 @@ hash = "9b4b0a5fbceda66537ad392c3d524d9e90af3f9f3c0550217c0fd5fd1eba1db2"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "9bcc129f913c046f98c2a5a781adc8792112d93723d7f4a81a0063e904744a20"
+hash = "7ec1e08231bac920698d2e670523d1cf4f96ae01f227717595b6db73f8f10841"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1958,7 +1958,11 @@ hash = "6bb2f75ae6279bd4855703109f6b6488ceaab8d314acfdbbf7e72890a47c3e99"
 
 [[files]]
 file = "kubejs/server_scripts/ironclad_starter_kit.js"
-hash = "8091533db10ada75788a8402f9a856203263d5534771499a17be07024d792b4f"
+hash = "100f6c15ca3b3fa12e86724b0f4eb04f67000bf3cd77f6d60b56dc36d69c04f5"
+
+[[files]]
+file = "kubejs/server_scripts/zz_falling_cleanup.js"
+hash = "71c7e13f78d8ee7ce1a91205df1df2d266999e79b9ab3ceac172b57256105b75"
 
 [[files]]
 file = "kubejs/startup_scripts/ironclad_items.js"
