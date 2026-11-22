@@ -1286,7 +1286,7 @@ hash = "9b4b0a5fbceda66537ad392c3d524d9e90af3f9f3c0550217c0fd5fd1eba1db2"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "7ec1e08231bac920698d2e670523d1cf4f96ae01f227717595b6db73f8f10841"
+hash = "389b3e43dfa1319cfd683660715111b75741e852ac5666de833ca332e65c06d5"
 
 [[files]]
 file = "config/ftbteams-server.snbt"

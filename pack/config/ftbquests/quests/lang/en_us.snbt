@@ -1,12 +1,12 @@
 {
 	chapter.110AB9C49F581CB4.chapter_subtitle: [
-		"Crafts & Additions, diesel and New Age"
+		"Crafts \\& Additions, diesel and New Age"
 	]
-	chapter.110AB9C49F581CB4.title: "Electricity & Fuel"
+	chapter.110AB9C49F581CB4.title: "Electricity \\& Fuel"
 	chapter.120ED53C5B82C84F.chapter_subtitle: [
 		"Farming by the calendar, cooking for buffs"
 	]
-	chapter.120ED53C5B82C84F.title: "Seasons & Kitchen"
+	chapter.120ED53C5B82C84F.title: "Seasons \\& Kitchen"
 	chapter.16EC3A672D5D07AC.chapter_subtitle: [
 		"Press, crush, wash, mix and smelt"
 	]
@@ -14,7 +14,7 @@
 	chapter.1FB60F04EED51746.chapter_subtitle: [
 		"From raft to physics-driven warship"
 	]
-	chapter.1FB60F04EED51746.title: "Ships & Shipwrights"
+	chapter.1FB60F04EED51746.title: "Ships \\& Shipwrights"
 	chapter.200D0DF6F7856D0B.chapter_subtitle: [
 		"Every boss, in the order to fight them"
 	]
@@ -22,7 +22,7 @@
 	chapter.2EF4FAEA0769136C.chapter_subtitle: [
 		"Coins, shops and trading"
 	]
-	chapter.2EF4FAEA0769136C.title: "Market & Coins"
+	chapter.2EF4FAEA0769136C.title: "Market \\& Coins"
 	chapter.3AB5A5D126C7C417.chapter_subtitle: [
 		"Rotation, speed and stress"
 	]
@@ -30,11 +30,11 @@
 	chapter.3BA28A278EB545B6.chapter_subtitle: [
 		"Compasses, waystones, jetpacks and other worlds"
 	]
-	chapter.3BA28A278EB545B6.title: "Exploration & Travel"
+	chapter.3BA28A278EB545B6.title: "Exploration \\& Travel"
 	chapter.4BE72AC1B7F1F07A.chapter_subtitle: [
 		"Create Big Cannons, radar and sea battles"
 	]
-	chapter.4BE72AC1B7F1F07A.title: "Guns & Battleships"
+	chapter.4BE72AC1B7F1F07A.title: "Guns \\& Battleships"
 	chapter.4D211C7499678983.chapter_subtitle: [
 		"Chests, vaults and Refined Storage"
 	]
@@ -54,7 +54,7 @@
 	chapter.69C624E62151CF5F.chapter_subtitle: [
 		"Swords, muskets, reforging and enchants"
 	]
-	chapter.69C624E62151CF5F.title: "Weapons & Enchanting"
+	chapter.69C624E62151CF5F.title: "Weapons \\& Enchanting"
 	chapter.6C21882B393B961F.chapter_subtitle: [
 		"What to wear for each tier of boss"
 	]
@@ -62,27 +62,27 @@
 	chapter.711991831B26769E.chapter_subtitle: [
 		"Proof you beat the sea"
 	]
-	chapter.711991831B26769E.title: "Sea Relics & Legendaries"
+	chapter.711991831B26769E.title: "Sea Relics \\& Legendaries"
 	chapter.79CCAA48BA0DD06A.chapter_subtitle: [
 		"Rods, fish and what lives in the deep"
 	]
-	chapter.79CCAA48BA0DD06A.title: "Seas & Fishing"
+	chapter.79CCAA48BA0DD06A.title: "Seas \\& Fishing"
 	chapter.7C87991CE433DC02.chapter_subtitle: [
 		"Hats, plushies, music and pictures"
 	]
-	chapter.7C87991CE433DC02.title: "Collecting & Cosmetics"
+	chapter.7C87991CE433DC02.title: "Collecting \\& Cosmetics"
 	chapter.7D2D14276F084EB0.chapter_subtitle: [
 		"Filters, arms, assembly lines and auto-crafting"
 	]
-	chapter.7D2D14276F084EB0.title: "Create III: Brass & Automation"
+	chapter.7D2D14276F084EB0.title: "Create III: Brass \\& Automation"
 	chapter.7DE590E96A535D98.chapter_subtitle: [
 		"Big power and the railway"
 	]
-	chapter.7DE590E96A535D98.title: "Create V: Steam & Trains"
+	chapter.7DE590E96A535D98.title: "Create V: Steam \\& Trains"
 	chapter.7F8FEA31AAA63CE5.chapter_subtitle: [
 		"Blocks, furniture and every wood"
 	]
-	chapter.7F8FEA31AAA63CE5.title: "Building & Decor"
+	chapter.7F8FEA31AAA63CE5.title: "Building \\& Decor"
 	chapter_group.19AE4577F3C5F699.title: "The Sailor's Life"
 	chapter_group.1C5AFC61BB8A6A87.title: "Start Here"
 	chapter_group.3DB8DF94F687DD8E.title: "The Adventurer's Road"
@@ -298,7 +298,7 @@
 	quest.1B7AD88873686836.quest_desc: [
 		"Kill a dragon (Ice and Fire), collect its &6scales&r, and make Dragonscale armour. It resists that dragon's element."
 	]
-	quest.1B7AD88873686836.quest_subtitle: "Deep & Storm tier"
+	quest.1B7AD88873686836.quest_subtitle: "Deep \\& Storm tier"
 	quest.1B7AD88873686836.title: "Dragonscale"
 	quest.1CDC4D4DB2DC077E.quest_desc: [
 		"Hat bags drop from mobs. Open them for a random hat. Wear hats in the &6cosmetic slot&r so they show over your armour without replacing it."
@@ -484,7 +484,7 @@
 	quest.22CC5EA877972320.quest_subtitle: "Vendors"
 	quest.22CC5EA877972320.title: "Open a Stall"
 	quest.22D3A1FAA784EB39.quest_desc: [
-		"The &6Controller&r powers the whole network. It needs &bForge Energy&r: run cable from an alternator (Electricity & Fuel chapter)."
+		"The &6Controller&r powers the whole network. It needs &bForge Energy&r: run cable from an alternator (Electricity \\& Fuel chapter)."
 		""
 		"Every other RS block connects to it with &6Cable&r or by touching."
 	]
@@ -647,7 +647,7 @@
 		"{@pagebreak}"
 		"&6Where's the electricity?&r"
 		""
-		"There isn't any... yet. Create runs on rotation. Later you can turn rotation into electricity (Crafts & Additions) and back again, but you never need it to get started."
+		"There isn't any... yet. Create runs on rotation. Later you can turn rotation into electricity (Crafts \\& Additions) and back again, but you never need it to get started."
 		""
 		"&6Learning Create the easy way&r"
 		"Every Create block has a Ponder lesson. Hover it and hold &eW&r. Watch the lesson before you place a new machine."
@@ -685,7 +685,7 @@
 	quest.2B26FC45F75D01B0.quest_desc: [
 		"Build a ship you're proud of: a helm, power, cargo and a way to fight. Show it off at Brass Harbour."
 		""
-		"Then turn to &6Guns & Battleships&r to arm it properly."
+		"Then turn to &6Guns \\& Battleships&r to arm it properly."
 	]
 	quest.2B26FC45F75D01B0.quest_subtitle: "Your masterpiece"
 	quest.2B26FC45F75D01B0.title: "Flagship"
@@ -757,7 +757,7 @@
 	quest.2E330F2191B655E0.quest_desc: [
 		"Some machines (Refined Storage, building gadgets, chargers) run on &bForge Energy&r (FE) instead of rotation."
 		""
-		"&6Create Crafts & Additions&r is the bridge:"
+		"&6Create Crafts \\& Additions&r is the bridge:"
 		"&6Alternator&r - rotation in, FE out."
 		"&6Electric Motor&r - FE in, rotation out."
 		""
@@ -1316,7 +1316,7 @@
 	quest.5331A678CBFAE1C2.quest_desc: [
 		"You can now build machines that build parts, sort items, and craft on their own."
 		""
-		"Next: &6Create IV: Logistics&r (packages and auto-crafting on request) and &6Create V: Steam & Trains&r (big power and railways). You'll want both."
+		"Next: &6Create IV: Logistics&r (packages and auto-crafting on request) and &6Create V: Steam \\& Trains&r (big power and railways). You'll want both."
 	]
 	quest.5331A678CBFAE1C2.quest_subtitle: "Bigger things await"
 	quest.5331A678CBFAE1C2.title: "Master of Brass"
@@ -1335,7 +1335,7 @@
 	quest.54DA2ED10C612F26.quest_desc: [
 		"Steam for power, trains for transport. You're running a real industry now."
 		""
-		"Next: &6Electricity & Fuel&r if you want bigger power, or &6Ships & Shipwrights&r if you want to sail what you've built."
+		"Next: &6Electricity \\& Fuel&r if you want bigger power, or &6Ships \\& Shipwrights&r if you want to sail what you've built."
 	]
 	quest.54DA2ED10C612F26.quest_subtitle: "The islands are connected"
 	quest.54DA2ED10C612F26.title: "Rail Baron"
@@ -1410,9 +1410,9 @@
 	quest.581A9F7F164379F9.title: "Plant Oil"
 	quest.5918544CD944F316.quest_desc: [
 		"&6Create: Central Kitchen&r lets Create machines cook: a &6Deployer&r uses a knife on a cutting board, a basin with a mixer cooks pot recipes, and a blaze burner heats it."
-		"&6Slice & Dice&r adds the &6Slicer&r (cuts ingredients) and &6Sprinklers&r (water crops faster)."
+		"&6Slice \\& Dice&r adds the &6Slicer&r (cuts ingredients) and &6Sprinklers&r (water crops faster)."
 	]
-	quest.5918544CD944F316.quest_subtitle: "Central Kitchen and Slice & Dice"
+	quest.5918544CD944F316.quest_subtitle: "Central Kitchen and Slice \\& Dice"
 	quest.5918544CD944F316.title: "Automated Kitchen"
 	quest.59AA4F7C4217B9F0.quest_desc: [
 		"Create's newest trick is &6packages&r: boxes of items with an &eaddress&r, sent around your base by machines."
@@ -1728,7 +1728,7 @@
 	quest.7300D460958AF10D.quest_desc: [
 		"Pressing, crushing, washing, mixing, heat and fluids: that's the heart of Create."
 		""
-		"&6Create III: Brass & Automation&r shows you how to make machines that build machines."
+		"&6Create III: Brass \\& Automation&r shows you how to make machines that build machines."
 	]
 	quest.7300D460958AF10D.quest_subtitle: "On to automation"
 	quest.7300D460958AF10D.title: "Ready for Brass"
