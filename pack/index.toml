@@ -1474,7 +1474,7 @@ hash = "7dda83d4436419564b495e65b4123ab8453eb926cdd8dabc526e41d3ace6bf40"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "0f933d0442936e0923d1d93091c3ea0dda937e1bf965230ed27e08393c7c70a2"
+hash = "a1a2fac5354eff2c54f17df5193d4676be1b98a7d494ea5214648db2a9ba672d"
 
 [[files]]
 file = "config/packetfixer.properties"
