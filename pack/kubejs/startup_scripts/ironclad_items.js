@@ -28,7 +28,17 @@ StartupEvents.registry('item', event => {
   event.create('ironclad:nether_ward_amulet').rarity('epic').glow(true).maxStackSize(1).fireResistant(true)
     .tooltip(Text.gold('Nether Ward slot: ').append(Text.gray('Nether monsters fight you fairly')))
     .tooltip(Text.red('Without it: ').append(Text.gray('Nether monsters hit 2.5x harder and take half damage')))
+
+  // Boss Eyes (Nov 23): only these light an End portal frame (12 different ones). See server_scripts/ironclad_end.js
+  const BOSS_EYE_IDS = ['ignis', 'monstrosity', 'wither', 'wroughtnaut', 'frostmaw', 'umvuthi', 'cornelia', 'maze_mother', 'remnant',
+    'maledictus', 'leviathan', 'scylla', 'harbinger', 'hydra', 'kraken', 'infernal', 'dragon', 'pirate', 'warden']
+  BOSS_EYE_IDS.forEach(k => {
+    event.create('ironclad:eye_' + k).rarity('epic').glow(true).maxStackSize(16).fireResistant(true)
+      .tooltip(Text.gray('Place in an End Portal Frame. A portal needs 12 different Boss Eyes.'))
+      .tooltip(Text.darkGray('Ignis, the Monstrosity and the Wither must all be among them'))
+  })
 })
+
 
 // Well Fed: given by eating a meal (farmersdelight:meals), see server_scripts/ironclad_meals.js.
 // Level I = a meal you had recently, level II = a new meal (variety pays). Attribute amounts scale with the level.

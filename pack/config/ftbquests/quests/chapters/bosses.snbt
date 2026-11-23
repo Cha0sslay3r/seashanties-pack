@@ -180,7 +180,7 @@
 				{ entity: "aquamirae:maze_mother", id: "3BCB9819324A4189", type: "kill", value: 1L }
 			]
 			x: 8.00d
-			y: -7.88d
+			y: -8.75d
 		}
 		{
 			dependencies: ["21BDDB66EEBCE4A5"]
@@ -289,6 +289,23 @@
 			y: 8.75d
 		}
 		{
+			dependencies: ["5DD935709EB02382" "3EA911C4A3AB95D4"]
+			icon: { count: 1, id: "minecraft:end_portal_frame" }
+			id: "28F45933C6775530"
+			rewards: [
+				{ id: "34C41F5FCBB42B9E", item: { count: 1, id: "numismatics:crown" }, type: "item" }
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{ id: "26868F668186F6F0", item: { count: 1, id: "ironclad:eye_ignis" }, type: "item" }
+				{ id: "4D261E284AB88A56", item: { count: 1, id: "ironclad:eye_monstrosity" }, type: "item" }
+				{ id: "19223F47A62D618C", item: { count: 1, id: "ironclad:eye_wither" }, type: "item" }
+			]
+			x: 8.00d
+			y: -7.00d
+		}
+		{
 			dependencies: ["5DD935709EB02382"]
 			icon: { count: 1, id: "cataclysm:ancient_remnant_spawn_egg" }
 			id: "1CF3864FFB79ABF9"
@@ -300,7 +317,7 @@
 				{ entity: "cataclysm:ancient_remnant", id: "4FB6906145FCD919", type: "kill", value: 1L }
 			]
 			x: 8.00d
-			y: -6.12d
+			y: -5.25d
 		}
 		{
 			dependencies: ["5DD935709EB02382"]
@@ -314,7 +331,7 @@
 				{ entity: "cataclysm:maledictus", id: "345C0430778F7CB2", type: "kill", value: 1L }
 			]
 			x: 8.00d
-			y: -4.38d
+			y: -3.50d
 		}
 		{
 			dependencies: ["5DD935709EB02382"]
@@ -328,7 +345,7 @@
 				{ entity: "cataclysm:netherite_monstrosity", id: "6F356879F5A60BDA", type: "kill", value: 1L }
 			]
 			x: 8.00d
-			y: -2.62d
+			y: -1.75d
 		}
 		{
 			dependencies: ["5DD935709EB02382"]
@@ -342,7 +359,7 @@
 				{ entity: "cataclysm:ignis", id: "666727988C696C92", type: "kill", value: 1L }
 			]
 			x: 8.00d
-			y: -0.88d
+			y: 0.00d
 		}
 		{
 			dependencies: ["5DD935709EB02382"]
@@ -356,7 +373,7 @@
 				{ entity: "cataclysm:the_harbinger", id: "18FD547C51B31666", type: "kill", value: 1L }
 			]
 			x: 8.00d
-			y: 0.88d
+			y: 1.75d
 		}
 		{
 			dependencies: ["5DD935709EB02382" "45363E9F981DC27F"]
@@ -370,7 +387,7 @@
 				{ entity: "cataclysm:scylla", id: "155B426D22E41EFB", type: "kill", value: 1L }
 			]
 			x: 8.00d
-			y: 2.62d
+			y: 3.50d
 		}
 		{
 			dependencies: ["62E400DC5306CEBE"]
@@ -399,7 +416,7 @@
 				{ entity: "iceandfire:fire_dragon", id: "233CC8BD63127C8E", type: "kill", value: 1L }
 			]
 			x: 8.00d
-			y: 4.38d
+			y: 5.25d
 		}
 		{
 			dependencies: ["5FFB415C95FF40C4" "5DD935709EB02382"]
@@ -425,7 +442,7 @@
 				{ entity: "minecraft:ender_dragon", id: "1A16735CDCDCC802", type: "kill", value: 1L }
 			]
 			x: 8.00d
-			y: 6.12d
+			y: 7.00d
 		}
 		{
 			dependencies: ["5DD935709EB02382"]
@@ -438,7 +455,7 @@
 				{ entity: "minecraft:warden", id: "361D197177033A94", type: "kill", value: 1L }
 			]
 			x: 8.00d
-			y: 7.88d
+			y: 8.75d
 		}
 		{
 			dependencies: ["1775A115DB18256E" "19C12E9599CD7952" "19856D3F2C0E13FD" "70652A9613BFA269" "7D043F65093F9B34" "1AE34EC212686DC0" "527715E968D4389E" "1CF3864FFB79ABF9" "1CE842CB53C63DDC"]

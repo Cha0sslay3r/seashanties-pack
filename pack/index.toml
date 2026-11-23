@@ -1202,7 +1202,7 @@ hash = "18d2fe5c7aabf47537b1511adb68ef184eabd7b1fad4d49fb0db01482f95a1c8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bosses.snbt"
-hash = "8fcb1199a711def5333087dfe63f163d63db774b49ece4b109f3217bb5c17326"
+hash = "4d7ed247a959f50ec98d2b231537e3c3287e89d744dc3e1301b0ee2c97bf7e23"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
@@ -1294,7 +1294,7 @@ hash = "9b4b0a5fbceda66537ad392c3d524d9e90af3f9f3c0550217c0fd5fd1eba1db2"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "b32034c0433f8fe177916caf22d9c5c6af7ace9a6dfa25eccf6f063e053c8a87"
+hash = "5c80fdfaa558622a7469a0cdcdbcf2e7f841af4e52706c869f4840a617c3fe8c"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1834,7 +1834,7 @@ hash = "ea1fa91de03d8f6f3c36b0c6cef77375a8365790ac0acb63fd558643d54d677f"
 
 [[files]]
 file = "kubejs/assets/ironclad/lang/en_us.json"
-hash = "06c3b1bf24c2f91d08ffe7069173a0040b9655abbd0d02472946bd9af54f0ead"
+hash = "1fd390a45b42bc4df46a568244a65a9b7d4575487f2ca2e19f4cd5c5b6cc41a0"
 
 [[files]]
 file = "kubejs/assets/ironclad/textures/item/anglers_crown.png"
@@ -1843,6 +1843,82 @@ hash = "81a86afcf8e7c87cb5c141d13c5d4c2acb842dd1a38a8b9577586e689ee1a3a7"
 [[files]]
 file = "kubejs/assets/ironclad/textures/item/conquerors_shard.png"
 hash = "2a5deb51d98d41b5c718fa40f51af770fe3a991893385be6b963f1d2669cf23e"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_cornelia.png"
+hash = "b0d584df46898d8117c1223acbed24f666fb911911dfd2c015e1c2ab859d6802"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_dragon.png"
+hash = "c8526c12b22ef1aad6775392b437438fd8678ac164cac0102b6088ebaee58038"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_frostmaw.png"
+hash = "2a57260ed5f3e862a6c00e8694b7e90b48e49f1a14b7f6edf14d5a644987a5e2"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_harbinger.png"
+hash = "ff457851ca11bb409987ebd0aea79afb1823f36f83db6f63a2f3327a00043a66"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_hydra.png"
+hash = "f22f960d48cbe3c9b0b36d6cde7ce8394a31ee5121f9711b0edff942e78f7353"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_ignis.png"
+hash = "755cfe05f9e1144249459ac7a8a1bbb447572c1dccfde7b75f31a74e43b461b3"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_infernal.png"
+hash = "b76611d53a8d8bc225c5a1595d220a7274b83fc052bc428f10b884bca53e542c"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_kraken.png"
+hash = "92b41a0b247062f2cfd6d9d389136e08a4b839f001b06863b70c39a1a2964840"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_leviathan.png"
+hash = "b8d94e2c3cb5d9d3339146495b241fa92409d7500c9ccd46b24bb3dc3b53fbd1"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_maledictus.png"
+hash = "f27fee2089bbdecb6cc8d0c317e0aecb7d623e4ee984e0766b14caae199d86f5"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_maze_mother.png"
+hash = "23b9b15b6142b91f265fdb484aa5a2525f66b599f14fad01703ca8daa8a7dbbd"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_monstrosity.png"
+hash = "95bc1ed3c636abe86c350bee1ad4647c829f422ba6b852d207767085e01193eb"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_pirate.png"
+hash = "cc8ffffe1eccf42a24ba2619d014cf1219aeee95b99896edcf2cf0cc10fdee24"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_remnant.png"
+hash = "70c9b6dd2a86e0a9f3ecf8856176ea72c5ea890b8befbc76d13931ad0792872e"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_scylla.png"
+hash = "ee52d9df03941edb95339f3764d7e7a348becae84e07bd2f34a05cbb0288bfc3"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_umvuthi.png"
+hash = "a9df9c6524d2013b4c131236e74108163d372fe73bda34e86c8ce6320267fa46"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_warden.png"
+hash = "0af5765fe63865e3d2c36db59de364f81846ae6115ec098fefa8ed61aeaba95e"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_wither.png"
+hash = "c40c0ec2b45b912ca1f5f76ab270efc2eff1cc08932ef9d6004faa95b762b098"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/eye_wroughtnaut.png"
+hash = "b4c0fa24c81ce3413d01f7deb31c8d1cfb2f50bd1a8013de0f2fc92799e70d31"
 
 [[files]]
 file = "kubejs/assets/ironclad/textures/item/frozen_anchor.png"
@@ -2097,6 +2173,10 @@ file = "kubejs/server_scripts/ironclad_collector.js"
 hash = "6c68da6af580255c26ff64718fc73fd91a5ce78a5df8b1a4b56bf46a878bff7b"
 
 [[files]]
+file = "kubejs/server_scripts/ironclad_end.js"
+hash = "1a6918acd105c8d63ea714903d97f5ee6d387c02947e450e28ba1a06406fd168"
+
+[[files]]
 file = "kubejs/server_scripts/ironclad_loot.js"
 hash = "2086e4f3748d725de08945ce5748444a89952369d3a706f7f2e8da0111a7c335"
 
@@ -2126,7 +2206,7 @@ hash = "71c7e13f78d8ee7ce1a91205df1df2d266999e79b9ab3ceac172b57256105b75"
 
 [[files]]
 file = "kubejs/startup_scripts/ironclad_items.js"
-hash = "c10827eee2315e3ad2fdd9abe335fd4ca4ede0fb5b0d65656056f03e8def7dfb"
+hash = "04519b6f199fe97e88adcff86188ed64e3fec6b7e9240c99d894ae363cc2de9f"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"

@@ -681,6 +681,15 @@
 	]
 	quest.28CAE2C10ED387ED.quest_subtitle: "Building for water"
 	quest.28CAE2C10ED387ED.title: "Hulls That Float"
+	quest.28F45933C6775530.quest_desc: [
+		"&5Eyes of Ender only show the way now.&r They lead you to a stronghold, but the portal frames won't take them."
+		"{@pagebreak}"
+		"Every big boss drops a &6Boss Eye&r for everyone fighting nearby. A portal needs &e12 different Boss Eyes&r, and &cIgnis&r, &cthe Netherite Monstrosity&r and &cthe Wither&r must be among them. Pool them with your crew."
+		"{@pagebreak}"
+		"Even through a lit portal, the End only lets you in if &eyou helped slay Ignis and the Netherite Monstrosity&r yourself."
+	]
+	quest.28F45933C6775530.quest_subtitle: "How the End opens"
+	quest.28F45933C6775530.title: "The Twelve Eyes"
 	quest.29039B590902CE5A.quest_desc: [
 		"Miners tell of a sealed chamber deep underground, and an empty suit of armour that isn't empty."
 	]
