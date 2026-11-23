@@ -33,6 +33,10 @@
   a { color:var(--sea); }
   .note { font-size:14px; color:var(--mute); }
   footer { margin-top:24px; font-size:13px; color:var(--mute); }
+  .ram { display:flex; gap:8px; flex-wrap:wrap; margin:4px 0 8px; }
+  .ram button { flex:1 1 200px; padding:10px 12px; border-radius:10px; border:1px solid #2a4a60; background:var(--code); color:var(--ink); font:600 15px/1.3 inherit; font-family:inherit; cursor:pointer; text-align:left; }
+  .ram button small { display:block; font-weight:400; color:var(--mute); font-size:13px; }
+  .ram button.on { border-color:var(--gold); box-shadow:0 0 0 1px var(--gold) inset; }
   [hidden] { display:none !important; }
 </style>
 </head>
@@ -66,6 +70,11 @@
 
   <section class="card"><div class="step"><div class="n">3</div><div>
     <h2>Add the modpack</h2>
+    <p class="sub">How much memory does your computer have? (Windows: Settings → System → About → Installed RAM. Mac: Apple menu → About This Mac.)</p>
+    <div class="ram">
+      <button id="ram8" class="on" onclick="ram(8)">8 GB<small>Game gets 5 GB</small></button>
+      <button id="ram16" onclick="ram(16)">16 GB or more<small>Game gets 8 GB: smoother, fewer stutters</small></button>
+    </div>
     <button class="btn" id="cp" onclick="cp()">Copy pack link</button>
     <div class="link" id="pack">https://raw.githubusercontent.com/Cha0sslay3r/seashanties-pack/main/prism/Freedom-V4-Sea-Shanties-Prism.zip</div>
     <ol>
@@ -82,6 +91,7 @@
       <li>In the game: <b>Multiplayer</b>. The server is already in your list.</li>
     </ol>
     <p class="note">From now on just open Prism and press Launch. Updates install themselves.</p>
+    <p class="note">Already installed with 5 GB and have 16 GB? In Prism, right-click the pack → <b>Edit</b> → <b>Settings</b> → <b>Java</b>, tick <b>Memory</b> and set <b>Maximum memory allocation</b> to <b>8192</b> MiB.</p>
   </div></div></section>
 
   <footer>Mac with 8 GB of memory? It works, just close other apps while playing.</footer>
@@ -100,6 +110,12 @@
     const a = document.getElementById('dl');
     a.textContent = 'Download for ' + (os === 'mac' ? 'Mac' : 'Windows');
     a.href = LINKS[os];
+  }
+  const PACK = 'https://raw.githubusercontent.com/Cha0sslay3r/seashanties-pack/main/prism/Freedom-V4-Sea-Shanties-Prism';
+  function ram(gb) {
+    document.getElementById('pack').textContent = PACK + (gb >= 16 ? '-16GB' : '') + '.zip';
+    document.getElementById('ram8').classList.toggle('on', gb < 16);
+    document.getElementById('ram16').classList.toggle('on', gb >= 16);
   }
   function cp() {
     const t = document.getElementById('pack').textContent, b = document.getElementById('cp');
