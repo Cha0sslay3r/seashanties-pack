@@ -1474,7 +1474,7 @@ hash = "7dda83d4436419564b495e65b4123ab8453eb926cdd8dabc526e41d3ace6bf40"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "9f3b2262b3f90498e90aa61240c4e7a6d03b32f2350067212fb8b969ba5d7950"
+hash = "f6a2545b7fa827195bba2d42994f3b67e667d1116567e07acbdab3f95bb3bf41"
 
 [[files]]
 file = "config/packetfixer.properties"
@@ -1893,6 +1893,10 @@ file = "kubejs/assets/ironclad/textures/mob_effect/well_fed.png"
 hash = "3bce31b09b896f284b5ae35de92f9195849596357da0ab6460598154f00de1de"
 
 [[files]]
+file = "kubejs/assets/openpartiesandclaims/lang/en_us.json"
+hash = "ffdf831c3ad937a960a8cc22761c9e3f439b5a924d104e959ebf7203ffd28664"
+
+[[files]]
 file = "kubejs/assets/reforged/models/item/armorers_hammer.json"
 hash = "8e8e3c5487d0de0f4be4f3bfa090753f3a49644f6baa718ceb06835a0195aa93"
 
@@ -2059,6 +2063,10 @@ hash = "93ea477afaa06aa8b729ad93bfb2cc08a3c3053b522c1e767de0afdf87ba47b0"
 [[files]]
 file = "kubejs/server_scripts/ironclad_balance.js"
 hash = "ed0b5737e285cd0df249f73465ad98d9ac71e6fb8dd8c1004776fa91a6b953d5"
+
+[[files]]
+file = "kubejs/server_scripts/ironclad_claims.js"
+hash = "e175d5a97c44ed409e4cd983323468db4da5ee0409224f603517abd9d964cd55"
 
 [[files]]
 file = "kubejs/server_scripts/ironclad_collector.js"
