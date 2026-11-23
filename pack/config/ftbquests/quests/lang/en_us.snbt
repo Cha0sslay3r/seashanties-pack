@@ -1136,6 +1136,14 @@
 	]
 	quest.3E411EEDA41927C7.quest_subtitle: "Aquamirae"
 	quest.3E411EEDA41927C7.title: "Terrible Armour"
+	quest.3EA911C4A3AB95D4.quest_desc: [
+		"The Nether is open, but it &cdoesn't want you&r yet. Without a ward, Nether monsters hit &c2.5x harder&r and take &chalf damage&r from you."
+		"{@pagebreak}"
+		"Beat &e2 big overworld bosses&r. Each one gives everyone fighting nearby a &6Conqueror's Shard&r."
+		"Craft &62 shards&r, gold, crying obsidian and a diamond into a &6Nether Ward Amulet&r and wear it in the &eNether Ward&r curio slot."
+	]
+	quest.3EA911C4A3AB95D4.quest_subtitle: "Earn the right to the Nether"
+	quest.3EA911C4A3AB95D4.title: "The Nether Ward"
 	quest.3EDCA5431DAACFE0.quest_desc: [
 		"A drowned captain haunts a frozen sea in the far north. They say she can be called."
 	]

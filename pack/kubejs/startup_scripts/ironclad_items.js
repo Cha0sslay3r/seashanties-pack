@@ -21,6 +21,13 @@ StartupEvents.registry('item', event => {
   event.create('ironclad:anglers_crown', 'helmet').material('turtle').rarity('rare').glow(true)
     .tooltip(Text.aqua('Worn: ').append(Text.gray('Luck III, Water Breathing, Night Vision underwater')))
     .tooltip(Text.darkGray('Reward for 3 legendary fish'))
+  // Nether Ward (Nov 23): the Nether is deadly until you've beaten 2 big overworld bosses. See server_scripts/ironclad_nether.js
+  event.create('ironclad:conquerors_shard').rarity('rare').glow(true).maxStackSize(16)
+    .tooltip(Text.gray('Dropped for everyone nearby when a big overworld boss dies'))
+    .tooltip(Text.darkGray('2 of these make a Nether Ward Amulet'))
+  event.create('ironclad:nether_ward_amulet').rarity('epic').glow(true).maxStackSize(1).fireResistant(true)
+    .tooltip(Text.gold('Nether Ward slot: ').append(Text.gray('Nether monsters fight you fairly')))
+    .tooltip(Text.red('Without it: ').append(Text.gray('Nether monsters hit 2.5x harder and take half damage')))
 })
 
 // Well Fed: given by eating a meal (farmersdelight:meals), see server_scripts/ironclad_meals.js.

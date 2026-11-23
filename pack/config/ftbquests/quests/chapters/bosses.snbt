@@ -130,6 +130,21 @@
 		}
 		{
 			dependencies: ["21BDDB66EEBCE4A5"]
+			icon: { count: 1, id: "ironclad:nether_ward_amulet" }
+			id: "3EA911C4A3AB95D4"
+			rewards: [
+				{ count: 2, id: "28F92354C5E93EB0", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{ id: "439863581C5C94A4", item: { count: 1, id: "ironclad:nether_ward_amulet" }, type: "item" }
+			]
+			x: 6.00d
+			y: -8.75d
+		}
+		{
+			dependencies: ["21BDDB66EEBCE4A5"]
 			icon: { count: 1, id: "ironclad:kraken_beak" }
 			id: "178252E488588759"
 			rewards: [
@@ -139,7 +154,7 @@
 				{ entity: "block_factorys_bosses:kraken", id: "4F33025CC8A51D13", type: "kill", value: 1L }
 			]
 			x: 6.00d
-			y: -7.88d
+			y: -7.00d
 		}
 		{
 			dependencies: ["21BDDB66EEBCE4A5"]
@@ -152,7 +167,7 @@
 				{ entity: "aquamirae:captain_cornelia", id: "3D4F7A88DE8635BD", type: "kill", value: 1L }
 			]
 			x: 6.00d
-			y: -6.12d
+			y: -5.25d
 		}
 		{
 			dependencies: ["3EDCA5431DAACFE0"]
@@ -178,7 +193,7 @@
 				{ entity: "mowziesmobs:frostmaw", id: "14DD791C6301817D", type: "kill", value: 1L }
 			]
 			x: 6.00d
-			y: -4.38d
+			y: -3.50d
 		}
 		{
 			dependencies: ["21BDDB66EEBCE4A5"]
@@ -191,7 +206,7 @@
 				{ entity: "iceandfire:sea_serpent", id: "69AD23730AF1C07A", type: "kill", value: 1L }
 			]
 			x: 6.00d
-			y: -2.62d
+			y: -1.75d
 		}
 		{
 			dependencies: ["21BDDB66EEBCE4A5"]
@@ -204,7 +219,7 @@
 				{ entity: "iceandfire:hydra", id: "2D608BE0DD9A8732", type: "kill", value: 1L }
 			]
 			x: 6.00d
-			y: -0.88d
+			y: 0.00d
 		}
 		{
 			dependencies: ["21BDDB66EEBCE4A5"]
@@ -217,7 +232,7 @@
 				{ entity: "block_factorys_bosses:infernal_dragon", id: "50351F422832B7FF", type: "kill", value: 1L }
 			]
 			x: 6.00d
-			y: 0.88d
+			y: 1.75d
 		}
 		{
 			dependencies: ["21BDDB66EEBCE4A5"]
@@ -230,7 +245,7 @@
 				{ entity: "block_factorys_bosses:underworld_knight", id: "789BF041ECE18BAB", type: "kill", value: 1L }
 			]
 			x: 6.00d
-			y: 2.62d
+			y: 3.50d
 		}
 		{
 			dependencies: ["21BDDB66EEBCE4A5"]
@@ -243,7 +258,7 @@
 				{ entity: "minecraft:elder_guardian", id: "16659B4264F86FE4", type: "kill", value: 1L }
 			]
 			x: 6.00d
-			y: 4.38d
+			y: 5.25d
 		}
 		{
 			dependencies: ["21BDDB66EEBCE4A5"]
@@ -256,7 +271,7 @@
 				{ entity: "minecraft:wither", id: "15AB95A518568499", type: "kill", value: 1L }
 			]
 			x: 6.00d
-			y: 6.12d
+			y: 7.00d
 		}
 		{
 			dependencies: ["21BDDB66EEBCE4A5" "204913687AA05093"]
@@ -271,7 +286,7 @@
 				{ id: "380E590B38B92A1B", type: "checkmark" }
 			]
 			x: 6.00d
-			y: 7.88d
+			y: 8.75d
 		}
 		{
 			dependencies: ["5DD935709EB02382"]

@@ -12,5 +12,9 @@
   "item.ironclad.incomplete_storage_circuit": "Incomplete Storage Circuit",
   "item.ironclad.tidecaller": "Deepcaller",
   "item.ironclad.anglers_crown": "Angler's Crown",
-  "effect.ironclad.well_fed": "Well Fed"
+  "effect.ironclad.well_fed": "Well Fed",
+  "item.ironclad.conquerors_shard": "Conqueror's Shard",
+  "item.ironclad.nether_ward_amulet": "Nether Ward Amulet",
+  "curios.identifier.nether_ward": "Nether Ward",
+  "curios.modifiers.nether_ward": "When worn:"
 }

@@ -1202,7 +1202,7 @@ hash = "18d2fe5c7aabf47537b1511adb68ef184eabd7b1fad4d49fb0db01482f95a1c8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bosses.snbt"
-hash = "a6b2e9f94ca9e62e83129a0370e2d08b8928c6e8bc0567609bec8123a60ab9d4"
+hash = "8fcb1199a711def5333087dfe63f163d63db774b49ece4b109f3217bb5c17326"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
@@ -1294,7 +1294,7 @@ hash = "9b4b0a5fbceda66537ad392c3d524d9e90af3f9f3c0550217c0fd5fd1eba1db2"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "1f27ce5854e977bf41e153ec14cd40f9af335048cb58b370086916372e0289f1"
+hash = "b32034c0433f8fe177916caf22d9c5c6af7ace9a6dfa25eccf6f063e053c8a87"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1834,11 +1834,15 @@ hash = "ea1fa91de03d8f6f3c36b0c6cef77375a8365790ac0acb63fd558643d54d677f"
 
 [[files]]
 file = "kubejs/assets/ironclad/lang/en_us.json"
-hash = "30db768920c0d1e6c21962f8ba7340b3e8746ec2cea8194eeae11d71f9047304"
+hash = "06c3b1bf24c2f91d08ffe7069173a0040b9655abbd0d02472946bd9af54f0ead"
 
 [[files]]
 file = "kubejs/assets/ironclad/textures/item/anglers_crown.png"
 hash = "81a86afcf8e7c87cb5c141d13c5d4c2acb842dd1a38a8b9577586e689ee1a3a7"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/conquerors_shard.png"
+hash = "2a5deb51d98d41b5c718fa40f51af770fe3a991893385be6b963f1d2669cf23e"
 
 [[files]]
 file = "kubejs/assets/ironclad/textures/item/frozen_anchor.png"
@@ -1863,6 +1867,10 @@ hash = "5baa537464ecd125143032c7747f8e9b9eb847c4c7f508cf263a6dc5f7a91d4b"
 [[files]]
 file = "kubejs/assets/ironclad/textures/item/neptunium_sheet.png"
 hash = "f87e00bb43d01dccef3ae6c08f6efb4d736c35969f16d6ac93911b1fe43663ea"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/item/nether_ward_amulet.png"
+hash = "d23715003fac0741707ec7f190b4dcd1956d2862c7c80e9ff1bf59d7454593a8"
 
 [[files]]
 file = "kubejs/assets/ironclad/textures/item/pirate_medal.png"
@@ -1891,6 +1899,10 @@ hash = "7c0fe7daceec42f4b9589a79aecc1e1ff2752306891cd53c32cf004d8343a218"
 [[files]]
 file = "kubejs/assets/ironclad/textures/mob_effect/well_fed.png"
 hash = "3bce31b09b896f284b5ae35de92f9195849596357da0ab6460598154f00de1de"
+
+[[files]]
+file = "kubejs/assets/ironclad/textures/slot/nether_ward.png"
+hash = "67159c0a59d961f21d399d10dcad106bc35a6e4e0649c7ac64503348f7601150"
 
 [[files]]
 file = "kubejs/assets/openpartiesandclaims/lang/en_us.json"
@@ -1981,12 +1993,24 @@ file = "kubejs/data/benssharks/neoforge/biome_modifier/whale_shark_biome_modifie
 hash = "bec85ce14c842955d1423a893d386e7229d5c9a7b73125b380642602b7b0ddfb"
 
 [[files]]
+file = "kubejs/data/curios/tags/item/nether_ward.json"
+hash = "3d7771ba53ff936a2c2d0da351393d07afbb594b2e41e052a489f78c48fe63b5"
+
+[[files]]
 file = "kubejs/data/idas/tags/worldgen/biome/has_structure/byg_redwood_biomes.json"
 hash = "32f175246810460bb1c06946e476209d4e90c7b25f3a7832a0e370324421e34b"
 
 [[files]]
 file = "kubejs/data/idas/tags/worldgen/biome/has_structure/bygmohogany_biomes.json"
 hash = "32f175246810460bb1c06946e476209d4e90c7b25f3a7832a0e370324421e34b"
+
+[[files]]
+file = "kubejs/data/ironclad/curios/entities/nether_ward.json"
+hash = "dbbd319417f92a6927f23c5eac52b39c66934582e676cc73f56f054ed49f31b2"
+
+[[files]]
+file = "kubejs/data/ironclad/curios/slots/nether_ward.json"
+hash = "aef74107d459e83507c33d2557a4cddda2ca6789824750529f716cd9b7e5e73d"
 
 [[files]]
 file = "kubejs/data/ironclad/enchantment/anchor.json"
@@ -2081,6 +2105,10 @@ file = "kubejs/server_scripts/ironclad_meals.js"
 hash = "4dab34217a05000998f3e2deb45c0b6f6222af04723344417338c6d8640e31b1"
 
 [[files]]
+file = "kubejs/server_scripts/ironclad_nether.js"
+hash = "e576467568a9daad45dc0253091098b3aa9b0cb77384efbbb0c626b2601c7e2a"
+
+[[files]]
 file = "kubejs/server_scripts/ironclad_recipes.js"
 hash = "da22339ee701f874f8276aebe22075a309ac3a19de33ed811e143878d16e56a4"
 
@@ -2098,7 +2126,7 @@ hash = "71c7e13f78d8ee7ce1a91205df1df2d266999e79b9ab3ceac172b57256105b75"
 
 [[files]]
 file = "kubejs/startup_scripts/ironclad_items.js"
-hash = "e4a0cf3602688570be29b2330036b5da4bf117454f02e226488db57048fb5375"
+hash = "c10827eee2315e3ad2fdd9abe335fd4ca4ede0fb5b0d65656056f03e8def7dfb"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
