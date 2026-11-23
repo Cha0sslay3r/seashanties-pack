@@ -985,6 +985,8 @@
 	quest.35FA7FE887FD6D97.quest_subtitle: "The north stalls"
 	quest.35FA7FE887FD6D97.title: "Buy Your Parts"
 	quest.36311DCA566F09D8.quest_desc: [
+		"&7(Hint: quests with a &acheck mark&7 task only complete when you click the check mark. Try it on this one!)&r"
+		""
 		"&bAhoy, sailor.&r You've washed up at &6Brass Harbour&r, the last safe port before the open sea."
 		""
 		"Out there: hundreds of islands, pirate fleets, sea serpents, sunken cities and things that have never seen daylight."

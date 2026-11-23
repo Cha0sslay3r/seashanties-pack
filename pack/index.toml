@@ -1294,7 +1294,7 @@ hash = "9b4b0a5fbceda66537ad392c3d524d9e90af3f9f3c0550217c0fd5fd1eba1db2"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "5c80fdfaa558622a7469a0cdcdbcf2e7f841af4e52706c869f4840a617c3fe8c"
+hash = "41959d9a3594d87989368a1f18d8f312c6b963a79cb66d104cfd0d49fcd6da1d"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1474,7 +1474,7 @@ hash = "7dda83d4436419564b495e65b4123ab8453eb926cdd8dabc526e41d3ace6bf40"
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "f6a2545b7fa827195bba2d42994f3b67e667d1116567e07acbdab3f95bb3bf41"
+hash = "0f933d0442936e0923d1d93091c3ea0dda937e1bf965230ed27e08393c7c70a2"
 
 [[files]]
 file = "config/packetfixer.properties"
