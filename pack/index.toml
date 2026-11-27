@@ -1306,7 +1306,7 @@ hash = "47c74e5b08ccacbd39330a1367813e9437660ed603af42923fec6182b2349bed"
 
 [[files]]
 file = "config/iceandfire/iaf-common.json"
-hash = "045e49dc5d27157aafa3ea1c58ca3af6e88e9c7be5278efcaab4a92688d9c7a9"
+hash = "08a0c443c11dc498c5fc17dcecd72bb47ba023a1f37b317dd06a57940835c3c1"
 
 [[files]]
 file = "config/idas-neoforge-1_21.toml"
@@ -1814,7 +1814,7 @@ hash = "8f198622fba0fb43ca16e5402bff53458e7af5482462f8821ef690140a251bef"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "ed60acc0ec6b5376d5cd9b5d3810af3f6a79d43fc6f053f32578b777fdb5cbdb"
+hash = "e9617c56486b8c3d691bd1cf5cfd10f8be278a2bc715585169007d82d4dbcb11"
 
 [[files]]
 file = "config/weaponleveling.json"
@@ -2191,6 +2191,10 @@ hash = "e576467568a9daad45dc0253091098b3aa9b0cb77384efbbb0c626b2601c7e2a"
 [[files]]
 file = "kubejs/server_scripts/ironclad_recipes.js"
 hash = "da22339ee701f874f8276aebe22075a309ac3a19de33ed811e143878d16e56a4"
+
+[[files]]
+file = "kubejs/server_scripts/ironclad_rescue.js"
+hash = "f3281c9ee45cdb1aa53fe9e906ee09ffe30a19518cef61fd4f37b8a0c2b4798b"
 
 [[files]]
 file = "kubejs/server_scripts/ironclad_starter_kit.js"
